@@ -1,0 +1,42 @@
+graph TD
+    A["Paper Scout Initialization"] -->|Load context bundle| B["Configure Search Parameters"]
+    B -->|Set categories & date range| C["Discovery Phase"]
+    
+    C -->|Query bioRxiv API| D["Retrieve Paper Metadata"]
+    D -->|Extract DOIs & abstracts| E["Initial Triage"]
+    E -->|Filter by basic relevance| F{Papers Found?}
+    
+    F -->|Yes| G["Analysis Phase"]
+    F -->|No| H["Report: No results"]
+    
+    G -->|Score each paper| I["Relevance Scoring Engine"]
+    I -->|Apply rubric weights| J["Generate Relevance Scores"]
+    J -->|Extract concepts| K["Keyword & Topic Analysis"]
+    K -->|Map to clusters| L["Thematic Clustering"]
+    
+    L -->|Sort by composite score| M["Curation Phase"]
+    M -->|Rank papers| N["Create Summary Briefs"]
+    N -->|Flag high-relevance| O["Integration Phase"]
+    
+    O -->|Query Zotero| P["Check Collection Status"]
+    P -->|Add papers| Q["Write to Zotero Collections"]
+    Q -->|Add tags & notes| R["Annotate Entries"]
+    R -->|Generate metrics| S["Create Team Report"]
+    
+    S -->|Output artifacts| T["Discovery Summary CSV"]
+    S -->|Output artifacts| U["Curated Papers List"]
+    S -->|Output artifacts| V["Cluster Analysis"]
+    S -->|Output artifacts| W["Integration Log"]
+    
+    T --> X["Final Report: Complete"]
+    U --> X
+    V --> X
+    W --> X
+    H --> X
+
+    style A fill:#e1f5ff
+    style C fill:#fff3e0
+    style G fill:#f3e5f5
+    style M fill:#e8f5e9
+    style O fill:#fce4ec
+    style X fill:#e0f2f1

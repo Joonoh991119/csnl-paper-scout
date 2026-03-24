@@ -1,0 +1,134 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "created": "2026-03-24",
+    "description": "Context bundle for Paper Scout multi-agent workflow"
+  },
+  "research_focus": {
+    "primary_domains": [
+      "Bayesian observer models",
+      "Visual perception and uncertainty",
+      "Perceptual inference",
+      "Decision-making under uncertainty",
+      "Sensory integration"
+    ],
+    "key_concepts": [
+      "posterior inference",
+      "likelihood function",
+      "prior distribution",
+      "decision theory",
+      "signal detection",
+      "perceptual learning",
+      "visual adaptation",
+      "temporal dynamics",
+      "uncertainty quantification"
+    ],
+    "methodologies": [
+      "Bayesian modeling",
+      "Psychophysics",
+      "Computational neuroscience",
+      "fMRI neuroimaging",
+      "Behavioral experiments",
+      "Information theory"
+    ]
+  },
+  "biorxiv_categories": [
+    "neuroscience",
+    "sensory perception",
+    "vision",
+    "biophysics",
+    "systems biology"
+  ],
+  "search_config": {
+    "date_range_days": 30,
+    "max_results_per_category": 50,
+    "min_relevance_threshold": 0.5,
+    "server": "biorxiv"
+  },
+  "relevance_scoring": {
+    "rubric": {
+      "direct_match_methodology": {
+        "weight": 0.35,
+        "description": "Paper explicitly uses Bayesian modeling or similar inference framework"
+      },
+      "conceptual_alignment": {
+        "weight": 0.25,
+        "description": "Paper addresses visual perception, uncertainty, or decision-making"
+      },
+      "experimental_rigor": {
+        "weight": 0.2,
+        "description": "Rigorous methodology (psychophysical, neuroimaging, or computational validation)"
+      },
+      "novelty": {
+        "weight": 0.2,
+        "description": "Novel findings, unexpected results, or new theoretical insights"
+      }
+    },
+    "scoring_scale": "0.0–1.0 (0=irrelevant, 1=highly relevant)",
+    "clustering_keywords": {
+      "perceptual_inference": ["inference", "posterior", "prior", "likelihood", "Bayesian decision"],
+      "visual_uncertainty": ["uncertainty", "variability", "noise", "confidence", "reliability"],
+      "temporal_dynamics": ["temporal", "dynamics", "history", "adaptation", "learning"],
+      "neural_representation": ["neural", "brain", "fMRI", "electrophysiology", "coding"],
+      "sensory_integration": ["integration", "multisensory", "cue combination", "cross-modal"]
+    }
+  },
+  "zotero_integration": {
+    "target_collections": [
+      {
+        "name": "Paper Scout — Curated (Current)",
+        "purpose": "High-relevance papers from recent discovery runs",
+        "tag_prefix": "scout:curated"
+      },
+      {
+        "name": "Paper Scout — Methodology",
+        "purpose": "Papers with novel Bayesian or inference methods",
+        "tag_prefix": "scout:method"
+      },
+      {
+        "name": "Paper Scout — Vision & Perception",
+        "purpose": "Visual perception and uncertainty studies",
+        "tag_prefix": "scout:vision"
+      },
+      {
+        "name": "Paper Scout — Archive",
+        "purpose": "All discovered papers for reference",
+        "tag_prefix": "scout:archive"
+      }
+    ],
+    "annotation_template": "Relevance: {score} | Cluster: {cluster} | Key findings: {summary}"
+  },
+  "output_format": {
+    "discovery_summary": {
+      "fields": [
+        "Total papers found",
+        "Papers by category breakdown",
+        "Date range searched",
+        "Search timestamp"
+      ]
+    },
+    "curation_report": {
+      "sections": [
+        "Executive summary",
+        "Top 10 papers by relevance",
+        "Thematic clusters and insights",
+        "Recommended next steps",
+        "Zotero integration status"
+      ],
+      "paper_entry_format": "| Title | Authors | DOI | Relevance | Cluster | Summary |"
+    }
+  },
+  "agent_instructions": {
+    "discovery_agent": "Query bioRxiv across all configured categories. Return structured metadata (title, authors, DOI, abstract, publication date) for all matching papers.",
+    "analysis_agent": "For each paper: extract key concepts, assess methodology, score relevance using provided rubric. Flag papers with high relevance (>0.7) for priority curation.",
+    "curation_agent": "Rank papers by composite score. Identify thematic clusters using keyword matching. Create concise briefs (150–200 words) highlighting methodology, key findings, and CSNL relevance.",
+    "integration_agent": "Write high-relevance papers to Zotero target collections. Add tags and annotation notes. Generate final team report with stats and recommendations."
+  },
+  "performance_targets": {
+    "discovery_time_minutes": 5,
+    "analysis_time_minutes": 15,
+    "curation_time_minutes": 10,
+    "integration_time_minutes": 5,
+    "total_time_minutes": 35
+  }
+}
