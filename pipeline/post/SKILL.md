@@ -1,89 +1,137 @@
 ---
 name: paper-scout-post
-description: "Phase 5 of CSNL Paper Scout pipeline: finalize and post approved paper recommendations to Slack paper-reading-study channel. Use this skill after paper-scout-review (or paper-scout-draft if skipping review), or when the user wants to publish paper recommendations to Slack. Triggers on: 'post papers', 'publish to slack', 'paper scout post', '논문 게시', 'Slack에 올려', 'send recommendations', 'paper-reading-study에 게시'."
+description: >
+  Phase 5: Atomic paper-to-Slack posting with figure upload, Block Kit composition,
+  embed-vl visual ranking, and equation extraction. Handles the complete pipeline from
+  scored/drafted paper to a rich Slack message with images.
 ---
 
-# Paper Scout — Phase 5: Finalize & Post
+# Paper Scout — Phase 5: Post Engine
 
-Post approved paper recommendations to the `paper-reading-study` Slack channel after human confirmation.
+모든 포스트에 시각적 요소(figure/equation)를 포함한다. 텍스트만 있는 포스트는 최종 게시 대상이 아니다.
 
-## Prerequisites
-
-1. Load reviewed/approved posts from either:
-   - `paper-scout-review-[DATE].md` (if Phase 4 was run)
-   - `paper-scout-draft-[DATE].md` (if skipping review)
-2. Ensure csnl-slack-bot MCP is available (`csnl_send_channel_message` tool)
-
-## Target Channel
-
-**`paper-reading-study`**
-
-## Workflow
-
-### Step 1: Present final posts for human confirmation
-
-Display all approved posts to the user (JOP, 박준오) in the conversation. Ask explicitly:
-
-> "아래 [N]편의 포스트를 paper-reading-study 채널에 게시합니다. 수정할 부분이 있으면 알려주세요."
-
-Show each post exactly as it will appear in Slack (with formatting, @mentions, emojis).
-
-### Step 2: Apply user edits (if any)
-
-If the user requests modifications:
-- Apply edits immediately
-- Show the revised version for re-confirmation
-- Do NOT post without explicit approval
-
-### Step 3: Post to Slack
-
-On user approval, post each paper using `csnl_send_channel_message`:
+## Architecture
 
 ```
-Tool: csnl_send_channel_message
-channel: paper-reading-study
-text: [formatted post content]
+PostEngine.post_paper(paper_dict)
+    │
+    ├─[1] resolve_figure(name) ──→ runs/figures/{name}/page_N.png
+    │     Priority: ranking_results.json → dir scan → None
+    │
+    ├─[2] upload_figure_to_slack(path) ──→ file_id
+    │     Slack v2: getUploadURLExternal → PUT → completeUploadExternal
+    │
+    ├─[3] extract_equation(name) ──→ (text, korean_explanation)
+    │     From extraction_summary.json or paper-scout-figures.py
+    │
+    ├─[4] build_post_blocks(...) ──→ Block Kit JSON + fallback mrkdwn
+    │     hook → metadata → image(file_id) → equation → targeting → tags
+    │
+    └─[5] send_blocks(blocks, fallback) ──→ chat.postMessage
+          blocks= for rich rendering, text= for notification fallback
 ```
 
-**Posting order**: Highest score first (Post 1 → Post 2 → Post 3).
+## Modules
 
-**Between posts**: No delay needed, but post sequentially (not in parallel) to maintain order in the channel.
+| File | Role |
+|------|------|
+| `post_engine.py` | Atomic orchestrator: figure→upload→compose→send |
+| `slack_upload.py` | Slack v2 file upload (files:write scope) |
+| `block_builder.py` | Block Kit JSON composer |
+| `slack_bot.py` | Low-level Slack API wrapper |
 
-### Step 4: Confirmation
+## Paper Dict Schema
 
-After all posts are sent, confirm:
+```python
+paper = {
+    "name": "Ozkirli",                      # Internal identifier
+    "doi": "10.1038/s41562-025-02362-8",
+    "title": "Large-scale mega-analysis...",
+    "authors": "Ozkirli A, Chetverikov A, Pascucci D",
+    "journal": "Nature Human Behaviour",
+    "year": 2025,
+    "doi_url": "https://doi.org/10.1038/s41562-025-02362-8",
+    "hook": "CSNL SD 프레임워크에 정면 도전 — serial dependence는 adaptive가 아니라 decision을 악화시킨다",
+    "targeting_lines": [
+        {
+            "slack_id": "U06JGAX5HD5",
+            "name": "JOP",
+            "project": "RingRepSca/Time/GranRDT",
+            "description": "SD를 adaptive Bayesian process로 보는 CSNL 프레임워크에 대한 직접 도전",
+            "quote": "SD deteriorates rather than improves perceptual decision-making",
+        },
+    ],
+    "dimension_tags": "D2 Tension 9 (JOP) · D4 Competitive 8",
+    "anchor_paper": "Lee, Lee, Choe, Lee 2023 (J Neurosci)",
+    "equation_text": None,           # Optional
+    "equation_explanation": None,     # Optional, Korean
+}
+```
 
-> "게시 완료: [N]편의 논문 추천이 paper-reading-study 채널에 게시되었습니다."
+## Block Kit Structure
 
-## Slack Formatting Notes
+```json
+[
+  {"type": "section", "text": {"type": "mrkdwn", "text": ":fire: {hook}"}},
+  {"type": "section", "text": {"type": "mrkdwn", "text": "*{title}*\n_{authors}_\n:link: <{doi}|DOI>"}},
+  {"type": "image", "slack_file": {"id": "{file_id}"}, "alt_text": "..."},
+  {"type": "section", "text": {"type": "mrkdwn", "text": "> `{equation}` — {explanation}"}},
+  {"type": "section", "text": {"type": "mrkdwn", "text": ":dart: targeting lines..."}},
+  {"type": "context", "elements": [{"type": "mrkdwn", "text": ":label: {tags} — anchor: {anchor}"}]}
+]
+```
 
-- Use `*bold*` for paper titles and section headers
-- Use `_italic_` for author/journal info
-- Use `<@SLACK_ID>` format for member mentions (NOT @Name)
-- Use emoji shortcodes: `:newspaper:`, `:mag:`, `:link:`, `:busts_in_silhouette:`
-- Line breaks: use actual newlines, not `\n`
+## Figure Resolution Priority
+
+1. `runs/figures/ranking_results.json` — embed-vl cosine pre-computed
+2. `runs/figures/{name}/` directory scan — largest PNG
+3. Re-extract from PDF via `paper-scout-figures.py`
+4. Mermaid/SVG fallback (text-only last resort)
+
+Cosine thresholds (embed-vl):
+- ≥0.3: Use as primary visual
+- 0.1–0.3: Use with "moderate match" note
+- <0.1: Skip, use fallback
+
+## Execution
+
+### Programmatic (from Python)
+```python
+from pipeline.post.post_engine import PostEngine
+
+engine = PostEngine(channel_id="C06KJ95MGGZ")
+result = engine.post_paper(paper_dict)
+# or
+results = engine.post_batch([paper1, paper2, ...])
+```
+
+### From Claude Code
+```
+paper scout post {DATE}
+```
+Loads `runs/paper-scout-draft-{DATE}.md`, parses into paper dicts,
+presents dry_run preview, then posts on approval.
+
+### DM to specific member
+```python
+engine = PostEngine(channel_id=dm_channel_id)
+engine.post_paper(paper_dict)
+```
 
 ## Safety Rules
 
-1. **Never post without explicit user approval.** This is non-negotiable.
-2. **Never post to wrong channel.** Always verify channel name is `paper-reading-study`.
-3. **Verify Slack IDs before posting.** Cross-check against context-bundle.json.
-4. **No HSL, P3 (김민아), P4 (임채영) mentions.** These are not CSNL pipeline members.
-5. **If csnl_send_channel_message fails**, report the error to the user. Do not retry silently.
+1. Never post without explicit user approval
+2. Verify channel = study-paper-reading (C06KJ95MGGZ) or approved test channel
+3. Cross-check all Slack IDs against context-bundle.json
+4. NO forbidden mentions (검증은 harness E7에서 자동 수행)
+5. If upload/send fails, report error (no silent retry)
+6. Figure upload BEFORE message send (file_id must be ready)
 
-## Pipeline Complete Message
+## Error Cascade
 
-After successful posting, optionally save a log:
-
-```markdown
-# Paper Scout Log — [DATE]
-
-- Scanned: [N] journals
-- Candidates: [M] papers
-- Scored: Top 3 selected
-- Reviewed: [verdicts summary]
-- Posted: [N] papers to paper-reading-study
-- Timestamp: [ISO datetime]
 ```
-
-Save to `paper-scout-log-[YYYY-MM-DD].md` in workspace.
+Figure upload fail → post without image block (text-only sections)
+Equation extraction fail → post without equation section
+Block Kit fail → fallback to plain mrkdwn text
+chat.postMessage fail → log error, do not retry silently
+```

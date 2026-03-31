@@ -37,11 +37,13 @@ def open_dm(user_id: str) -> str:
     return data["channel"]["id"]
 
 
-def send_message(channel_id: str, text: str, thread_ts: str = None) -> dict:
-    """Send a message to a channel or DM."""
+def send_message(channel_id: str, text: str, thread_ts: str = None, blocks: list = None) -> dict:
+    """Send a message to a channel or DM. Supports Block Kit via blocks param."""
     payload = {"channel": channel_id, "text": text}
     if thread_ts:
         payload["thread_ts"] = thread_ts
+    if blocks:
+        payload["blocks"] = blocks
 
     r = requests.post(
         f"{API_BASE}/chat.postMessage",
