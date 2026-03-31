@@ -1,0 +1,14 @@
+[
+  {
+    "prompt": "paper scout team으로 Li, Ma & Curtis (2026 PNAS) 'Dynamics of working memory drift and information flow across the cortical hierarchy' 포스트를 생성해줘. Score: SK D1=9, JYK D1=8, BYL D1=7. Semantic anchor: Gu et al. 2025 (0.63).",
+    "expected_behavior": "Should spawn Drafter → parallel evaluators → feedback loop → Final Editor. Post should tag SK, JYK, BYL with specific project connections. Hook should use Pattern 4 (Direct Advance). Visual agent should attempt figure extraction. All agents should converge within 2-3 rounds."
+  },
+  {
+    "prompt": "paper scout team: bioRxiv 'Serial Dependence operates on categorical rather than physical representations' 포스트 작성. MSY D1=9/D4=9, JOP D2=7, BHL D1=7.",
+    "expected_behavior": "Hook should use Pattern 1 (Competitive Alert) for MSY. Member Advocate should validate MSY tag strongly (exact research question match) and check if JOP/BHL tags are specific enough. At least one feedback iteration expected for refining competitive urgency."
+  },
+  {
+    "prompt": "paper-scout-scores-2026-03-30.md의 선정된 논문 2편에 대해 팀 드래프팅을 실행해줘.",
+    "expected_behavior": "Should load scores file, process both papers independently through the team pipeline, produce final drafts with iteration logs."
+  }
+]

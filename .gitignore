@@ -1,0 +1,9 @@
+.env
+__pycache__/
+*.pyc
+sync/.sync-state.json
+runs/
+harness/results/
+data/member-profiles/
+*.egg-info/
+.DS_Store

@@ -1,0 +1,168 @@
+{
+  "lab_identity": {
+    "name": "CSNL (Cognitive and Systems Neuroscience Laboratory)",
+    "PI": "Sang-Hun Lee, Seoul National University",
+    "core_philosophy": "Build computational/normative models that bridge behavioral phenomena and neural mechanisms. Not just describing behavior — providing principled connections between behavior and brain via model structure.",
+    "research_pattern": "Pit two competing hypotheses on the same computational framework and let data adjudicate. Examples: reward vs evidence (feedback), sensory-adaptation vs boundary-updating (repulsive bias), diffusion-only vs drift-diffusion (WM bias).",
+    "frameworks": ["Bayesian decision theory", "BMBU (Bayesian Model of Boundary Updating)", "belief updating in DV space", "attractor dynamics", "drift-diffusion", "efficient coding"],
+    "phenomena": ["repulsive bias", "serial dependence", "pre-congruence effect", "granularity effect", "choice-attraction bias", "stimulus-repulsion bias", "history effect"],
+    "neural_measures": ["BOLD correlation structure", "stimulus tuning similarity", "pRF", "stimulus-encoding signal", "boundary-representing signal", "surround suppression", "fMRI decoding"],
+    "brain_regions": ["EVC (V1/V2/V3)", "inferior-parietal", "superior-temporal", "dACC"],
+    "methods": ["model-based fMRI", "task-optimized RNN", "psychophysics", "pupillometry", "tDCS/tES", "7T fMRI layer-specific", "dPCA"]
+  },
+  "grants": {
+    "BRL_2025_2026": {
+      "title": "양 정보처리 (Quantity Information Processing)",
+      "core": "상대화 (relativization via CDF) + 이산화 (discretization via granularity)",
+      "lee_lab_role": "P1 행동실험 (Time2Dist), P2 fMRI (7T), P3 조현병 김민아(NOT our lab), P4 RNN 임채영(NOT our lab)",
+      "keywords": ["CDF normalization", "granularity effect", "relative vs absolute representation", "Bayesian hierarchical model", "aligned geometry in RNN/EEG"]
+    },
+    "jungyun_2024": {
+      "title": "반발추정 vs 끌림추정의 신경원천 규명",
+      "core": "감각시스템(feedforward→repulsion) vs 기억시스템(feedback→attraction). Subtraction design: sensory+memory activity minus sensory-only → memory manifold.",
+      "methods": ["7T fMRI layer-specific imaging", "dPCA manifold separation", "individual-tailored tES", "high-resolution retinotopy"],
+      "keywords": ["sensory manifold vs memory manifold", "feedforward vs feedback", "repulsive estimate vs attractive estimate", "cortical layer separation"]
+    }
+  },
+  "member_groups": {
+    "group_A": {
+      "members": ["JOP", "MSY", "BYL"],
+      "focus": "Bayesian observer models, history effects, serial dependence reference frames, magnitude normalization, efficient coding",
+      "projects": {
+        "JOP": {
+          "RingRepSca": "Decision commitment 없이도 relative space와 absolute space는 독립적으로 존재하며 표상간 history effect가 배타적. Estimation-only paradigm에서 두 좌표계의 분리와 독립적 history effect 검증. 중견 Grant의 feedforward(repulsion) vs feedback(attraction) 프레임과 연결.",
+          "Time": "Duration estimation에서 orientation과 동일한 BMBU 구조가 history effect를 설명하는지 검증. MCMC fitting.",
+          "Time2Dist": "BRL P1 직결. 자극 분포 학습 시 CDF normalization(상대화) vs point estimate. Skewed distribution으로 H1(mean) vs H2(range) vs H3(CDF) 분리.",
+          "GranRDT": "Granularity effect — DV space에서 decision commitment가 belief 범위를 좁히고 granularity가 높을수록 future choice를 더 강하게 attract. 6종 cost function + hierarchical MCMC.",
+          "GranNMDS": "Perceptual similarity space (Shepardian distance)가 granularity effect의 기저 구조인지. NMDS + custom MCMC."
+        },
+        "MSY": {
+          "CatVsMag": "동일 자극(face gender spectrum)에서 categorical vs magnitude task가 다른 generative model → 다른 serial dependence. Categorical에서 X-shape SD (choice repetition + alternation 공존) + gambler's fallacy 발견. StyleGAN2, Prolific n=27, hierarchical Bayesian model."
+        },
+        "BYL": {
+          "BayesianObserver": "Bayesian observer models for visual inference. VWM bias와 contraction effects의 computational origin 탐구. Efficient coding framework에서 systematic bias가 어떻게 발생하는지 연구. Wei & Stocker 류의 Bayesian psychophysics 접근.",
+          "VWMBias": "Visual working memory에서의 systematic bias (contraction bias). Bayesian inference와 efficient coding이 bias를 설명하는지 검증. Adler & Ma, Zamboni et al. 참조."
+        }
+      },
+      "gist_relevance": "Serial dependence reference frame (relative vs absolute, object-centered), estimation-only history effect, Bayesian estimation, categorical vs continuous decision, gambler's fallacy computational origin, CDF-based normalization, granularity effect, DV space belief dynamics, Bayesian observer models, efficient coding, VWM contraction bias."
+    },
+    "group_B": {
+      "members": ["JYK", "MJC", "SK"],
+      "focus": "RNN modeling, visual working memory representation, attractor dynamics, neural geometry",
+      "projects": {
+        "JYK": {
+          "RNN": "Stimulus-specific bias와 decision-consistent bias의 공통 원천으로서 drift-diffusion dynamics in WM. Gu et al. (2025, Neuron) 확장. Persistent vs sequential coding spectrum (Orhan & Ma, Liu TRNN). Non-normal recurrent connectivity. PCA state space analysis."
+        },
+        "MJC": {
+          "SeqVWM": "Sequential VWM에서 low contrast → attraction, high contrast → repulsion. SOB 모델의 energy field (primacy gradient + response suppression). Kilpatrick (2018) attractor model. Serial position: preceding→attraction, succeeding→repulsion."
+        },
+        "SK": {
+          "WMRepresentation": "EVC가 sensory input과 WM content를 geometry-preserving하되 orthogonal population subspace에 re-embedding. dPCA로 sensory vs mnemonic code 분리. 50 subjects fMRI. Cross-generalization 실패 → different code. 중견 Grant의 feedforward vs feedback 신경적 분리."
+        }
+      },
+      "gist_relevance": "RNN models of WM biases, persistent vs transient coding, non-normal dynamics, drift-diffusion and attractor interaction, sequential WM interaction, contrast-dependent bias, energy landscape, sensory vs mnemonic code in EVC, orthogonal subspaces, dPCA methodology."
+    },
+    "group_C": {
+      "members": ["JHR", "SMJ"],
+      "focus": "Visual cortex functional architecture, RF structure, spatial representation, natural image statistics, V1-to-percept transformation",
+      "projects": {
+        "JHR": {
+          "SpatialExtent": "Ryu & Lee 2024 (Comms Bio): EVC pRF anisotropy = radiality dominant, perception = co-axiality dominant. 개인차는 shared (r=0.52, 0.57). Oriented grating pRF로 degeneracy 해결. Bounded contribution → downstream transformation mechanism 필요.",
+          "FC_orientation": "Ryu & Lee 2018 (Cereb Cortex): Tuning similarity overrides distance factors (r²=0.312). Feature-specific resting-state FC in V1-V4. Radial→co-axial hierarchical shift in orientation-specific FC.",
+          "current": "CNN retina model interpretation (Maheswaranathan). V1-V4 hierarchical FC structure."
+        },
+        "SMJ": {
+          "Concentricity": "Co-circularity (higher-order natural image statistic). Saccadic eye movements가 concentric structure에 전략적으로 향하는지. Image memory task + eye-tracking. Memory performance와 saccadic efficiency 상관.",
+          "V1toPercept": "JHR의 radial/co-axial framework를 행동으로 확장. NSD + GLMdenoise 인프라. Saliency-based segmentation. Iacaruso 2017 co-axial synaptic organization 참조."
+        }
+      },
+      "gist_relevance": "pRF anisotropy across visual hierarchy, resting-state orientation-specific FC, radial/co-axial bias transformation, natural image statistics and cortical organization, contour integration, co-circularity, eye movement optimization, V1-to-percept transformation, saliency models."
+    },
+    "independent_JSL_BHL": {
+      "members": ["JSL", "BHL"],
+      "focus": "Serial dependence spatial reference frames, visual attention and WM, navigation memory, feature binding",
+      "projects": {
+        "JSL": {
+          "SerialDep_Spatial": "Lim & Lee 2023 (Sci Rep): SD는 absolute가 아닌 relative (object-centered) coordinate에서 조절. Same-relative-loc 4.14° >> Different 2.66°, p<0.01. Identity-based view 지지. Non-target-to-target SD에서도 동일. Higher associative cortex (parietal, LOT)를 시사.",
+          "Attraction_asymmetry": "GRM 240924: Comparative judgment에서 decision target에 대한 attraction만 유의, reference는 아님. Task-relevant item이 동등하지 않고 selection/commitment 방향이 history effect 결정.",
+          "Passive_navigation": "Lim et al. 2025 (Imaging Neurosci): Passive navigation에서 canonical cortico-hippocampal dynamics. ISC 기반 large-scale cortical region dynamics."
+        },
+        "BHL": {
+          "SerialDep_Feature": "Serial dependence에서 secondary features의 역할 탐구. Houborg et al. 2023 (JoV) 참조. Feature binding이 SD에 미치는 영향. 여러 visual object의 context information이 SD를 지원하는지 연구 (Fischer et al. 2020, Nat Commun).",
+          "WM_Binding": "Visual working memory에서 feature binding. Li et al. 2021 (Neuron): WM과 uncertainty의 joint representation in human cortex. Sensory decoding mechanisms (Jazayeri & Movshon 2007, Nature)."
+        }
+      },
+      "gist_relevance": "Serial dependence reference frames (object-centered, retinotopic, world-centered), attention gating of serial dependence, comparative judgment asymmetry, decision target vs reference, passive navigation memory, ISC methodology, serial dependence secondary features, feature binding in VWM, sensory decoding."
+    }
+  },
+  "slack": {
+    "channel": "study-paper-reading",
+    "channel_id": "C06KJ95MGGZ",
+    "member_ids": {
+      "JOP": "U06JGAX5HD5",
+      "MSY": "U06JA7D5XC7",
+      "MJC": "U06JX0EGWKF",
+      "SK": "U06K5MX4GHE",
+      "JHR": "U06QLKE5L1X",
+      "JSL": "U06QRFF10J1",
+      "SMJ": "U080KFS0TFZ",
+      "JYK": "U081CN9JVK3",
+      "BYL": "U07728304R5",
+      "BHL": "U09DQQFB4E4",
+      "PI": "U06JQ1TA6SX"
+    }
+  },
+  "scoring": {
+    "method": "value_dimensions_v2",
+    "dimensions": ["D1_direct_advance", "D2_hypothesis_tension", "D3_method_import", "D4_competitive_signal", "D5_reframing_power"],
+    "composite": "max",
+    "tiebreak": "mean",
+    "threshold": 7,
+    "identity_role": "tiebreaker_only",
+    "note": "Gist-based evaluation, NOT keyword matching. Read abstract holistically and judge whether the paper's core contribution would advance any CSNL project."
+  },
+  "scan_window": {
+    "days": 90,
+    "note": "Rolling 3-month window from current date. Computed as today - scan_window_days."
+  },
+  "embedding": {
+    "provider": "openrouter",
+    "embed_model": "nvidia/llama-nemotron-embed-vl-1b-v2:free",
+    "rerank_model": "nvidia/llama-nemotron-rerank-vl-1b-v2:free",
+    "endpoint": "https://openrouter.ai/api/v1/embeddings",
+    "dim": 2048,
+    "env_key": "OPENROUTER_API_KEY",
+    "anchor_db_path": "paper-scout-anchor-vectors.json",
+    "cosine_threshold": 0.45,
+    "note": "Multimodal embedding for text+image. Used in scan (dual validation), score (reranking), draft (figure selection)."
+  },
+  "target_journals": [
+    "Nature Neuroscience", "Neuron", "Nature", "Science",
+    "Nature Human Behaviour", "NeurIPS",
+    "PLoS Computational Biology", "Journal of Neuroscience",
+    "NeuroImage", "Science Advances", "bioRxiv (neuroscience)"
+  ],
+  "grm_themes": [
+    "Serial dependence coordinate systems & reference frames (JOP, JSL, MSY)",
+    "Bayesian estimation & bias computational origin (JOP, MSY, lab-wide)",
+    "Attractor dynamics & WM encoding (JYK, MJC, SK)",
+    "EVC sensory-memory dissociation (SK, jungyun grant)",
+    "Radial→co-axial transformation & natural image statistics (JHR, SMJ)"
+  ],
+  "drafting_team": {
+    "architecture": "orchestrator_with_feedback_loop",
+    "agents": {
+      "drafter": "Generates initial Slack post from scoring + context",
+      "hook_evaluator": "3-second test, competitive alert patterns, specificity",
+      "visual_evaluator": "Figure relevance (embed-vl cosine), equation completeness",
+      "accuracy_evaluator": "Abstract-grounded claims, Slack ID verification, project mapping",
+      "member_advocate": "Per-member relevance check — would this member actually care?",
+      "final_editor": "Tone, formatting, Korean/English consistency, length constraints"
+    },
+    "feedback_loop": {
+      "max_iterations": 3,
+      "pass_threshold": "all_agents_pass",
+      "early_exit": "all_pass_first_round"
+    }
+  }
+}

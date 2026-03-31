@@ -1,0 +1,156 @@
+[
+  {
+    "id": "TC01",
+    "name": "Full Pipeline — Direct Advance paper",
+    "description": "D1 dominant paper (WM drift in cortical hierarchy). 전체 파이프라인 검증.",
+    "phase": "full",
+    "input": {
+      "paper": {
+        "title": "Dynamics of working memory drift and information flow across the cortical hierarchy",
+        "authors": "Li, Ma & Curtis",
+        "journal": "PNAS",
+        "year": 2026,
+        "doi": "10.1073/pnas.2518110123",
+        "abstract": "Working memory representations are not static but undergo systematic drift during retention. Using 7T fMRI with layer-specific imaging, we tracked information flow across V1, V3AB, and IPS during a delayed-estimation task. Memory drift originated in deep layers of V3AB and propagated to superficial V1 layers via feedback connections. Drift magnitude predicted estimation bias on a trial-by-trial basis, consistent with drift-diffusion dynamics. Population responses maintained orientation tuning geometry but shifted along orthogonal dimensions, suggesting memory encoding in a subspace distinct from sensory coding."
+      },
+      "scores": {
+        "SK": {"D1": 9, "D2": 5, "D3": 7, "D4": 3, "D5": 4},
+        "JYK": {"D1": 8, "D2": 4, "D3": 5, "D4": 5, "D5": 3},
+        "BYL": {"D1": 7, "D2": 3, "D3": 4, "D4": 2, "D5": 3}
+      },
+      "anchor": {"paper": "Gu et al. 2025 (Neuron)", "cosine": 0.63}
+    },
+    "expected": {
+      "hook_pattern": "Pattern 4 (Direct Advance)",
+      "tagged_members": ["SK", "JYK"],
+      "max_iterations": 3,
+      "safety_pass": true,
+      "min_fitness": 0.70,
+      "key_checks": [
+        "SK의 WMRepresentation 프로젝트와 orthogonal subspace 연결 명시",
+        "JYK의 RNN 프로젝트와 drift-diffusion dynamics 연결 명시",
+        "Hook이 'drift' 또는 'orthogonal subspace'를 포함",
+        ":label: 에 D1 Direct 9 표기",
+        "HSL/P3/P4 멘션 없음"
+      ]
+    }
+  },
+  {
+    "id": "TC02",
+    "name": "Competitive Signal — Categorical SD paper",
+    "description": "D4 dominant paper. MSY의 CatVsMag와 직접 경쟁.",
+    "phase": "team",
+    "input": {
+      "paper": {
+        "title": "Serial dependence operates on categorical rather than physical representations",
+        "authors": "Pascucci, Fritsche & de Lange",
+        "journal": "bioRxiv",
+        "year": 2026,
+        "doi": "10.1101/2026.03.15.123456",
+        "abstract": "We demonstrate that serial dependence in orientation estimation arises from categorical representations, not continuous physical features. Using a morph-space task (N=42), participants showed attractive bias toward previous trial's category boundary, not its physical value. A hierarchical Bayesian model with categorical priors explained the pattern better than continuous updating models (BIC difference = 47.3). These results suggest serial dependence reflects high-level categorical inference rather than low-level sensory adaptation."
+      },
+      "scores": {
+        "MSY": {"D1": 9, "D2": 6, "D3": 5, "D4": 9, "D5": 4},
+        "JOP": {"D1": 4, "D2": 7, "D3": 3, "D4": 4, "D5": 5},
+        "BHL": {"D1": 7, "D2": 3, "D3": 4, "D4": 3, "D5": 3}
+      },
+      "anchor": {"paper": "Lim & Lee 2023 (Sci Rep)", "cosine": 0.58}
+    },
+    "expected": {
+      "hook_pattern": "Pattern 1 (Competitive Alert)",
+      "tagged_members": ["MSY", "JOP"],
+      "max_iterations": 3,
+      "safety_pass": true,
+      "min_fitness": 0.70,
+      "key_checks": [
+        "MSY의 CatVsMag 프로젝트 직접 언급",
+        "경쟁 신호 urgency 전달 (Pascucci/Fritsche/de Lange 그룹)",
+        "JOP의 D2 (Hypothesis Tension) 근거 — categorical vs continuous 프레임",
+        "Hook이 '독립 발표' 또는 경쟁적 뉘앙스",
+        "Abstract의 'categorical representations' claim이 MSY 타겟에 반영"
+      ]
+    }
+  },
+  {
+    "id": "TC03",
+    "name": "Scan Phase — Semantic Gate Validation",
+    "description": "Scan 출력의 구조 + semantic gate 준수 여부만 검증.",
+    "phase": "scan",
+    "input": {
+      "file_pattern": "paper-scout-candidates-*.md"
+    },
+    "expected": {
+      "min_candidates": 1,
+      "all_cosine_above_threshold": true,
+      "threshold": 0.45,
+      "required_fields": ["title", "authors", "journal", "DOI", "abstract", "embedding_cosine"],
+      "safety_pass": true
+    }
+  },
+  {
+    "id": "TC04",
+    "name": "Score Phase — Dimension Integrity",
+    "description": "Scoring 출력의 D1-D5 일관성, quote 증거, composite 계산 검증.",
+    "phase": "score",
+    "input": {
+      "file_pattern": "paper-scout-scores-*.md"
+    },
+    "expected": {
+      "composite_equals_max": true,
+      "quote_required_for_7plus": true,
+      "all_members_in_context_bundle": true,
+      "no_negative_scores": true,
+      "safety_pass": true
+    }
+  },
+  {
+    "id": "TC05",
+    "name": "Method Import — pRF paper for Group C",
+    "description": "D3 dominant paper. JHR/SMJ 타겟팅 정확성 검증.",
+    "phase": "team",
+    "input": {
+      "paper": {
+        "title": "Voxel-wise pRF mapping reveals layer-dependent radial bias in human V1-V4",
+        "authors": "Wang, Dumoulin & Wandell",
+        "journal": "NeuroImage",
+        "year": 2026,
+        "doi": "10.1016/j.neuroimage.2026.01.045",
+        "abstract": "We developed a novel layer-specific pRF mapping technique using 7T fMRI that independently estimates radial and tangential components of receptive field elongation across cortical depth. In V1, deep layers showed stronger radial bias (ratio = 1.42 ± 0.08) while superficial layers were more isotropic (ratio = 1.12 ± 0.06). This gradient reversed in V4, where superficial layers exhibited the strongest co-axial organization. The method resolves degeneracy in standard pRF models by fitting oriented gratings at multiple reference angles."
+      },
+      "scores": {
+        "JHR": {"D1": 6, "D2": 5, "D3": 9, "D4": 6, "D5": 4},
+        "SMJ": {"D1": 4, "D2": 3, "D3": 7, "D4": 3, "D5": 5}
+      },
+      "anchor": {"paper": "Ryu & Lee 2024 (Comms Bio)", "cosine": 0.71}
+    },
+    "expected": {
+      "hook_pattern": "Pattern 3 (Method Import)",
+      "tagged_members": ["JHR", "SMJ"],
+      "max_iterations": 3,
+      "safety_pass": true,
+      "min_fitness": 0.70,
+      "key_checks": [
+        "JHR의 SpatialExtent/FC_orientation과 layer-specific pRF 연결",
+        "SMJ의 V1toPercept과 radial→co-axial 변환 연결",
+        "Hook이 '방법론' 또는 'layer-specific' 포함",
+        ":label: 에 D3 Method 9 표기",
+        "'degeneracy 해결' — JHR의 oriented grating pRF와 직접 연결"
+      ]
+    }
+  },
+  {
+    "id": "TC06",
+    "name": "Safety — Exclusion Violation Detection",
+    "description": "의도적으로 금지 멘션이 포함된 출력에서 E7 FAIL 감지.",
+    "phase": "safety",
+    "input": {
+      "mock_draft": ":fire: BRL P3 김민아 팀과의 공동연구 가능성\n\n*Test Paper*\n_Author et al. — Nature (2026)_\n\n:dart: *<@U06JGAX5HD5> JOP*: HSL 교수님 프로젝트와 연결"
+    },
+    "expected": {
+      "safety_pass": false,
+      "violations": ["P3 (김민아) 멘션", "HSL 멘션"],
+      "fitness_score": 0,
+      "grade": "F"
+    }
+  }
+]

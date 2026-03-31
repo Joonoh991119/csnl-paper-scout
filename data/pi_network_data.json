@@ -1,0 +1,4906 @@
+{
+  "nodes": [
+    {
+      "id": "Carlos Brody",
+      "full_name": "Carlos D. Brody",
+      "h_index": 44,
+      "cited_by": 10565,
+      "works": 153,
+      "affiliation": "California Institute of Technology",
+      "categories": [
+        "BDM",
+        "NN"
+      ],
+      "primary_cat": "BDM",
+      "relevance": 4,
+      "is_seed": true,
+      "radius": 12.64
+    },
+    {
+      "id": "Roozbeh Kiani",
+      "full_name": "Roozbeh Kiani",
+      "h_index": 42,
+      "cited_by": 11890,
+      "works": 103,
+      "affiliation": "Howard Hughes Medical Institute",
+      "categories": [
+        "BDM"
+      ],
+      "primary_cat": "BDM",
+      "relevance": 4,
+      "is_seed": true,
+      "radius": 12.52
+    },
+    {
+      "id": "Adam Kepecs",
+      "full_name": "\u00c1d\u00e1m Kepecs",
+      "h_index": 47,
+      "cited_by": 12844,
+      "works": 118,
+      "affiliation": "The Nature Conservancy",
+      "categories": [
+        "BDM"
+      ],
+      "primary_cat": "BDM",
+      "relevance": 3,
+      "is_seed": true,
+      "radius": 10.32
+    },
+    {
+      "id": "Christopher Summerfield",
+      "full_name": "Christopher Summerfield",
+      "h_index": 55,
+      "cited_by": 17166,
+      "works": 249,
+      "affiliation": "Northwestern University",
+      "categories": [
+        "SD",
+        "BDM",
+        "NN"
+      ],
+      "primary_cat": "SD",
+      "relevance": 4,
+      "is_seed": true,
+      "radius": 13.3
+    },
+    {
+      "id": "Paul Glimcher",
+      "full_name": "Paul W. Glimcher",
+      "h_index": 62,
+      "cited_by": 21746,
+      "works": 233,
+      "affiliation": "Sup\u00e9lec",
+      "categories": [
+        "BDM"
+      ],
+      "primary_cat": "BDM",
+      "relevance": 1,
+      "is_seed": true,
+      "radius": 6.22
+    },
+    {
+      "id": "Hakwan Lau",
+      "full_name": "Hakwan Lau",
+      "h_index": 67,
+      "cited_by": 17819,
+      "works": 303,
+      "affiliation": "Allen Institute for Brain Science",
+      "categories": [
+        "BDM",
+        "fVC"
+      ],
+      "primary_cat": "BDM",
+      "relevance": 3,
+      "is_seed": true,
+      "radius": 11.52
+    },
+    {
+      "id": "Tobias Donner",
+      "full_name": "Tobias H. Donner",
+      "h_index": 43,
+      "cited_by": 9995,
+      "works": 227,
+      "affiliation": "Netherlands Institute for Neuroscience",
+      "categories": [
+        "BDM",
+        "METH"
+      ],
+      "primary_cat": "BDM",
+      "relevance": 3,
+      "is_seed": true,
+      "radius": 10.08
+    },
+    {
+      "id": "Samuel Gershman",
+      "full_name": "Samuel J. Gershman",
+      "h_index": 72,
+      "cited_by": 20854,
+      "works": 441,
+      "affiliation": "Google (United States)",
+      "categories": [
+        "BDM",
+        "CG"
+      ],
+      "primary_cat": "BDM",
+      "relevance": 3,
+      "is_seed": true,
+      "radius": 11.82
+    },
+    {
+      "id": "Valerio Mante",
+      "full_name": "Valerio Mante",
+      "h_index": 15,
+      "cited_by": 4601,
+      "works": 47,
+      "affiliation": "SIB Swiss Institute of Bioinformatics",
+      "categories": [
+        "NN",
+        "BDM"
+      ],
+      "primary_cat": "NN",
+      "relevance": 4,
+      "is_seed": true,
+      "radius": 10.9
+    },
+    {
+      "id": "Michael Woodford",
+      "full_name": "Michael Woodford",
+      "h_index": 97,
+      "cited_by": 43786,
+      "works": 442,
+      "affiliation": "Conference Board",
+      "categories": [
+        "BDM"
+      ],
+      "primary_cat": "BDM",
+      "relevance": 3,
+      "is_seed": true,
+      "radius": 13.32
+    },
+    {
+      "id": "Michael Shadlen",
+      "full_name": "Michael N. Shadlen",
+      "h_index": 70,
+      "cited_by": 41038,
+      "works": 208,
+      "affiliation": "Allen Institute for Brain Science",
+      "categories": [
+        "BDM"
+      ],
+      "primary_cat": "BDM",
+      "relevance": 4,
+      "is_seed": true,
+      "radius": 14.2
+    },
+    {
+      "id": "Timothy Hanks",
+      "full_name": "Timothy D. Hanks",
+      "h_index": 19,
+      "cited_by": 3942,
+      "works": 42,
+      "affiliation": "Howard Hughes Medical Institute",
+      "categories": [
+        "BDM"
+      ],
+      "primary_cat": "BDM",
+      "relevance": 3,
+      "is_seed": true,
+      "radius": 8.64
+    },
+    {
+      "id": "Alexandre Pouget",
+      "full_name": "Alexandre Pouget",
+      "h_index": 67,
+      "cited_by": 22817,
+      "works": 173,
+      "affiliation": "University of Geneva",
+      "categories": [
+        "BDM",
+        "NN"
+      ],
+      "primary_cat": "BDM",
+      "relevance": 4,
+      "is_seed": true,
+      "radius": 14.02
+    },
+    {
+      "id": "Xue-Xin Wei",
+      "full_name": "Xue-Xin Wei",
+      "h_index": 14,
+      "cited_by": 2220,
+      "works": 82,
+      "affiliation": "Allen Institute for Brain Science",
+      "categories": [
+        "BDM",
+        "fVC"
+      ],
+      "primary_cat": "BDM",
+      "relevance": 5,
+      "is_seed": true,
+      "radius": 13.34
+    },
+    {
+      "id": "Alan Stocker",
+      "full_name": "Alan A. Stocker",
+      "h_index": 24,
+      "cited_by": 3576,
+      "works": 138,
+      "affiliation": "Sup\u00e9lec",
+      "categories": [
+        "BDM"
+      ],
+      "primary_cat": "BDM",
+      "relevance": 5,
+      "is_seed": true,
+      "radius": 13.94
+    },
+    {
+      "id": "Paul Bays",
+      "full_name": "Paul M. Bays",
+      "h_index": 45,
+      "cited_by": 10909,
+      "works": 154,
+      "affiliation": "University of London",
+      "categories": [
+        "VWM",
+        "BDM"
+      ],
+      "primary_cat": "VWM",
+      "relevance": 5,
+      "is_seed": true,
+      "radius": 15.2
+    },
+    {
+      "id": "Eero Simoncelli",
+      "full_name": "Eero P. Simoncelli",
+      "h_index": 83,
+      "cited_by": 95885,
+      "works": 360,
+      "affiliation": "Sup\u00e9lec",
+      "categories": [
+        "BDM",
+        "fVC"
+      ],
+      "primary_cat": "BDM",
+      "relevance": 3,
+      "is_seed": true,
+      "radius": 12.48
+    },
+    {
+      "id": "Janneke Jehee",
+      "full_name": "Janneke F. M. Jehee",
+      "h_index": 18,
+      "cited_by": 3020,
+      "works": 57,
+      "affiliation": "Allen Institute for Brain Science",
+      "categories": [
+        "fVC",
+        "VWM"
+      ],
+      "primary_cat": "fVC",
+      "relevance": 5,
+      "is_seed": true,
+      "radius": 13.58
+    },
+    {
+      "id": "John Serences",
+      "full_name": "John T. Serences",
+      "h_index": 58,
+      "cited_by": 13347,
+      "works": 255,
+      "affiliation": "Salk Institute for Biological Studies",
+      "categories": [
+        "VWM",
+        "fVC"
+      ],
+      "primary_cat": "VWM",
+      "relevance": 4,
+      "is_seed": true,
+      "radius": 13.48
+    },
+    {
+      "id": "Christoph Bledowski",
+      "full_name": "Christoph Bledowski",
+      "h_index": 21,
+      "cited_by": 2474,
+      "works": 63,
+      "affiliation": "Goethe University Frankfurt",
+      "categories": [
+        "SD",
+        "VWM"
+      ],
+      "primary_cat": "SD",
+      "relevance": 5,
+      "is_seed": true,
+      "radius": 13.76
+    },
+    {
+      "id": "David Pascucci",
+      "full_name": "David Pascucci",
+      "h_index": 21,
+      "cited_by": 1814,
+      "works": 117,
+      "affiliation": "Tokyo Institute of Technology",
+      "categories": [
+        "SD"
+      ],
+      "primary_cat": "SD",
+      "relevance": 5,
+      "is_seed": true,
+      "radius": 13.76
+    },
+    {
+      "id": "Athena Akrami",
+      "full_name": "Athena Akrami",
+      "h_index": 25,
+      "cited_by": 5893,
+      "works": 81,
+      "affiliation": "Howard Hughes Medical Institute",
+      "categories": [
+        "SD",
+        "BDM"
+      ],
+      "primary_cat": "SD",
+      "relevance": 5,
+      "is_seed": true,
+      "radius": 14.0
+    },
+    {
+      "id": "Christian Machens",
+      "full_name": "Christian K. Machens",
+      "h_index": 32,
+      "cited_by": 6448,
+      "works": 103,
+      "affiliation": "Champalimaud Foundation",
+      "categories": [
+        "NN",
+        "METH"
+      ],
+      "primary_cat": "NN",
+      "relevance": 3,
+      "is_seed": true,
+      "radius": 9.42
+    },
+    {
+      "id": "Serge Dumoulin",
+      "full_name": "Serge O. Dumoulin",
+      "h_index": 46,
+      "cited_by": 9915,
+      "works": 219,
+      "affiliation": "Montreal Neurological Institute and Hospital",
+      "categories": [
+        "fVC",
+        "METH"
+      ],
+      "primary_cat": "fVC",
+      "relevance": 4,
+      "is_seed": true,
+      "radius": 12.76
+    },
+    {
+      "id": "Andreas Nieder",
+      "full_name": "Andreas Nieder",
+      "h_index": 61,
+      "cited_by": 12629,
+      "works": 217,
+      "affiliation": "Google (United States)",
+      "categories": [
+        "fVC"
+      ],
+      "primary_cat": "fVC",
+      "relevance": 1,
+      "is_seed": true,
+      "radius": 6.16
+    },
+    {
+      "id": "Stanislas Dehaene",
+      "full_name": "Stanislas Dehaene",
+      "h_index": 162,
+      "cited_by": 107348,
+      "works": 764,
+      "affiliation": "Universit\u00e9 Paris-Sud",
+      "categories": [
+        "fVC"
+      ],
+      "primary_cat": "fVC",
+      "relevance": 1,
+      "is_seed": true,
+      "radius": 12.219999999999999
+    },
+    {
+      "id": "Manuela Piazza",
+      "full_name": "Manuela Piazza",
+      "h_index": 42,
+      "cited_by": 12472,
+      "works": 133,
+      "affiliation": "Universit\u00e9 Paris-Sud",
+      "categories": [
+        "fVC"
+      ],
+      "primary_cat": "fVC",
+      "relevance": 1,
+      "is_seed": true,
+      "radius": 5.02
+    },
+    {
+      "id": "Daniel Wolpert",
+      "full_name": "Daniel M. Wolpert",
+      "h_index": 104,
+      "cited_by": 58643,
+      "works": 349,
+      "affiliation": "University of London",
+      "categories": [
+        "BDM"
+      ],
+      "primary_cat": "BDM",
+      "relevance": 2,
+      "is_seed": true,
+      "radius": 11.24
+    },
+    {
+      "id": "John Krakauer",
+      "full_name": "John W. Krakauer",
+      "h_index": 87,
+      "cited_by": 33329,
+      "works": 287,
+      "affiliation": "Champalimaud Foundation",
+      "categories": [
+        "BDM"
+      ],
+      "primary_cat": "BDM",
+      "relevance": 1,
+      "is_seed": true,
+      "radius": 7.72
+    },
+    {
+      "id": "Heinrich B\u00fclthoff",
+      "full_name": "HH B\u00fclthoff",
+      "h_index": 90,
+      "cited_by": 32233,
+      "works": 1496,
+      "affiliation": "University of Pisa",
+      "categories": [
+        "CG"
+      ],
+      "primary_cat": "CG",
+      "relevance": 1,
+      "is_seed": true,
+      "radius": 7.8999999999999995
+    },
+    {
+      "id": "F. Gregory Ashby",
+      "full_name": "F. Gregory Ashby",
+      "h_index": 66,
+      "cited_by": 22510,
+      "works": 218,
+      "affiliation": "California Department of Education",
+      "categories": [
+        "CG",
+        "BDM"
+      ],
+      "primary_cat": "CG",
+      "relevance": 3,
+      "is_seed": true,
+      "radius": 11.46
+    },
+    {
+      "id": "Joshua Tenenbaum",
+      "full_name": "Joshua B. Tenenbaum",
+      "h_index": 114,
+      "cited_by": 73825,
+      "works": 923,
+      "affiliation": "University of Pisa",
+      "categories": [
+        "BDM",
+        "CG"
+      ],
+      "primary_cat": "BDM",
+      "relevance": 2,
+      "is_seed": true,
+      "radius": 11.84
+    },
+    {
+      "id": "Marcelo Mattar",
+      "full_name": "Marcelo G. Mattar",
+      "h_index": 24,
+      "cited_by": 2485,
+      "works": 105,
+      "affiliation": "University of the Sciences",
+      "categories": [
+        "NN"
+      ],
+      "primary_cat": "NN",
+      "relevance": 2,
+      "is_seed": true,
+      "radius": 6.4399999999999995
+    },
+    {
+      "id": "Pascal Mamassian",
+      "full_name": "Pascal Mamassian",
+      "h_index": 44,
+      "cited_by": 6124,
+      "works": 369,
+      "affiliation": "Sup\u00e9lec",
+      "categories": [
+        "BDM"
+      ],
+      "primary_cat": "BDM",
+      "relevance": 3,
+      "is_seed": true,
+      "radius": 10.14
+    },
+    {
+      "id": "Ronald van den Berg",
+      "full_name": "Ronald van den Berg",
+      "h_index": 33,
+      "cited_by": 3925,
+      "works": 145,
+      "affiliation": "University of Bergamo",
+      "categories": [
+        "VWM",
+        "BDM"
+      ],
+      "primary_cat": "VWM",
+      "relevance": 4,
+      "is_seed": true,
+      "radius": 11.98
+    },
+    {
+      "id": "Sebastian Schneegans",
+      "full_name": "Sebastian Schneegans",
+      "h_index": 21,
+      "cited_by": 1500,
+      "works": 52,
+      "affiliation": "University of Zagreb",
+      "categories": [
+        "VWM",
+        "NN"
+      ],
+      "primary_cat": "VWM",
+      "relevance": 5,
+      "is_seed": true,
+      "radius": 13.76
+    },
+    {
+      "id": "Daryl Fougnie",
+      "full_name": "Daryl Fougnie",
+      "h_index": 22,
+      "cited_by": 2874,
+      "works": 91,
+      "affiliation": "New York University Abu Dhabi",
+      "categories": [
+        "VWM"
+      ],
+      "primary_cat": "VWM",
+      "relevance": 3,
+      "is_seed": true,
+      "radius": 8.82
+    },
+    {
+      "id": "Anne Urai",
+      "full_name": "Anne E Urai",
+      "h_index": 28,
+      "cited_by": 3403,
+      "works": 113,
+      "affiliation": "Leiden University",
+      "categories": [
+        "SD",
+        "BDM"
+      ],
+      "primary_cat": "SD",
+      "relevance": 4,
+      "is_seed": true,
+      "radius": 11.68
+    },
+    {
+      "id": "Luigi Acerbi",
+      "full_name": "Luigi Acerbi",
+      "h_index": 16,
+      "cited_by": 1256,
+      "works": 68,
+      "affiliation": "University of Geneva",
+      "categories": [
+        "BDM",
+        "METH"
+      ],
+      "primary_cat": "BDM",
+      "relevance": 3,
+      "is_seed": true,
+      "radius": 8.46
+    },
+    {
+      "id": "Kanaka Rajan",
+      "full_name": "Kanaka Rajan",
+      "h_index": 20,
+      "cited_by": 3040,
+      "works": 67,
+      "affiliation": "Rutgers, The State University of New Jersey",
+      "categories": [
+        "NN"
+      ],
+      "primary_cat": "NN",
+      "relevance": 2,
+      "is_seed": true,
+      "radius": 6.2
+    },
+    {
+      "id": "Floris de Lange",
+      "full_name": "Floris P. de Lange",
+      "h_index": 75,
+      "cited_by": 20758,
+      "works": 338,
+      "affiliation": "Northwestern University",
+      "categories": [
+        "SD",
+        "fVC"
+      ],
+      "primary_cat": "SD",
+      "relevance": 4,
+      "is_seed": true,
+      "radius": 14.5
+    },
+    {
+      "id": "Matthias Fritsche",
+      "full_name": "Matthias Fritsche",
+      "h_index": 14,
+      "cited_by": 1270,
+      "works": 40,
+      "affiliation": "Radboud University Nijmegen",
+      "categories": [
+        "SD",
+        "fVC"
+      ],
+      "primary_cat": "SD",
+      "relevance": 4,
+      "is_seed": true,
+      "radius": 10.84
+    },
+    {
+      "id": "Wieland Brendel",
+      "full_name": "Wieland Brendel",
+      "h_index": 31,
+      "cited_by": 8526,
+      "works": 177,
+      "affiliation": "Champalimaud Foundation",
+      "categories": [
+        "NN"
+      ],
+      "primary_cat": "NN",
+      "relevance": 1,
+      "is_seed": true,
+      "radius": 4.359999999999999
+    },
+    {
+      "id": "Il Memming Park",
+      "full_name": "Il Memming Park",
+      "h_index": 33,
+      "cited_by": 3802,
+      "works": 151,
+      "affiliation": "Champalimaud Foundation",
+      "categories": [
+        "NN",
+        "METH"
+      ],
+      "primary_cat": "NN",
+      "relevance": 3,
+      "is_seed": true,
+      "radius": 9.48
+    },
+    {
+      "id": "Reza Shadmehr",
+      "full_name": "Reza Shadmehr",
+      "h_index": 84,
+      "cited_by": 30575,
+      "works": 297,
+      "affiliation": "Marquette University",
+      "categories": [
+        "BDM"
+      ],
+      "primary_cat": "BDM",
+      "relevance": 1,
+      "is_seed": true,
+      "radius": 7.54
+    },
+    {
+      "id": "David Burr",
+      "full_name": "David C. Burr",
+      "h_index": 88,
+      "cited_by": 27603,
+      "works": 515,
+      "affiliation": "University of Pisa",
+      "categories": [
+        "SD",
+        "BDM"
+      ],
+      "primary_cat": "SD",
+      "relevance": 3,
+      "is_seed": true,
+      "radius": 12.78
+    },
+    {
+      "id": "Brian Maniscalco",
+      "full_name": "Brian Maniscalco",
+      "h_index": 23,
+      "cited_by": 4196,
+      "works": 64,
+      "affiliation": "University of California, Riverside",
+      "categories": [
+        "BDM"
+      ],
+      "primary_cat": "BDM",
+      "relevance": 2,
+      "is_seed": true,
+      "radius": 6.38
+    },
+    {
+      "id": "Andrew Heathcote",
+      "full_name": "Andrew Heathcote",
+      "h_index": 57,
+      "cited_by": 13609,
+      "works": 387,
+      "affiliation": "Northwestern University",
+      "categories": [
+        "METH",
+        "BDM"
+      ],
+      "primary_cat": "METH",
+      "relevance": 2,
+      "is_seed": true,
+      "radius": 8.42
+    },
+    {
+      "id": "Jan Drugowitsch",
+      "full_name": "Jan Drugowitsch",
+      "h_index": 27,
+      "cited_by": 3877,
+      "works": 119,
+      "affiliation": "Boston University",
+      "categories": [
+        "BDM"
+      ],
+      "primary_cat": "BDM",
+      "relevance": 4,
+      "is_seed": true,
+      "radius": 11.62
+    },
+    {
+      "id": "Valentin Wyart",
+      "full_name": "Valentin Wyart",
+      "h_index": 32,
+      "cited_by": 5717,
+      "works": 132,
+      "affiliation": "Centre National de la Recherche Scientifique",
+      "categories": [
+        "SD",
+        "BDM"
+      ],
+      "primary_cat": "SD",
+      "relevance": 4,
+      "is_seed": true,
+      "radius": 11.92
+    },
+    {
+      "id": "Mehrdad Jazayeri",
+      "full_name": "Mehrdad Jazayeri",
+      "h_index": 37,
+      "cited_by": 6741,
+      "works": 127,
+      "affiliation": "California Institute of Technology",
+      "categories": [
+        "BDM",
+        "NN"
+      ],
+      "primary_cat": "BDM",
+      "relevance": 3,
+      "is_seed": true,
+      "radius": 9.719999999999999
+    },
+    {
+      "id": "Kenway Louie",
+      "full_name": "Kenway Louie",
+      "h_index": 24,
+      "cited_by": 4681,
+      "works": 70,
+      "affiliation": "Sup\u00e9lec",
+      "categories": [
+        "BDM"
+      ],
+      "primary_cat": "BDM",
+      "relevance": 2,
+      "is_seed": true,
+      "radius": 6.4399999999999995
+    },
+    {
+      "id": "Mark Churchland",
+      "full_name": "Mark M. Churchland",
+      "h_index": 44,
+      "cited_by": 13307,
+      "works": 99,
+      "affiliation": "Allen Institute for Brain Science",
+      "categories": [
+        "NN"
+      ],
+      "primary_cat": "NN",
+      "relevance": 3,
+      "is_seed": true,
+      "radius": 10.14
+    },
+    {
+      "id": "Liam Paninski",
+      "full_name": "Liam Paninski",
+      "h_index": 67,
+      "cited_by": 22891,
+      "works": 291,
+      "affiliation": "Allen Institute for Brain Science",
+      "categories": [
+        "NN",
+        "METH"
+      ],
+      "primary_cat": "NN",
+      "relevance": 3,
+      "is_seed": true,
+      "radius": 11.52
+    },
+    {
+      "id": "Daniel Sussillo",
+      "full_name": "David Sussillo",
+      "h_index": 36,
+      "cited_by": 9536,
+      "works": 77,
+      "affiliation": "Google (United States)",
+      "categories": [
+        "NN"
+      ],
+      "primary_cat": "NN",
+      "relevance": 3,
+      "is_seed": true,
+      "radius": 9.66
+    },
+    {
+      "id": "Nikolaus Kriegeskorte",
+      "full_name": "Nikolaus Kriegeskorte",
+      "h_index": 71,
+      "cited_by": 31530,
+      "works": 311,
+      "affiliation": "National Institutes of Health",
+      "categories": [
+        "fVC",
+        "METH",
+        "NN"
+      ],
+      "primary_cat": "fVC",
+      "relevance": 4,
+      "is_seed": true,
+      "radius": 14.26
+    },
+    {
+      "id": "David Whitney",
+      "full_name": "David Whitney",
+      "h_index": 56,
+      "cited_by": 11670,
+      "works": 375,
+      "affiliation": "University of Southern California",
+      "categories": [
+        "SD"
+      ],
+      "primary_cat": "SD",
+      "relevance": 5,
+      "is_seed": true,
+      "radius": 15.86
+    },
+    {
+      "id": "Matteo Carandini",
+      "full_name": "Matteo Carandini",
+      "h_index": 83,
+      "cited_by": 34500,
+      "works": 390,
+      "affiliation": "Northwestern University",
+      "categories": [
+        "NN",
+        "fVC"
+      ],
+      "primary_cat": "NN",
+      "relevance": 2,
+      "is_seed": true,
+      "radius": 9.98
+    },
+    {
+      "id": "Stephen Fleming",
+      "full_name": "Stephen M. Fleming",
+      "h_index": 61,
+      "cited_by": 15736,
+      "works": 297,
+      "affiliation": "Broad Institute",
+      "categories": [
+        "BDM"
+      ],
+      "primary_cat": "BDM",
+      "relevance": 3,
+      "is_seed": true,
+      "radius": 11.16
+    },
+    {
+      "id": "Dobromir Rahnev",
+      "full_name": "Dobromir Rahnev",
+      "h_index": 30,
+      "cited_by": 4603,
+      "works": 214,
+      "affiliation": "Georgia Institute of Technology",
+      "categories": [
+        "BDM",
+        "fVC"
+      ],
+      "primary_cat": "BDM",
+      "relevance": 3,
+      "is_seed": true,
+      "radius": 9.3
+    },
+    {
+      "id": "Roger Ratcliff",
+      "full_name": "Roger Ratcliff",
+      "h_index": 99,
+      "cited_by": 44751,
+      "works": 362,
+      "affiliation": "Dartmouth College",
+      "categories": [
+        "METH",
+        "BDM"
+      ],
+      "primary_cat": "METH",
+      "relevance": 3,
+      "is_seed": true,
+      "radius": 13.44
+    },
+    {
+      "id": "Ben Harvey",
+      "full_name": "Ben M. Harvey",
+      "h_index": 25,
+      "cited_by": 2956,
+      "works": 110,
+      "affiliation": "Office of the United Nations High Commissioner for Refugees",
+      "categories": [
+        "fVC"
+      ],
+      "primary_cat": "fVC",
+      "relevance": 3,
+      "is_seed": true,
+      "radius": 9.0
+    },
+    {
+      "id": "Evelyn Eger",
+      "full_name": "Evelyn Eger",
+      "h_index": 34,
+      "cited_by": 6901,
+      "works": 83,
+      "affiliation": "Universit\u00e9 Paris-Sud",
+      "categories": [
+        "fVC"
+      ],
+      "primary_cat": "fVC",
+      "relevance": 1,
+      "is_seed": true,
+      "radius": 4.54
+    },
+    {
+      "id": "Nikolaus Troje",
+      "full_name": "Nikolaus F. Troje",
+      "h_index": 55,
+      "cited_by": 10289,
+      "works": 323,
+      "affiliation": "Canadian Institute for Advanced Research",
+      "categories": [
+        "CG"
+      ],
+      "primary_cat": "CG",
+      "relevance": 1,
+      "is_seed": true,
+      "radius": 5.8
+    },
+    {
+      "id": "Thomas Griffiths",
+      "full_name": "Thomas L. Griffiths",
+      "h_index": 98,
+      "cited_by": 49813,
+      "works": 774,
+      "affiliation": "Rutgers, The State University of New Jersey",
+      "categories": [
+        "BDM",
+        "CG"
+      ],
+      "primary_cat": "BDM",
+      "relevance": 3,
+      "is_seed": true,
+      "radius": 13.379999999999999
+    },
+    {
+      "id": "Giovanni Pezzulo",
+      "full_name": "Giovanni Pezzulo",
+      "h_index": 59,
+      "cited_by": 16388,
+      "works": 405,
+      "affiliation": "Istituto di Scienza e Tecnologie dell'Informazione \"Alessandro Faedo\"",
+      "categories": [
+        "BDM"
+      ],
+      "primary_cat": "BDM",
+      "relevance": 1,
+      "is_seed": true,
+      "radius": 6.04
+    },
+    {
+      "id": "Rafal Bogacz",
+      "full_name": "Rafa\u0142 Bogacz",
+      "h_index": 49,
+      "cited_by": 12325,
+      "works": 231,
+      "affiliation": "North Bristol NHS Trust",
+      "categories": [
+        "BDM",
+        "NN"
+      ],
+      "primary_cat": "BDM",
+      "relevance": 2,
+      "is_seed": true,
+      "radius": 7.9399999999999995
+    },
+    {
+      "id": "Devika Narain",
+      "full_name": "Devika Narain",
+      "h_index": 13,
+      "cited_by": 1571,
+      "works": 29,
+      "affiliation": "Netherlands Institute for Neuroscience",
+      "categories": [
+        "BDM"
+      ],
+      "primary_cat": "BDM",
+      "relevance": 3,
+      "is_seed": true,
+      "radius": 8.28
+    },
+    {
+      "id": "Stefano Fusi",
+      "full_name": "Stefano Fusi",
+      "h_index": 55,
+      "cited_by": 13053,
+      "works": 228,
+      "affiliation": "University of Bern",
+      "categories": [
+        "NN",
+        "CG"
+      ],
+      "primary_cat": "NN",
+      "relevance": 3,
+      "is_seed": true,
+      "radius": 10.8
+    },
+    {
+      "id": "Jonathan Pillow",
+      "full_name": "Jonathan W. Pillow",
+      "h_index": 48,
+      "cited_by": 11544,
+      "works": 248,
+      "affiliation": "Howard Hughes Medical Institute",
+      "categories": [
+        "NN",
+        "METH"
+      ],
+      "primary_cat": "NN",
+      "relevance": 3,
+      "is_seed": true,
+      "radius": 10.379999999999999
+    },
+    {
+      "id": "Joshua Gold",
+      "full_name": "Joshua I. Gold",
+      "h_index": 45,
+      "cited_by": 16071,
+      "works": 180,
+      "affiliation": "University of Dayton",
+      "categories": [
+        "BDM"
+      ],
+      "primary_cat": "BDM",
+      "relevance": 3,
+      "is_seed": true,
+      "radius": 10.2
+    },
+    {
+      "id": "Thomas Sprague",
+      "full_name": "Thomas C. Sprague",
+      "h_index": 21,
+      "cited_by": 2714,
+      "works": 99,
+      "affiliation": "Sup\u00e9lec",
+      "categories": [
+        "VWM",
+        "fVC"
+      ],
+      "primary_cat": "VWM",
+      "relevance": 4,
+      "is_seed": true,
+      "radius": 11.26
+    },
+    {
+      "id": "Jeremy Wolfe",
+      "full_name": "Jeremy M. Wolfe",
+      "h_index": 79,
+      "cited_by": 31838,
+      "works": 757,
+      "affiliation": "Dartmouth College",
+      "categories": [
+        "VWM"
+      ],
+      "primary_cat": "VWM",
+      "relevance": 1,
+      "is_seed": true,
+      "radius": 7.24
+    },
+    {
+      "id": "Maneesh Sahani",
+      "full_name": "Maneesh Sahani",
+      "h_index": 51,
+      "cited_by": 11788,
+      "works": 220,
+      "affiliation": "California Institute of Technology",
+      "categories": [
+        "NN",
+        "METH"
+      ],
+      "primary_cat": "NN",
+      "relevance": 2,
+      "is_seed": true,
+      "radius": 8.06
+    },
+    {
+      "id": "Krishna Shenoy",
+      "full_name": "Krishna V. Shenoy",
+      "h_index": 88,
+      "cited_by": 31163,
+      "works": 299,
+      "affiliation": "California Institute of Technology",
+      "categories": [
+        "NN",
+        "METH"
+      ],
+      "primary_cat": "NN",
+      "relevance": 3,
+      "is_seed": true,
+      "radius": 12.78
+    },
+    {
+      "id": "Michael Landy",
+      "full_name": "Michael S. Landy",
+      "h_index": 52,
+      "cited_by": 11352,
+      "works": 325,
+      "affiliation": "United States Department of Veterans Affairs",
+      "categories": [
+        "BDM"
+      ],
+      "primary_cat": "BDM",
+      "relevance": 2,
+      "is_seed": true,
+      "radius": 8.120000000000001
+    },
+    {
+      "id": "Ariel Zylberberg",
+      "full_name": "Ariel Zylberberg",
+      "h_index": 22,
+      "cited_by": 2691,
+      "works": 78,
+      "affiliation": "Netherlands Institute for Neuroscience",
+      "categories": [
+        "BDM"
+      ],
+      "primary_cat": "BDM",
+      "relevance": 3,
+      "is_seed": true,
+      "radius": 8.82
+    },
+    {
+      "id": "Anne Churchland",
+      "full_name": "Anne K. Churchland",
+      "h_index": 45,
+      "cited_by": 9555,
+      "works": 155,
+      "affiliation": "University of Geneva",
+      "categories": [
+        "BDM",
+        "NN"
+      ],
+      "primary_cat": "BDM",
+      "relevance": 3,
+      "is_seed": true,
+      "radius": 10.2
+    },
+    {
+      "id": "Xiao-Jing Wang",
+      "full_name": "Xiao\u2010Jing Wang",
+      "h_index": 90,
+      "cited_by": 40017,
+      "works": 435,
+      "affiliation": "Sup\u00e9lec",
+      "categories": [
+        "NN",
+        "VWM"
+      ],
+      "primary_cat": "NN",
+      "relevance": 4,
+      "is_seed": true,
+      "radius": 15.399999999999999
+    },
+    {
+      "id": "Nathaniel Daw",
+      "full_name": "Nathaniel D. Daw",
+      "h_index": 92,
+      "cited_by": 36976,
+      "works": 308,
+      "affiliation": "Google (United States)",
+      "categories": [
+        "BDM"
+      ],
+      "primary_cat": "BDM",
+      "relevance": 1,
+      "is_seed": true,
+      "radius": 8.02
+    },
+    {
+      "id": "Matthew Botvinick",
+      "full_name": "Matthew Botvinick",
+      "h_index": 87,
+      "cited_by": 65532,
+      "works": 275,
+      "affiliation": "Google (United States)",
+      "categories": [
+        "NN"
+      ],
+      "primary_cat": "NN",
+      "relevance": 1,
+      "is_seed": true,
+      "radius": 7.72
+    },
+    {
+      "id": "Surya Ganguli",
+      "full_name": "Surya Ganguli",
+      "h_index": 61,
+      "cited_by": 17629,
+      "works": 263,
+      "affiliation": "University of Calcutta",
+      "categories": [
+        "NN"
+      ],
+      "primary_cat": "NN",
+      "relevance": 3,
+      "is_seed": true,
+      "radius": 11.16
+    },
+    {
+      "id": "Frank Tong",
+      "full_name": "Frank Tong",
+      "h_index": 43,
+      "cited_by": 13229,
+      "works": 229,
+      "affiliation": "Florida State University",
+      "categories": [
+        "VWM",
+        "fVC"
+      ],
+      "primary_cat": "VWM",
+      "relevance": 3,
+      "is_seed": true,
+      "radius": 10.08
+    },
+    {
+      "id": "Peter Latham",
+      "full_name": "Peter E. Latham",
+      "h_index": 47,
+      "cited_by": 14577,
+      "works": 183,
+      "affiliation": "National Institutes of Health",
+      "categories": [
+        "BDM",
+        "NN"
+      ],
+      "primary_cat": "BDM",
+      "relevance": 3,
+      "is_seed": true,
+      "radius": 10.32
+    },
+    {
+      "id": "Peter Murphy",
+      "full_name": "Peter R. Murphy",
+      "h_index": 29,
+      "cited_by": 4644,
+      "works": 93,
+      "affiliation": "Leiden University",
+      "categories": [
+        "SD",
+        "BDM"
+      ],
+      "primary_cat": "SD",
+      "relevance": 3,
+      "is_seed": true,
+      "radius": 9.24
+    },
+    {
+      "id": "Misha Tsodyks",
+      "full_name": "Misha Tsodyks",
+      "h_index": 56,
+      "cited_by": 17184,
+      "works": 206,
+      "affiliation": "Hebrew College",
+      "categories": [
+        "VWM",
+        "NN"
+      ],
+      "primary_cat": "VWM",
+      "relevance": 3,
+      "is_seed": true,
+      "radius": 10.86
+    },
+    {
+      "id": "David Knill",
+      "full_name": "David C. Knill",
+      "h_index": 42,
+      "cited_by": 10002,
+      "works": 132,
+      "affiliation": "University of Minnesota",
+      "categories": [
+        "BDM"
+      ],
+      "primary_cat": "BDM",
+      "relevance": 2,
+      "is_seed": true,
+      "radius": 7.52
+    },
+    {
+      "id": "Daniel Kersten",
+      "full_name": "Daniel Kersten",
+      "h_index": 43,
+      "cited_by": 6963,
+      "works": 228,
+      "affiliation": "University of Minnesota",
+      "categories": [
+        "BDM"
+      ],
+      "primary_cat": "BDM",
+      "relevance": 2,
+      "is_seed": true,
+      "radius": 7.58
+    },
+    {
+      "id": "Hansem Sohn",
+      "full_name": "Hansem Sohn",
+      "h_index": 15,
+      "cited_by": 935,
+      "works": 39,
+      "affiliation": "Seoul National University",
+      "categories": [
+        "BDM",
+        "NN"
+      ],
+      "primary_cat": "BDM",
+      "relevance": 4,
+      "is_seed": true,
+      "radius": 10.9
+    },
+    {
+      "id": "Long Luu",
+      "full_name": "Long Luu",
+      "h_index": 11,
+      "cited_by": 530,
+      "works": 35,
+      "affiliation": "Vietnam National University Ho Chi Minh City",
+      "categories": [
+        "BDM",
+        "SD"
+      ],
+      "primary_cat": "BDM",
+      "relevance": 5,
+      "is_seed": true,
+      "radius": 13.16
+    },
+    {
+      "id": "Masud Husain",
+      "full_name": "Masud Husain",
+      "h_index": 99,
+      "cited_by": 40624,
+      "works": 699,
+      "affiliation": "University of North Florida",
+      "categories": [
+        "VWM"
+      ],
+      "primary_cat": "VWM",
+      "relevance": 4,
+      "is_seed": true,
+      "radius": 15.94
+    },
+    {
+      "id": "Chris Sims",
+      "full_name": "Chris R. Sims",
+      "h_index": 15,
+      "cited_by": 1266,
+      "works": 87,
+      "affiliation": "University of Geneva",
+      "categories": [
+        "VWM",
+        "BDM"
+      ],
+      "primary_cat": "VWM",
+      "relevance": 5,
+      "is_seed": true,
+      "radius": 13.4
+    },
+    {
+      "id": "Brian Wandell",
+      "full_name": "Brian A. Wandell",
+      "h_index": 87,
+      "cited_by": 29942,
+      "works": 395,
+      "affiliation": "University of the Sciences",
+      "categories": [
+        "fVC",
+        "METH"
+      ],
+      "primary_cat": "fVC",
+      "relevance": 3,
+      "is_seed": true,
+      "radius": 12.719999999999999
+    },
+    {
+      "id": "Kalanit Grill-Spector",
+      "full_name": "Kalanit Grill\u2010Spector",
+      "h_index": 60,
+      "cited_by": 20828,
+      "works": 269,
+      "affiliation": "Palo Alto University",
+      "categories": [
+        "fVC"
+      ],
+      "primary_cat": "fVC",
+      "relevance": 2,
+      "is_seed": true,
+      "radius": 8.6
+    },
+    {
+      "id": "James DiCarlo",
+      "full_name": "James J. DiCarlo",
+      "h_index": 68,
+      "cited_by": 32564,
+      "works": 207,
+      "affiliation": "Boston University",
+      "categories": [
+        "NN",
+        "fVC"
+      ],
+      "primary_cat": "NN",
+      "relevance": 3,
+      "is_seed": true,
+      "radius": 11.58
+    },
+    {
+      "id": "Michael Halassa",
+      "full_name": "Michael M. Halassa",
+      "h_index": 38,
+      "cited_by": 10965,
+      "works": 109,
+      "affiliation": "Broad Institute",
+      "categories": [
+        "NN"
+      ],
+      "primary_cat": "NN",
+      "relevance": 3,
+      "is_seed": true,
+      "radius": 9.78
+    },
+    {
+      "id": "Guangyu Robert Yang",
+      "full_name": "Guangyu Robert Yang",
+      "h_index": 20,
+      "cited_by": 3279,
+      "works": 88,
+      "affiliation": "Rutgers, The State University of New Jersey",
+      "categories": [
+        "NN",
+        "BDM"
+      ],
+      "primary_cat": "NN",
+      "relevance": 4,
+      "is_seed": true,
+      "radius": 11.2
+    },
+    {
+      "id": "SueYeon Chung",
+      "full_name": "SueYeon Chung",
+      "h_index": 12,
+      "cited_by": 784,
+      "works": 73,
+      "affiliation": "IBM (United States)",
+      "categories": [
+        "NN",
+        "METH"
+      ],
+      "primary_cat": "NN",
+      "relevance": 3,
+      "is_seed": true,
+      "radius": 8.22
+    },
+    {
+      "id": "Tatiana Engel",
+      "full_name": "Tatiana A. Engel",
+      "h_index": 24,
+      "cited_by": 1770,
+      "works": 63,
+      "affiliation": "Champalimaud Foundation",
+      "categories": [
+        "NN"
+      ],
+      "primary_cat": "NN",
+      "relevance": 3,
+      "is_seed": true,
+      "radius": 8.94
+    },
+    {
+      "id": "Clayton Curtis",
+      "full_name": "Clayton E. Curtis",
+      "h_index": 49,
+      "cited_by": 8686,
+      "works": 167,
+      "affiliation": "University of Minnesota",
+      "categories": [
+        "VWM",
+        "fVC"
+      ],
+      "primary_cat": "VWM",
+      "relevance": 3,
+      "is_seed": true,
+      "radius": 10.44
+    },
+    {
+      "id": "Edward Awh",
+      "full_name": "Edward Awh",
+      "h_index": 61,
+      "cited_by": 20766,
+      "works": 272,
+      "affiliation": "Michigan Department of Education",
+      "categories": [
+        "VWM",
+        "fVC"
+      ],
+      "primary_cat": "VWM",
+      "relevance": 3,
+      "is_seed": true,
+      "radius": 11.16
+    },
+    {
+      "id": "Rosanne Rademaker",
+      "full_name": "Rosanne L. Rademaker",
+      "h_index": 15,
+      "cited_by": 1478,
+      "works": 66,
+      "affiliation": "Google (United States)",
+      "categories": [
+        "VWM",
+        "fVC"
+      ],
+      "primary_cat": "VWM",
+      "relevance": 4,
+      "is_seed": true,
+      "radius": 10.9
+    },
+    {
+      "id": "Kendrick Kay",
+      "full_name": "Kendrick Kay",
+      "h_index": 44,
+      "cited_by": 9835,
+      "works": 253,
+      "affiliation": "University of Southern California",
+      "categories": [
+        "fVC",
+        "METH"
+      ],
+      "primary_cat": "fVC",
+      "relevance": 3,
+      "is_seed": true,
+      "radius": 10.14
+    },
+    {
+      "id": "Birte Forstmann",
+      "full_name": "Birte U. Forstmann",
+      "h_index": 64,
+      "cited_by": 15551,
+      "works": 298,
+      "affiliation": "Leiden University",
+      "categories": [
+        "METH",
+        "BDM"
+      ],
+      "primary_cat": "METH",
+      "relevance": 3,
+      "is_seed": true,
+      "radius": 11.34
+    },
+    {
+      "id": "Eric-Jan Wagenmakers",
+      "full_name": "Eric\u2010Jan Wagenmakers",
+      "h_index": 112,
+      "cited_by": 66461,
+      "works": 757,
+      "affiliation": "Northwestern University",
+      "categories": [
+        "METH",
+        "BDM"
+      ],
+      "primary_cat": "METH",
+      "relevance": 3,
+      "is_seed": true,
+      "radius": 14.219999999999999
+    },
+    {
+      "id": "Rub\u00e9n Moreno-Bote",
+      "full_name": "Rub\u00e9n Moreno\u2010Bote",
+      "h_index": 30,
+      "cited_by": 4418,
+      "works": 127,
+      "affiliation": "Instituci\u00f3 Catalana de Recerca i Estudis Avan\u00e7ats",
+      "categories": [
+        "BDM",
+        "NN"
+      ],
+      "primary_cat": "BDM",
+      "relevance": 3,
+      "is_seed": true,
+      "radius": 9.3
+    },
+    {
+      "id": "Mate Lengyel",
+      "full_name": "M\u00e1t\u00e9 Lengyel",
+      "h_index": 32,
+      "cited_by": 6029,
+      "works": 189,
+      "affiliation": "University of Debrecen",
+      "categories": [
+        "BDM",
+        "NN"
+      ],
+      "primary_cat": "BDM",
+      "relevance": 3,
+      "is_seed": true,
+      "radius": 9.42
+    },
+    {
+      "id": "Peter Dayan",
+      "full_name": "Peter Dayan",
+      "h_index": 117,
+      "cited_by": 88245,
+      "works": 978,
+      "affiliation": "University of New Brunswick",
+      "categories": [
+        "BDM"
+      ],
+      "primary_cat": "BDM",
+      "relevance": 2,
+      "is_seed": true,
+      "radius": 12.02
+    },
+    {
+      "id": "Yael Niv",
+      "full_name": "Yael Niv",
+      "h_index": 73,
+      "cited_by": 24187,
+      "works": 300,
+      "affiliation": "National Institutes of Health",
+      "categories": [
+        "BDM"
+      ],
+      "primary_cat": "BDM",
+      "relevance": 1,
+      "is_seed": true,
+      "radius": 6.88
+    },
+    {
+      "id": "Dmitry Kobak",
+      "full_name": "Dmitry Kobak",
+      "h_index": 26,
+      "cited_by": 5600,
+      "works": 100,
+      "affiliation": "Champalimaud Foundation",
+      "categories": [
+        "METH",
+        "NN"
+      ],
+      "primary_cat": "METH",
+      "relevance": 3,
+      "is_seed": true,
+      "radius": 9.06
+    },
+    {
+      "id": "Hesheng Liu",
+      "full_name": "Hesheng Liu",
+      "h_index": 51,
+      "cited_by": 24771,
+      "works": 241,
+      "affiliation": "Brigham Young University",
+      "categories": [
+        "fVC",
+        "METH"
+      ],
+      "primary_cat": "fVC",
+      "relevance": 3,
+      "is_seed": true,
+      "radius": 10.56
+    },
+    {
+      "id": "Jonathan Winawer",
+      "full_name": "Jonathan Winawer",
+      "h_index": 50,
+      "cited_by": 9786,
+      "works": 272,
+      "affiliation": "Sup\u00e9lec",
+      "categories": [
+        "fVC",
+        "METH"
+      ],
+      "primary_cat": "fVC",
+      "relevance": 3,
+      "is_seed": true,
+      "radius": 10.5
+    },
+    {
+      "id": "Noah Benson",
+      "full_name": "Noah C. Benson",
+      "h_index": 21,
+      "cited_by": 2528,
+      "works": 106,
+      "affiliation": "Sup\u00e9lec",
+      "categories": [
+        "fVC",
+        "METH"
+      ],
+      "primary_cat": "fVC",
+      "relevance": 3,
+      "is_seed": true,
+      "radius": 8.76
+    },
+    {
+      "id": "Marieke Mur",
+      "full_name": "Marieke Mur",
+      "h_index": 27,
+      "cited_by": 12122,
+      "works": 122,
+      "affiliation": "Instituto de Engenharia de Sistemas e Computadores Investiga\u00e7\u00e3o e Desenvolvimento",
+      "categories": [
+        "fVC",
+        "METH"
+      ],
+      "primary_cat": "fVC",
+      "relevance": 3,
+      "is_seed": true,
+      "radius": 9.12
+    },
+    {
+      "id": "Tim Kietzmann",
+      "full_name": "Tim C. Kietzmann",
+      "h_index": 24,
+      "cited_by": 3418,
+      "works": 115,
+      "affiliation": "Radboud University Nijmegen",
+      "categories": [
+        "fVC",
+        "NN",
+        "METH"
+      ],
+      "primary_cat": "fVC",
+      "relevance": 3,
+      "is_seed": true,
+      "radius": 8.94
+    },
+    {
+      "id": "Alessio Fracasso",
+      "full_name": "Alessio Fracasso",
+      "h_index": 24,
+      "cited_by": 2021,
+      "works": 112,
+      "affiliation": "University of Padua",
+      "categories": [
+        "fVC"
+      ],
+      "primary_cat": "fVC",
+      "relevance": 2,
+      "is_seed": true,
+      "radius": 6.4399999999999995
+    },
+    {
+      "id": "Thomas Naselaris",
+      "full_name": "Thomas Naselaris",
+      "h_index": 27,
+      "cited_by": 7684,
+      "works": 87,
+      "affiliation": "University of Minnesota",
+      "categories": [
+        "fVC",
+        "METH"
+      ],
+      "primary_cat": "fVC",
+      "relevance": 2,
+      "is_seed": true,
+      "radius": 6.62
+    },
+    {
+      "id": "Alyssa Brewer",
+      "full_name": "Alyssa A. Brewer",
+      "h_index": 19,
+      "cited_by": 4851,
+      "works": 68,
+      "affiliation": "Society for Neuroscience",
+      "categories": [
+        "fVC",
+        "METH"
+      ],
+      "primary_cat": "fVC",
+      "relevance": 2,
+      "is_seed": true,
+      "radius": 6.14
+    },
+    {
+      "id": "Denis Pelli",
+      "full_name": "Denis G. Pelli",
+      "h_index": 44,
+      "cited_by": 25194,
+      "works": 255,
+      "affiliation": "Sup\u00e9lec",
+      "categories": [
+        "fVC"
+      ],
+      "primary_cat": "fVC",
+      "relevance": 2,
+      "is_seed": true,
+      "radius": 7.64
+    },
+    {
+      "id": "Tomas Knapen",
+      "full_name": "Tomas Knapen",
+      "h_index": 32,
+      "cited_by": 3824,
+      "works": 176,
+      "affiliation": "D\u00e9l\u00e9gation Paris 5",
+      "categories": [
+        "fVC"
+      ],
+      "primary_cat": "fVC",
+      "relevance": 3,
+      "is_seed": true,
+      "radius": 9.42
+    },
+    {
+      "id": "Martin Hebart",
+      "full_name": "Martin N. Hebart",
+      "h_index": 30,
+      "cited_by": 4531,
+      "works": 158,
+      "affiliation": "National Institutes of Health",
+      "categories": [
+        "fVC",
+        "METH"
+      ],
+      "primary_cat": "fVC",
+      "relevance": 3,
+      "is_seed": true,
+      "radius": 9.3
+    },
+    {
+      "id": "Natalia Petridou",
+      "full_name": "Natalia Petridou",
+      "h_index": 36,
+      "cited_by": 4303,
+      "works": 127,
+      "affiliation": "Boston Children's Hospital",
+      "categories": [
+        "fVC"
+      ],
+      "primary_cat": "fVC",
+      "relevance": 2,
+      "is_seed": true,
+      "radius": 7.16
+    },
+    {
+      "id": "Rainer Goebel",
+      "full_name": "Rainer Goebel",
+      "h_index": 107,
+      "cited_by": 39421,
+      "works": 635,
+      "affiliation": "Boston University",
+      "categories": [
+        "fVC",
+        "METH"
+      ],
+      "primary_cat": "fVC",
+      "relevance": 2,
+      "is_seed": true,
+      "radius": 11.42
+    },
+    {
+      "id": "Omri Barak",
+      "full_name": "Omri Barak",
+      "h_index": 22,
+      "cited_by": 6153,
+      "works": 105,
+      "affiliation": "Champalimaud Foundation",
+      "categories": [
+        "NN"
+      ],
+      "primary_cat": "NN",
+      "relevance": 2,
+      "is_seed": true,
+      "radius": 6.32
+    },
+    {
+      "id": "Haim Sompolinsky",
+      "full_name": "Haim Sompolinsky",
+      "h_index": 78,
+      "cited_by": 28605,
+      "works": 252,
+      "affiliation": "Hebrew College",
+      "categories": [
+        "NN"
+      ],
+      "primary_cat": "NN",
+      "relevance": 2,
+      "is_seed": true,
+      "radius": 9.68
+    },
+    {
+      "id": "Gi-Yeul Bae",
+      "full_name": "Gi\u2010Yeul Bae",
+      "h_index": 14,
+      "cited_by": 1517,
+      "works": 58,
+      "affiliation": "Johns Hopkins University",
+      "categories": [
+        "SD",
+        "VWM"
+      ],
+      "primary_cat": "SD",
+      "relevance": 4,
+      "is_seed": true,
+      "radius": 10.84
+    },
+    {
+      "id": "Jochen Braun",
+      "full_name": "Jochen Braun",
+      "h_index": 37,
+      "cited_by": 5891,
+      "works": 140,
+      "affiliation": "Pasadena City College",
+      "categories": [
+        "VWM",
+        "NN"
+      ],
+      "primary_cat": "VWM",
+      "relevance": 2,
+      "is_seed": true,
+      "radius": 7.22
+    },
+    {
+      "id": "Sanjay Manohar",
+      "full_name": "Sanjay Manohar",
+      "h_index": 41,
+      "cited_by": 5512,
+      "works": 275,
+      "affiliation": "Oxfam",
+      "categories": [
+        "VWM"
+      ],
+      "primary_cat": "VWM",
+      "relevance": 3,
+      "is_seed": true,
+      "radius": 9.96
+    },
+    {
+      "id": "Odelia Schwartz",
+      "full_name": "Odelia Schwartz",
+      "h_index": 22,
+      "cited_by": 3271,
+      "works": 87,
+      "affiliation": "Florida State University",
+      "categories": [
+        "BDM",
+        "fVC"
+      ],
+      "primary_cat": "BDM",
+      "relevance": 2,
+      "is_seed": true,
+      "radius": 6.32
+    },
+    {
+      "id": "Rava da Silveira",
+      "full_name": "Rava Azeredo da Silveira",
+      "h_index": 17,
+      "cited_by": 1307,
+      "works": 54,
+      "affiliation": "Centre National de la Recherche Scientifique",
+      "categories": [
+        "BDM"
+      ],
+      "primary_cat": "BDM",
+      "relevance": 2,
+      "is_seed": true,
+      "radius": 6.02
+    },
+    {
+      "id": "Robert Nosofsky",
+      "full_name": "Robert M. Nosofsky",
+      "h_index": 59,
+      "cited_by": 17699,
+      "works": 200,
+      "affiliation": "Harvard University",
+      "categories": [
+        "CG",
+        "BDM"
+      ],
+      "primary_cat": "CG",
+      "relevance": 3,
+      "is_seed": true,
+      "radius": 11.04
+    },
+    {
+      "id": "Todd Maddox",
+      "full_name": "W. Todd Maddox",
+      "h_index": 54,
+      "cited_by": 10799,
+      "works": 226,
+      "affiliation": "University of California, Santa Barbara",
+      "categories": [
+        "CG",
+        "BDM"
+      ],
+      "primary_cat": "CG",
+      "relevance": 2,
+      "is_seed": true,
+      "radius": 8.24
+    },
+    {
+      "id": "Mark Steyvers",
+      "full_name": "Mark Steyvers",
+      "h_index": 59,
+      "cited_by": 21498,
+      "works": 246,
+      "affiliation": "University of California, Irvine",
+      "categories": [
+        "CG",
+        "BDM"
+      ],
+      "primary_cat": "CG",
+      "relevance": 2,
+      "is_seed": true,
+      "radius": 8.54
+    },
+    {
+      "id": "Matthias Bethge",
+      "full_name": "Matthias Bethge",
+      "h_index": 0,
+      "cited_by": 0,
+      "works": 0,
+      "affiliation": "",
+      "categories": [
+        "NN"
+      ],
+      "primary_cat": "NN",
+      "relevance": 2,
+      "is_seed": false,
+      "is_bridge": true,
+      "radius": 6.0,
+      "connections_detail": {
+        "Marcelo Mattar": 4,
+        "Wieland Brendel": 36
+      }
+    },
+    {
+      "id": "Jean\u2010Paul Noel",
+      "full_name": "Jean\u2010Paul Noel",
+      "h_index": 0,
+      "cited_by": 0,
+      "works": 0,
+      "affiliation": "",
+      "categories": [
+        "SD",
+        "BDM",
+        "METH"
+      ],
+      "primary_cat": "BDM",
+      "relevance": 2,
+      "is_seed": false,
+      "is_bridge": true,
+      "radius": 6.0,
+      "connections_detail": {
+        "Anne Urai": 17,
+        "Luigi Acerbi": 8,
+        "Anne Churchland": 7,
+        "Tatiana Engel": 8
+      }
+    },
+    {
+      "id": "Wei Ji",
+      "full_name": "Wei Ji",
+      "h_index": 0,
+      "cited_by": 0,
+      "works": 0,
+      "affiliation": "",
+      "categories": [
+        "NN",
+        "BDM",
+        "fVC"
+      ],
+      "primary_cat": "BDM",
+      "relevance": 2,
+      "is_seed": false,
+      "is_bridge": true,
+      "radius": 5.85,
+      "connections_detail": {
+        "Alexandre Pouget": 5,
+        "Ronald van den Berg": 14,
+        "Luigi Acerbi": 16,
+        "Thomas Sprague": 4
+      }
+    },
+    {
+      "id": "Matthew T. Kaufman",
+      "full_name": "Matthew T. Kaufman",
+      "h_index": 0,
+      "cited_by": 0,
+      "works": 0,
+      "affiliation": "",
+      "categories": [
+        "NN",
+        "BDM",
+        "METH"
+      ],
+      "primary_cat": "NN",
+      "relevance": 2,
+      "is_seed": false,
+      "is_bridge": true,
+      "radius": 5.7,
+      "connections_detail": {
+        "Mark Churchland": 15,
+        "Daniel Sussillo": 4,
+        "Krishna Shenoy": 11,
+        "Anne Churchland": 8
+      }
+    },
+    {
+      "id": "Raymond J. Dolan",
+      "full_name": "Raymond J. Dolan",
+      "h_index": 0,
+      "cited_by": 0,
+      "works": 0,
+      "affiliation": "",
+      "categories": [
+        "BDM",
+        "fVC"
+      ],
+      "primary_cat": "BDM",
+      "relevance": 2,
+      "is_seed": false,
+      "is_bridge": true,
+      "radius": 5.7,
+      "connections_detail": {
+        "Stephen Fleming": 12,
+        "Evelyn Eger": 7,
+        "Nathaniel Daw": 6,
+        "Peter Dayan": 13
+      }
+    },
+    {
+      "id": "Stephen I. Ryu",
+      "full_name": "Stephen I. Ryu",
+      "h_index": 0,
+      "cited_by": 0,
+      "works": 0,
+      "affiliation": "",
+      "categories": [
+        "NN",
+        "BDM",
+        "METH"
+      ],
+      "primary_cat": "NN",
+      "relevance": 2,
+      "is_seed": false,
+      "is_bridge": true,
+      "radius": 5.55,
+      "connections_detail": {
+        "Roozbeh Kiani": 3,
+        "Mark Churchland": 10,
+        "Maneesh Sahani": 6,
+        "Krishna Shenoy": 14,
+        "Surya Ganguli": 4
+      }
+    },
+    {
+      "id": "Scott Brown",
+      "full_name": "Scott Brown",
+      "h_index": 0,
+      "cited_by": 0,
+      "works": 0,
+      "affiliation": "",
+      "categories": [
+        "fVC",
+        "BDM",
+        "METH"
+      ],
+      "primary_cat": "BDM",
+      "relevance": 2,
+      "is_seed": false,
+      "is_bridge": true,
+      "radius": 5.55,
+      "connections_detail": {
+        "John Serences": 4,
+        "Andrew Heathcote": 21,
+        "Birte Forstmann": 9,
+        "Mark Steyvers": 3
+      }
+    },
+    {
+      "id": "Byron M. Yu",
+      "full_name": "Byron M. Yu",
+      "h_index": 0,
+      "cited_by": 0,
+      "works": 0,
+      "affiliation": "",
+      "categories": [
+        "NN",
+        "METH"
+      ],
+      "primary_cat": "NN",
+      "relevance": 2,
+      "is_seed": false,
+      "is_bridge": true,
+      "radius": 5.55,
+      "connections_detail": {
+        "Christian Machens": 7,
+        "Mark Churchland": 7,
+        "Maneesh Sahani": 10,
+        "Krishna Shenoy": 13
+      }
+    },
+    {
+      "id": "Guido T. Meijer",
+      "full_name": "Guido T. Meijer",
+      "h_index": 0,
+      "cited_by": 0,
+      "works": 0,
+      "affiliation": "",
+      "categories": [
+        "SD",
+        "BDM",
+        "METH"
+      ],
+      "primary_cat": "BDM",
+      "relevance": 2,
+      "is_seed": false,
+      "is_bridge": true,
+      "radius": 5.55,
+      "connections_detail": {
+        "Anne Urai": 15,
+        "Luigi Acerbi": 7,
+        "Anne Churchland": 7,
+        "Tatiana Engel": 8
+      }
+    },
+    {
+      "id": "John P. Cunningham",
+      "full_name": "John P. Cunningham",
+      "h_index": 0,
+      "cited_by": 0,
+      "works": 0,
+      "affiliation": "",
+      "categories": [
+        "NN",
+        "METH"
+      ],
+      "primary_cat": "NN",
+      "relevance": 2,
+      "is_seed": false,
+      "is_bridge": true,
+      "radius": 4.95,
+      "connections_detail": {
+        "Mark Churchland": 17,
+        "Maneesh Sahani": 6,
+        "Krishna Shenoy": 10
+      }
+    },
+    {
+      "id": "Niccol\u00f2 Bonacchi",
+      "full_name": "Niccol\u00f2 Bonacchi",
+      "h_index": 0,
+      "cited_by": 0,
+      "works": 0,
+      "affiliation": "",
+      "categories": [
+        "SD",
+        "BDM",
+        "METH"
+      ],
+      "primary_cat": "BDM",
+      "relevance": 2,
+      "is_seed": false,
+      "is_bridge": true,
+      "radius": 4.05,
+      "connections_detail": {
+        "Anne Urai": 14,
+        "Luigi Acerbi": 6,
+        "Tatiana Engel": 7
+      }
+    },
+    {
+      "id": "Brian Barton",
+      "full_name": "Brian Barton",
+      "h_index": 0,
+      "cited_by": 0,
+      "works": 0,
+      "affiliation": "",
+      "categories": [
+        "METH",
+        "fVC",
+        "VWM"
+      ],
+      "primary_cat": "fVC",
+      "relevance": 2,
+      "is_seed": false,
+      "is_bridge": true,
+      "radius": 4.05,
+      "connections_detail": {
+        "Edward Awh": 3,
+        "Alyssa Brewer": 24
+      }
+    },
+    {
+      "id": "Zachary F. Mainen",
+      "full_name": "Zachary F. Mainen",
+      "h_index": 0,
+      "cited_by": 0,
+      "works": 0,
+      "affiliation": "",
+      "categories": [
+        "NN",
+        "BDM"
+      ],
+      "primary_cat": "BDM",
+      "relevance": 2,
+      "is_seed": false,
+      "is_bridge": true,
+      "radius": 3.9,
+      "connections_detail": {
+        "Adam Kepecs": 9,
+        "Jan Drugowitsch": 4,
+        "Anne Churchland": 8,
+        "Peter Latham": 5
+      }
+    },
+    {
+      "id": "Nicholas A. Steinmetz",
+      "full_name": "Nicholas A. Steinmetz",
+      "h_index": 0,
+      "cited_by": 0,
+      "works": 0,
+      "affiliation": "",
+      "categories": [
+        "NN",
+        "fVC"
+      ],
+      "primary_cat": "NN",
+      "relevance": 2,
+      "is_seed": false,
+      "is_bridge": true,
+      "radius": 3.9,
+      "connections_detail": {
+        "Matteo Carandini": 12,
+        "Tatiana Engel": 14
+      }
+    },
+    {
+      "id": "Megan A. K. Peters",
+      "full_name": "Megan A. K. Peters",
+      "h_index": 0,
+      "cited_by": 0,
+      "works": 0,
+      "affiliation": "",
+      "categories": [
+        "BDM",
+        "fVC"
+      ],
+      "primary_cat": "BDM",
+      "relevance": 2,
+      "is_seed": false,
+      "is_bridge": true,
+      "radius": 3.75,
+      "connections_detail": {
+        "Hakwan Lau": 5,
+        "Brian Maniscalco": 13,
+        "Stephen Fleming": 3,
+        "Dobromir Rahnev": 4
+      }
+    },
+    {
+      "id": "Kevin S. Weiner",
+      "full_name": "Kevin S. Weiner",
+      "h_index": 0,
+      "cited_by": 0,
+      "works": 0,
+      "affiliation": "",
+      "categories": [
+        "METH",
+        "fVC"
+      ],
+      "primary_cat": "fVC",
+      "relevance": 2,
+      "is_seed": false,
+      "is_bridge": true,
+      "radius": 3.75,
+      "connections_detail": {
+        "Kalanit Grill-Spector": 21,
+        "Kendrick Kay": 4
+      }
+    },
+    {
+      "id": "Sophie Den\u00e8ve",
+      "full_name": "Sophie Den\u00e8ve",
+      "h_index": 0,
+      "cited_by": 0,
+      "works": 0,
+      "affiliation": "",
+      "categories": [
+        "NN",
+        "BDM",
+        "METH"
+      ],
+      "primary_cat": "NN",
+      "relevance": 2,
+      "is_seed": false,
+      "is_bridge": true,
+      "radius": 3.5999999999999996,
+      "connections_detail": {
+        "Alexandre Pouget": 8,
+        "Christian Machens": 9,
+        "Peter Latham": 7
+      }
+    },
+    {
+      "id": "Gopal Santhanam",
+      "full_name": "Gopal Santhanam",
+      "h_index": 0,
+      "cited_by": 0,
+      "works": 0,
+      "affiliation": "",
+      "categories": [
+        "NN",
+        "METH"
+      ],
+      "primary_cat": "NN",
+      "relevance": 2,
+      "is_seed": false,
+      "is_bridge": true,
+      "radius": 3.5999999999999996,
+      "connections_detail": {
+        "Mark Churchland": 5,
+        "Maneesh Sahani": 8,
+        "Krishna Shenoy": 11
+      }
+    },
+    {
+      "id": "Edward F. Ester",
+      "full_name": "Edward F. Ester",
+      "h_index": 0,
+      "cited_by": 0,
+      "works": 0,
+      "affiliation": "",
+      "categories": [
+        "fVC",
+        "VWM"
+      ],
+      "primary_cat": "VWM",
+      "relevance": 2,
+      "is_seed": false,
+      "is_bridge": true,
+      "radius": 3.4499999999999997,
+      "connections_detail": {
+        "John Serences": 10,
+        "Thomas Sprague": 7,
+        "Edward Awh": 6
+      }
+    },
+    {
+      "id": "David J. Heeger",
+      "full_name": "David J. Heeger",
+      "h_index": 0,
+      "cited_by": 0,
+      "works": 0,
+      "affiliation": "",
+      "categories": [
+        "METH",
+        "BDM",
+        "fVC"
+      ],
+      "primary_cat": "BDM",
+      "relevance": 2,
+      "is_seed": false,
+      "is_bridge": true,
+      "radius": 3.3,
+      "connections_detail": {
+        "Paul Glimcher": 3,
+        "Tobias Donner": 7,
+        "Eero Simoncelli": 5,
+        "Matteo Carandini": 4,
+        "Michael Landy": 3
+      }
+    },
+    {
+      "id": "Chris Frith",
+      "full_name": "Chris Frith",
+      "h_index": 0,
+      "cited_by": 0,
+      "works": 0,
+      "affiliation": "",
+      "categories": [
+        "BDM",
+        "fVC",
+        "VWM"
+      ],
+      "primary_cat": "BDM",
+      "relevance": 2,
+      "is_seed": false,
+      "is_bridge": true,
+      "radius": 3.3,
+      "connections_detail": {
+        "Hakwan Lau": 4,
+        "Paul Bays": 4,
+        "Daniel Wolpert": 9,
+        "Stephen Fleming": 5
+      }
+    },
+    {
+      "id": "Kenneth D. Harris",
+      "full_name": "Kenneth D. Harris",
+      "h_index": 0,
+      "cited_by": 0,
+      "works": 0,
+      "affiliation": "",
+      "categories": [
+        "NN",
+        "fVC",
+        "BDM"
+      ],
+      "primary_cat": "NN",
+      "relevance": 2,
+      "is_seed": false,
+      "is_bridge": true,
+      "radius": 3.3,
+      "connections_detail": {
+        "Matteo Carandini": 18,
+        "Peter Latham": 4
+      }
+    },
+    {
+      "id": "Jonathan D. Cohen",
+      "full_name": "Jonathan D. Cohen",
+      "h_index": 0,
+      "cited_by": 0,
+      "works": 0,
+      "affiliation": "",
+      "categories": [
+        "NN",
+        "BDM"
+      ],
+      "primary_cat": "NN",
+      "relevance": 2,
+      "is_seed": false,
+      "is_bridge": true,
+      "radius": 3.3,
+      "connections_detail": {
+        "Rafal Bogacz": 7,
+        "Matthew Botvinick": 15
+      }
+    },
+    {
+      "id": "Robert F. Dougherty",
+      "full_name": "Robert F. Dougherty",
+      "h_index": 0,
+      "cited_by": 0,
+      "works": 0,
+      "affiliation": "",
+      "categories": [
+        "METH",
+        "fVC"
+      ],
+      "primary_cat": "fVC",
+      "relevance": 2,
+      "is_seed": false,
+      "is_bridge": true,
+      "radius": 3.3,
+      "connections_detail": {
+        "Brian Wandell": 14,
+        "Jonathan Winawer": 3,
+        "Alyssa Brewer": 5
+      }
+    },
+    {
+      "id": "David E.J. Linden",
+      "full_name": "David E.J. Linden",
+      "h_index": 0,
+      "cited_by": 0,
+      "works": 0,
+      "affiliation": "",
+      "categories": [
+        "SD",
+        "fVC",
+        "METH"
+      ],
+      "primary_cat": "SD",
+      "relevance": 2,
+      "is_seed": false,
+      "is_bridge": true,
+      "radius": 3,
+      "connections_detail": {
+        "Christoph Bledowski": 8,
+        "Rainer Goebel": 12
+      }
+    },
+    {
+      "id": "Laurence T. Maloney",
+      "full_name": "Laurence T. Maloney",
+      "h_index": 0,
+      "cited_by": 0,
+      "works": 0,
+      "affiliation": "",
+      "categories": [
+        "BDM"
+      ],
+      "primary_cat": "BDM",
+      "relevance": 2,
+      "is_seed": false,
+      "is_bridge": true,
+      "radius": 3,
+      "connections_detail": {
+        "Pascal Mamassian": 3,
+        "Michael Landy": 17
+      }
+    },
+    {
+      "id": "Anup Khanal",
+      "full_name": "Anup Khanal",
+      "h_index": 0,
+      "cited_by": 0,
+      "works": 0,
+      "affiliation": "",
+      "categories": [
+        "SD",
+        "BDM",
+        "NN"
+      ],
+      "primary_cat": "BDM",
+      "relevance": 2,
+      "is_seed": false,
+      "is_bridge": true,
+      "radius": 3,
+      "connections_detail": {
+        "Anne Urai": 13,
+        "Anne Churchland": 7
+      }
+    },
+    {
+      "id": "Peter R. Luijten",
+      "full_name": "Peter R. Luijten",
+      "h_index": 0,
+      "cited_by": 0,
+      "works": 0,
+      "affiliation": "",
+      "categories": [
+        "fVC"
+      ],
+      "primary_cat": "fVC",
+      "relevance": 2,
+      "is_seed": false,
+      "is_bridge": true,
+      "radius": 3,
+      "connections_detail": {
+        "Alessio Fracasso": 6,
+        "Natalia Petridou": 14
+      }
+    },
+    {
+      "id": "Peter Kok",
+      "full_name": "Peter Kok",
+      "h_index": 0,
+      "cited_by": 0,
+      "works": 0,
+      "affiliation": "",
+      "categories": [
+        "SD",
+        "fVC",
+        "BDM"
+      ],
+      "primary_cat": "fVC",
+      "relevance": 2,
+      "is_seed": false,
+      "is_bridge": true,
+      "radius": 3,
+      "connections_detail": {
+        "Janneke Jehee": 3,
+        "Floris de Lange": 13,
+        "Dobromir Rahnev": 3
+      }
+    },
+    {
+      "id": "Danielle S. Bassett",
+      "full_name": "Danielle S. Bassett",
+      "h_index": 0,
+      "cited_by": 0,
+      "works": 0,
+      "affiliation": "",
+      "categories": [
+        "NN",
+        "BDM"
+      ],
+      "primary_cat": "NN",
+      "relevance": 2,
+      "is_seed": false,
+      "is_bridge": true,
+      "radius": 3,
+      "connections_detail": {
+        "Marcelo Mattar": 16,
+        "Joshua Gold": 3
+      }
+    },
+    {
+      "id": "Nick F. Ramsey",
+      "full_name": "Nick F. Ramsey",
+      "h_index": 0,
+      "cited_by": 0,
+      "works": 0,
+      "affiliation": "",
+      "categories": [
+        "fVC"
+      ],
+      "primary_cat": "fVC",
+      "relevance": 2,
+      "is_seed": false,
+      "is_bridge": true,
+      "radius": 3,
+      "connections_detail": {
+        "Ben Harvey": 3,
+        "Natalia Petridou": 16
+      }
+    },
+    {
+      "id": "William T. Newsome",
+      "full_name": "William T. Newsome",
+      "h_index": 0,
+      "cited_by": 0,
+      "works": 0,
+      "affiliation": "",
+      "categories": [
+        "NN",
+        "BDM"
+      ],
+      "primary_cat": "BDM",
+      "relevance": 2,
+      "is_seed": false,
+      "is_bridge": true,
+      "radius": 3,
+      "connections_detail": {
+        "Roozbeh Kiani": 7,
+        "Valerio Mante": 3,
+        "Michael Shadlen": 8
+      }
+    },
+    {
+      "id": "Philippe Pinel",
+      "full_name": "Philippe Pinel",
+      "h_index": 0,
+      "cited_by": 0,
+      "works": 0,
+      "affiliation": "",
+      "categories": [
+        "fVC"
+      ],
+      "primary_cat": "fVC",
+      "relevance": 2,
+      "is_seed": false,
+      "is_bridge": true,
+      "radius": 3,
+      "connections_detail": {
+        "Stanislas Dehaene": 7,
+        "Manuela Piazza": 7,
+        "Evelyn Eger": 4
+      }
+    },
+    {
+      "id": "Mayo Faulkner",
+      "full_name": "Mayo Faulkner",
+      "h_index": 0,
+      "cited_by": 0,
+      "works": 0,
+      "affiliation": "",
+      "categories": [
+        "SD",
+        "BDM",
+        "METH"
+      ],
+      "primary_cat": "BDM",
+      "relevance": 2,
+      "is_seed": false,
+      "is_bridge": true,
+      "radius": 3,
+      "connections_detail": {
+        "Anne Urai": 12,
+        "Luigi Acerbi": 6
+      }
+    },
+    {
+      "id": "Daniel Yamins",
+      "full_name": "Daniel Yamins",
+      "h_index": 0,
+      "cited_by": 0,
+      "works": 0,
+      "affiliation": "",
+      "categories": [
+        "NN",
+        "fVC"
+      ],
+      "primary_cat": "NN",
+      "relevance": 2,
+      "is_seed": false,
+      "is_bridge": true,
+      "radius": 3,
+      "connections_detail": {
+        "Daniel Sussillo": 4,
+        "Surya Ganguli": 3,
+        "James DiCarlo": 11
+      }
+    },
+    {
+      "id": "Jack L. Gallant",
+      "full_name": "Jack L. Gallant",
+      "h_index": 0,
+      "cited_by": 0,
+      "works": 0,
+      "affiliation": "",
+      "categories": [
+        "METH",
+        "fVC"
+      ],
+      "primary_cat": "fVC",
+      "relevance": 2,
+      "is_seed": false,
+      "is_bridge": true,
+      "radius": 3,
+      "connections_detail": {
+        "Kendrick Kay": 7,
+        "Thomas Naselaris": 11
+      }
+    },
+    {
+      "id": "Ranulfo Romo",
+      "full_name": "Ranulfo Romo",
+      "h_index": 0,
+      "cited_by": 0,
+      "works": 0,
+      "affiliation": "",
+      "categories": [
+        "NN",
+        "BDM",
+        "METH"
+      ],
+      "primary_cat": "NN",
+      "relevance": 2,
+      "is_seed": false,
+      "is_bridge": true,
+      "radius": 3,
+      "connections_detail": {
+        "Carlos Brody": 10,
+        "Christian Machens": 4,
+        "Omri Barak": 3
+      }
+    },
+    {
+      "id": "Rachel N. Denison",
+      "full_name": "Rachel N. Denison",
+      "h_index": 0,
+      "cited_by": 0,
+      "works": 0,
+      "affiliation": "",
+      "categories": [
+        "fVC",
+        "BDM",
+        "VWM"
+      ],
+      "primary_cat": "BDM",
+      "relevance": 2,
+      "is_seed": false,
+      "is_bridge": true,
+      "radius": 3,
+      "connections_detail": {
+        "Janneke Jehee": 4,
+        "Brian Maniscalco": 5,
+        "Dobromir Rahnev": 4,
+        "Ariel Zylberberg": 4
+      }
+    },
+    {
+      "id": "Yang Dan",
+      "full_name": "Yang Dan",
+      "h_index": 0,
+      "cited_by": 0,
+      "works": 0,
+      "affiliation": "",
+      "categories": [
+        "METH",
+        "BDM",
+        "NN"
+      ],
+      "primary_cat": "BDM",
+      "relevance": 2,
+      "is_seed": false,
+      "is_bridge": true,
+      "radius": 3,
+      "connections_detail": {
+        "Luigi Acerbi": 6,
+        "Anne Churchland": 7,
+        "Peter Latham": 4
+      }
+    },
+    {
+      "id": "Peter A. Bandettini",
+      "full_name": "Peter A. Bandettini",
+      "h_index": 0,
+      "cited_by": 0,
+      "works": 0,
+      "affiliation": "",
+      "categories": [
+        "METH",
+        "fVC",
+        "NN"
+      ],
+      "primary_cat": "fVC",
+      "relevance": 2,
+      "is_seed": false,
+      "is_bridge": true,
+      "radius": 3,
+      "connections_detail": {
+        "Nikolaus Kriegeskorte": 7,
+        "Marieke Mur": 6,
+        "Natalia Petridou": 4
+      }
+    },
+    {
+      "id": "Ian Charest",
+      "full_name": "Ian Charest",
+      "h_index": 0,
+      "cited_by": 0,
+      "works": 0,
+      "affiliation": "",
+      "categories": [
+        "METH",
+        "fVC",
+        "NN"
+      ],
+      "primary_cat": "fVC",
+      "relevance": 2,
+      "is_seed": false,
+      "is_bridge": true,
+      "radius": 3,
+      "connections_detail": {
+        "Nikolaus Kriegeskorte": 3,
+        "Kendrick Kay": 5,
+        "Tim Kietzmann": 4,
+        "Thomas Naselaris": 5
+      }
+    },
+    {
+      "id": "Chaipat Chunharas",
+      "full_name": "Chaipat Chunharas",
+      "h_index": 0,
+      "cited_by": 0,
+      "works": 0,
+      "affiliation": "",
+      "categories": [
+        "fVC",
+        "VWM"
+      ],
+      "primary_cat": "VWM",
+      "relevance": 2,
+      "is_seed": false,
+      "is_bridge": true,
+      "radius": 3,
+      "connections_detail": {
+        "Thomas Sprague": 4,
+        "Rosanne Rademaker": 13
+      }
+    },
+    {
+      "id": "Kenneth A. Norman",
+      "full_name": "Kenneth A. Norman",
+      "h_index": 0,
+      "cited_by": 0,
+      "works": 0,
+      "affiliation": "",
+      "categories": [
+        "NN",
+        "BDM",
+        "METH"
+      ],
+      "primary_cat": "BDM",
+      "relevance": 2,
+      "is_seed": false,
+      "is_bridge": true,
+      "radius": 3,
+      "connections_detail": {
+        "Samuel Gershman": 7,
+        "Jonathan Pillow": 3,
+        "Yael Niv": 6
+      }
+    },
+    {
+      "id": "George A. Alvarez",
+      "full_name": "George A. Alvarez",
+      "h_index": 0,
+      "cited_by": 0,
+      "works": 0,
+      "affiliation": "",
+      "categories": [
+        "VWM"
+      ],
+      "primary_cat": "VWM",
+      "relevance": 2,
+      "is_seed": false,
+      "is_bridge": true,
+      "radius": 3,
+      "connections_detail": {
+        "Daryl Fougnie": 13,
+        "Jeremy Wolfe": 3
+      }
+    },
+    {
+      "id": "Karl Friston",
+      "full_name": "Karl Friston",
+      "h_index": 0,
+      "cited_by": 0,
+      "works": 0,
+      "affiliation": "",
+      "categories": [
+        "BDM"
+      ],
+      "primary_cat": "BDM",
+      "relevance": 2,
+      "is_seed": false,
+      "is_bridge": true,
+      "radius": 3,
+      "connections_detail": {
+        "Giovanni Pezzulo": 12,
+        "Peter Dayan": 4
+      }
+    },
+    {
+      "id": "Sander Nieuwenhuis",
+      "full_name": "Sander Nieuwenhuis",
+      "h_index": 0,
+      "cited_by": 0,
+      "works": 0,
+      "affiliation": "",
+      "categories": [
+        "SD",
+        "BDM",
+        "METH"
+      ],
+      "primary_cat": "BDM",
+      "relevance": 2,
+      "is_seed": false,
+      "is_bridge": true,
+      "radius": 3,
+      "connections_detail": {
+        "Peter Murphy": 11,
+        "Birte Forstmann": 5
+      }
+    },
+    {
+      "id": "Emily Allen",
+      "full_name": "Emily Allen",
+      "h_index": 0,
+      "cited_by": 0,
+      "works": 0,
+      "affiliation": "",
+      "categories": [
+        "METH",
+        "fVC"
+      ],
+      "primary_cat": "fVC",
+      "relevance": 2,
+      "is_seed": false,
+      "is_bridge": true,
+      "radius": 3,
+      "connections_detail": {
+        "Kendrick Kay": 5,
+        "Thomas Naselaris": 11
+      }
+    },
+    {
+      "id": "Armin Lak",
+      "full_name": "Armin Lak",
+      "h_index": 0,
+      "cited_by": 0,
+      "works": 0,
+      "affiliation": "",
+      "categories": [
+        "SD",
+        "BDM",
+        "fVC"
+      ],
+      "primary_cat": "BDM",
+      "relevance": 2,
+      "is_seed": false,
+      "is_bridge": true,
+      "radius": 3,
+      "connections_detail": {
+        "Adam Kepecs": 5,
+        "Matthias Fritsche": 10
+      }
+    },
+    {
+      "id": "Jeffrey M. Beck",
+      "full_name": "Jeffrey M. Beck",
+      "h_index": 0,
+      "cited_by": 0,
+      "works": 0,
+      "affiliation": "",
+      "categories": [
+        "NN",
+        "BDM"
+      ],
+      "primary_cat": "BDM",
+      "relevance": 2,
+      "is_seed": false,
+      "is_bridge": true,
+      "radius": 3,
+      "connections_detail": {
+        "Alexandre Pouget": 9,
+        "Peter Latham": 6
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "Carlos Brody",
+      "target": "Timothy Hanks",
+      "weight": 5,
+      "type": "seed"
+    },
+    {
+      "source": "Roozbeh Kiani",
+      "target": "Timothy Hanks",
+      "weight": 7,
+      "type": "seed"
+    },
+    {
+      "source": "Michael Shadlen",
+      "target": "Roozbeh Kiani",
+      "weight": 12,
+      "type": "seed"
+    },
+    {
+      "source": "Michael Shadlen",
+      "target": "Timothy Hanks",
+      "weight": 3,
+      "type": "seed"
+    },
+    {
+      "source": "Alexandre Pouget",
+      "target": "Michael Shadlen",
+      "weight": 3,
+      "type": "seed"
+    },
+    {
+      "source": "Alan Stocker",
+      "target": "Eero Simoncelli",
+      "weight": 8,
+      "type": "seed"
+    },
+    {
+      "source": "Alan Stocker",
+      "target": "Xue-Xin Wei",
+      "weight": 7,
+      "type": "seed"
+    },
+    {
+      "source": "Athena Akrami",
+      "target": "Carlos Brody",
+      "weight": 8,
+      "type": "seed"
+    },
+    {
+      "source": "Manuela Piazza",
+      "target": "Stanislas Dehaene",
+      "weight": 24,
+      "type": "seed"
+    },
+    {
+      "source": "Daniel Wolpert",
+      "target": "Paul Bays",
+      "weight": 6,
+      "type": "seed"
+    },
+    {
+      "source": "Daniel Wolpert",
+      "target": "Roozbeh Kiani",
+      "weight": 2,
+      "type": "seed"
+    },
+    {
+      "source": "Daniel Wolpert",
+      "target": "Michael Shadlen",
+      "weight": 2,
+      "type": "seed"
+    },
+    {
+      "source": "Ronald van den Berg",
+      "target": "Roozbeh Kiani",
+      "weight": 2,
+      "type": "seed"
+    },
+    {
+      "source": "Ronald van den Berg",
+      "target": "Michael Shadlen",
+      "weight": 2,
+      "type": "seed"
+    },
+    {
+      "source": "Ronald van den Berg",
+      "target": "Daniel Wolpert",
+      "weight": 2,
+      "type": "seed"
+    },
+    {
+      "source": "Sebastian Schneegans",
+      "target": "Paul Bays",
+      "weight": 21,
+      "type": "seed"
+    },
+    {
+      "source": "Anne Urai",
+      "target": "Tobias Donner",
+      "weight": 16,
+      "type": "seed"
+    },
+    {
+      "source": "Floris de Lange",
+      "target": "Hakwan Lau",
+      "weight": 6,
+      "type": "seed"
+    },
+    {
+      "source": "Floris de Lange",
+      "target": "Janneke Jehee",
+      "weight": 2,
+      "type": "seed"
+    },
+    {
+      "source": "Floris de Lange",
+      "target": "Matthias Fritsche",
+      "weight": 2,
+      "type": "seed"
+    },
+    {
+      "source": "Wieland Brendel",
+      "target": "Christian Machens",
+      "weight": 3,
+      "type": "seed"
+    },
+    {
+      "source": "Reza Shadmehr",
+      "target": "John Krakauer",
+      "weight": 5,
+      "type": "seed"
+    },
+    {
+      "source": "Brian Maniscalco",
+      "target": "Hakwan Lau",
+      "weight": 28,
+      "type": "seed"
+    },
+    {
+      "source": "Brian Maniscalco",
+      "target": "Floris de Lange",
+      "weight": 3,
+      "type": "seed"
+    },
+    {
+      "source": "Jan Drugowitsch",
+      "target": "Alexandre Pouget",
+      "weight": 14,
+      "type": "seed"
+    },
+    {
+      "source": "Jan Drugowitsch",
+      "target": "Valentin Wyart",
+      "weight": 5,
+      "type": "seed"
+    },
+    {
+      "source": "Jan Drugowitsch",
+      "target": "Samuel Gershman",
+      "weight": 3,
+      "type": "seed"
+    },
+    {
+      "source": "Valentin Wyart",
+      "target": "Christopher Summerfield",
+      "weight": 10,
+      "type": "seed"
+    },
+    {
+      "source": "Mehrdad Jazayeri",
+      "target": "Michael Shadlen",
+      "weight": 7,
+      "type": "seed"
+    },
+    {
+      "source": "Kenway Louie",
+      "target": "Paul Glimcher",
+      "weight": 31,
+      "type": "seed"
+    },
+    {
+      "source": "Liam Paninski",
+      "target": "Eero Simoncelli",
+      "weight": 7,
+      "type": "seed"
+    },
+    {
+      "source": "Matteo Carandini",
+      "target": "Valerio Mante",
+      "weight": 3,
+      "type": "seed"
+    },
+    {
+      "source": "Stephen Fleming",
+      "target": "Hakwan Lau",
+      "weight": 6,
+      "type": "seed"
+    },
+    {
+      "source": "Dobromir Rahnev",
+      "target": "Hakwan Lau",
+      "weight": 16,
+      "type": "seed"
+    },
+    {
+      "source": "Dobromir Rahnev",
+      "target": "Floris de Lange",
+      "weight": 8,
+      "type": "seed"
+    },
+    {
+      "source": "Dobromir Rahnev",
+      "target": "Stephen Fleming",
+      "weight": 6,
+      "type": "seed"
+    },
+    {
+      "source": "Dobromir Rahnev",
+      "target": "Janneke Jehee",
+      "weight": 4,
+      "type": "seed"
+    },
+    {
+      "source": "Dobromir Rahnev",
+      "target": "Brian Maniscalco",
+      "weight": 4,
+      "type": "seed"
+    },
+    {
+      "source": "Ben Harvey",
+      "target": "Serge Dumoulin",
+      "weight": 33,
+      "type": "seed"
+    },
+    {
+      "source": "Evelyn Eger",
+      "target": "Stanislas Dehaene",
+      "weight": 12,
+      "type": "seed"
+    },
+    {
+      "source": "Evelyn Eger",
+      "target": "Manuela Piazza",
+      "weight": 12,
+      "type": "seed"
+    },
+    {
+      "source": "Nikolaus Troje",
+      "target": "Heinrich B\u00fclthoff",
+      "weight": 3,
+      "type": "seed"
+    },
+    {
+      "source": "Thomas Griffiths",
+      "target": "Joshua Tenenbaum",
+      "weight": 15,
+      "type": "seed"
+    },
+    {
+      "source": "Devika Narain",
+      "target": "Mehrdad Jazayeri",
+      "weight": 10,
+      "type": "seed"
+    },
+    {
+      "source": "Devika Narain",
+      "target": "Pascal Mamassian",
+      "weight": 3,
+      "type": "seed"
+    },
+    {
+      "source": "Stefano Fusi",
+      "target": "Xiao-Jing Wang",
+      "weight": 3,
+      "type": "seed"
+    },
+    {
+      "source": "Jonathan Pillow",
+      "target": "Liam Paninski",
+      "weight": 10,
+      "type": "seed"
+    },
+    {
+      "source": "Jonathan Pillow",
+      "target": "Eero Simoncelli",
+      "weight": 9,
+      "type": "seed"
+    },
+    {
+      "source": "Jonathan Pillow",
+      "target": "Il Memming Park",
+      "weight": 7,
+      "type": "seed"
+    },
+    {
+      "source": "Jonathan Pillow",
+      "target": "Anne Churchland",
+      "weight": 4,
+      "type": "seed"
+    },
+    {
+      "source": "Jonathan Pillow",
+      "target": "Alexandre Pouget",
+      "weight": 4,
+      "type": "seed"
+    },
+    {
+      "source": "Joshua Gold",
+      "target": "Michael Shadlen",
+      "weight": 6,
+      "type": "seed"
+    },
+    {
+      "source": "Thomas Sprague",
+      "target": "John Serences",
+      "weight": 24,
+      "type": "seed"
+    },
+    {
+      "source": "Maneesh Sahani",
+      "target": "Krishna Shenoy",
+      "weight": 17,
+      "type": "seed"
+    },
+    {
+      "source": "Maneesh Sahani",
+      "target": "Mark Churchland",
+      "weight": 4,
+      "type": "seed"
+    },
+    {
+      "source": "Krishna Shenoy",
+      "target": "Mark Churchland",
+      "weight": 18,
+      "type": "seed"
+    },
+    {
+      "source": "Krishna Shenoy",
+      "target": "Daniel Sussillo",
+      "weight": 7,
+      "type": "seed"
+    },
+    {
+      "source": "Michael Landy",
+      "target": "Pascal Mamassian",
+      "weight": 3,
+      "type": "seed"
+    },
+    {
+      "source": "Michael Landy",
+      "target": "Eero Simoncelli",
+      "weight": 2,
+      "type": "seed"
+    },
+    {
+      "source": "Ariel Zylberberg",
+      "target": "Michael Shadlen",
+      "weight": 29,
+      "type": "seed"
+    },
+    {
+      "source": "Ariel Zylberberg",
+      "target": "Daniel Wolpert",
+      "weight": 13,
+      "type": "seed"
+    },
+    {
+      "source": "Ariel Zylberberg",
+      "target": "Dobromir Rahnev",
+      "weight": 4,
+      "type": "seed"
+    },
+    {
+      "source": "Anne Churchland",
+      "target": "Anne Urai",
+      "weight": 11,
+      "type": "seed"
+    },
+    {
+      "source": "Anne Churchland",
+      "target": "Alexandre Pouget",
+      "weight": 10,
+      "type": "seed"
+    },
+    {
+      "source": "Anne Churchland",
+      "target": "Roozbeh Kiani",
+      "weight": 8,
+      "type": "seed"
+    },
+    {
+      "source": "Anne Churchland",
+      "target": "Michael Shadlen",
+      "weight": 8,
+      "type": "seed"
+    },
+    {
+      "source": "Anne Churchland",
+      "target": "Matteo Carandini",
+      "weight": 8,
+      "type": "seed"
+    },
+    {
+      "source": "Nathaniel Daw",
+      "target": "Samuel Gershman",
+      "weight": 5,
+      "type": "seed"
+    },
+    {
+      "source": "Matthew Botvinick",
+      "target": "Samuel Gershman",
+      "weight": 4,
+      "type": "seed"
+    },
+    {
+      "source": "Surya Ganguli",
+      "target": "Krishna Shenoy",
+      "weight": 4,
+      "type": "seed"
+    },
+    {
+      "source": "Frank Tong",
+      "target": "Janneke Jehee",
+      "weight": 2,
+      "type": "seed"
+    },
+    {
+      "source": "Peter Latham",
+      "target": "Alexandre Pouget",
+      "weight": 19,
+      "type": "seed"
+    },
+    {
+      "source": "Peter Latham",
+      "target": "Anne Churchland",
+      "weight": 6,
+      "type": "seed"
+    },
+    {
+      "source": "Peter Latham",
+      "target": "Surya Ganguli",
+      "weight": 4,
+      "type": "seed"
+    },
+    {
+      "source": "Peter Latham",
+      "target": "Matteo Carandini",
+      "weight": 4,
+      "type": "seed"
+    },
+    {
+      "source": "Peter Murphy",
+      "target": "Tobias Donner",
+      "weight": 7,
+      "type": "seed"
+    },
+    {
+      "source": "David Knill",
+      "target": "Daniel Kersten",
+      "weight": 9,
+      "type": "seed"
+    },
+    {
+      "source": "David Knill",
+      "target": "Pascal Mamassian",
+      "weight": 5,
+      "type": "seed"
+    },
+    {
+      "source": "David Knill",
+      "target": "Alexandre Pouget",
+      "weight": 2,
+      "type": "seed"
+    },
+    {
+      "source": "David Knill",
+      "target": "Eero Simoncelli",
+      "weight": 2,
+      "type": "seed"
+    },
+    {
+      "source": "Daniel Kersten",
+      "target": "Pascal Mamassian",
+      "weight": 5,
+      "type": "seed"
+    },
+    {
+      "source": "Daniel Kersten",
+      "target": "Heinrich B\u00fclthoff",
+      "weight": 2,
+      "type": "seed"
+    },
+    {
+      "source": "Hansem Sohn",
+      "target": "Mehrdad Jazayeri",
+      "weight": 19,
+      "type": "seed"
+    },
+    {
+      "source": "Hansem Sohn",
+      "target": "Devika Narain",
+      "weight": 3,
+      "type": "seed"
+    },
+    {
+      "source": "Long Luu",
+      "target": "Alan Stocker",
+      "weight": 13,
+      "type": "seed"
+    },
+    {
+      "source": "Masud Husain",
+      "target": "Paul Bays",
+      "weight": 7,
+      "type": "seed"
+    },
+    {
+      "source": "Chris Sims",
+      "target": "Yael Niv",
+      "weight": 4,
+      "type": "seed"
+    },
+    {
+      "source": "Chris Sims",
+      "target": "David Knill",
+      "weight": 3,
+      "type": "seed"
+    },
+    {
+      "source": "Brian Wandell",
+      "target": "Kendrick Kay",
+      "weight": 5,
+      "type": "seed"
+    },
+    {
+      "source": "Brian Wandell",
+      "target": "Serge Dumoulin",
+      "weight": 3,
+      "type": "seed"
+    },
+    {
+      "source": "Guangyu Robert Yang",
+      "target": "Xiao-Jing Wang",
+      "weight": 17,
+      "type": "seed"
+    },
+    {
+      "source": "Tatiana Engel",
+      "target": "Anne Churchland",
+      "weight": 9,
+      "type": "seed"
+    },
+    {
+      "source": "Tatiana Engel",
+      "target": "Matteo Carandini",
+      "weight": 7,
+      "type": "seed"
+    },
+    {
+      "source": "Clayton Curtis",
+      "target": "Thomas Sprague",
+      "weight": 3,
+      "type": "seed"
+    },
+    {
+      "source": "Edward Awh",
+      "target": "John Serences",
+      "weight": 8,
+      "type": "seed"
+    },
+    {
+      "source": "Rosanne Rademaker",
+      "target": "John Serences",
+      "weight": 16,
+      "type": "seed"
+    },
+    {
+      "source": "Rosanne Rademaker",
+      "target": "Frank Tong",
+      "weight": 9,
+      "type": "seed"
+    },
+    {
+      "source": "Rosanne Rademaker",
+      "target": "Thomas Sprague",
+      "weight": 3,
+      "type": "seed"
+    },
+    {
+      "source": "Kendrick Kay",
+      "target": "Kalanit Grill-Spector",
+      "weight": 5,
+      "type": "seed"
+    },
+    {
+      "source": "Birte Forstmann",
+      "target": "Eric-Jan Wagenmakers",
+      "weight": 17,
+      "type": "seed"
+    },
+    {
+      "source": "Birte Forstmann",
+      "target": "Roger Ratcliff",
+      "weight": 4,
+      "type": "seed"
+    },
+    {
+      "source": "Eric-Jan Wagenmakers",
+      "target": "Roger Ratcliff",
+      "weight": 5,
+      "type": "seed"
+    },
+    {
+      "source": "Rub\u00e9n Moreno-Bote",
+      "target": "Jan Drugowitsch",
+      "weight": 10,
+      "type": "seed"
+    },
+    {
+      "source": "Rub\u00e9n Moreno-Bote",
+      "target": "Alexandre Pouget",
+      "weight": 5,
+      "type": "seed"
+    },
+    {
+      "source": "Mate Lengyel",
+      "target": "Daniel Wolpert",
+      "weight": 8,
+      "type": "seed"
+    },
+    {
+      "source": "Mate Lengyel",
+      "target": "Peter Dayan",
+      "weight": 6,
+      "type": "seed"
+    },
+    {
+      "source": "Peter Dayan",
+      "target": "Nathaniel Daw",
+      "weight": 10,
+      "type": "seed"
+    },
+    {
+      "source": "Peter Dayan",
+      "target": "Yael Niv",
+      "weight": 5,
+      "type": "seed"
+    },
+    {
+      "source": "Peter Dayan",
+      "target": "Alexandre Pouget",
+      "weight": 4,
+      "type": "seed"
+    },
+    {
+      "source": "Yael Niv",
+      "target": "Samuel Gershman",
+      "weight": 7,
+      "type": "seed"
+    },
+    {
+      "source": "Yael Niv",
+      "target": "Nathaniel Daw",
+      "weight": 5,
+      "type": "seed"
+    },
+    {
+      "source": "Yael Niv",
+      "target": "Matthew Botvinick",
+      "weight": 3,
+      "type": "seed"
+    },
+    {
+      "source": "Jonathan Winawer",
+      "target": "Brian Wandell",
+      "weight": 13,
+      "type": "seed"
+    },
+    {
+      "source": "Jonathan Winawer",
+      "target": "Kendrick Kay",
+      "weight": 8,
+      "type": "seed"
+    },
+    {
+      "source": "Jonathan Winawer",
+      "target": "Noah Benson",
+      "weight": 8,
+      "type": "seed"
+    },
+    {
+      "source": "Jonathan Winawer",
+      "target": "Natalia Petridou",
+      "weight": 3,
+      "type": "seed"
+    },
+    {
+      "source": "Noah Benson",
+      "target": "Kendrick Kay",
+      "weight": 10,
+      "type": "seed"
+    },
+    {
+      "source": "Noah Benson",
+      "target": "Denis Pelli",
+      "weight": 4,
+      "type": "seed"
+    },
+    {
+      "source": "Marieke Mur",
+      "target": "Nikolaus Kriegeskorte",
+      "weight": 24,
+      "type": "seed"
+    },
+    {
+      "source": "Tim Kietzmann",
+      "target": "Nikolaus Kriegeskorte",
+      "weight": 17,
+      "type": "seed"
+    },
+    {
+      "source": "Alessio Fracasso",
+      "target": "Serge Dumoulin",
+      "weight": 21,
+      "type": "seed"
+    },
+    {
+      "source": "Alessio Fracasso",
+      "target": "Natalia Petridou",
+      "weight": 15,
+      "type": "seed"
+    },
+    {
+      "source": "Alessio Fracasso",
+      "target": "Ben Harvey",
+      "weight": 5,
+      "type": "seed"
+    },
+    {
+      "source": "Thomas Naselaris",
+      "target": "Kendrick Kay",
+      "weight": 24,
+      "type": "seed"
+    },
+    {
+      "source": "Alyssa Brewer",
+      "target": "Brian Wandell",
+      "weight": 17,
+      "type": "seed"
+    },
+    {
+      "source": "Alyssa Brewer",
+      "target": "Serge Dumoulin",
+      "weight": 4,
+      "type": "seed"
+    },
+    {
+      "source": "Denis Pelli",
+      "target": "Jonathan Winawer",
+      "weight": 2,
+      "type": "seed"
+    },
+    {
+      "source": "Tomas Knapen",
+      "target": "Serge Dumoulin",
+      "weight": 5,
+      "type": "seed"
+    },
+    {
+      "source": "Tomas Knapen",
+      "target": "Tobias Donner",
+      "weight": 3,
+      "type": "seed"
+    },
+    {
+      "source": "Natalia Petridou",
+      "target": "Serge Dumoulin",
+      "weight": 15,
+      "type": "seed"
+    },
+    {
+      "source": "Natalia Petridou",
+      "target": "Ben Harvey",
+      "weight": 6,
+      "type": "seed"
+    },
+    {
+      "source": "Rainer Goebel",
+      "target": "Nikolaus Kriegeskorte",
+      "weight": 4,
+      "type": "seed"
+    },
+    {
+      "source": "Omri Barak",
+      "target": "Misha Tsodyks",
+      "weight": 10,
+      "type": "seed"
+    },
+    {
+      "source": "Sanjay Manohar",
+      "target": "Masud Husain",
+      "weight": 40,
+      "type": "seed"
+    },
+    {
+      "source": "Odelia Schwartz",
+      "target": "Eero Simoncelli",
+      "weight": 10,
+      "type": "seed"
+    },
+    {
+      "source": "Odelia Schwartz",
+      "target": "Peter Dayan",
+      "weight": 7,
+      "type": "seed"
+    },
+    {
+      "source": "Odelia Schwartz",
+      "target": "Jonathan Pillow",
+      "weight": 2,
+      "type": "seed"
+    },
+    {
+      "source": "Rava da Silveira",
+      "target": "Michael Woodford",
+      "weight": 12,
+      "type": "seed"
+    },
+    {
+      "source": "Todd Maddox",
+      "target": "F. Gregory Ashby",
+      "weight": 10,
+      "type": "seed"
+    },
+    {
+      "source": "Mark Steyvers",
+      "target": "Thomas Griffiths",
+      "weight": 11,
+      "type": "seed"
+    },
+    {
+      "source": "Mark Steyvers",
+      "target": "Joshua Tenenbaum",
+      "weight": 5,
+      "type": "seed"
+    },
+    {
+      "source": "Mark Steyvers",
+      "target": "Eric-Jan Wagenmakers",
+      "weight": 5,
+      "type": "seed"
+    },
+    {
+      "source": "Matthias Bethge",
+      "target": "Marcelo Mattar",
+      "weight": 4,
+      "type": "bridge"
+    },
+    {
+      "source": "Matthias Bethge",
+      "target": "Wieland Brendel",
+      "weight": 36,
+      "type": "bridge"
+    },
+    {
+      "source": "Jean\u2010Paul Noel",
+      "target": "Anne Urai",
+      "weight": 17,
+      "type": "bridge"
+    },
+    {
+      "source": "Jean\u2010Paul Noel",
+      "target": "Luigi Acerbi",
+      "weight": 8,
+      "type": "bridge"
+    },
+    {
+      "source": "Jean\u2010Paul Noel",
+      "target": "Anne Churchland",
+      "weight": 7,
+      "type": "bridge"
+    },
+    {
+      "source": "Jean\u2010Paul Noel",
+      "target": "Tatiana Engel",
+      "weight": 8,
+      "type": "bridge"
+    },
+    {
+      "source": "Wei Ji",
+      "target": "Alexandre Pouget",
+      "weight": 5,
+      "type": "bridge"
+    },
+    {
+      "source": "Wei Ji",
+      "target": "Ronald van den Berg",
+      "weight": 14,
+      "type": "bridge"
+    },
+    {
+      "source": "Wei Ji",
+      "target": "Luigi Acerbi",
+      "weight": 16,
+      "type": "bridge"
+    },
+    {
+      "source": "Wei Ji",
+      "target": "Thomas Sprague",
+      "weight": 4,
+      "type": "bridge"
+    },
+    {
+      "source": "Matthew T. Kaufman",
+      "target": "Mark Churchland",
+      "weight": 15,
+      "type": "bridge"
+    },
+    {
+      "source": "Matthew T. Kaufman",
+      "target": "Daniel Sussillo",
+      "weight": 4,
+      "type": "bridge"
+    },
+    {
+      "source": "Matthew T. Kaufman",
+      "target": "Krishna Shenoy",
+      "weight": 11,
+      "type": "bridge"
+    },
+    {
+      "source": "Matthew T. Kaufman",
+      "target": "Anne Churchland",
+      "weight": 8,
+      "type": "bridge"
+    },
+    {
+      "source": "Raymond J. Dolan",
+      "target": "Stephen Fleming",
+      "weight": 12,
+      "type": "bridge"
+    },
+    {
+      "source": "Raymond J. Dolan",
+      "target": "Evelyn Eger",
+      "weight": 7,
+      "type": "bridge"
+    },
+    {
+      "source": "Raymond J. Dolan",
+      "target": "Nathaniel Daw",
+      "weight": 6,
+      "type": "bridge"
+    },
+    {
+      "source": "Raymond J. Dolan",
+      "target": "Peter Dayan",
+      "weight": 13,
+      "type": "bridge"
+    },
+    {
+      "source": "Stephen I. Ryu",
+      "target": "Roozbeh Kiani",
+      "weight": 3,
+      "type": "bridge"
+    },
+    {
+      "source": "Stephen I. Ryu",
+      "target": "Mark Churchland",
+      "weight": 10,
+      "type": "bridge"
+    },
+    {
+      "source": "Stephen I. Ryu",
+      "target": "Maneesh Sahani",
+      "weight": 6,
+      "type": "bridge"
+    },
+    {
+      "source": "Stephen I. Ryu",
+      "target": "Krishna Shenoy",
+      "weight": 14,
+      "type": "bridge"
+    },
+    {
+      "source": "Stephen I. Ryu",
+      "target": "Surya Ganguli",
+      "weight": 4,
+      "type": "bridge"
+    },
+    {
+      "source": "Scott Brown",
+      "target": "John Serences",
+      "weight": 4,
+      "type": "bridge"
+    },
+    {
+      "source": "Scott Brown",
+      "target": "Andrew Heathcote",
+      "weight": 21,
+      "type": "bridge"
+    },
+    {
+      "source": "Scott Brown",
+      "target": "Birte Forstmann",
+      "weight": 9,
+      "type": "bridge"
+    },
+    {
+      "source": "Scott Brown",
+      "target": "Mark Steyvers",
+      "weight": 3,
+      "type": "bridge"
+    },
+    {
+      "source": "Byron M. Yu",
+      "target": "Christian Machens",
+      "weight": 7,
+      "type": "bridge"
+    },
+    {
+      "source": "Byron M. Yu",
+      "target": "Mark Churchland",
+      "weight": 7,
+      "type": "bridge"
+    },
+    {
+      "source": "Byron M. Yu",
+      "target": "Maneesh Sahani",
+      "weight": 10,
+      "type": "bridge"
+    },
+    {
+      "source": "Byron M. Yu",
+      "target": "Krishna Shenoy",
+      "weight": 13,
+      "type": "bridge"
+    },
+    {
+      "source": "Guido T. Meijer",
+      "target": "Anne Urai",
+      "weight": 15,
+      "type": "bridge"
+    },
+    {
+      "source": "Guido T. Meijer",
+      "target": "Luigi Acerbi",
+      "weight": 7,
+      "type": "bridge"
+    },
+    {
+      "source": "Guido T. Meijer",
+      "target": "Anne Churchland",
+      "weight": 7,
+      "type": "bridge"
+    },
+    {
+      "source": "Guido T. Meijer",
+      "target": "Tatiana Engel",
+      "weight": 8,
+      "type": "bridge"
+    },
+    {
+      "source": "John P. Cunningham",
+      "target": "Mark Churchland",
+      "weight": 17,
+      "type": "bridge"
+    },
+    {
+      "source": "John P. Cunningham",
+      "target": "Maneesh Sahani",
+      "weight": 6,
+      "type": "bridge"
+    },
+    {
+      "source": "John P. Cunningham",
+      "target": "Krishna Shenoy",
+      "weight": 10,
+      "type": "bridge"
+    },
+    {
+      "source": "Niccol\u00f2 Bonacchi",
+      "target": "Anne Urai",
+      "weight": 14,
+      "type": "bridge"
+    },
+    {
+      "source": "Niccol\u00f2 Bonacchi",
+      "target": "Luigi Acerbi",
+      "weight": 6,
+      "type": "bridge"
+    },
+    {
+      "source": "Niccol\u00f2 Bonacchi",
+      "target": "Tatiana Engel",
+      "weight": 7,
+      "type": "bridge"
+    },
+    {
+      "source": "Brian Barton",
+      "target": "Edward Awh",
+      "weight": 3,
+      "type": "bridge"
+    },
+    {
+      "source": "Brian Barton",
+      "target": "Alyssa Brewer",
+      "weight": 24,
+      "type": "bridge"
+    },
+    {
+      "source": "Zachary F. Mainen",
+      "target": "Adam Kepecs",
+      "weight": 9,
+      "type": "bridge"
+    },
+    {
+      "source": "Zachary F. Mainen",
+      "target": "Jan Drugowitsch",
+      "weight": 4,
+      "type": "bridge"
+    },
+    {
+      "source": "Zachary F. Mainen",
+      "target": "Anne Churchland",
+      "weight": 8,
+      "type": "bridge"
+    },
+    {
+      "source": "Zachary F. Mainen",
+      "target": "Peter Latham",
+      "weight": 5,
+      "type": "bridge"
+    },
+    {
+      "source": "Nicholas A. Steinmetz",
+      "target": "Matteo Carandini",
+      "weight": 12,
+      "type": "bridge"
+    },
+    {
+      "source": "Nicholas A. Steinmetz",
+      "target": "Tatiana Engel",
+      "weight": 14,
+      "type": "bridge"
+    },
+    {
+      "source": "Megan A. K. Peters",
+      "target": "Hakwan Lau",
+      "weight": 5,
+      "type": "bridge"
+    },
+    {
+      "source": "Megan A. K. Peters",
+      "target": "Brian Maniscalco",
+      "weight": 13,
+      "type": "bridge"
+    },
+    {
+      "source": "Megan A. K. Peters",
+      "target": "Stephen Fleming",
+      "weight": 3,
+      "type": "bridge"
+    },
+    {
+      "source": "Megan A. K. Peters",
+      "target": "Dobromir Rahnev",
+      "weight": 4,
+      "type": "bridge"
+    },
+    {
+      "source": "Kevin S. Weiner",
+      "target": "Kalanit Grill-Spector",
+      "weight": 21,
+      "type": "bridge"
+    },
+    {
+      "source": "Kevin S. Weiner",
+      "target": "Kendrick Kay",
+      "weight": 4,
+      "type": "bridge"
+    },
+    {
+      "source": "Sophie Den\u00e8ve",
+      "target": "Alexandre Pouget",
+      "weight": 8,
+      "type": "bridge"
+    },
+    {
+      "source": "Sophie Den\u00e8ve",
+      "target": "Christian Machens",
+      "weight": 9,
+      "type": "bridge"
+    },
+    {
+      "source": "Sophie Den\u00e8ve",
+      "target": "Peter Latham",
+      "weight": 7,
+      "type": "bridge"
+    },
+    {
+      "source": "Gopal Santhanam",
+      "target": "Mark Churchland",
+      "weight": 5,
+      "type": "bridge"
+    },
+    {
+      "source": "Gopal Santhanam",
+      "target": "Maneesh Sahani",
+      "weight": 8,
+      "type": "bridge"
+    },
+    {
+      "source": "Gopal Santhanam",
+      "target": "Krishna Shenoy",
+      "weight": 11,
+      "type": "bridge"
+    },
+    {
+      "source": "Edward F. Ester",
+      "target": "John Serences",
+      "weight": 10,
+      "type": "bridge"
+    },
+    {
+      "source": "Edward F. Ester",
+      "target": "Thomas Sprague",
+      "weight": 7,
+      "type": "bridge"
+    },
+    {
+      "source": "Edward F. Ester",
+      "target": "Edward Awh",
+      "weight": 6,
+      "type": "bridge"
+    },
+    {
+      "source": "David J. Heeger",
+      "target": "Paul Glimcher",
+      "weight": 3,
+      "type": "bridge"
+    },
+    {
+      "source": "David J. Heeger",
+      "target": "Tobias Donner",
+      "weight": 7,
+      "type": "bridge"
+    },
+    {
+      "source": "David J. Heeger",
+      "target": "Eero Simoncelli",
+      "weight": 5,
+      "type": "bridge"
+    },
+    {
+      "source": "David J. Heeger",
+      "target": "Matteo Carandini",
+      "weight": 4,
+      "type": "bridge"
+    },
+    {
+      "source": "David J. Heeger",
+      "target": "Michael Landy",
+      "weight": 3,
+      "type": "bridge"
+    },
+    {
+      "source": "Chris Frith",
+      "target": "Hakwan Lau",
+      "weight": 4,
+      "type": "bridge"
+    },
+    {
+      "source": "Chris Frith",
+      "target": "Paul Bays",
+      "weight": 4,
+      "type": "bridge"
+    },
+    {
+      "source": "Chris Frith",
+      "target": "Daniel Wolpert",
+      "weight": 9,
+      "type": "bridge"
+    },
+    {
+      "source": "Chris Frith",
+      "target": "Stephen Fleming",
+      "weight": 5,
+      "type": "bridge"
+    },
+    {
+      "source": "Kenneth D. Harris",
+      "target": "Matteo Carandini",
+      "weight": 18,
+      "type": "bridge"
+    },
+    {
+      "source": "Kenneth D. Harris",
+      "target": "Peter Latham",
+      "weight": 4,
+      "type": "bridge"
+    },
+    {
+      "source": "Jonathan D. Cohen",
+      "target": "Rafal Bogacz",
+      "weight": 7,
+      "type": "bridge"
+    },
+    {
+      "source": "Jonathan D. Cohen",
+      "target": "Matthew Botvinick",
+      "weight": 15,
+      "type": "bridge"
+    },
+    {
+      "source": "Robert F. Dougherty",
+      "target": "Brian Wandell",
+      "weight": 14,
+      "type": "bridge"
+    },
+    {
+      "source": "Robert F. Dougherty",
+      "target": "Jonathan Winawer",
+      "weight": 3,
+      "type": "bridge"
+    },
+    {
+      "source": "Robert F. Dougherty",
+      "target": "Alyssa Brewer",
+      "weight": 5,
+      "type": "bridge"
+    },
+    {
+      "source": "David E.J. Linden",
+      "target": "Christoph Bledowski",
+      "weight": 8,
+      "type": "bridge"
+    },
+    {
+      "source": "David E.J. Linden",
+      "target": "Rainer Goebel",
+      "weight": 12,
+      "type": "bridge"
+    },
+    {
+      "source": "Laurence T. Maloney",
+      "target": "Pascal Mamassian",
+      "weight": 3,
+      "type": "bridge"
+    },
+    {
+      "source": "Laurence T. Maloney",
+      "target": "Michael Landy",
+      "weight": 17,
+      "type": "bridge"
+    },
+    {
+      "source": "Anup Khanal",
+      "target": "Anne Urai",
+      "weight": 13,
+      "type": "bridge"
+    },
+    {
+      "source": "Anup Khanal",
+      "target": "Anne Churchland",
+      "weight": 7,
+      "type": "bridge"
+    },
+    {
+      "source": "Peter R. Luijten",
+      "target": "Alessio Fracasso",
+      "weight": 6,
+      "type": "bridge"
+    },
+    {
+      "source": "Peter R. Luijten",
+      "target": "Natalia Petridou",
+      "weight": 14,
+      "type": "bridge"
+    },
+    {
+      "source": "Peter Kok",
+      "target": "Janneke Jehee",
+      "weight": 3,
+      "type": "bridge"
+    },
+    {
+      "source": "Peter Kok",
+      "target": "Floris de Lange",
+      "weight": 13,
+      "type": "bridge"
+    },
+    {
+      "source": "Peter Kok",
+      "target": "Dobromir Rahnev",
+      "weight": 3,
+      "type": "bridge"
+    },
+    {
+      "source": "Danielle S. Bassett",
+      "target": "Marcelo Mattar",
+      "weight": 16,
+      "type": "bridge"
+    },
+    {
+      "source": "Danielle S. Bassett",
+      "target": "Joshua Gold",
+      "weight": 3,
+      "type": "bridge"
+    },
+    {
+      "source": "Nick F. Ramsey",
+      "target": "Ben Harvey",
+      "weight": 3,
+      "type": "bridge"
+    },
+    {
+      "source": "Nick F. Ramsey",
+      "target": "Natalia Petridou",
+      "weight": 16,
+      "type": "bridge"
+    },
+    {
+      "source": "William T. Newsome",
+      "target": "Roozbeh Kiani",
+      "weight": 7,
+      "type": "bridge"
+    },
+    {
+      "source": "William T. Newsome",
+      "target": "Valerio Mante",
+      "weight": 3,
+      "type": "bridge"
+    },
+    {
+      "source": "William T. Newsome",
+      "target": "Michael Shadlen",
+      "weight": 8,
+      "type": "bridge"
+    },
+    {
+      "source": "Philippe Pinel",
+      "target": "Stanislas Dehaene",
+      "weight": 7,
+      "type": "bridge"
+    },
+    {
+      "source": "Philippe Pinel",
+      "target": "Manuela Piazza",
+      "weight": 7,
+      "type": "bridge"
+    },
+    {
+      "source": "Philippe Pinel",
+      "target": "Evelyn Eger",
+      "weight": 4,
+      "type": "bridge"
+    },
+    {
+      "source": "Mayo Faulkner",
+      "target": "Anne Urai",
+      "weight": 12,
+      "type": "bridge"
+    },
+    {
+      "source": "Mayo Faulkner",
+      "target": "Luigi Acerbi",
+      "weight": 6,
+      "type": "bridge"
+    },
+    {
+      "source": "Daniel Yamins",
+      "target": "Daniel Sussillo",
+      "weight": 4,
+      "type": "bridge"
+    },
+    {
+      "source": "Daniel Yamins",
+      "target": "Surya Ganguli",
+      "weight": 3,
+      "type": "bridge"
+    },
+    {
+      "source": "Daniel Yamins",
+      "target": "James DiCarlo",
+      "weight": 11,
+      "type": "bridge"
+    },
+    {
+      "source": "Jack L. Gallant",
+      "target": "Kendrick Kay",
+      "weight": 7,
+      "type": "bridge"
+    },
+    {
+      "source": "Jack L. Gallant",
+      "target": "Thomas Naselaris",
+      "weight": 11,
+      "type": "bridge"
+    },
+    {
+      "source": "Ranulfo Romo",
+      "target": "Carlos Brody",
+      "weight": 10,
+      "type": "bridge"
+    },
+    {
+      "source": "Ranulfo Romo",
+      "target": "Christian Machens",
+      "weight": 4,
+      "type": "bridge"
+    },
+    {
+      "source": "Ranulfo Romo",
+      "target": "Omri Barak",
+      "weight": 3,
+      "type": "bridge"
+    },
+    {
+      "source": "Rachel N. Denison",
+      "target": "Janneke Jehee",
+      "weight": 4,
+      "type": "bridge"
+    },
+    {
+      "source": "Rachel N. Denison",
+      "target": "Brian Maniscalco",
+      "weight": 5,
+      "type": "bridge"
+    },
+    {
+      "source": "Rachel N. Denison",
+      "target": "Dobromir Rahnev",
+      "weight": 4,
+      "type": "bridge"
+    },
+    {
+      "source": "Rachel N. Denison",
+      "target": "Ariel Zylberberg",
+      "weight": 4,
+      "type": "bridge"
+    },
+    {
+      "source": "Yang Dan",
+      "target": "Luigi Acerbi",
+      "weight": 6,
+      "type": "bridge"
+    },
+    {
+      "source": "Yang Dan",
+      "target": "Anne Churchland",
+      "weight": 7,
+      "type": "bridge"
+    },
+    {
+      "source": "Yang Dan",
+      "target": "Peter Latham",
+      "weight": 4,
+      "type": "bridge"
+    },
+    {
+      "source": "Peter A. Bandettini",
+      "target": "Nikolaus Kriegeskorte",
+      "weight": 7,
+      "type": "bridge"
+    },
+    {
+      "source": "Peter A. Bandettini",
+      "target": "Marieke Mur",
+      "weight": 6,
+      "type": "bridge"
+    },
+    {
+      "source": "Peter A. Bandettini",
+      "target": "Natalia Petridou",
+      "weight": 4,
+      "type": "bridge"
+    },
+    {
+      "source": "Ian Charest",
+      "target": "Nikolaus Kriegeskorte",
+      "weight": 3,
+      "type": "bridge"
+    },
+    {
+      "source": "Ian Charest",
+      "target": "Kendrick Kay",
+      "weight": 5,
+      "type": "bridge"
+    },
+    {
+      "source": "Ian Charest",
+      "target": "Tim Kietzmann",
+      "weight": 4,
+      "type": "bridge"
+    },
+    {
+      "source": "Ian Charest",
+      "target": "Thomas Naselaris",
+      "weight": 5,
+      "type": "bridge"
+    },
+    {
+      "source": "Chaipat Chunharas",
+      "target": "Thomas Sprague",
+      "weight": 4,
+      "type": "bridge"
+    },
+    {
+      "source": "Chaipat Chunharas",
+      "target": "Rosanne Rademaker",
+      "weight": 13,
+      "type": "bridge"
+    },
+    {
+      "source": "Kenneth A. Norman",
+      "target": "Samuel Gershman",
+      "weight": 7,
+      "type": "bridge"
+    },
+    {
+      "source": "Kenneth A. Norman",
+      "target": "Jonathan Pillow",
+      "weight": 3,
+      "type": "bridge"
+    },
+    {
+      "source": "Kenneth A. Norman",
+      "target": "Yael Niv",
+      "weight": 6,
+      "type": "bridge"
+    },
+    {
+      "source": "George A. Alvarez",
+      "target": "Daryl Fougnie",
+      "weight": 13,
+      "type": "bridge"
+    },
+    {
+      "source": "George A. Alvarez",
+      "target": "Jeremy Wolfe",
+      "weight": 3,
+      "type": "bridge"
+    },
+    {
+      "source": "Karl Friston",
+      "target": "Giovanni Pezzulo",
+      "weight": 12,
+      "type": "bridge"
+    },
+    {
+      "source": "Karl Friston",
+      "target": "Peter Dayan",
+      "weight": 4,
+      "type": "bridge"
+    },
+    {
+      "source": "Sander Nieuwenhuis",
+      "target": "Peter Murphy",
+      "weight": 11,
+      "type": "bridge"
+    },
+    {
+      "source": "Sander Nieuwenhuis",
+      "target": "Birte Forstmann",
+      "weight": 5,
+      "type": "bridge"
+    },
+    {
+      "source": "Emily Allen",
+      "target": "Kendrick Kay",
+      "weight": 5,
+      "type": "bridge"
+    },
+    {
+      "source": "Emily Allen",
+      "target": "Thomas Naselaris",
+      "weight": 11,
+      "type": "bridge"
+    },
+    {
+      "source": "Armin Lak",
+      "target": "Adam Kepecs",
+      "weight": 5,
+      "type": "bridge"
+    },
+    {
+      "source": "Armin Lak",
+      "target": "Matthias Fritsche",
+      "weight": 10,
+      "type": "bridge"
+    },
+    {
+      "source": "Jeffrey M. Beck",
+      "target": "Alexandre Pouget",
+      "weight": 9,
+      "type": "bridge"
+    },
+    {
+      "source": "Jeffrey M. Beck",
+      "target": "Peter Latham",
+      "weight": 6,
+      "type": "bridge"
+    }
+  ],
+  "categories": {
+    "SD": {
+      "label": "Serial Dependence / History Effects",
+      "color": "#f39c12"
+    },
+    "VWM": {
+      "label": "Visual Working Memory",
+      "color": "#2ecc71"
+    },
+    "BDM": {
+      "label": "Bayesian Decision & Inference",
+      "color": "#3498db"
+    },
+    "NN": {
+      "label": "Neural Dynamics & Bio-Plausible Networks",
+      "color": "#9b59b6"
+    },
+    "fVC": {
+      "label": "fMRI & Visual Cortex",
+      "color": "#00bcd4"
+    },
+    "CG": {
+      "label": "Categorization & Generalization",
+      "color": "#e91e63"
+    },
+    "METH": {
+      "label": "Methodology",
+      "color": "#795548"
+    }
+  }
+}
