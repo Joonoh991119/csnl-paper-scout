@@ -1,0 +1,7078 @@
+[
+  {
+    "filename": "Schneegans_2016_No fixed item limit in visuospatial working memory.pdf",
+    "doi": "10.1016/j.cortex.2016.07.021",
+    "author": "schneegans",
+    "year": "2016",
+    "score": 10,
+    "matches": [
+      "kw:working memory",
+      "kw:working_memory",
+      "author:schneegans",
+      "author:lim"
+    ],
+    "core_score": 14,
+    "core_kw": [
+      "working memory",
+      "working_memory"
+    ],
+    "core_auth": [
+      "schneegans",
+      "lim"
+    ]
+  },
+  {
+    "filename": "Schneegans_2020_Stochastic sampling provides a unifying account of visual working memory limits.pdf",
+    "doi": "10.1101/771071doi:",
+    "author": "schneegans",
+    "year": "2020",
+    "score": 10,
+    "matches": [
+      "kw:working memory",
+      "kw:working_memory",
+      "author:schneegans",
+      "author:lim"
+    ],
+    "core_score": 14,
+    "core_kw": [
+      "working memory",
+      "working_memory"
+    ],
+    "core_auth": [
+      "schneegans",
+      "lim"
+    ]
+  },
+  {
+    "filename": "Dumoulin_2008_Population receptive field estimates in human visual cortex_a7e70d.pdf",
+    "doi": "10.1016/j.neuroimage.2007.09.034",
+    "author": "dumoulin",
+    "year": "2008",
+    "score": 14,
+    "matches": [
+      "kw:tes",
+      "kw:population receptive",
+      "kw:visual cortex",
+      "kw:receptive field",
+      "author:dumoulin",
+      "author:ma"
+    ],
+    "core_score": 10,
+    "core_kw": [
+      "population receptive",
+      "receptive field"
+    ],
+    "core_auth": [
+      "dumoulin"
+    ]
+  },
+  {
+    "filename": "Sprague_2014_Reconstructions of Information in Visual Spatial Working Memory Degrade with.pdf",
+    "doi": "10.1016/j.cub.2014.07.066",
+    "author": "sprague",
+    "year": "2014",
+    "score": 13,
+    "matches": [
+      "kw:working memory",
+      "kw:working_memory",
+      "author:sprague",
+      "author:gu",
+      "author:ma"
+    ],
+    "core_score": 10,
+    "core_kw": [
+      "working memory",
+      "working_memory"
+    ],
+    "core_auth": [
+      "sprague"
+    ]
+  },
+  {
+    "filename": "Sprague_2016_Restoring Latent Visual Working Memory Representations in Human Cortex_c4b439.pdf",
+    "doi": "10.1016/j.neuron.2016.07.006",
+    "author": "sprague",
+    "year": "2016",
+    "score": 13,
+    "matches": [
+      "kw:working memory",
+      "kw:working_memory",
+      "author:sprague",
+      "author:gu",
+      "author:ma"
+    ],
+    "core_score": 10,
+    "core_kw": [
+      "working memory",
+      "working_memory"
+    ],
+    "core_auth": [
+      "sprague"
+    ]
+  },
+  {
+    "filename": "Lim_2023_Spatial correspondence in relative space regulates serial dependence.pdf",
+    "doi": "10.1038/s41598-023-45505-5",
+    "author": "lim",
+    "year": "2023",
+    "score": 12,
+    "matches": [
+      "kw:serial dependence",
+      "kw:serial_dependence",
+      "kw:tes",
+      "author:lim",
+      "author:gu"
+    ],
+    "core_score": 10,
+    "core_kw": [
+      "serial dependence",
+      "serial_dependence"
+    ],
+    "core_auth": [
+      "lim"
+    ]
+  },
+  {
+    "filename": "Lim_2019_Not-so-working Memory Drift in Functional Magnetic Resonance Imaging Pattern.pdf",
+    "doi": "10.1162/jocn_a_01427",
+    "author": "lim",
+    "year": "2019",
+    "score": 10,
+    "matches": [
+      "kw:working memory",
+      "kw:working_memory",
+      "author:lim",
+      "author:ma"
+    ],
+    "core_score": 10,
+    "core_kw": [
+      "working memory",
+      "working_memory"
+    ],
+    "core_auth": [
+      "lim"
+    ]
+  },
+  {
+    "filename": "Rademaker_2013_Properties of high-fidelity visual working memory representations for.pdf",
+    "doi": "10.1167/13.9.804",
+    "author": "rademaker",
+    "year": "2013",
+    "score": 10,
+    "matches": [
+      "kw:working memory",
+      "kw:working_memory",
+      "author:rademaker",
+      "author:ma"
+    ],
+    "core_score": 10,
+    "core_kw": [
+      "working memory",
+      "working_memory"
+    ],
+    "core_auth": [
+      "rademaker"
+    ]
+  },
+  {
+    "filename": "Bae_2017_Interactions between visual working memory representations.pdf",
+    "doi": "10.3758/s13414-017-1404-8)",
+    "author": "bae",
+    "year": "2017",
+    "score": 7,
+    "matches": [
+      "kw:working memory",
+      "kw:working_memory",
+      "author:bae"
+    ],
+    "core_score": 10,
+    "core_kw": [
+      "working memory",
+      "working_memory"
+    ],
+    "core_auth": [
+      "bae"
+    ]
+  },
+  {
+    "filename": "Bae_2019_Reactivation of Previous Experiences in a Working Memory Task.pdf",
+    "doi": "10.1177/0956797619830398",
+    "author": "bae",
+    "year": "2019",
+    "score": 7,
+    "matches": [
+      "kw:working memory",
+      "kw:working_memory",
+      "author:bae"
+    ],
+    "core_score": 10,
+    "core_kw": [
+      "working memory",
+      "working_memory"
+    ],
+    "core_auth": [
+      "bae"
+    ]
+  },
+  {
+    "filename": "Bae_2020_Serial dependence in vision Merely encoding the previous-trial target is not.pdf",
+    "doi": "10.3758/s13423-019-01678-7",
+    "author": "bae",
+    "year": "2020",
+    "score": 7,
+    "matches": [
+      "kw:serial dependence",
+      "kw:serial_dependence",
+      "author:bae"
+    ],
+    "core_score": 10,
+    "core_kw": [
+      "serial dependence",
+      "serial_dependence"
+    ],
+    "core_auth": [
+      "bae"
+    ]
+  },
+  {
+    "filename": "Bays_2014_Noise in Neural Populations Accounts for Errors in Working Memory_a46dd4.pdf",
+    "doi": "10.1523/jneurosci.3204-13.2014",
+    "author": "bays",
+    "year": "2014",
+    "score": 7,
+    "matches": [
+      "kw:working memory",
+      "kw:working_memory",
+      "author:bays"
+    ],
+    "core_score": 10,
+    "core_kw": [
+      "working memory",
+      "working_memory"
+    ],
+    "core_auth": [
+      "bays"
+    ]
+  },
+  {
+    "filename": "Pascucci_2023_Serial dependence in visual perception A review.pdf",
+    "doi": "10.1167/jov",
+    "author": "pascucci",
+    "year": "2023",
+    "score": 7,
+    "matches": [
+      "kw:serial dependence",
+      "kw:serial_dependence",
+      "author:pascucci"
+    ],
+    "core_score": 10,
+    "core_kw": [
+      "serial dependence",
+      "serial_dependence"
+    ],
+    "core_auth": [
+      "pascucci"
+    ]
+  },
+  {
+    "filename": "Schneegans_2017_Neural Architecture for Feature Binding in Visual Working Memory.pdf",
+    "doi": "10.1523/jneurosci.3493-16.2017",
+    "author": "schneegans",
+    "year": "2017",
+    "score": 7,
+    "matches": [
+      "kw:working memory",
+      "kw:working_memory",
+      "author:schneegans"
+    ],
+    "core_score": 10,
+    "core_kw": [
+      "working memory",
+      "working_memory"
+    ],
+    "core_auth": [
+      "schneegans"
+    ]
+  },
+  {
+    "filename": "Wimmer_2014_Bump attractor dynamics in prefrontal cortex explains behavioral precision in_6d7ad0.pdf",
+    "doi": "10.1038/nn.3645",
+    "author": "wimmer",
+    "year": "2014",
+    "score": 7,
+    "matches": [
+      "kw:attractor",
+      "kw:attractor dynamics",
+      "author:wimmer"
+    ],
+    "core_score": 10,
+    "core_kw": [
+      "attractor dynamics",
+      "attractor"
+    ],
+    "core_auth": [
+      "wimmer"
+    ]
+  },
+  {
+    "filename": "Kang_2021_Concurrent visual working memory bias in sequential integration of approximate.pdf",
+    "doi": "10.1101/2020.07.16.191445doi:",
+    "author": "kang",
+    "year": "2021",
+    "score": 9,
+    "matches": [
+      "kw:working memory",
+      "kw:working_memory",
+      "kw:sequential",
+      "author:ma"
+    ],
+    "core_score": 9,
+    "core_kw": [
+      "working memory",
+      "working_memory",
+      "sequential"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Welbourne_2018_Population receptive field (pRF) measurements of chromatic responses in human_560eec.pdf",
+    "doi": "10.1016/j.neuroimage.2017.11.022",
+    "author": "welbourne",
+    "year": "2018",
+    "score": 9,
+    "matches": [
+      "kw:prf",
+      "kw:population receptive",
+      "kw:receptive field",
+      "author:ma"
+    ],
+    "core_score": 9,
+    "core_kw": [
+      "population receptive",
+      "prf",
+      "receptive field"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Li_2020_Prefrontal and Parietal Attractor Networks Mediate Working Memory Judgments.pdf",
+    "doi": "10.1101/2020.06.01.128173doi:",
+    "author": "li",
+    "year": "2020",
+    "score": 8,
+    "matches": [
+      "kw:attractor",
+      "kw:working memory",
+      "kw:working_memory",
+      "kw:parietal"
+    ],
+    "core_score": 9,
+    "core_kw": [
+      "attractor",
+      "working memory",
+      "working_memory"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Luck_2013_Visual working memory capacity from psychophysics and neurobiology to.pdf",
+    "doi": "10.1016/j.tics.2013.06.006",
+    "author": "luck",
+    "year": "2013",
+    "score": 6,
+    "matches": [
+      "kw:working memory",
+      "kw:working_memory",
+      "kw:psychophysic"
+    ],
+    "core_score": 9,
+    "core_kw": [
+      "working memory",
+      "working_memory",
+      "psychophysic"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Taylor_2018_Efficient Coding in Visual Working Memory Accounts for Stimulus-Specific.pdf",
+    "doi": "10.1523/jneurosci.1018-18.2018",
+    "author": "taylor",
+    "year": "2018",
+    "score": 6,
+    "matches": [
+      "kw:efficient coding",
+      "kw:working memory",
+      "kw:working_memory"
+    ],
+    "core_score": 9,
+    "core_kw": [
+      "efficient coding",
+      "working memory",
+      "working_memory"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Whitney_2011_Visual crowding a fundamental limit on conscious perception and object.pdf",
+    "doi": "10.1016/j.tics.2011.02.005",
+    "author": "whitney",
+    "year": "2011",
+    "score": 6,
+    "matches": [
+      "author:whitney",
+      "author:lim"
+    ],
+    "core_score": 8,
+    "core_kw": [],
+    "core_auth": [
+      "whitney",
+      "lim"
+    ]
+  },
+  {
+    "filename": "Bae_2016_Learning Bayesian Networks from Correlated Data.pdf",
+    "doi": "10.1038/srep25156",
+    "author": "bae",
+    "year": "2016",
+    "score": 5,
+    "matches": [
+      "kw:bayesian",
+      "author:bae"
+    ],
+    "core_score": 7,
+    "core_kw": [
+      "bayesian"
+    ],
+    "core_auth": [
+      "bae"
+    ]
+  },
+  {
+    "filename": "Bays_2019_Correspondence between population coding and psychophysical scaling models of.pdf",
+    "doi": "10.1101/699884doi:",
+    "author": "bays",
+    "year": "2019",
+    "score": 5,
+    "matches": [
+      "kw:psychophysic",
+      "author:bays"
+    ],
+    "core_score": 7,
+    "core_kw": [
+      "psychophysic"
+    ],
+    "core_auth": [
+      "bays"
+    ]
+  },
+  {
+    "filename": "Lee_2013_A new method for estimating population receptive field topography in visual.pdf",
+    "doi": "10.1016/j.neuroimage.2013.05.026",
+    "author": "lee",
+    "year": "2013",
+    "score": 10,
+    "matches": [
+      "kw:population receptive",
+      "kw:receptive field",
+      "author:lee",
+      "author:ma"
+    ],
+    "core_score": 6,
+    "core_kw": [
+      "population receptive",
+      "receptive field"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Magliano_2016_The relative roles of visuospatial and linguistic working memory systems in.pdf",
+    "doi": "10.3758/s13421-015-0558-7",
+    "author": "magliano",
+    "year": "2016",
+    "score": 10,
+    "matches": [
+      "kw:working memory",
+      "kw:working_memory",
+      "author:gu",
+      "author:ma"
+    ],
+    "core_score": 6,
+    "core_kw": [
+      "working memory",
+      "working_memory"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Wandell_2015_Computational neuroimaging and population receptive fields.pdf",
+    "doi": "10.1016/j.tics.2015.03.009",
+    "author": "wandell",
+    "year": "2015",
+    "score": 10,
+    "matches": [
+      "kw:population receptive",
+      "kw:receptive field",
+      "author:ma",
+      "author:wandell"
+    ],
+    "core_score": 6,
+    "core_kw": [
+      "population receptive",
+      "receptive field"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Greene_2014_Measurement of population receptive fields in human early visual cortex using.pdf",
+    "doi": "10.1167/14.1.17",
+    "author": "greene",
+    "year": "2014",
+    "score": 9,
+    "matches": [
+      "kw:population receptive",
+      "kw:visual cortex",
+      "kw:receptive field",
+      "author:ma"
+    ],
+    "core_score": 6,
+    "core_kw": [
+      "population receptive",
+      "receptive field"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Haak_2012_Population Receptive Field Dynamics in Human Visual Cortex.pdf",
+    "doi": "10.1371/journal.pone.0037686.g002",
+    "author": "haak",
+    "year": "2012",
+    "score": 9,
+    "matches": [
+      "kw:population receptive",
+      "kw:visual cortex",
+      "kw:receptive field",
+      "author:ma"
+    ],
+    "core_score": 6,
+    "core_kw": [
+      "population receptive",
+      "receptive field"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Preuschhof_2006_Neural Correlates of Vibrotactile Working Memory in the Human Brain.pdf",
+    "doi": "10.1523/jneurosci.2767-06.2006",
+    "author": "preuschhof",
+    "year": "2006",
+    "score": 9,
+    "matches": [
+      "kw:working memory",
+      "kw:working_memory",
+      "kw:tes",
+      "author:ma"
+    ],
+    "core_score": 6,
+    "core_kw": [
+      "working memory",
+      "working_memory"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Wolff_2017_Dynamic hidden states underlying working-memory-guided behavior.pdf",
+    "doi": "10.1038/nn.4546",
+    "author": "wolff",
+    "year": "2017",
+    "score": 9,
+    "matches": [
+      "kw:working memory",
+      "kw:working_memory",
+      "kw:tes",
+      "author:gu"
+    ],
+    "core_score": 6,
+    "core_kw": [
+      "working memory",
+      "working_memory"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Jones_2017_Frontoparietal neurostimulation modulates working memory training benefits and.pdf",
+    "doi": "10.1016/j.brainres.2017.05.005",
+    "author": "jones",
+    "year": "2017",
+    "score": 8,
+    "matches": [
+      "kw:working memory",
+      "kw:working_memory",
+      "kw:tes",
+      "kw:parietal"
+    ],
+    "core_score": 6,
+    "core_kw": [
+      "working memory",
+      "working_memory"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Panichello_2020_Selective control of working memory in prefrontal, parietal, and visual cortex.pdf",
+    "doi": "10.1101/2020.04.07.030718doi:",
+    "author": "panichello",
+    "year": "2020",
+    "score": 8,
+    "matches": [
+      "kw:working memory",
+      "kw:working_memory",
+      "kw:visual cortex",
+      "kw:parietal"
+    ],
+    "core_score": 6,
+    "core_kw": [
+      "working memory",
+      "working_memory"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Xing_2013_Decoding Working Memory of Stimulus Contrast in Early Visual Cortex.pdf",
+    "doi": "10.1523/jneurosci.3754-12.2013",
+    "author": "xing",
+    "year": "2013",
+    "score": 8,
+    "matches": [
+      "kw:working memory",
+      "kw:working_memory",
+      "kw:decoding",
+      "kw:visual cortex"
+    ],
+    "core_score": 6,
+    "core_kw": [
+      "working memory",
+      "working_memory"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Alekseichuk_2016_Spatial Working Memory in Humans Depends on Theta and High Gamma.pdf",
+    "doi": "10.1016/j.cub.2016.04.035",
+    "author": "alekseichuk",
+    "year": "2016",
+    "score": 7,
+    "matches": [
+      "kw:working memory",
+      "kw:working_memory",
+      "author:ma"
+    ],
+    "core_score": 6,
+    "core_kw": [
+      "working memory",
+      "working_memory"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Alvarez_2015_Comparing different stimulus configurations for population receptive field.pdf",
+    "doi": "10.3389/fnhum.2015.00096",
+    "author": "alvarez",
+    "year": "2015",
+    "score": 7,
+    "matches": [
+      "kw:population receptive",
+      "kw:receptive field",
+      "author:gu"
+    ],
+    "core_score": 6,
+    "core_kw": [
+      "population receptive",
+      "receptive field"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Bitzer_2014_Perceptual decision making drift-diffusion model is equivalent to a Bayesian.pdf",
+    "doi": "10.3389/fnhum.2014.00102",
+    "author": "bitzer",
+    "year": "2014",
+    "score": 7,
+    "matches": [
+      "kw:bayesian",
+      "kw:drift_diffusion",
+      "author:ma"
+    ],
+    "core_score": 6,
+    "core_kw": [
+      "bayesian",
+      "drift_diffusion"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Bitzer_2015_A Bayesian Attractor Model for Perceptual Decision Making.pdf",
+    "doi": "10.1371/journal.pcbi.1004442",
+    "author": "bitzer",
+    "year": "2015",
+    "score": 7,
+    "matches": [
+      "kw:bayesian",
+      "kw:attractor",
+      "author:ma"
+    ],
+    "core_score": 6,
+    "core_kw": [
+      "bayesian",
+      "attractor"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Curtis_2010_Beyond working memory the role of persistent activity in decision making.pdf",
+    "doi": "10.1016/j.tics.2010.03.006",
+    "author": "curtis",
+    "year": "2010",
+    "score": 7,
+    "matches": [
+      "kw:working memory",
+      "kw:working_memory",
+      "author:ma"
+    ],
+    "core_score": 6,
+    "core_kw": [
+      "working memory",
+      "working_memory"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Fine_2009_Visual Salience Affects Performance in a Working Memory Task.pdf",
+    "doi": "10.1523/jneurosci.5503-08.2009",
+    "author": "fine",
+    "year": "2009",
+    "score": 7,
+    "matches": [
+      "kw:working memory",
+      "kw:working_memory",
+      "author:ma"
+    ],
+    "core_score": 6,
+    "core_kw": [
+      "working memory",
+      "working_memory"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Fischer_2020_Context information supports serial dependence of multiple visual objects_e6d984.pdf",
+    "doi": "10.1101/667626doi:",
+    "author": "fischer",
+    "year": "2020",
+    "score": 7,
+    "matches": [
+      "kw:serial dependence",
+      "kw:serial_dependence",
+      "author:ma"
+    ],
+    "core_score": 6,
+    "core_kw": [
+      "serial dependence",
+      "serial_dependence"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Fornaciai_2019_Serial dependence generalizes across different stimulus formats, but not.pdf",
+    "doi": "10.1016/j.visres.2019.04.011",
+    "author": "fornaciai",
+    "year": "2019",
+    "score": 7,
+    "matches": [
+      "kw:serial dependence",
+      "kw:serial_dependence",
+      "author:ma"
+    ],
+    "core_score": 6,
+    "core_kw": [
+      "serial dependence",
+      "serial_dependence"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Fracasso_2016_Systematic variation of population receptive field properties across cortical.pdf",
+    "doi": "10.1016/j.neuroimage.2016.06.048",
+    "author": "fracasso",
+    "year": "2016",
+    "score": 7,
+    "matches": [
+      "kw:population receptive",
+      "kw:receptive field",
+      "author:ma"
+    ],
+    "core_score": 6,
+    "core_kw": [
+      "population receptive",
+      "receptive field"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Gayet_2017_Visual Working Memory Enhances the Neural Response to Matching Visual Input.pdf",
+    "doi": "10.1523/jneurosci.3418-16.2017",
+    "author": "gayet",
+    "year": "2017",
+    "score": 7,
+    "matches": [
+      "kw:working memory",
+      "kw:working_memory",
+      "author:ma"
+    ],
+    "core_score": 6,
+    "core_kw": [
+      "working memory",
+      "working_memory"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Hardman_2017_Categorical working memory representations are used in delayed estimation of.pdf",
+    "doi": "10.1037/xhp0000290",
+    "author": "hardman",
+    "year": "2017",
+    "score": 7,
+    "matches": [
+      "kw:working memory",
+      "kw:working_memory",
+      "author:ma"
+    ],
+    "core_score": 6,
+    "core_kw": [
+      "working memory",
+      "working_memory"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Honig_2020_Humans incorporate trial-to-trial working memory uncertainty into rewarded.pdf",
+    "doi": "10.1073/pnas.1918143117",
+    "author": "honig",
+    "year": "2020",
+    "score": 7,
+    "matches": [
+      "kw:working memory",
+      "kw:working_memory",
+      "author:ma"
+    ],
+    "core_score": 6,
+    "core_kw": [
+      "working memory",
+      "working_memory"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Huang_2025_Distinct serial dependence between small and large numerosity processing.pdf",
+    "doi": "10.1007/s00426-024-02071-3",
+    "author": "huang",
+    "year": "2025",
+    "score": 7,
+    "matches": [
+      "kw:serial dependence",
+      "kw:serial_dependence",
+      "author:ma"
+    ],
+    "core_score": 6,
+    "core_kw": [
+      "serial dependence",
+      "serial_dependence"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Huffman_2017_Serial dependence transfers between perceptual objects.pdf",
+    "doi": "10.1101/165399doi:",
+    "author": "huffman",
+    "year": "2017",
+    "score": 7,
+    "matches": [
+      "kw:serial dependence",
+      "kw:serial_dependence",
+      "author:ma"
+    ],
+    "core_score": 6,
+    "core_kw": [
+      "serial dependence",
+      "serial_dependence"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Itthipuripat_2013_Frontal theta is a signature of successful working memory manipulation.pdf",
+    "doi": "10.1007/s00221-012-3305-3",
+    "author": "itthipuripat",
+    "year": "2013",
+    "score": 7,
+    "matches": [
+      "kw:working memory",
+      "kw:working_memory",
+      "author:ma"
+    ],
+    "core_score": 6,
+    "core_kw": [
+      "working memory",
+      "working_memory"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Kornblith_2017_Persistent Single-Neuron Activity during Working Memory in the Human Medial.pdf",
+    "doi": "10.1016/j.cub.2017.02.013",
+    "author": "kornblith",
+    "year": "2017",
+    "score": 7,
+    "matches": [
+      "kw:working memory",
+      "kw:working_memory",
+      "author:ma"
+    ],
+    "core_score": 6,
+    "core_kw": [
+      "working memory",
+      "working_memory"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Leavitt_2017_Correlated variability modifies working memory fidelity in primate prefrontal_d70ec6.pdf",
+    "doi": "10.1073/pnas.1619949114",
+    "author": "leavitt",
+    "year": "2017",
+    "score": 7,
+    "matches": [
+      "kw:working memory",
+      "kw:working_memory",
+      "author:ma"
+    ],
+    "core_score": 6,
+    "core_kw": [
+      "working memory",
+      "working_memory"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Liberman_2014_Serial Dependence in the Perception of Faces_3d6f4c.pdf",
+    "doi": "10.1016/j.cub.2014.09.025",
+    "author": "liberman",
+    "year": "2014",
+    "score": 7,
+    "matches": [
+      "kw:serial dependence",
+      "kw:serial_dependence",
+      "author:ma"
+    ],
+    "core_score": 6,
+    "core_kw": [
+      "serial dependence",
+      "serial_dependence"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Lundqvist_2016_Gamma and Beta Bursts Underlie Working Memory_7f1514.pdf",
+    "doi": "10.1016/j.neuron.2016.02.028",
+    "author": "lundqvist",
+    "year": "2016",
+    "score": 7,
+    "matches": [
+      "kw:working memory",
+      "kw:working_memory",
+      "author:ma"
+    ],
+    "core_score": 6,
+    "core_kw": [
+      "working memory",
+      "working_memory"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Manohar_2019_Neural mechanisms of attending to items in working memory.pdf",
+    "doi": "10.1016/j.neubiorev.2019.03.017",
+    "author": "manohar",
+    "year": "2019",
+    "score": 7,
+    "matches": [
+      "kw:working memory",
+      "kw:working_memory",
+      "author:ma"
+    ],
+    "core_score": 6,
+    "core_kw": [
+      "working memory",
+      "working_memory"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Marchetti_2014_Attention and working memory two basic mechanisms for constructing temporal.pdf",
+    "doi": "10.3389/fpsyg.2014.00880",
+    "author": "marchetti",
+    "year": "2014",
+    "score": 7,
+    "matches": [
+      "kw:working memory",
+      "kw:working_memory",
+      "author:ma"
+    ],
+    "core_score": 6,
+    "core_kw": [
+      "working memory",
+      "working_memory"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Martin_2017_A Bayesian Perspective on Accumulation in the Magnitude System.pdf",
+    "doi": "10.1038/s41598-017-00680-0",
+    "author": "martin",
+    "year": "2017",
+    "score": 7,
+    "matches": [
+      "kw:bayesian",
+      "kw:magnitude",
+      "author:ma"
+    ],
+    "core_score": 6,
+    "core_kw": [
+      "bayesian",
+      "magnitude"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Myers_2017_Prioritizing Information during Working Memory Beyond Sustained Internal_121a93.pdf",
+    "doi": "10.1016/j.tics.2017.03.010",
+    "author": "myers",
+    "year": "2017",
+    "score": 7,
+    "matches": [
+      "kw:working memory",
+      "kw:working_memory",
+      "author:ma"
+    ],
+    "core_score": 6,
+    "core_kw": [
+      "working memory",
+      "working_memory"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Naselaris_2009_Bayesian Reconstruction of Natural Images from Human Brain Activity_38c8cd.pdf",
+    "doi": "10.1016/j.neuron.2009.09.006",
+    "author": "naselaris",
+    "year": "2009",
+    "score": 7,
+    "matches": [
+      "kw:bayesian",
+      "kw:natural image",
+      "author:ma"
+    ],
+    "core_score": 6,
+    "core_kw": [
+      "bayesian",
+      "natural image"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Oberauer_2019_Is Rehearsal an Effective Maintenance Strategy for Working Memory.pdf",
+    "doi": "10.1016/j.tics.2019.06.002",
+    "author": "oberauer",
+    "year": "2019",
+    "score": 7,
+    "matches": [
+      "kw:working memory",
+      "kw:working_memory",
+      "author:ma"
+    ],
+    "core_score": 6,
+    "core_kw": [
+      "working memory",
+      "working_memory"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Papanikolaou_2015_Nonlinear population receptive field changes in human area V5MT+ of healthy.pdf",
+    "doi": "10.1016/j.neuroimage.2015.06.085",
+    "author": "papanikolaou",
+    "year": "2015",
+    "score": 7,
+    "matches": [
+      "kw:population receptive",
+      "kw:receptive field",
+      "author:ma"
+    ],
+    "core_score": 6,
+    "core_kw": [
+      "population receptive",
+      "receptive field"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Park_2007_Concurrent working memory load can facilitate selective attention Evidence for.pdf",
+    "doi": "10.1037/0096-1523.33.5.1062",
+    "author": "park",
+    "year": "2007",
+    "score": 7,
+    "matches": [
+      "kw:working memory",
+      "kw:working_memory",
+      "author:park"
+    ],
+    "core_score": 6,
+    "core_kw": [
+      "working memory",
+      "working_memory"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Park_2019_Dynamically changing neuronal activity supporting working memory for.pdf",
+    "doi": "10.1038/s41598-019-52017-8",
+    "author": "park",
+    "year": "2019",
+    "score": 7,
+    "matches": [
+      "kw:working memory",
+      "kw:working_memory",
+      "author:park"
+    ],
+    "core_score": 6,
+    "core_kw": [
+      "working memory",
+      "working_memory"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Qian_2025_Working Memory Updating in the Macaque Lateral Prefrontal Cortex.pdf",
+    "doi": "10.1016/j.cortex.2014.12.001",
+    "author": "qian",
+    "year": "2025",
+    "score": 7,
+    "matches": [
+      "kw:working memory",
+      "kw:working_memory",
+      "author:ma"
+    ],
+    "core_score": 6,
+    "core_kw": [
+      "working memory",
+      "working_memory"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Schmeichel_2008_Working memory capacity and the self-regulation of emotional expression and.pdf",
+    "doi": "10.1037/a0013345",
+    "author": "schmeichel",
+    "year": "2008",
+    "score": 7,
+    "matches": [
+      "kw:working memory",
+      "kw:working_memory",
+      "author:gu"
+    ],
+    "core_score": 6,
+    "core_kw": [
+      "working memory",
+      "working_memory"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Simon_2016_Training Working Memory Anatomy Matters.pdf",
+    "doi": "10.1523/jneurosci.1513-16.2016",
+    "author": "simon",
+    "year": "2016",
+    "score": 7,
+    "matches": [
+      "kw:working memory",
+      "kw:working_memory",
+      "author:ma"
+    ],
+    "core_score": 6,
+    "core_kw": [
+      "working memory",
+      "working_memory"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Smith_2018_The role of medial prefrontal cortex in the working memory maintenance of one’s.pdf",
+    "doi": "10.1038/s41598-018-21896-8",
+    "author": "smith",
+    "year": "2018",
+    "score": 7,
+    "matches": [
+      "kw:working memory",
+      "kw:working_memory",
+      "author:ma"
+    ],
+    "core_score": 6,
+    "core_kw": [
+      "working memory",
+      "working_memory"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Spaak_2017_Stable and Dynamic Coding for Working Memory in Primate Prefrontal Cortex.pdf",
+    "doi": "10.1523/jneurosci.3364-16.2017",
+    "author": "spaak",
+    "year": "2017",
+    "score": 7,
+    "matches": [
+      "kw:working memory",
+      "kw:working_memory",
+      "author:ma"
+    ],
+    "core_score": 6,
+    "core_kw": [
+      "working memory",
+      "working_memory"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Unknown_2018_Supplemental Material for Benefits of Flexible Prioritization in Working Memory.pdf",
+    "doi": "10.1037/xhp0000449",
+    "author": "unknown",
+    "year": "2018",
+    "score": 7,
+    "matches": [
+      "kw:working memory",
+      "kw:working_memory",
+      "author:ma"
+    ],
+    "core_score": 6,
+    "core_kw": [
+      "working memory",
+      "working_memory"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Vergauwe_2017_Attentional refreshing of information in working memory Increased immediate.pdf",
+    "doi": "10.1016/j.jml.2017.05.001",
+    "author": "vergauwe",
+    "year": "2017",
+    "score": 7,
+    "matches": [
+      "kw:working memory",
+      "kw:working_memory",
+      "author:ma"
+    ],
+    "core_score": 6,
+    "core_kw": [
+      "working memory",
+      "working_memory"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Wei_2015_A Bayesian observer model constrained by efficient coding can explain_531c72.pdf",
+    "doi": "10.1038/nn.4105",
+    "author": "wei",
+    "year": "2015",
+    "score": 7,
+    "matches": [
+      "kw:bayesian",
+      "kw:efficient coding",
+      "author:wei"
+    ],
+    "core_score": 6,
+    "core_kw": [
+      "bayesian",
+      "efficient coding"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Yang_2018_How context features modulate the involvement of the working memory system.pdf",
+    "doi": "10.1016/j.neuropsychologia.2018.01.010",
+    "author": "yang",
+    "year": "2018",
+    "score": 7,
+    "matches": [
+      "kw:working memory",
+      "kw:working_memory",
+      "author:yang"
+    ],
+    "core_score": 6,
+    "core_kw": [
+      "working memory",
+      "working_memory"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Zuiderbaan_2012_Modeling center-surround configurations in population receptive fields using.pdf",
+    "doi": "10.1167/12.3.10",
+    "author": "zuiderbaan",
+    "year": "2012",
+    "score": 7,
+    "matches": [
+      "kw:population receptive",
+      "kw:receptive field",
+      "author:gu"
+    ],
+    "core_score": 6,
+    "core_kw": [
+      "population receptive",
+      "receptive field"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "vanEde_2017_Temporal_Expectations_Guide_Dynamic_Prioritization_in_Visual_Working_Memory.pdf",
+    "doi": "10.1523/jneurosci.2272-16.2017",
+    "author": "vanede",
+    "year": "2017",
+    "score": 7,
+    "matches": [
+      "kw:working memory",
+      "kw:working_memory",
+      "author:gu"
+    ],
+    "core_score": 6,
+    "core_kw": [
+      "working memory",
+      "working_memory"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Ashourian_2011_Bayesian Inference Underlies the Contraction Bias in Delayed Comparison Tasks.pdf",
+    "doi": "10.1371/journal.pone.0019551.g001",
+    "author": "ashourian",
+    "year": "2011",
+    "score": 6,
+    "matches": [
+      "kw:contraction bias",
+      "kw:contraction_bias",
+      "kw:bayesian"
+    ],
+    "core_score": 6,
+    "core_kw": [
+      "contraction bias",
+      "bayesian"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Braunlich_2015_Frontoparietal networks involved in categorization and item working memory.pdf",
+    "doi": "10.1016/j.neuroimage.2014.11.051",
+    "author": "braunlich",
+    "year": "2015",
+    "score": 6,
+    "matches": [
+      "kw:working memory",
+      "kw:working_memory",
+      "kw:parietal"
+    ],
+    "core_score": 6,
+    "core_kw": [
+      "working memory",
+      "working_memory"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Christophel_2015_Parietal and early visual cortices encode working memory content across mental.pdf",
+    "doi": "10.1016/j.neuroimage.2014.11.018",
+    "author": "christophel",
+    "year": "2015",
+    "score": 6,
+    "matches": [
+      "kw:working memory",
+      "kw:working_memory",
+      "kw:parietal"
+    ],
+    "core_score": 6,
+    "core_kw": [
+      "working memory",
+      "working_memory"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Harrison_2009_Decoding reveals the contents of visual working memory in early visual areas.pdf",
+    "doi": "10.1038/nature07832",
+    "author": "harrison",
+    "year": "2009",
+    "score": 6,
+    "matches": [
+      "kw:working memory",
+      "kw:working_memory",
+      "kw:decoding"
+    ],
+    "core_score": 6,
+    "core_kw": [
+      "working memory",
+      "working_memory"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "He_2019_Visual working memory representations in visual and parietal cortex do not.pdf",
+    "doi": "10.1101/747329doi:",
+    "author": "he",
+    "year": "2019",
+    "score": 6,
+    "matches": [
+      "kw:working memory",
+      "kw:working_memory",
+      "kw:parietal"
+    ],
+    "core_score": 6,
+    "core_kw": [
+      "working memory",
+      "working_memory"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Jung_2018_Effective connectivity during working memory and resting states A DCM study.pdf",
+    "doi": "10.1016/j.neuroimage.2017.12.067",
+    "author": "jung",
+    "year": "2018",
+    "score": 6,
+    "matches": [
+      "kw:working memory",
+      "kw:working_memory",
+      "kw:tes"
+    ],
+    "core_score": 6,
+    "core_kw": [
+      "working memory",
+      "working_memory"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Ozkirli_2025_Large-scale mega-analysis indicates that serial dependence deteriorates.pdf",
+    "doi": "10.1038/s41562-025-02362-8",
+    "author": "ozkirli",
+    "year": "2025",
+    "score": 6,
+    "matches": [
+      "kw:serial dependence",
+      "kw:serial_dependence",
+      "kw:tes"
+    ],
+    "core_score": 6,
+    "core_kw": [
+      "serial dependence",
+      "serial_dependence"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Polizzotto_2020_Is It Possible to Improve Working Memory With Prefrontal tDCS Bridging Currents.pdf",
+    "doi": "10.3389/fpsyg.2020.00939",
+    "author": "polizzotto",
+    "year": "2020",
+    "score": 6,
+    "matches": [
+      "kw:working memory",
+      "kw:working_memory",
+      "kw:tdcs"
+    ],
+    "core_score": 6,
+    "core_kw": [
+      "working memory",
+      "working_memory"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Adam_2017_Confident failures Lapses of working memory reveal a metacognitive blind spot.pdf",
+    "doi": "10.3758/s13414-017-1331-8",
+    "author": "adam",
+    "year": "2017",
+    "score": 4,
+    "matches": [
+      "kw:working memory",
+      "kw:working_memory"
+    ],
+    "core_score": 6,
+    "core_kw": [
+      "working memory",
+      "working_memory"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Almeida_2015_Neural circuit basis of visuo-spatial working memory precision a computational.pdf",
+    "doi": "10.1152/jn.00362.2015.—the",
+    "author": "almeida",
+    "year": "2015",
+    "score": 4,
+    "matches": [
+      "kw:working memory",
+      "kw:working_memory"
+    ],
+    "core_score": 6,
+    "core_kw": [
+      "working memory",
+      "working_memory"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Anderson_2017_Visual Population Receptive Fields in People with Schizophrenia Have Reduced.pdf",
+    "doi": "10.1523/jneurosci.3620-15.2016",
+    "author": "anderson",
+    "year": "2017",
+    "score": 4,
+    "matches": [
+      "kw:population receptive",
+      "kw:receptive field"
+    ],
+    "core_score": 6,
+    "core_kw": [
+      "population receptive",
+      "receptive field"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Bancroft_2012_Can vibrotactile working memory store multiple items.pdf",
+    "doi": "10.1016/j.neuron.2016.12.004",
+    "author": "bancroft",
+    "year": "2012",
+    "score": 4,
+    "matches": [
+      "kw:working memory",
+      "kw:working_memory"
+    ],
+    "core_score": 6,
+    "core_kw": [
+      "working memory",
+      "working_memory"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Birba_2017_Enhanced Working Memory Binding by Direct Electrical Stimulation of the.pdf",
+    "doi": "10.3389/fnagi.2017.00178",
+    "author": "birba",
+    "year": "2017",
+    "score": 4,
+    "matches": [
+      "kw:working memory",
+      "kw:working_memory"
+    ],
+    "core_score": 6,
+    "core_kw": [
+      "working memory",
+      "working_memory"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Bliss_2017_Serial dependence is absent at the time of perception but increases in visual_b837f3.pdf",
+    "doi": "10.1101/187666doi:",
+    "author": "bliss",
+    "year": "2017",
+    "score": 4,
+    "matches": [
+      "kw:serial dependence",
+      "kw:serial_dependence"
+    ],
+    "core_score": 6,
+    "core_kw": [
+      "serial dependence",
+      "serial_dependence"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Boboeva_2024_Unifying network model links recency and central tendency biases in working.pdf",
+    "doi": "10.7554/elife.86725",
+    "author": "boboeva",
+    "year": "2024",
+    "score": 4,
+    "matches": [
+      "kw:central tendency",
+      "kw:recency"
+    ],
+    "core_score": 6,
+    "core_kw": [
+      "central tendency",
+      "recency"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Bolkan_2017_Thalamic projections sustain prefrontal activity during working memory.pdf",
+    "doi": "10.1038/nn.4568",
+    "author": "bolkan",
+    "year": "2017",
+    "score": 4,
+    "matches": [
+      "kw:working memory",
+      "kw:working_memory"
+    ],
+    "core_score": 6,
+    "core_kw": [
+      "working memory",
+      "working_memory"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Bouchacourt_2019_A Flexible Model of Working Memory.pdf",
+    "doi": "10.1016/j.neuron.2019.04.020",
+    "author": "bouchacourt",
+    "year": "2019",
+    "score": 4,
+    "matches": [
+      "kw:working memory",
+      "kw:working_memory"
+    ],
+    "core_score": 6,
+    "core_kw": [
+      "working memory",
+      "working_memory"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Brady_2013_A probabilistic model of visual working memory Incorporating higher order.pdf",
+    "doi": "10.1037/a0030779.supp",
+    "author": "brady",
+    "year": "2013",
+    "score": 4,
+    "matches": [
+      "kw:working memory",
+      "kw:working_memory"
+    ],
+    "core_score": 6,
+    "core_kw": [
+      "working memory",
+      "working_memory"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Bray_2017_Working out working memory.pdf",
+    "doi": "10.1038/nrn.2016.181",
+    "author": "bray",
+    "year": "2017",
+    "score": 4,
+    "matches": [
+      "kw:working memory",
+      "kw:working_memory"
+    ],
+    "core_score": 6,
+    "core_kw": [
+      "working memory",
+      "working_memory"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Can_2025_Attractive and repulsive history effects in categorical and continuous.pdf",
+    "doi": "10.1101/2025.04.24.650437doi:",
+    "author": "can",
+    "year": "2025",
+    "score": 4,
+    "matches": [
+      "kw:history effect",
+      "kw:history_effect"
+    ],
+    "core_score": 6,
+    "core_kw": [
+      "history effect",
+      "history_effect"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Cashdollar_2016_The Role of Working Memory in the Probabilistic Inference of Future Sensory.pdf",
+    "doi": "10.1093/cercor/bhw138",
+    "author": "cashdollar",
+    "year": "2016",
+    "score": 4,
+    "matches": [
+      "kw:working memory",
+      "kw:working_memory"
+    ],
+    "core_score": 6,
+    "core_kw": [
+      "working memory",
+      "working_memory"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Cerreta_2020_Predicting Working Memory Training Benefits From Transcranial Direct Current.pdf",
+    "doi": "10.3389/fpsyg.2020.570030",
+    "author": "cerreta",
+    "year": "2020",
+    "score": 4,
+    "matches": [
+      "kw:working memory",
+      "kw:working_memory"
+    ],
+    "core_score": 6,
+    "core_kw": [
+      "working memory",
+      "working_memory"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Ceylan_2021_Serial dependence does not originate from low-level visual processing.pdf",
+    "doi": "10.1016/j.cognition.2021.104709",
+    "author": "ceylan",
+    "year": "2021",
+    "score": 4,
+    "matches": [
+      "kw:serial dependence",
+      "kw:serial_dependence"
+    ],
+    "core_score": 6,
+    "core_kw": [
+      "serial dependence",
+      "serial_dependence"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Chatham_2014_Corticostriatal Output Gating during Selection from Working Memory.pdf",
+    "doi": "10.1016/j.neuron.2014.01.002",
+    "author": "chatham",
+    "year": "2014",
+    "score": 4,
+    "matches": [
+      "kw:working memory",
+      "kw:working_memory"
+    ],
+    "core_score": 6,
+    "core_kw": [
+      "working memory",
+      "working_memory"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Chow_2015_The scope and control of attention Sources of variance in working memory.pdf",
+    "doi": "10.3758/s13421-014-0496-9",
+    "author": "chow",
+    "year": "2015",
+    "score": 4,
+    "matches": [
+      "kw:working memory",
+      "kw:working_memory"
+    ],
+    "core_score": 6,
+    "core_kw": [
+      "working memory",
+      "working_memory"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Christophel_2018_Cortical specialization for attended versus unattended working memory.pdf",
+    "doi": "10.1038/s41593-018-0094-4",
+    "author": "christophel",
+    "year": "2018",
+    "score": 4,
+    "matches": [
+      "kw:working memory",
+      "kw:working_memory"
+    ],
+    "core_score": 6,
+    "core_kw": [
+      "working memory",
+      "working_memory"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Cicchini_2018_The functional role of serial dependence_eb6408.pdf",
+    "doi": "10.1098/rspb.2018.1722",
+    "author": "cicchini",
+    "year": "2018",
+    "score": 4,
+    "matches": [
+      "kw:serial dependence",
+      "kw:serial_dependence"
+    ],
+    "core_score": 6,
+    "core_kw": [
+      "serial dependence",
+      "serial_dependence"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Constantinidis_2016_The neuroscience of working memory capacity and training.pdf",
+    "doi": "10.1038/nrn.2016.43",
+    "author": "constantinidis",
+    "year": "2016",
+    "score": 4,
+    "matches": [
+      "kw:working memory",
+      "kw:working_memory"
+    ],
+    "core_score": 6,
+    "core_kw": [
+      "working memory",
+      "working_memory"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Deverett_2018_Cerebellar_disruption_impairs_working_memory.pdf",
+    "doi": "10.1101/521849doi:",
+    "author": "deverett",
+    "year": "2018",
+    "score": 4,
+    "matches": [
+      "kw:working memory",
+      "kw:working_memory"
+    ],
+    "core_score": 6,
+    "core_kw": [
+      "working memory",
+      "working_memory"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Ester_2013_A Neural Measure of Precision in Visual Working Memory.pdf",
+    "doi": "10.1162/jocn_a_00357",
+    "author": "ester",
+    "year": "2013",
+    "score": 4,
+    "matches": [
+      "kw:working memory",
+      "kw:working_memory"
+    ],
+    "core_score": 6,
+    "core_kw": [
+      "working memory",
+      "working_memory"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Fard_2017_A Bayesian Reformulation of the Extended Drift-Diffusion Model in Perceptual.pdf",
+    "doi": "10.3389/fncom.2017.00029",
+    "author": "fard",
+    "year": "2017",
+    "score": 4,
+    "matches": [
+      "kw:bayesian",
+      "kw:drift_diffusion"
+    ],
+    "core_score": 6,
+    "core_kw": [
+      "bayesian",
+      "drift_diffusion"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Fischer_2014_Serial dependence in visual perception.pdf",
+    "doi": "10.1038/nn.3689",
+    "author": "fischer",
+    "year": "2014",
+    "score": 4,
+    "matches": [
+      "kw:serial dependence",
+      "kw:serial_dependence"
+    ],
+    "core_score": 6,
+    "core_kw": [
+      "serial dependence",
+      "serial_dependence"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Fougnie_2012_Variability in the quality of visual working memory.pdf",
+    "doi": "10.1038/ncomms2237",
+    "author": "fougnie",
+    "year": "2012",
+    "score": 4,
+    "matches": [
+      "kw:working memory",
+      "kw:working_memory"
+    ],
+    "core_score": 6,
+    "core_kw": [
+      "working memory",
+      "working_memory"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Gilad_2016_Uncovering the Spatial Profile of Contour Integration from Fixational Saccades.pdf",
+    "doi": "10.1093/cercor/bhw305",
+    "author": "gilad",
+    "year": "2016",
+    "score": 4,
+    "matches": [
+      "kw:saccade",
+      "kw:contour integration"
+    ],
+    "core_score": 6,
+    "core_kw": [
+      "contour integration",
+      "saccade"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "GonzálezGarrido_2015_Emotional_content_of_stimuli_improves_visuospatial_working_memory.pdf",
+    "doi": "10.1016/j.neulet.2014.11.014",
+    "author": null,
+    "year": null,
+    "score": 4,
+    "matches": [
+      "kw:working memory",
+      "kw:working_memory"
+    ],
+    "core_score": 6,
+    "core_kw": [
+      "working memory",
+      "working_memory"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Haque_2021_Neural substrate and underlying mechanisms of working memory insights from.pdf",
+    "doi": "10.1101/2021.07.08.451663",
+    "author": "haque",
+    "year": "2021",
+    "score": 4,
+    "matches": [
+      "kw:working memory",
+      "kw:working_memory"
+    ],
+    "core_score": 6,
+    "core_kw": [
+      "working memory",
+      "working_memory"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Harvey_2017_Radial asymmetries in population receptive field size and cortical.pdf",
+    "doi": "10.1016/j.neuroimage.2017.11.021",
+    "author": "harvey",
+    "year": "2017",
+    "score": 4,
+    "matches": [
+      "kw:population receptive",
+      "kw:receptive field"
+    ],
+    "core_score": 6,
+    "core_kw": [
+      "population receptive",
+      "receptive field"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Hill_2016_Effects of Anodal Transcranial Direct Current Stimulation on Working Memory A_e915b2.pdf",
+    "doi": "10.1016/j.brs.2015.10.006",
+    "author": "hill",
+    "year": "2016",
+    "score": 4,
+    "matches": [
+      "kw:working memory",
+      "kw:working_memory"
+    ],
+    "core_score": 6,
+    "core_kw": [
+      "working memory",
+      "working_memory"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Hur_2017_Emotional influences on perception and working memory_ac62eb.pdf",
+    "doi": "10.1080/02699931.2016.1213703",
+    "author": "hur",
+    "year": "2017",
+    "score": 4,
+    "matches": [
+      "kw:working memory",
+      "kw:working_memory"
+    ],
+    "core_score": 6,
+    "core_kw": [
+      "working memory",
+      "working_memory"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Ikkai_2011_Common neural mechanisms supporting spatial working memory, attention and motor.pdf",
+    "doi": "10.1016/j.neuropsychologia.2010.12.020",
+    "author": "ikkai",
+    "year": "2011",
+    "score": 4,
+    "matches": [
+      "kw:working memory",
+      "kw:working_memory"
+    ],
+    "core_score": 6,
+    "core_kw": [
+      "working memory",
+      "working_memory"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Inagaki_2019_Discrete attractor dynamics underlies persistent activity in the frontal cortex.pdf",
+    "doi": "10.1038/s41586-019-0919-7",
+    "author": "inagaki",
+    "year": "2019",
+    "score": 4,
+    "matches": [
+      "kw:attractor",
+      "kw:attractor dynamics"
+    ],
+    "core_score": 6,
+    "core_kw": [
+      "attractor dynamics",
+      "attractor"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Jackson_2018_Eye gaze influences working memory for happy but not angry faces.pdf",
+    "doi": "10.1080/02699931.2017.1345720",
+    "author": "jackson",
+    "year": "2018",
+    "score": 4,
+    "matches": [
+      "kw:working memory",
+      "kw:working_memory"
+    ],
+    "core_score": 6,
+    "core_kw": [
+      "working memory",
+      "working_memory"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Kessler_2014_Working memory updating latency reflects the cost of switching between.pdf",
+    "doi": "10.1037/a0035545",
+    "author": "kessler",
+    "year": "2014",
+    "score": 4,
+    "matches": [
+      "kw:working memory",
+      "kw:working_memory"
+    ],
+    "core_score": 6,
+    "core_kw": [
+      "working memory",
+      "working_memory"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Kiyonaga_2017_Serial Dependence across Perception, Attention, and Memory_59e789.pdf",
+    "doi": "10.1016/j.tics.2017.04.011",
+    "author": "kiyonaga",
+    "year": "2017",
+    "score": 4,
+    "matches": [
+      "kw:serial dependence",
+      "kw:serial_dependence"
+    ],
+    "core_score": 6,
+    "core_kw": [
+      "serial dependence",
+      "serial_dependence"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Ko_2016_Eye movements between saccades Measuring ocular drift and tremor.pdf",
+    "doi": "10.1016/j.visres.2016.03.006",
+    "author": "ko",
+    "year": "2016",
+    "score": 4,
+    "matches": [
+      "kw:eye movement",
+      "kw:saccade"
+    ],
+    "core_score": 6,
+    "core_kw": [
+      "saccade",
+      "eye movement"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Lorenc_2018_Flexible Coding of Visual Working Memory Representations during Distraction.pdf",
+    "doi": "10.1523/jneurosci.3061-17.2018",
+    "author": "lorenc",
+    "year": "2018",
+    "score": 4,
+    "matches": [
+      "kw:working memory",
+      "kw:working_memory"
+    ],
+    "core_score": 6,
+    "core_kw": [
+      "working memory",
+      "working_memory"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Mihali_2017_Bayesian microsaccade detection.pdf",
+    "doi": "10.1167/17.1.13",
+    "author": "mihali",
+    "year": "2017",
+    "score": 4,
+    "matches": [
+      "kw:bayesian",
+      "kw:saccade"
+    ],
+    "core_score": 6,
+    "core_kw": [
+      "bayesian",
+      "saccade"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Miller_2018_Working Memory 2.0.pdf",
+    "doi": "10.1016/j.neuron.2018.09.023",
+    "author": "miller",
+    "year": "2018",
+    "score": 4,
+    "matches": [
+      "kw:working memory",
+      "kw:working_memory"
+    ],
+    "core_score": 6,
+    "core_kw": [
+      "working memory",
+      "working_memory"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Mirandola_2017_Working memory affects false memory production for emotional events_5d0004.pdf",
+    "doi": "10.1080/02699931.2015",
+    "author": "mirandola",
+    "year": "2017",
+    "score": 4,
+    "matches": [
+      "kw:working memory",
+      "kw:working_memory"
+    ],
+    "core_score": 6,
+    "core_kw": [
+      "working memory",
+      "working_memory"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Mirandola_2018_What happened first Working memory and negative emotion tell you better.pdf",
+    "doi": "10.1080/02699931.2017.1319340",
+    "author": "mirandola",
+    "year": "2018",
+    "score": 4,
+    "matches": [
+      "kw:working memory",
+      "kw:working_memory"
+    ],
+    "core_score": 6,
+    "core_kw": [
+      "working memory",
+      "working_memory"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Mongillo_2008_Synaptic Theory of Working Memory.pdf",
+    "doi": "10.1126/science.1150769",
+    "author": "mongillo",
+    "year": "2008",
+    "score": 4,
+    "matches": [
+      "kw:working memory",
+      "kw:working_memory"
+    ],
+    "core_score": 6,
+    "core_kw": [
+      "working memory",
+      "working_memory"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Ness_2018_Predictive Pre-updating and Working Memory Capacity Evidence from Event-related.pdf",
+    "doi": "10.1162/jocn_a_01322",
+    "author": "ness",
+    "year": "2018",
+    "score": 4,
+    "matches": [
+      "kw:working memory",
+      "kw:working_memory"
+    ],
+    "core_score": 6,
+    "core_kw": [
+      "working memory",
+      "working_memory"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Panichello_2019_Error-correcting dynamics in visual working memory_cedba4.pdf",
+    "doi": "10.1038/s41467-019-11298-3",
+    "author": "panichello",
+    "year": "2019",
+    "score": 4,
+    "matches": [
+      "kw:working memory",
+      "kw:working_memory"
+    ],
+    "core_score": 6,
+    "core_kw": [
+      "working memory",
+      "working_memory"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Parr_2017_Working memory, attention, and salience in active inference_f0a319.pdf",
+    "doi": "10.1038/s41598-017-15249-0",
+    "author": "parr",
+    "year": "2017",
+    "score": 4,
+    "matches": [
+      "kw:working memory",
+      "kw:working_memory"
+    ],
+    "core_score": 6,
+    "core_kw": [
+      "working memory",
+      "working_memory"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Radvansky_2017_Event segmentation as a working memory process.pdf",
+    "doi": "10.1016/j.jarmac.2017.01.002",
+    "author": "radvansky",
+    "year": "2017",
+    "score": 4,
+    "matches": [
+      "kw:working memory",
+      "kw:working_memory"
+    ],
+    "core_score": 6,
+    "core_kw": [
+      "working memory",
+      "working_memory"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Riggall_2012_The Relationship between Working Memory Storage and Elevated Activity as.pdf",
+    "doi": "10.1523/jneurosci.1892-12.2012",
+    "author": "riggall",
+    "year": "2012",
+    "score": 4,
+    "matches": [
+      "kw:working memory",
+      "kw:working_memory"
+    ],
+    "core_score": 6,
+    "core_kw": [
+      "working memory",
+      "working_memory"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Sadil_2024_The push–pull of serial dependence effects Attraction to the prior response and.pdf",
+    "doi": "10.3758/s13423-023-02320-3",
+    "author": "sadil",
+    "year": "2024",
+    "score": 4,
+    "matches": [
+      "kw:serial dependence",
+      "kw:serial_dependence"
+    ],
+    "core_score": 6,
+    "core_kw": [
+      "serial dependence",
+      "serial_dependence"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Shin_2017_The effects of delay duration on visual working memory for orientation_81ec11.pdf",
+    "doi": "10.1167/17.14.10",
+    "author": "shin",
+    "year": "2017",
+    "score": 4,
+    "matches": [
+      "kw:working memory",
+      "kw:working_memory"
+    ],
+    "core_score": 6,
+    "core_kw": [
+      "working memory",
+      "working_memory"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Shipstead_2015_Working memory capacity and the scope and control of attention.pdf",
+    "doi": "10.3758/s13414-015-0899-0",
+    "author": "shipstead",
+    "year": "2015",
+    "score": 4,
+    "matches": [
+      "kw:working memory",
+      "kw:working_memory"
+    ],
+    "core_score": 6,
+    "core_kw": [
+      "working memory",
+      "working_memory"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Sreenivasan_2014_Revisiting the role of persistent neural activity during working memory_62e9e2.pdf",
+    "doi": "10.1016/j.tics.2013.12.001",
+    "author": "sreenivasan",
+    "year": "2014",
+    "score": 4,
+    "matches": [
+      "kw:working memory",
+      "kw:working_memory"
+    ],
+    "core_score": 6,
+    "core_kw": [
+      "working memory",
+      "working_memory"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "StJohnSaaltink_2016_Serial_Dependence_in_Perceptual_Decisions_Is_Reflected_in_Activity_Patterns.pdf",
+    "doi": "10.1523/jneurosci.4390-15.2016",
+    "author": "stjohnsaaltink",
+    "year": "2016",
+    "score": 4,
+    "matches": [
+      "kw:serial dependence",
+      "kw:serial_dependence"
+    ],
+    "core_score": 6,
+    "core_kw": [
+      "serial dependence",
+      "serial_dependence"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Stein_2019_Disrupted serial dependence suggests deficits in synaptic potentiation in.pdf",
+    "doi": "10.1101/830471doi:",
+    "author": "stein",
+    "year": "2019",
+    "score": 4,
+    "matches": [
+      "kw:serial dependence",
+      "kw:serial_dependence"
+    ],
+    "core_score": 6,
+    "core_kw": [
+      "serial dependence",
+      "serial_dependence"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Stein_2020_Reduced serial dependence suggests deficits in synaptic potentiation in.pdf",
+    "doi": "10.1038/s41467-020-18033-3",
+    "author": "stein",
+    "year": "2020",
+    "score": 4,
+    "matches": [
+      "kw:serial dependence",
+      "kw:serial_dependence"
+    ],
+    "core_score": 6,
+    "core_kw": [
+      "serial dependence",
+      "serial_dependence"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Stokes_2015_‘Activity-silent’ working memory in prefrontal cortex a dynamic coding framework.pdf",
+    "doi": "10.1016/j.tics.2015.05.004",
+    "author": "stokes",
+    "year": "2015",
+    "score": 4,
+    "matches": [
+      "kw:working memory",
+      "kw:working_memory"
+    ],
+    "core_score": 6,
+    "core_kw": [
+      "working memory",
+      "working_memory"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Teng_2019_Visual working memory directly alters perception.pdf",
+    "doi": "10.1038/s41562-019-0640-4",
+    "author": "teng",
+    "year": "2019",
+    "score": 4,
+    "matches": [
+      "kw:working memory",
+      "kw:working_memory"
+    ],
+    "core_score": 6,
+    "core_kw": [
+      "working memory",
+      "working_memory"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Voitov_2022_Cortical feedback loops bind distributed representations of working memory_a37eae.pdf",
+    "doi": "10.1016/j.tics.2016.12.007",
+    "author": "voitov",
+    "year": "2022",
+    "score": 4,
+    "matches": [
+      "kw:working memory",
+      "kw:working_memory"
+    ],
+    "core_score": 6,
+    "core_kw": [
+      "working memory",
+      "working_memory"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Wilhelm_2013_What is working memory capacity, and how can we measure it.pdf",
+    "doi": "10.3389/fpsyg.2013.00433",
+    "author": "wilhelm",
+    "year": "2013",
+    "score": 4,
+    "matches": [
+      "kw:working memory",
+      "kw:working_memory"
+    ],
+    "core_score": 6,
+    "core_kw": [
+      "working memory",
+      "working_memory"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Xie_2017_Affective bias in visual working memory is associated with capacity.pdf",
+    "doi": "10.1080/02699931.2016.1223020",
+    "author": "xie",
+    "year": "2017",
+    "score": 4,
+    "matches": [
+      "kw:working memory",
+      "kw:working_memory"
+    ],
+    "core_score": 6,
+    "core_kw": [
+      "working memory",
+      "working_memory"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Xu_2017_Reevaluating the Sensory Account of Visual Working Memory Storage.pdf",
+    "doi": "10.1016/j.tics.2017.06.013",
+    "author": "xu",
+    "year": "2017",
+    "score": 4,
+    "matches": [
+      "kw:working memory",
+      "kw:working_memory"
+    ],
+    "core_score": 6,
+    "core_kw": [
+      "working memory",
+      "working_memory"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Ye_2016_Retro-dimension-cue benefit in visual working memory.pdf",
+    "doi": "10.1038/srep35573",
+    "author": "ye",
+    "year": "2016",
+    "score": 4,
+    "matches": [
+      "kw:working memory",
+      "kw:working_memory"
+    ],
+    "core_score": 6,
+    "core_kw": [
+      "working memory",
+      "working_memory"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Ye_2019_Working memory capacity affects trade-off between quality and quantity only.pdf",
+    "doi": "10.1038/s41598-019-44998-3",
+    "author": "ye",
+    "year": "2019",
+    "score": 4,
+    "matches": [
+      "kw:working memory",
+      "kw:working_memory"
+    ],
+    "core_score": 6,
+    "core_kw": [
+      "working memory",
+      "working_memory"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Yoo_2018_Strategic allocation of working memory resource.pdf",
+    "doi": "10.1038/s41598-018-34282-1",
+    "author": "yoo",
+    "year": "2018",
+    "score": 4,
+    "matches": [
+      "kw:working memory",
+      "kw:working_memory"
+    ],
+    "core_score": 6,
+    "core_kw": [
+      "working memory",
+      "working_memory"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Sprague_2013_Attention modulates spatial priority maps in the human occipital, parietal and.pdf",
+    "doi": "10.1038/nn.3574",
+    "author": "sprague",
+    "year": "2013",
+    "score": 13,
+    "matches": [
+      "kw:tes",
+      "kw:parietal",
+      "author:sprague",
+      "author:gu",
+      "author:ma"
+    ],
+    "core_score": 4,
+    "core_kw": [],
+    "core_auth": [
+      "sprague"
+    ]
+  },
+  {
+    "filename": "Ryu_2017_Stimulus-Tuned Structure of Correlated fMRI Activity in Human Visual Cortex.pdf",
+    "doi": "10.1093/cercor/bhw411",
+    "author": "ryu",
+    "year": "2017",
+    "score": 10,
+    "matches": [
+      "kw:fmri",
+      "kw:visual cortex",
+      "author:ryu",
+      "author:ma"
+    ],
+    "core_score": 4,
+    "core_kw": [],
+    "core_auth": [
+      "ryu"
+    ]
+  },
+  {
+    "filename": "Sprague_2019_Inverted encoding models estimate sensible channel responses for sensible models.pdf",
+    "doi": "10.1101/642710doi:",
+    "author": "sprague",
+    "year": "2019",
+    "score": 9,
+    "matches": [
+      "author:sprague",
+      "author:gu",
+      "author:ma"
+    ],
+    "core_score": 4,
+    "core_kw": [],
+    "core_auth": [
+      "sprague"
+    ]
+  },
+  {
+    "filename": "Jehee_2011_Attention Improves Encoding of Task-Relevant Features in the Human Visual Cortex.pdf",
+    "doi": "10.1523/jneurosci.6153-09.2011",
+    "author": "jehee",
+    "year": "2011",
+    "score": 8,
+    "matches": [
+      "kw:visual cortex",
+      "author:jehee",
+      "author:ma"
+    ],
+    "core_score": 4,
+    "core_kw": [],
+    "core_auth": [
+      "jehee"
+    ]
+  },
+  {
+    "filename": "Serences_2007_The Representation of Behavioral Choice for Motion in Human Visual Cortex.pdf",
+    "doi": "10.1523/jneurosci.4021-07.2007",
+    "author": "serences",
+    "year": "2007",
+    "score": 8,
+    "matches": [
+      "kw:visual cortex",
+      "author:serences",
+      "author:ma"
+    ],
+    "core_score": 4,
+    "core_kw": [],
+    "core_auth": [
+      "serences"
+    ]
+  },
+  {
+    "filename": "Zelano_2016_Nasal Respiration Entrains Human Limbic Oscillations and Modulates Cognitive_ddabdd.pdf",
+    "doi": "10.1523/jneurosci.2586-16.2016",
+    "author": "zelano",
+    "year": "2016",
+    "score": 8,
+    "matches": [
+      "kw:tes",
+      "author:lim",
+      "author:ma"
+    ],
+    "core_score": 4,
+    "core_kw": [],
+    "core_auth": [
+      "lim"
+    ]
+  },
+  {
+    "filename": "Whitney_2003_Flexible Retinotopy Motion-Dependent Position Coding in the Visual Cortex.pdf",
+    "doi": "10.1126/science.1087839",
+    "author": "whitney",
+    "year": "2003",
+    "score": 7,
+    "matches": [
+      "kw:retinotop",
+      "kw:visual cortex",
+      "author:whitney"
+    ],
+    "core_score": 4,
+    "core_kw": [],
+    "core_auth": [
+      "whitney"
+    ]
+  },
+  {
+    "filename": "Bindemann_2005_Capacity limits for face processing.pdf",
+    "doi": "10.1016/j.cognition.2004.11.004",
+    "author": "bindemann",
+    "year": "2005",
+    "score": 6,
+    "matches": [
+      "author:lim",
+      "author:ma"
+    ],
+    "core_score": 4,
+    "core_kw": [],
+    "core_auth": [
+      "lim"
+    ]
+  },
+  {
+    "filename": "Jazayeri_2006_Optimal representation of sensory information by neural populations.pdf",
+    "doi": "10.1038/nn1691",
+    "author": "jazayeri",
+    "year": "2006",
+    "score": 6,
+    "matches": [
+      "author:ma",
+      "author:jazayeri"
+    ],
+    "core_score": 4,
+    "core_kw": [],
+    "core_auth": [
+      "jazayeri"
+    ]
+  },
+  {
+    "filename": "Lin_2016_A Preliminary Study on Normalized Pattern-Reversal Peripheral Field SSVEPs as a.pdf",
+    "doi": "10.1167/iovs.15-18439",
+    "author": "lin",
+    "year": "2016",
+    "score": 6,
+    "matches": [
+      "author:lim",
+      "author:ma"
+    ],
+    "core_score": 4,
+    "core_kw": [],
+    "core_auth": [
+      "lim"
+    ]
+  },
+  {
+    "filename": "Ma_2012_Variability_in_encoding_precision_accounts_for_the_limitations_of_visual.pdf",
+    "doi": "10.1073/pnas.1117465109",
+    "author": "ma",
+    "year": "2012",
+    "score": 6,
+    "matches": [
+      "author:lim",
+      "author:ma"
+    ],
+    "core_score": 4,
+    "core_kw": [],
+    "core_auth": [
+      "lim"
+    ]
+  },
+  {
+    "filename": "Marjaninejad_2019_Autonomous functional movements in a tendon-driven limb via limited experience.pdf",
+    "doi": "10.1038/s42256-019-0029-0",
+    "author": "marjaninejad",
+    "year": "2019",
+    "score": 6,
+    "matches": [
+      "author:lim",
+      "author:ma"
+    ],
+    "core_score": 4,
+    "core_kw": [],
+    "core_auth": [
+      "lim"
+    ]
+  },
+  {
+    "filename": "Rademaker_2017_Pinging the brain to reveal hidden memories.pdf",
+    "doi": "10.1038/nn.4560",
+    "author": "rademaker",
+    "year": "2017",
+    "score": 6,
+    "matches": [
+      "author:rademaker",
+      "author:ma"
+    ],
+    "core_score": 4,
+    "core_kw": [],
+    "core_auth": [
+      "rademaker"
+    ]
+  },
+  {
+    "filename": "Rademaker_2018_Simultaneous representation of sensory and mnemonic information in human visual.pdf",
+    "doi": "10.1101/339200doi:",
+    "author": "rademaker",
+    "year": "2018",
+    "score": 6,
+    "matches": [
+      "author:rademaker",
+      "author:ma"
+    ],
+    "core_score": 4,
+    "core_kw": [],
+    "core_auth": [
+      "rademaker"
+    ]
+  },
+  {
+    "filename": "Rademaker_2019_Coexisting representations of sensory and mnemonic information in human visual.pdf",
+    "doi": "10.1038/s41593-019-0428-x",
+    "author": "rademaker",
+    "year": "2019",
+    "score": 6,
+    "matches": [
+      "author:rademaker",
+      "author:ma"
+    ],
+    "core_score": 4,
+    "core_kw": [],
+    "core_auth": [
+      "rademaker"
+    ]
+  },
+  {
+    "filename": "Sims_2016_Rate–distortion theory and human perception_afd037.pdf",
+    "doi": "10.1016/j.cognition.2016.03.020",
+    "author": "sims",
+    "year": "2016",
+    "score": 6,
+    "matches": [
+      "author:sims",
+      "author:ma"
+    ],
+    "core_score": 4,
+    "core_kw": [],
+    "core_auth": [
+      "sims"
+    ]
+  },
+  {
+    "filename": "Sprague_2015_Stereopsis is adaptive for the natural environment.pdf",
+    "doi": "10.1126/sciadv.1400254",
+    "author": "sprague",
+    "year": "2015",
+    "score": 6,
+    "matches": [
+      "author:sprague",
+      "author:gu"
+    ],
+    "core_score": 4,
+    "core_kw": [],
+    "core_auth": [
+      "sprague"
+    ]
+  },
+  {
+    "filename": "Sprague_2018_Inverted Encoding Models Assay Population-Level Stimulus Representations, Not.pdf",
+    "doi": "10.1523/eneuro.0098-18.2018",
+    "author": "sprague",
+    "year": "2018",
+    "score": 6,
+    "matches": [
+      "author:sprague",
+      "author:gu"
+    ],
+    "core_score": 4,
+    "core_kw": [],
+    "core_auth": [
+      "sprague"
+    ]
+  },
+  {
+    "filename": "Stocker_2006_Noise characteristics and prior expectations in human visual speed perception.pdf",
+    "doi": "10.1038/nn1669",
+    "author": "stocker",
+    "year": "2006",
+    "score": 6,
+    "matches": [
+      "author:stocker",
+      "author:ma"
+    ],
+    "core_score": 4,
+    "core_kw": [],
+    "core_auth": [
+      "stocker"
+    ]
+  },
+  {
+    "filename": "Stürmer_2018_Relationship_between_climatic_variables_and_the_variation_in_bulk_tank.pdf",
+    "doi": "10.1007/s00484-018-1566-7",
+    "author": null,
+    "year": null,
+    "score": 6,
+    "matches": [
+      "author:lim",
+      "author:ma"
+    ],
+    "core_score": 4,
+    "core_kw": [],
+    "core_auth": [
+      "lim"
+    ]
+  },
+  {
+    "filename": "Tan_2014_Beyond the temporal pole limbic memory circuit in the semantic variant of.pdf",
+    "doi": "10.1093/brain/awu118",
+    "author": "tan",
+    "year": "2014",
+    "score": 6,
+    "matches": [
+      "author:lim",
+      "author:ma"
+    ],
+    "core_score": 4,
+    "core_kw": [],
+    "core_auth": [
+      "lim"
+    ]
+  },
+  {
+    "filename": "Jazayeri_2007_A new perceptual illusion reveals mechanisms of sensory decoding_89f819.pdf",
+    "doi": "10.1038/nature05739",
+    "author": "jazayeri",
+    "year": "2007",
+    "score": 5,
+    "matches": [
+      "kw:decoding",
+      "author:jazayeri"
+    ],
+    "core_score": 4,
+    "core_kw": [],
+    "core_auth": [
+      "jazayeri"
+    ]
+  },
+  {
+    "filename": "Jazayeri_2010_Temporal context calibrates interval timing.pdf",
+    "doi": "10.1038/nn.2590",
+    "author": "jazayeri",
+    "year": "2010",
+    "score": 5,
+    "matches": [
+      "kw:tes",
+      "author:jazayeri"
+    ],
+    "core_score": 4,
+    "core_kw": [],
+    "core_auth": [
+      "jazayeri"
+    ]
+  },
+  {
+    "filename": "Lim_2008_Affective learning modulates spatial competition during low-load attentional.pdf",
+    "doi": "10.1016/j.neuropsychologia.2007.12.003",
+    "author": "lim",
+    "year": "2008",
+    "score": 5,
+    "matches": [
+      "kw:tes",
+      "author:lim"
+    ],
+    "core_score": 4,
+    "core_kw": [],
+    "core_auth": [
+      "lim"
+    ]
+  },
+  {
+    "filename": "Lim_2015_Inferring learning rules from distributions of firing rates in cortical neurons.pdf",
+    "doi": "10.1038/nn.4158",
+    "author": "lim",
+    "year": "2015",
+    "score": 5,
+    "matches": [
+      "kw:tes",
+      "author:lim"
+    ],
+    "core_score": 4,
+    "core_kw": [],
+    "core_auth": [
+      "lim"
+    ]
+  },
+  {
+    "filename": "Whitney_2009_Neural correlates of narrative shifts during auditory story comprehension.pdf",
+    "doi": "10.1016/j.neuroimage.2009.04.037",
+    "author": "whitney",
+    "year": "2009",
+    "score": 5,
+    "matches": [
+      "kw:tes",
+      "author:whitney"
+    ],
+    "core_score": 4,
+    "core_kw": [],
+    "core_auth": [
+      "whitney"
+    ]
+  },
+  {
+    "filename": "Wilson_2017_GABAergic Neurons in Ferret Visual Cortex Participate in Functionally Specific.pdf",
+    "doi": "10.1016/j.neuron.2017.02.035",
+    "author": "wilson",
+    "year": "2017",
+    "score": 5,
+    "matches": [
+      "kw:visual cortex",
+      "author:bae"
+    ],
+    "core_score": 4,
+    "core_kw": [],
+    "core_auth": [
+      "bae"
+    ]
+  },
+  {
+    "filename": "Bae_2014_A Computational Model of Narrative Generation for Surprise Arousal_ac7d9e.pdf",
+    "doi": "10.1109/tciaig.2013.2290330",
+    "author": "bae",
+    "year": "2014",
+    "score": 3,
+    "matches": [
+      "author:bae"
+    ],
+    "core_score": 4,
+    "core_kw": [],
+    "core_auth": [
+      "bae"
+    ]
+  },
+  {
+    "filename": "Catani_2013_A_revised_limbic_system_model.pdf",
+    "doi": "10.1016/j.neubiorev.2013.07.001",
+    "author": "catani",
+    "year": "2013",
+    "score": 3,
+    "matches": [
+      "author:lim"
+    ],
+    "core_score": 4,
+    "core_kw": [],
+    "core_auth": [
+      "lim"
+    ]
+  },
+  {
+    "filename": "Changeux_2017_Climbing Brain Levels of Organisation from Genes to Consciousness.pdf",
+    "doi": "10.1016/j.tics.2017.01.004",
+    "author": "changeux",
+    "year": "2017",
+    "score": 3,
+    "matches": [
+      "author:lim"
+    ],
+    "core_score": 4,
+    "core_kw": [],
+    "core_auth": [
+      "lim"
+    ]
+  },
+  {
+    "filename": "Denfield_2016_Investigating the Limits of Neurovascular Coupling.pdf",
+    "doi": "10.1016/j.neuron.2016.08.026",
+    "author": "denfield",
+    "year": "2016",
+    "score": 3,
+    "matches": [
+      "author:lim"
+    ],
+    "core_score": 4,
+    "core_kw": [],
+    "core_auth": [
+      "lim"
+    ]
+  },
+  {
+    "filename": "Dumoulin_2017_In vivo evidence of functional and anatomical stripe-based subdivisions in_c2bdd5.pdf",
+    "doi": "10.1038/s41598-017-00634-6",
+    "author": "dumoulin",
+    "year": "2017",
+    "score": 3,
+    "matches": [
+      "author:dumoulin"
+    ],
+    "core_score": 4,
+    "core_kw": [],
+    "core_auth": [
+      "dumoulin"
+    ]
+  },
+  {
+    "filename": "Dumoulin_2017_Layers of Neuroscience.pdf",
+    "doi": "10.1016/j.neuron.2017.12.004",
+    "author": "dumoulin",
+    "year": "2017",
+    "score": 3,
+    "matches": [
+      "author:dumoulin"
+    ],
+    "core_score": 4,
+    "core_kw": [],
+    "core_auth": [
+      "dumoulin"
+    ]
+  },
+  {
+    "filename": "Fraundorf_2014_Knowing the crowd within Metacognitive limits on combining multiple judgments.pdf",
+    "doi": "10.1016/j.jml.2013.10.002",
+    "author": "fraundorf",
+    "year": "2014",
+    "score": 3,
+    "matches": [
+      "author:lim"
+    ],
+    "core_score": 4,
+    "core_kw": [],
+    "core_auth": [
+      "lim"
+    ]
+  },
+  {
+    "filename": "Fritsche_2017_Opposite Effects of Recent History on Perception and Decision_b155cc.pdf",
+    "doi": "10.1016/j.cub.2017.01.006",
+    "author": "fritsche",
+    "year": "2017",
+    "score": 3,
+    "matches": [
+      "author:fritsche"
+    ],
+    "core_score": 4,
+    "core_kw": [],
+    "core_auth": [
+      "fritsche"
+    ]
+  },
+  {
+    "filename": "Frühholz_2014_The_role_of_the_medial_temporal_limbic_system_in_processing.pdf",
+    "doi": "10.1016/j.pneurobio.2014.09.003",
+    "author": null,
+    "year": null,
+    "score": 3,
+    "matches": [
+      "author:lim"
+    ],
+    "core_score": 4,
+    "core_kw": [],
+    "core_auth": [
+      "lim"
+    ]
+  },
+  {
+    "filename": "Hamid_2016_Mesolimbic dopamine signals the value of work.pdf",
+    "doi": "10.1038/nn.4173",
+    "author": "hamid",
+    "year": "2016",
+    "score": 3,
+    "matches": [
+      "author:lim"
+    ],
+    "core_score": 4,
+    "core_kw": [],
+    "core_auth": [
+      "lim"
+    ]
+  },
+  {
+    "filename": "Jazayeri_2017_Navigating the Neural Space in Search of the Neural Code.pdf",
+    "doi": "10.1016/j.neuron.2017.02.019",
+    "author": "jazayeri",
+    "year": "2017",
+    "score": 3,
+    "matches": [
+      "author:jazayeri"
+    ],
+    "core_score": 4,
+    "core_kw": [],
+    "core_auth": [
+      "jazayeri"
+    ]
+  },
+  {
+    "filename": "Lawrenson_2016_Transmission of Predictable Sensory Signals to the Cerebellum via Climbing.pdf",
+    "doi": "10.1523/jneurosci.0439-16.2016",
+    "author": "lawrenson",
+    "year": "2016",
+    "score": 3,
+    "matches": [
+      "author:lim"
+    ],
+    "core_score": 4,
+    "core_kw": [],
+    "core_auth": [
+      "lim"
+    ]
+  },
+  {
+    "filename": "Lim_2015_Selective Attention to Auditory Memory Neurally Enhances Perceptual Precision.pdf",
+    "doi": "10.1523/jneurosci.2674-15.2015",
+    "author": "lim",
+    "year": "2015",
+    "score": 3,
+    "matches": [
+      "author:lim"
+    ],
+    "core_score": 4,
+    "core_kw": [],
+    "core_auth": [
+      "lim"
+    ]
+  },
+  {
+    "filename": "Morena_2014_Endogenous cannabinoid release within prefrontal-limbic pathways affects memory.pdf",
+    "doi": "10.1073/pnas.1420285111",
+    "author": "morena",
+    "year": "2014",
+    "score": 3,
+    "matches": [
+      "author:lim"
+    ],
+    "core_score": 4,
+    "core_kw": [],
+    "core_auth": [
+      "lim"
+    ]
+  },
+  {
+    "filename": "Polimeni_2010_Laminar analysis of 7T BOLD using an imposed spatial activation pattern in.pdf",
+    "doi": "10.1016/j.neuroimage.2010.05.005",
+    "author": "polimeni",
+    "year": "2010",
+    "score": 3,
+    "matches": [
+      "author:lim"
+    ],
+    "core_score": 4,
+    "core_kw": [],
+    "core_auth": [
+      "lim"
+    ]
+  },
+  {
+    "filename": "Rolls_2015_Limbic systems for emotion and for memory, but no single limbic system_5acc4e.pdf",
+    "doi": "10.1016/j.cortex.2013.12.005",
+    "author": "rolls",
+    "year": "2015",
+    "score": 3,
+    "matches": [
+      "author:lim"
+    ],
+    "core_score": 4,
+    "core_kw": [],
+    "core_auth": [
+      "lim"
+    ]
+  },
+  {
+    "filename": "Rolls_2017_Limbic Structures, Emotion, and Memory.pdf",
+    "doi": "10.1016/b978-0-12-809324-5.06857-7",
+    "author": "rolls",
+    "year": "2017",
+    "score": 3,
+    "matches": [
+      "author:lim"
+    ],
+    "core_score": 4,
+    "core_kw": [],
+    "core_auth": [
+      "lim"
+    ]
+  },
+  {
+    "filename": "Salimpoor_2013_Interactions Between the Nucleus Accumbens and Auditory Cortices Predict Music.pdf",
+    "doi": "10.1126/science.1231059",
+    "author": "salimpoor",
+    "year": "2013",
+    "score": 3,
+    "matches": [
+      "author:lim"
+    ],
+    "core_score": 4,
+    "core_kw": [],
+    "core_auth": [
+      "lim"
+    ]
+  },
+  {
+    "filename": "Schwab_2014_Nogo limits neural plasticity and recovery from injury.pdf",
+    "doi": "10.1016/j.conb.2014.02.011",
+    "author": "schwab",
+    "year": "2014",
+    "score": 3,
+    "matches": [
+      "author:lim"
+    ],
+    "core_score": 4,
+    "core_kw": [],
+    "core_auth": [
+      "lim"
+    ]
+  },
+  {
+    "filename": "Science_2013_SalimpoorEtAl.pdf",
+    "doi": "10.1126/science.1232437",
+    "author": "science",
+    "year": "2013",
+    "score": 3,
+    "matches": [
+      "author:lim"
+    ],
+    "core_score": 4,
+    "core_kw": [],
+    "core_auth": [
+      "lim"
+    ]
+  },
+  {
+    "filename": "Seo_2016_A GABAergic Projection from the Centromedial Nuclei of the Amygdala to.pdf",
+    "doi": "10.1523/jneurosci.1164-16.2016",
+    "author": "seo",
+    "year": "2016",
+    "score": 3,
+    "matches": [
+      "author:bae"
+    ],
+    "core_score": 4,
+    "core_kw": [],
+    "core_auth": [
+      "bae"
+    ]
+  },
+  {
+    "filename": "Serences_2007_Feature-Based Attentional Modulations in the Absence of Direct Visual_1b5000.pdf",
+    "doi": "10.1016/j.neuron.2007.06.015",
+    "author": "serences",
+    "year": "2007",
+    "score": 3,
+    "matches": [
+      "author:serences"
+    ],
+    "core_score": 4,
+    "core_kw": [],
+    "core_auth": [
+      "serences"
+    ]
+  },
+  {
+    "filename": "Serences_2007_Spatially Selective Representations of Voluntary and Stimulus-Driven.pdf",
+    "doi": "10.1093/cercor/bhj146",
+    "author": "serences",
+    "year": "2007",
+    "score": 3,
+    "matches": [
+      "author:serences"
+    ],
+    "core_score": 4,
+    "core_kw": [],
+    "core_auth": [
+      "serences"
+    ]
+  },
+  {
+    "filename": "Syed_2016_Action initiation shapes mesolimbic dopamine encoding of future rewards.pdf",
+    "doi": "10.1038/nn.4187",
+    "author": "syed",
+    "year": "2016",
+    "score": 3,
+    "matches": [
+      "author:lim"
+    ],
+    "core_score": 4,
+    "core_kw": [],
+    "core_auth": [
+      "lim"
+    ]
+  },
+  {
+    "filename": "Thiele_2012_Contribution_of_Cholinergic_and_GABAergic_Mechanisms_to_Direction_Tuning.pdf",
+    "doi": "10.1523/jneurosci.0554-12.2012",
+    "author": "thiele",
+    "year": "2012",
+    "score": 3,
+    "matches": [
+      "author:bae"
+    ],
+    "core_score": 4,
+    "core_kw": [],
+    "core_auth": [
+      "bae"
+    ]
+  },
+  {
+    "filename": "Wimmer_2015_Sensory integration dynamics in a hierarchical network explains choice.pdf",
+    "doi": "10.1038/ncomms7177",
+    "author": "wimmer",
+    "year": "2015",
+    "score": 3,
+    "matches": [
+      "author:wimmer"
+    ],
+    "core_score": 4,
+    "core_kw": [],
+    "core_auth": [
+      "wimmer"
+    ]
+  },
+  {
+    "filename": "Vu_2011_Encoding and decoding V1 fMRI responses to natural images with sparse.pdf",
+    "doi": "10.1214/11-aoas476",
+    "author": "vu",
+    "year": "2011",
+    "score": 11,
+    "matches": [
+      "kw:fmri",
+      "kw:decoding",
+      "kw:v1",
+      "kw:natural image",
+      "author:ma"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "natural image"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Wei_2016_Mutual Information, Fisher Information, and Efficient Coding.pdf",
+    "doi": "10.1162/neco_a_00804",
+    "author": "wei",
+    "year": "2016",
+    "score": 11,
+    "matches": [
+      "kw:efficient coding",
+      "author:wei",
+      "author:ma",
+      "author:fisher"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "efficient coding"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Shadlen_2016_Decision Making and Sequential Sampling from Memory_42e3a9.pdf",
+    "doi": "10.1016/j.neuron.2016.04.036",
+    "author": "shadlen",
+    "year": "2016",
+    "score": 8,
+    "matches": [
+      "kw:sequential",
+      "author:shadlen",
+      "author:ma"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "sequential"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Beck_2008_Probabilistic Population Codes for Bayesian Decision Making.pdf",
+    "doi": "10.1016/j.neuron.2008.09.021",
+    "author": "beck",
+    "year": "2008",
+    "score": 7,
+    "matches": [
+      "kw:bayesian",
+      "kw:population code",
+      "author:ma"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "bayesian"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Congdon_2006_Bayesian model choice based on Monte Carlo estimates of posterior model.pdf",
+    "doi": "10.1016/j.csda.2004.08.001",
+    "author": "congdon",
+    "year": "2006",
+    "score": 7,
+    "matches": [
+      "kw:bayesian",
+      "kw:tes",
+      "author:ma"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "bayesian"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Hallum_2014_Surround suppression supports second-order feature encoding by macaque V1 and.pdf",
+    "doi": "10.1016/j.visres.2014.10.004",
+    "author": "hallum",
+    "year": "2014",
+    "score": 7,
+    "matches": [
+      "kw:v1",
+      "kw:surround suppression",
+      "author:ma"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "surround suppression"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Ma_2006_Bayesian inference with probabilistic population codes_d6d12b.pdf",
+    "doi": "10.1038/nn1790",
+    "author": "ma",
+    "year": "2006",
+    "score": 7,
+    "matches": [
+      "kw:bayesian",
+      "kw:population code",
+      "author:ma"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "bayesian"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Martinez_2005_Receptive field structure varies with layer in the primary visual cortex.pdf",
+    "doi": "10.1038/nn1404",
+    "author": "martinez",
+    "year": "2005",
+    "score": 7,
+    "matches": [
+      "kw:visual cortex",
+      "kw:receptive field",
+      "author:ma"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "receptive field"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Mooser_2004_A morphological basis for orientation tuning in primary visual cortex.pdf",
+    "doi": "10.1038/nn1287",
+    "author": "mooser",
+    "year": "2004",
+    "score": 7,
+    "matches": [
+      "kw:visual cortex",
+      "kw:orientation tuning",
+      "author:ma"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "orientation tuning"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Nauhaus_2016_Efficient Receptive Field Tiling in Primate V1.pdf",
+    "doi": "10.1016/j.neuron.2016.07.015",
+    "author": "nauhaus",
+    "year": "2016",
+    "score": 7,
+    "matches": [
+      "kw:v1",
+      "kw:receptive field",
+      "author:ma"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "receptive field"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Olman_2004_BOLD fMRI and psychophysical measurements of contrast response to broadband.pdf",
+    "doi": "10.1016/j.visres.2003.10.022",
+    "author": "olman",
+    "year": "2004",
+    "score": 7,
+    "matches": [
+      "kw:fmri",
+      "kw:psychophysic",
+      "author:ma"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "psychophysic"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Rust_2005_Spatiotemporal Elements of Macaque V1 Receptive Fields_4931b5.pdf",
+    "doi": "10.1016/j.neuron.2005.05.021",
+    "author": "rust",
+    "year": "2005",
+    "score": 7,
+    "matches": [
+      "kw:v1",
+      "kw:receptive field",
+      "author:ma"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "receptive field"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Subramanian_2014_Emotion modulates eye movement patterns and subsequent memory for the gist and.pdf",
+    "doi": "10.1167/14.3.31",
+    "author": "subramanian",
+    "year": "2014",
+    "score": 7,
+    "matches": [
+      "kw:tes",
+      "kw:eye movement",
+      "author:ma"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "eye movement"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Tajima_2016_Population Code Dynamics in Categorical Perception.pdf",
+    "doi": "10.1038/srep22536",
+    "author": "tajima",
+    "year": "2016",
+    "score": 7,
+    "matches": [
+      "kw:categorical perception",
+      "kw:population code",
+      "author:ma"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "categorical perception"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Venkatesh_2020_Comparing functional connectivity matrices A geometry-aware approach applied to.pdf",
+    "doi": "10.1016/j.neuroimage.2019.116398",
+    "author": "venkatesh",
+    "year": "2020",
+    "score": 7,
+    "matches": [
+      "kw:tes",
+      "kw:functional connectivity",
+      "author:ma"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "functional connectivity"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Crowder_2006_Relationship Between Contrast Adaptation and Orientation Tuning in V1 and V2 of.pdf",
+    "doi": "10.1152/jn.00871.2005",
+    "author": "crowder",
+    "year": "2006",
+    "score": 6,
+    "matches": [
+      "kw:v1",
+      "kw:v2",
+      "kw:orientation tuning"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "orientation tuning"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Keller_2020_Feedback generates a second receptive field in neurons of the visual cortex.pdf",
+    "doi": "10.1038/s41586-020-2319-4",
+    "author": "keller",
+    "year": "2020",
+    "score": 6,
+    "matches": [
+      "kw:tes",
+      "kw:visual cortex",
+      "kw:receptive field"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "receptive field"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Nassi_2013_Corticocortical Feedback Contributes to Surround Suppression in V1 of the Alert.pdf",
+    "doi": "10.1523/jneurosci.5124-12.2013",
+    "author": "nassi",
+    "year": "2013",
+    "score": 6,
+    "matches": [
+      "kw:tes",
+      "kw:v1",
+      "kw:surround suppression"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "surround suppression"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Tanaka_2009_Surround Suppression of V1 Neurons Mediates Orientation-Based Representation of.pdf",
+    "doi": "10.1152/jn.90749.2008",
+    "author": "tanaka",
+    "year": "2009",
+    "score": 6,
+    "matches": [
+      "kw:tes",
+      "kw:v1",
+      "kw:surround suppression"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "surround suppression"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Wilbertz_2018_Combined fMRI- and eye movement-based decoding of bistable plaid motion.pdf",
+    "doi": "10.1016/j.neuroimage.2017.12.094",
+    "author": "wilbertz",
+    "year": "2018",
+    "score": 6,
+    "matches": [
+      "kw:fmri",
+      "kw:decoding",
+      "kw:eye movement"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "eye movement"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Adler_2016_Comparing_Bayesian_and_nonBayesian_accounts_of_human_confidence_reports.pdf",
+    "doi": "10.1101/093203doi:",
+    "author": "adler",
+    "year": "2016",
+    "score": 5,
+    "matches": [
+      "kw:bayesian",
+      "author:ma"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "bayesian"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Aksoy_2005_Learning bayesian classifiers for scene classification with a visual grammar.pdf",
+    "doi": "10.1109/tgrs.2004.839547",
+    "author": "aksoy",
+    "year": "2005",
+    "score": 5,
+    "matches": [
+      "kw:bayesian",
+      "author:ma"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "bayesian"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Alards_2013_The_Effects_of_Numerical_Magnitude.pdf",
+    "doi": "10.1037/a0035031",
+    "author": "alards",
+    "year": "2013",
+    "score": 5,
+    "matches": [
+      "kw:magnitude",
+      "author:ma"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "magnitude"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Albantakis_2011_Changes of Mind in an Attractor Network of Decision-Making.pdf",
+    "doi": "10.1371/journal.pcbi.1002086.g001",
+    "author": "albantakis",
+    "year": "2011",
+    "score": 5,
+    "matches": [
+      "kw:attractor",
+      "author:ma"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "attractor"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Bettenbühl_2012_Bayesian_Selection_of_Markov_Models_for_Symbol_Sequences_Application_to.pdf",
+    "doi": "10.1371/journal.pone.0043388",
+    "author": null,
+    "year": null,
+    "score": 5,
+    "matches": [
+      "kw:bayesian",
+      "author:ma"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "bayesian"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Bullard_2016_The stability of macroeconomic systems with Bayesian learners.pdf",
+    "doi": "10.1016/j.jedc.2015.09.004",
+    "author": "bullard",
+    "year": "2016",
+    "score": 5,
+    "matches": [
+      "kw:bayesian",
+      "author:ma"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "bayesian"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Buonomano_2009_Harnessing Chaos in Recurrent Neural Networks.pdf",
+    "doi": "10.1016/j.neuron.2009.08.003",
+    "author": "buonomano",
+    "year": "2009",
+    "score": 5,
+    "matches": [
+      "kw:recurrent neural",
+      "author:ma"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "recurrent neural"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Caruso_2016_Similar prevalence and magnitude of auditory-evoked and visually evoked.pdf",
+    "doi": "10.1152/jn.00125.2016•www.jn.org",
+    "author": "caruso",
+    "year": "2016",
+    "score": 5,
+    "matches": [
+      "kw:magnitude",
+      "author:ma"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "magnitude"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Cheong_2013_Cortical-Like Receptive Fields in the Lateral Geniculate Nucleus of Marmoset.pdf",
+    "doi": "10.1523/jneurosci.5208-12.2013",
+    "author": "cheong",
+    "year": "2013",
+    "score": 5,
+    "matches": [
+      "kw:receptive field",
+      "author:ma"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "receptive field"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Clifford_2009_Radial Biases in the Processing of Motion and Motion-Defined Contours by Human.pdf",
+    "doi": "10.1152/jn.00411.2009",
+    "author": "clifford",
+    "year": "2009",
+    "score": 5,
+    "matches": [
+      "kw:radial bias",
+      "author:ma"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "radial bias"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Clifton_2016_Eye movements in reading and information processing Keith Rayner’s 40 year.pdf",
+    "doi": "10.1016/j.jml.2015.07.004",
+    "author": "clifton",
+    "year": "2016",
+    "score": 5,
+    "matches": [
+      "kw:eye movement",
+      "author:ma"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "eye movement"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Dalmaso_2019_Anticipation of cognitive conflict is reflected in microsaccades Evidence from.pdf",
+    "doi": "10.16910/jemr.12.6.3",
+    "author": "dalmaso",
+    "year": "2019",
+    "score": 5,
+    "matches": [
+      "kw:saccade",
+      "author:ma"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "saccade"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Doi_2012_Efficient Coding of Spatial Information in the Primate Retina.pdf",
+    "doi": "10.1523/jneurosci.4036-12.2012",
+    "author": "doi",
+    "year": "2012",
+    "score": 5,
+    "matches": [
+      "kw:efficient coding",
+      "author:ma"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "efficient coding"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Fleming_2017_Self-evaluation of decision-making A general Bayesian framework for.pdf",
+    "doi": "10.1037/rev0000045",
+    "author": "fleming",
+    "year": "2017",
+    "score": 5,
+    "matches": [
+      "kw:bayesian",
+      "author:ma"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "bayesian"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Flesch_2022_Orthogonal representations for robust context-dependent task performance in.pdf",
+    "doi": "10.1016/j.neuron.2022.01.005",
+    "author": "flesch",
+    "year": "2022",
+    "score": 5,
+    "matches": [
+      "kw:orthogonal",
+      "author:ma"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "orthogonal"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Fong_2019_Dynamic functional connectivity during task performance and rest predicts.pdf",
+    "doi": "10.1016/j.neuroimage.2018.11.057",
+    "author": "fong",
+    "year": "2019",
+    "score": 5,
+    "matches": [
+      "kw:functional connectivity",
+      "author:ma"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "functional connectivity"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Gang_2017_Analysis of driver fatigue causations based on the Bayesian network model.pdf",
+    "doi": "10.1177/0037549716665712",
+    "author": "gang",
+    "year": "2017",
+    "score": 5,
+    "matches": [
+      "kw:bayesian",
+      "author:gu"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "bayesian"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Ganguli_2014_Efficient Sensory Encoding and Bayesian Inference with Heterogeneous Neural.pdf",
+    "doi": "10.1162/neco_a_00638",
+    "author": "ganguli",
+    "year": "2014",
+    "score": 5,
+    "matches": [
+      "kw:bayesian",
+      "author:gu"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "bayesian"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Golan_2017_Increasing suppression of saccade-related transients along the human visual.pdf",
+    "doi": "10.1101/124867doi:",
+    "author": "golan",
+    "year": "2017",
+    "score": 5,
+    "matches": [
+      "kw:saccade",
+      "author:ma"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "saccade"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Hartmann_2014_Pupillometry The Eyes Shed Fresh Light on the Mind.pdf",
+    "doi": "10.1016/j.cub.2014.02.028",
+    "author": "hartmann",
+    "year": "2014",
+    "score": 5,
+    "matches": [
+      "kw:pupillometry",
+      "author:ma"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "pupillometry"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Heinzle_2011_Topographically specific functional connectivity between visual field maps in_e19281.pdf",
+    "doi": "10.1016/j.neuroimage.2011.02.077",
+    "author": "heinzle",
+    "year": "2011",
+    "score": 5,
+    "matches": [
+      "kw:functional connectivity",
+      "author:ma"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "functional connectivity"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Hershman_2018_Novel Blink Detection Method Based on Pupillometry Noise.pdf",
+    "doi": "10.3758/s13428-017-1008-1",
+    "author": "hershman",
+    "year": "2018",
+    "score": 5,
+    "matches": [
+      "kw:pupillometry",
+      "author:ma"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "pupillometry"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Hummer_2016_Eyetracker-based gaze correction for robust mapping of population receptive_defa09.pdf",
+    "doi": "10.1016/j.neuroimage.2016.07.003",
+    "author": "hummer",
+    "year": "2016",
+    "score": 5,
+    "matches": [
+      "kw:population receptive",
+      "author:ma"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "population receptive"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Ide_2013_Bayesian Prediction and Evaluation in the Anterior Cingulate Cortex_a503a9.pdf",
+    "doi": "10.1523/jneurosci.2201-12.2013",
+    "author": "ide",
+    "year": "2013",
+    "score": 5,
+    "matches": [
+      "kw:bayesian",
+      "author:gu"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "bayesian"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Itti_2009_Bayesian surprise attracts human attention_b6e2ed.pdf",
+    "doi": "10.1016/j.visres.2008.09.007",
+    "author": "itti",
+    "year": "2009",
+    "score": 5,
+    "matches": [
+      "kw:bayesian",
+      "author:ma"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "bayesian"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Kang_2011_Meta Analysis of Functional Neuroimaging Data via Bayesian Spatial Point.pdf",
+    "doi": "10.1198/jasa.2011.ap09735",
+    "author": "kang",
+    "year": "2011",
+    "score": 5,
+    "matches": [
+      "kw:bayesian",
+      "author:ma"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "bayesian"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Kay_2008_Identifying natural images from human brain activity_7ba660.pdf",
+    "doi": "10.1038/nature06713",
+    "author": "kay",
+    "year": "2008",
+    "score": 5,
+    "matches": [
+      "kw:natural image",
+      "author:ma"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "natural image"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Kido_2025_Hierarchical representations of relative numerical magnitudes in the human.pdf",
+    "doi": "10.1038/s41467-024-55599-8",
+    "author": "kido",
+    "year": "2025",
+    "score": 5,
+    "matches": [
+      "kw:magnitude",
+      "author:ma"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "magnitude"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Kleinman_2019_Recurrent neural network models of multi-area computation underlying.pdf",
+    "doi": "10.1101/798553doi:",
+    "author": "kleinman",
+    "year": "2019",
+    "score": 5,
+    "matches": [
+      "kw:recurrent neural",
+      "author:ma"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "recurrent neural"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Koornneef_2016_The influence of linguistic and cognitive factors on the time course of_bf5f94.pdf",
+    "doi": "10.1080/17470218.2015.1055282",
+    "author": "koornneef",
+    "year": "2016",
+    "score": 5,
+    "matches": [
+      "kw:rnn",
+      "author:gu"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "rnn"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Kundu_2013_Integrated strategy for improving functional connectivity mapping using.pdf",
+    "doi": "10.1073/pnas.1301725110",
+    "author": "kundu",
+    "year": "2013",
+    "score": 5,
+    "matches": [
+      "kw:functional connectivity",
+      "author:ma"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "functional connectivity"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Ma_2019_Bayesian Decision Models A Primer_7847fa.pdf",
+    "doi": "10.1016/j.neuron.2019.09.037",
+    "author": "ma",
+    "year": "2019",
+    "score": 5,
+    "matches": [
+      "kw:bayesian",
+      "author:ma"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "bayesian"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Malavita_2018_Eccentricity dependence of orientation anisotropy of surround suppression of.pdf",
+    "doi": "10.1167/18.7.5",
+    "author": "malavita",
+    "year": "2018",
+    "score": 5,
+    "matches": [
+      "kw:surround suppression",
+      "author:ma"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "surround suppression"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Mark_2018_Bayesian model selection for complex dynamic systems.pdf",
+    "doi": "10.1038/s41467-018-04241-5",
+    "author": "mark",
+    "year": "2018",
+    "score": 5,
+    "matches": [
+      "kw:bayesian",
+      "author:ma"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "bayesian"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Masson_2011_A tutorial on a practical Bayesian alternative to null-hypothesis significance.pdf",
+    "doi": "10.3758/s13428-010-0049-5)",
+    "author": "masson",
+    "year": "2011",
+    "score": 5,
+    "matches": [
+      "kw:bayesian",
+      "author:ma"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "bayesian"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Matzke_2017_A Bayesian approach for estimating the probability of trigger failures in the.pdf",
+    "doi": "10.3758/s13428-015-0695-8",
+    "author": "matzke",
+    "year": "2017",
+    "score": 5,
+    "matches": [
+      "kw:bayesian",
+      "author:ma"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "bayesian"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Mittelman_2014_frontiersPsych_BayesianModel_SemanticHierarchies.pdf",
+    "doi": "10.3389/fpsyg.2014.00417",
+    "author": "mittelman",
+    "year": "2014",
+    "score": 5,
+    "matches": [
+      "kw:bayesian",
+      "author:ma"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "bayesian"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Nagasawa_2011_Occipital gamma-oscillations modulated during eye movement tasks Simultaneous.pdf",
+    "doi": "10.1016/j.neuroimage.2011.07.043",
+    "author": "nagasawa",
+    "year": "2011",
+    "score": 5,
+    "matches": [
+      "kw:eye movement",
+      "author:ma"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "eye movement"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Nandy_2012_Saccade-confounded image statistics explain visual crowding.pdf",
+    "doi": "10.1038/nn.3021",
+    "author": "nandy",
+    "year": "2012",
+    "score": 5,
+    "matches": [
+      "kw:saccade",
+      "author:ma"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "saccade"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Nishimoto_2017_Eye movement-invariant representations in the human visual system.pdf",
+    "doi": "10.1167/17.1.11",
+    "author": "nishimoto",
+    "year": "2017",
+    "score": 5,
+    "matches": [
+      "kw:eye movement",
+      "author:ma"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "eye movement"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Okazawa_2018_Psychophysical reverse correlation reflects both sensory and decision-making.pdf",
+    "doi": "10.1038/s41467-018-05797-y",
+    "author": "okazawa",
+    "year": "2018",
+    "score": 5,
+    "matches": [
+      "kw:psychophysic",
+      "author:ma"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "psychophysic"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Payzan_2011_Risk_Unexpected_Uncertainty_and_Estimation_Uncertainty_Bayesian_Learning_in.pdf",
+    "doi": "10.1371/journal.pcbi.1001048",
+    "author": "payzan",
+    "year": "2011",
+    "score": 5,
+    "matches": [
+      "kw:bayesian",
+      "author:ma"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "bayesian"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Piazza_2007_A Magnitude Code Common to Numerosities and Number Symbols in Human.pdf",
+    "doi": "10.1016/j.neuron.2006.11.022",
+    "author": "piazza",
+    "year": "2007",
+    "score": 5,
+    "matches": [
+      "kw:magnitude",
+      "author:ma"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "magnitude"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Power_2012_Spurious but systematic correlations in functional connectivity MRI networks.pdf",
+    "doi": "10.1016/j.neuroimage.2011.10.018",
+    "author": "power",
+    "year": "2012",
+    "score": 5,
+    "matches": [
+      "kw:functional connectivity",
+      "author:ma"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "functional connectivity"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Prat_2025_Bayesian_estimation_yields_anti_Weber.pdf",
+    "doi": "10.1093/pnasnexus/pgaf275;",
+    "author": "prat",
+    "year": "2025",
+    "score": 5,
+    "matches": [
+      "kw:bayesian",
+      "author:ma"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "bayesian"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Qi_2020_stagNet An Attentive Semantic RNN for Group Activity and Individual Action.pdf",
+    "doi": "10.1109/tcsvt.2019.2894161",
+    "author": "qi",
+    "year": "2020",
+    "score": 5,
+    "matches": [
+      "kw:rnn",
+      "author:ma"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "rnn"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Rahnev_2019_The Bayesian brain What is it and do humans have it.pdf",
+    "doi": "10.1017/s0140525x19001377",
+    "author": "rahnev",
+    "year": "2019",
+    "score": 5,
+    "matches": [
+      "kw:bayesian",
+      "author:ma"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "bayesian"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Remington_2018_Late Bayesian inference in mental transformations.pdf",
+    "doi": "10.1038/s41467-018-06726-9",
+    "author": "remington",
+    "year": "2018",
+    "score": 5,
+    "matches": [
+      "kw:bayesian",
+      "author:ma"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "bayesian"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Rey_2016_Resting-state functional connectivity of emotion regulation networks in.pdf",
+    "doi": "10.1016/j.eurpsy.2015.12.005",
+    "author": "rey",
+    "year": "2016",
+    "score": 5,
+    "matches": [
+      "kw:functional connectivity",
+      "author:gu"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "functional connectivity"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Rosenberg_2016_A neuromarker of sustained attention from whole-brain functional connectivity.pdf",
+    "doi": "10.1038/nn.4179",
+    "author": "rosenberg",
+    "year": "2016",
+    "score": 5,
+    "matches": [
+      "kw:functional connectivity",
+      "author:ma"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "functional connectivity"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Rosenzweig_2019_Familiarity revealed by involuntary eye movements on the fringe of awareness.pdf",
+    "doi": "10.1038/s41598-019-39889-6",
+    "author": "rosenzweig",
+    "year": "2019",
+    "score": 5,
+    "matches": [
+      "kw:eye movement",
+      "author:wei"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "eye movement"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Sasaki_2006_The Radial Bias A Different Slant on Visual Orientation Sensitivity in Human_2b62ad.pdf",
+    "doi": "10.1016/j.neuron.2006.07.021",
+    "author": "sasaki",
+    "year": "2006",
+    "score": 5,
+    "matches": [
+      "kw:radial bias",
+      "author:ma"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "radial bias"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Saxe_2017_Formalizing emotion concepts within a Bayesian model of theory of mind_ad390d.pdf",
+    "doi": "10.1016/j.copsyc.2017.04.019",
+    "author": "saxe",
+    "year": "2017",
+    "score": 5,
+    "matches": [
+      "kw:bayesian",
+      "author:ma"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "bayesian"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Schwegmann_2014_Temporal Statistics of Natural Image Sequences Generated by Movements with.pdf",
+    "doi": "10.4119/unibi/2693180",
+    "author": "schwegmann",
+    "year": "2014",
+    "score": 5,
+    "matches": [
+      "kw:natural image",
+      "author:ma"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "natural image"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Seeliger_2018_Generative adversarial networks for reconstructing natural images from brain.pdf",
+    "doi": "10.1016/j.neuroimage.2018.07.043",
+    "author": "seeliger",
+    "year": "2018",
+    "score": 5,
+    "matches": [
+      "kw:natural image",
+      "author:ma"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "natural image"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Sheahan_2021_Neural state space alignment for magnitude generalization in humans and.pdf",
+    "doi": "10.1016/j.neuron.2021.02.004",
+    "author": "sheahan",
+    "year": "2021",
+    "score": 5,
+    "matches": [
+      "kw:magnitude",
+      "author:ma"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "magnitude"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Sohn_2019_Bayesian Computation through Cortical Latent Dynamics.pdf",
+    "doi": "10.1016/j.neuron.2019.06.012",
+    "author": "sohn",
+    "year": "2019",
+    "score": 5,
+    "matches": [
+      "kw:bayesian",
+      "author:sohn"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "bayesian"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Sohn_2021_Neural implementations of Bayesian inference.pdf",
+    "doi": "10.1016/j.conb.2021.09.008",
+    "author": "sohn",
+    "year": "2021",
+    "score": 5,
+    "matches": [
+      "kw:bayesian",
+      "author:sohn"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "bayesian"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "St_2018_The_feature_weighted_receptive_field.pdf",
+    "doi": "10.1016/j.neuroimage.2017.06.035",
+    "author": "st",
+    "year": "2018",
+    "score": 5,
+    "matches": [
+      "kw:receptive field",
+      "author:wei"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "receptive field"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Wang_2012_Temporal eye movement strategies during naturalistic viewing.pdf",
+    "doi": "10.1167/12.1.16",
+    "author": "wang",
+    "year": "2012",
+    "score": 5,
+    "matches": [
+      "kw:eye movement",
+      "author:wang"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "eye movement"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Wang_2018_Generalized Recurrent Neural Network accommodating Dynamic Causal Modeling for.pdf",
+    "doi": "10.1016/j.neuroimage.2018.05.042",
+    "author": "wang",
+    "year": "2018",
+    "score": 5,
+    "matches": [
+      "kw:recurrent neural",
+      "author:wang"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "recurrent neural"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Watson_2014_A formula for human retinal ganglion cell receptive field density as a function.pdf",
+    "doi": "10.1167/14.7.15",
+    "author": "watson",
+    "year": "2014",
+    "score": 5,
+    "matches": [
+      "kw:receptive field",
+      "author:ma"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "receptive field"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Wedell_2020_Context effects on reproduced magnitudes from short-term and long-term memory.pdf",
+    "doi": "10.3758/s13414-019-01932-z",
+    "author": "wedell",
+    "year": "2020",
+    "score": 5,
+    "matches": [
+      "kw:magnitude",
+      "author:ma"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "magnitude"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Weissenbacher_2009_Correlations and anticorrelations in resting-state functional connectivity MRI.pdf",
+    "doi": "10.1016/j.neuroimage.2009.05.005",
+    "author": "weissenbacher",
+    "year": "2009",
+    "score": 5,
+    "matches": [
+      "kw:functional connectivity",
+      "author:wei"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "functional connectivity"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Woodward_2016_Mapping Thalamocortical Functional Connectivity in Chronic and Early Stages of.pdf",
+    "doi": "10.1016/j.biopsych.2015.06.026",
+    "author": "woodward",
+    "year": "2016",
+    "score": 5,
+    "matches": [
+      "kw:functional connectivity",
+      "author:ma"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "functional connectivity"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Zimmermann_2016_Spatiotopic buildup of saccade target representation depends on target size.pdf",
+    "doi": "10.1167/16.15.11",
+    "author": "zimmermann",
+    "year": "2016",
+    "score": 5,
+    "matches": [
+      "kw:saccade",
+      "author:ma"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "saccade"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Boehm_2018_Using Bayesian regression to test hypotheses about relationships between.pdf",
+    "doi": "10.3758/s13428-017-0940-4",
+    "author": "boehm",
+    "year": "2018",
+    "score": 4,
+    "matches": [
+      "kw:bayesian",
+      "kw:tes"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "bayesian"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Brown_2014_Incorporating spatial dependence into Bayesian multiple testing of statistical.pdf",
+    "doi": "10.1016/j.neuroimage.2013.08.024",
+    "author": "brown",
+    "year": "2014",
+    "score": 4,
+    "matches": [
+      "kw:bayesian",
+      "kw:tes"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "bayesian"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Choe_2017_Comparing test-retest reliability of dynamic functional connectivity methods.pdf",
+    "doi": "10.1016/j.neuroimage.2017.07.005",
+    "author": "choe",
+    "year": "2017",
+    "score": 4,
+    "matches": [
+      "kw:tes",
+      "kw:functional connectivity"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "functional connectivity"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Chong_2017_Individual parcellation of resting fMRI with a group functional connectivity.pdf",
+    "doi": "10.1016/j.neuroimage.2017.04.054",
+    "author": "chong",
+    "year": "2017",
+    "score": 4,
+    "matches": [
+      "kw:fmri",
+      "kw:functional connectivity"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "functional connectivity"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Chow_2015_Personal experience with narrated events modulates functional connectivity_44a607.pdf",
+    "doi": "10.1002/hbm.22718",
+    "author": "chow",
+    "year": "2015",
+    "score": 4,
+    "matches": [
+      "kw:tes",
+      "kw:functional connectivity"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "functional connectivity"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "David_2004_Natural Stimulus Statistics Alter the Receptive Field Structure of V1 Neurons_8c023f.pdf",
+    "doi": "10.1523/jneurosci.1422-04.2004",
+    "author": "david",
+    "year": "2004",
+    "score": 4,
+    "matches": [
+      "kw:v1",
+      "kw:receptive field"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "receptive field"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Ding_2017_Visual perception as retrospective Bayesian decoding from high- to low-level.pdf",
+    "doi": "10.1073/pnas.1706906114",
+    "author": "ding",
+    "year": "2017",
+    "score": 4,
+    "matches": [
+      "kw:bayesian",
+      "kw:decoding"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "bayesian"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Genç_2016_Functional_Connectivity_Patterns_of_Visual_Cortex_Reflect_its_Anatomical.pdf",
+    "doi": "10.1093/cercor/bhv175",
+    "author": null,
+    "year": null,
+    "score": 4,
+    "matches": [
+      "kw:visual cortex",
+      "kw:functional connectivity"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "functional connectivity"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Hallum_2017_Altered Balance of Receptive Field Excitation and Suppression in Visual Cortex.pdf",
+    "doi": "10.1523/jneurosci.0449-17.2017",
+    "author": "hallum",
+    "year": "2017",
+    "score": 4,
+    "matches": [
+      "kw:visual cortex",
+      "kw:receptive field"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "receptive field"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Harrison_2007_Extra-classical receptive field effects measured in striate cortex with fMRI.pdf",
+    "doi": "10.1016/j.neuroimage.2006.10.017",
+    "author": "harrison",
+    "year": "2007",
+    "score": 4,
+    "matches": [
+      "kw:fmri",
+      "kw:receptive field"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "receptive field"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Lorenz_2017_Neuroadaptive Bayesian Optimization and Hypothesis Testing.pdf",
+    "doi": "10.1016/j.tics.2017.01.006",
+    "author": "lorenz",
+    "year": "2017",
+    "score": 4,
+    "matches": [
+      "kw:bayesian",
+      "kw:tes"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "bayesian"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Mc_2012_Dissociated_mean_and_functional_connectivity_BOLD_signals_in_visual_cortex.pdf",
+    "doi": "10.1152/jn.00900.2011•www.jn.org",
+    "author": "mc",
+    "year": "2012",
+    "score": 4,
+    "matches": [
+      "kw:visual cortex",
+      "kw:functional connectivity"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "functional connectivity"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Mumford_2015_Orthogonalization of Regressors in fMRI Models.pdf",
+    "doi": "10.1371/journal.pone.0126255.g001",
+    "author": "mumford",
+    "year": "2015",
+    "score": 4,
+    "matches": [
+      "kw:fmri",
+      "kw:orthogonal"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "orthogonal"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Nishimoto_2006_Receptive Field Properties of Neurons in the Early Visual Cortex Revealed by.pdf",
+    "doi": "10.1523/jneurosci.4558-05.2006",
+    "author": "nishimoto",
+    "year": "2006",
+    "score": 4,
+    "matches": [
+      "kw:visual cortex",
+      "kw:receptive field"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "receptive field"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Pratte_2016_Radial bias is not necessary for orientation decoding.pdf",
+    "doi": "10.1016/j.neuroimage.2015.11.066",
+    "author": "pratte",
+    "year": "2016",
+    "score": 4,
+    "matches": [
+      "kw:decoding",
+      "kw:radial bias"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "radial bias"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Scheibehenne_2013_Testing adaptive toolbox models A Bayesian hierarchical approach..pdf",
+    "doi": "10.1167/16.6",
+    "author": "scheibehenne",
+    "year": "2013",
+    "score": 4,
+    "matches": [
+      "kw:bayesian",
+      "kw:tes"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "bayesian"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Schneider_2018_Disentangling reward anticipation with simultaneous pupillometry fMRI.pdf",
+    "doi": "10.1016/j.neuroimage.2018.04.078",
+    "author": "schneider",
+    "year": "2018",
+    "score": 4,
+    "matches": [
+      "kw:fmri",
+      "kw:pupillometry"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "pupillometry"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Smith_2017_Resting state functional connectivity correlates of emotional awareness.pdf",
+    "doi": "10.1016/j.neuroimage.2017.07.044",
+    "author": "smith",
+    "year": "2017",
+    "score": 4,
+    "matches": [
+      "kw:tes",
+      "kw:functional connectivity"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "functional connectivity"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Wetzels_2012_A default Bayesian hypothesis test for correlations and partial correlations.pdf",
+    "doi": "10.3758/s13423-012-0295-x",
+    "author": "wetzels",
+    "year": "2012",
+    "score": 4,
+    "matches": [
+      "kw:bayesian",
+      "kw:tes"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "bayesian"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Wielaard_2006_Extraclassical Receptive Field Phenomena and Short-Range Connectivity in V1.pdf",
+    "doi": "10.1093/cercor/bhj090",
+    "author": "wielaard",
+    "year": "2006",
+    "score": 4,
+    "matches": [
+      "kw:v1",
+      "kw:receptive field"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "receptive field"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Acerbi_2018_Bayesian comparison of explicit and implicit causal inference strategies in.pdf",
+    "doi": "10.1101/150052doi:",
+    "author": "acerbi",
+    "year": "2018",
+    "score": 2,
+    "matches": [
+      "kw:bayesian"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "bayesian"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Ahlstrom_2006_Using eye movement activity as a correlate of cognitive workload.pdf",
+    "doi": "10.1016/j.ergon.2006.04.002",
+    "author": "ahlstrom",
+    "year": "2006",
+    "score": 2,
+    "matches": [
+      "kw:eye movement"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "eye movement"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Aitchison_2017_With or without you predictive coding and Bayesian inference in the brain.pdf",
+    "doi": "10.1016/j.conb.2017.08.010",
+    "author": "aitchison",
+    "year": "2017",
+    "score": 2,
+    "matches": [
+      "kw:bayesian"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "bayesian"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Antzoulatos_2014_Increases in Functional Connectivity between Prefrontal Cortex and Striatum.pdf",
+    "doi": "10.1016/j.neuron.2014.05.005",
+    "author": "antzoulatos",
+    "year": "2014",
+    "score": 2,
+    "matches": [
+      "kw:functional connectivity"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "functional connectivity"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Anzellotti_2018_Beyond Functional Connectivity Investigating Networks of Multivariate.pdf",
+    "doi": "10.1016/j.tics.2017.12.002",
+    "author": "anzellotti",
+    "year": "2018",
+    "score": 2,
+    "matches": [
+      "kw:functional connectivity"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "functional connectivity"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Arnstein_2015_Microsaccade Control Signals in the Cerebellum.pdf",
+    "doi": "10.1523/jneurosci.2458-14.2015",
+    "author": "arnstein",
+    "year": "2015",
+    "score": 2,
+    "matches": [
+      "kw:saccade"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "saccade"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Bachtiar_2015_Modulation of GABA and resting state functional connectivity by transcranial.pdf",
+    "doi": "10.7554/elife.08789",
+    "author": "bachtiar",
+    "year": "2015",
+    "score": 2,
+    "matches": [
+      "kw:functional connectivity"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "functional connectivity"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Bair_2005_Visual receptive field organization.pdf",
+    "doi": "10.1016/j.conb.2005.07.006",
+    "author": "bair",
+    "year": "2005",
+    "score": 2,
+    "matches": [
+      "kw:receptive field"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "receptive field"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Ballesta_2019_Mechanisms of Economic Decisions under Sequential Offers.pdf",
+    "doi": "10.1101/590422doi:",
+    "author": "ballesta",
+    "year": "2019",
+    "score": 2,
+    "matches": [
+      "kw:sequential"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "sequential"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Barack_2016_Temporal trade-offs in psychophysics_6b5866.pdf",
+    "doi": "10.1016/j.conb.2016.01.015",
+    "author": "barack",
+    "year": "2016",
+    "score": 2,
+    "matches": [
+      "kw:psychophysic"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "psychophysic"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Berniker_2010_Learning Priors for Bayesian Computations in the Nervous System.pdf",
+    "doi": "10.1371/journal.pone.0012686.g001",
+    "author": "berniker",
+    "year": "2010",
+    "score": 2,
+    "matches": [
+      "kw:bayesian"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "bayesian"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Betti_2013_Natural Scenes Viewing Alters the Dynamics of Functional Connectivity in the.pdf",
+    "doi": "10.1016/j.neuron.2013.06.022",
+    "author": "betti",
+    "year": "2013",
+    "score": 2,
+    "matches": [
+      "kw:functional connectivity"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "functional connectivity"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Betti_2018_Topology of Functional Connectivity and Hub Dynamics in the Beta Band As.pdf",
+    "doi": "10.1523/jneurosci.1089-17.2018",
+    "author": "betti",
+    "year": "2018",
+    "score": 2,
+    "matches": [
+      "kw:functional connectivity"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "functional connectivity"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Bhui_2018_Decision by sampling implements efficient coding of psychoeconomic functions.pdf",
+    "doi": "10.1037/rev0000123",
+    "author": "bhui",
+    "year": "2018",
+    "score": 2,
+    "matches": [
+      "kw:efficient coding"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "efficient coding"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Bickart_2012_Intrinsic Amygdala–Cortical Functional Connectivity Predicts Social Network.pdf",
+    "doi": "10.1523/jneurosci.1599-12.2012",
+    "author": "bickart",
+    "year": "2012",
+    "score": 2,
+    "matches": [
+      "kw:functional connectivity"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "functional connectivity"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Bielza_2014_Bayesian networks in neuroscience a survey.pdf",
+    "doi": "10.3389/fncom.2014.00131",
+    "author": "bielza",
+    "year": "2014",
+    "score": 2,
+    "matches": [
+      "kw:bayesian"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "bayesian"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Birn_2012_The role of physiological noise in resting-state functional connectivity.pdf",
+    "doi": "10.1016/j.neuroimage.2012.01.016",
+    "author": "birn",
+    "year": "2012",
+    "score": 2,
+    "matches": [
+      "kw:functional connectivity"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "functional connectivity"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Blokpoel_2012_When Can Predictive Brains be Truly Bayesian.pdf",
+    "doi": "10.3389/fpsyg.2012.00406",
+    "author": "blokpoel",
+    "year": "2012",
+    "score": 2,
+    "matches": [
+      "kw:bayesian"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "bayesian"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Bollinger_2010_Expectation-Driven Changes in Cortical Functional Connectivity Influence.pdf",
+    "doi": "10.1523/jneurosci.1547-10.2010",
+    "author": "bollinger",
+    "year": "2010",
+    "score": 2,
+    "matches": [
+      "kw:functional connectivity"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "functional connectivity"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Bonneh_2015_Contrast_sensitivity_revealed_by_microsaccades.pdf",
+    "doi": "10.1167/15.9.11",
+    "author": "bonneh",
+    "year": "2015",
+    "score": 2,
+    "matches": [
+      "kw:saccade"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "saccade"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Bowling_2019_Pupillometry of Groove Evidence for Noradrenergic Arousal in the Link Between_222a17.pdf",
+    "doi": "10.3389/fnins.2018.01039",
+    "author": "bowling",
+    "year": "2019",
+    "score": 2,
+    "matches": [
+      "kw:pupillometry"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "pupillometry"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Cabral_2011_Role of local network oscillations in resting-state functional connectivity.pdf",
+    "doi": "10.1016/j.neuroimage.2011.04.010",
+    "author": "cabral",
+    "year": "2011",
+    "score": 2,
+    "matches": [
+      "kw:functional connectivity"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "functional connectivity"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Cavanaugh_2002_Nature and Interaction of Signals From the Receptive Field Center and Surround.pdf",
+    "doi": "10.1152/jn.00692.2001",
+    "author": "cavanaugh",
+    "year": "2002",
+    "score": 2,
+    "matches": [
+      "kw:receptive field"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "receptive field"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Chai_2016_Intrinsic Functional Connectivity in the Adult Brain and Success in.pdf",
+    "doi": "10.1523/jneurosci.2234-15.2016",
+    "author": "chai",
+    "year": "2016",
+    "score": 2,
+    "matches": [
+      "kw:functional connectivity"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "functional connectivity"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Chan_2017_Good Vibrations Resting-State Functional Connectivity Reflects Entrainment of.pdf",
+    "doi": "10.1016/j.neuron.2017.10.035",
+    "author": "chan",
+    "year": "2017",
+    "score": 2,
+    "matches": [
+      "kw:functional connectivity"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "functional connectivity"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Cheng_2024_Opposing sequential biases in direction and time reproduction Influences of.pdf",
+    "doi": "10.1111/bjop.12728",
+    "author": "cheng",
+    "year": "2024",
+    "score": 2,
+    "matches": [
+      "kw:sequential"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "sequential"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Cheng_2024_The impact of task measurements on sequential dependence a comparison between.pdf",
+    "doi": "10.1007/s00426-024-02023-x",
+    "author": "cheng",
+    "year": "2024",
+    "score": 2,
+    "matches": [
+      "kw:sequential"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "sequential"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Chisum_2004_The contribution of vertical and horizontal connections to the receptive field.pdf",
+    "doi": "10.1016/j.neunet.2004.05.002",
+    "author": "chisum",
+    "year": "2004",
+    "score": 2,
+    "matches": [
+      "kw:receptive field"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "receptive field"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Chiu_2008_Smokers' brains compute, but ignore, a fictive error signal in a sequential.pdf",
+    "doi": "10.1038/nn2067",
+    "author": "chiu",
+    "year": "2008",
+    "score": 2,
+    "matches": [
+      "kw:sequential"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "sequential"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Cohn_2012_(Pea)nuts and bolts of visual narrative Structure and meaning in sequential.pdf",
+    "doi": "10.1016/j.cogpsych.2012.01.003",
+    "author": "cohn",
+    "year": "2012",
+    "score": 2,
+    "matches": [
+      "kw:sequential"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "sequential"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Costela_2014_Fixational Eye Movement Correction of Blink-Induced Gaze Position Errors.pdf",
+    "doi": "10.1371/journal.pone.0110889",
+    "author": "costela",
+    "year": "2014",
+    "score": 2,
+    "matches": [
+      "kw:eye movement"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "eye movement"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Crouzet_2010_Fast saccades toward faces Face detection in just 100 ms.pdf",
+    "doi": "10.1167/10.4.16",
+    "author": "crouzet",
+    "year": "2010",
+    "score": 2,
+    "matches": [
+      "kw:saccade"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "saccade"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Cummings_2022_Predicting_Functional_Connectivity_From_Observed_and_Latent_Structural.pdf",
+    "doi": "10.1016/j.neuroimage.2015.02.001",
+    "author": "cummings",
+    "year": "2022",
+    "score": 2,
+    "matches": [
+      "kw:functional connectivity"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "functional connectivity"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Dai_2010_Psychophysical reverse correlation with multiple response alternatives.pdf",
+    "doi": "10.1037/a0017171",
+    "author": "dai",
+    "year": "2010",
+    "score": 2,
+    "matches": [
+      "kw:psychophysic"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "psychophysic"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Darlington_2018_Neural implementation of Bayesian inference in a sensorimotor behavior.pdf",
+    "doi": "10.1038/s41593-018-0233-y",
+    "author": "darlington",
+    "year": "2018",
+    "score": 2,
+    "matches": [
+      "kw:bayesian"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "bayesian"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Davelaar_2009_Sequential dependencies in the Eriksen flanker task A direct comparison of two.pdf",
+    "doi": "10.3758/pbr.16.1.121",
+    "author": "davelaar",
+    "year": "2009",
+    "score": 2,
+    "matches": [
+      "kw:sequential"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "sequential"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "David_2006_Spectral Receptive Field Properties Explain Shape Selectivity in Area V4.pdf",
+    "doi": "10.1152/jn.00575.2006",
+    "author": "david",
+    "year": "2006",
+    "score": 2,
+    "matches": [
+      "kw:receptive field"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "receptive field"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Di_2016_Comparing_models_of_contrast_gain_using_psychophysical_experiments.pdf",
+    "doi": "10.1167/16.9.1",
+    "author": "di",
+    "year": "2016",
+    "score": 2,
+    "matches": [
+      "kw:psychophysic"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "psychophysic"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Diaconescu_2014_Inferring on the Intentions of Others by Hierarchical Bayesian Learning.pdf",
+    "doi": "10.1371/journal.pcbi.1003810",
+    "author": "diaconescu",
+    "year": "2014",
+    "score": 2,
+    "matches": [
+      "kw:bayesian"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "bayesian"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "DunbrackJr_2001_Bayesian_Statistics_in_Molecular_and_Structural_Biology.pdf",
+    "doi": "10.1016/j.visres.2006.11.013",
+    "author": "dunbrackjr",
+    "year": "2001",
+    "score": 2,
+    "matches": [
+      "kw:bayesian"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "bayesian"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Fischer_2011_Owl's behavior and neural representation predicted by Bayesian inference.pdf",
+    "doi": "10.1038/nn.2872",
+    "author": "fischer",
+    "year": "2011",
+    "score": 2,
+    "matches": [
+      "kw:bayesian"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "bayesian"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Fleming_2013_The_Irrationality_of_Categorical_Perception.pdf",
+    "doi": "10.1523/jneurosci.1263-13.2013",
+    "author": "fleming",
+    "year": "2013",
+    "score": 2,
+    "matches": [
+      "kw:categorical perception"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "categorical perception"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Foulsham_2016_Reading Without Words Eye Movements in the Comprehension of Comic Strips.pdf",
+    "doi": "10.1002/acp.3229",
+    "author": "foulsham",
+    "year": "2016",
+    "score": 2,
+    "matches": [
+      "kw:eye movement"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "eye movement"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Franklin_2013_Window to the Wandering Mind Pupillometry of Spontaneous Thought While Reading.pdf",
+    "doi": "10.1080/17470218.2013.858170",
+    "author": "franklin",
+    "year": "2013",
+    "score": 2,
+    "matches": [
+      "kw:pupillometry"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "pupillometry"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Frost_2016_Surprising sequential effects on MMN.pdf",
+    "doi": "10.1016/j.biopsycho.2015.10.005",
+    "author": "frost",
+    "year": "2016",
+    "score": 2,
+    "matches": [
+      "kw:sequential"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "sequential"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Funamizu_2016_Neural substrate of dynamic Bayesian inference in the cerebral cortex.pdf",
+    "doi": "10.1038/nn.4390",
+    "author": "funamizu",
+    "year": "2016",
+    "score": 2,
+    "matches": [
+      "kw:bayesian"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "bayesian"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Geerligs_2016_Functional connectivity and structural covariance between regions of interest.pdf",
+    "doi": "10.1016/j.neuroimage.2016.04.047",
+    "author": "geerligs",
+    "year": "2016",
+    "score": 2,
+    "matches": [
+      "kw:functional connectivity"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "functional connectivity"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Gilad_2013_Population Responses to Contour Integration Early Encoding of Discrete Elements.pdf",
+    "doi": "10.1016/j.neuron.2013.02.013",
+    "author": "gilad",
+    "year": "2013",
+    "score": 2,
+    "matches": [
+      "kw:contour integration"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "contour integration"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Goldinger_2009_Deficits in cross-race face learning Insights from eye movements and.pdf",
+    "doi": "10.1037/a0016548",
+    "author": "goldinger",
+    "year": "2009",
+    "score": 2,
+    "matches": [
+      "kw:eye movement"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "eye movement"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Gonzalez_2018_Task_based_dynamic_functional_connectivity.pdf",
+    "doi": "10.1016/j.neuroimage.2017.08.006",
+    "author": "gonzalez",
+    "year": "2018",
+    "score": 2,
+    "matches": [
+      "kw:functional connectivity"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "functional connectivity"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Greicius_2009_Resting-State Functional Connectivity Reflects Structural Connectivity in the.pdf",
+    "doi": "10.1093/cercor/bhn059",
+    "author": "greicius",
+    "year": "2009",
+    "score": 2,
+    "matches": [
+      "kw:functional connectivity"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "functional connectivity"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Hafed_2013_Alteration of Visual Perception prior to Microsaccades.pdf",
+    "doi": "10.1016/j.neuron.2012.12.014",
+    "author": "hafed",
+    "year": "2013",
+    "score": 2,
+    "matches": [
+      "kw:saccade"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "saccade"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Hafed_2013_On the Dissociation between Microsaccade Rate and Direction after Peripheral.pdf",
+    "doi": "10.1523/jneurosci.2240-13.2013",
+    "author": "hafed",
+    "year": "2013",
+    "score": 2,
+    "matches": [
+      "kw:saccade"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "saccade"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Hahn_2025_Identifiability of Bayesian Models of Cognition.pdf",
+    "doi": "10.1101/2025.06.25.661321doi:",
+    "author": "hahn",
+    "year": "2025",
+    "score": 2,
+    "matches": [
+      "kw:bayesian"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "bayesian"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Hordacre_2017_Resting state functional connectivity measures correlate with the response to.pdf",
+    "doi": "10.1111/ejn.13508",
+    "author": "hordacre",
+    "year": "2017",
+    "score": 2,
+    "matches": [
+      "kw:functional connectivity"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "functional connectivity"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Huang_2016_Bayesian Inference and Online Learning in Poisson Neuronal Networks.pdf",
+    "doi": "10.1162/neco_a_00851",
+    "author": "huang",
+    "year": "2016",
+    "score": 2,
+    "matches": [
+      "kw:bayesian"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "bayesian"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Ichida_2007_Response Facilitation From the “Suppressive” Receptive Field Surround of.pdf",
+    "doi": "10.1152/jn.00298.2007",
+    "author": "ichida",
+    "year": "2007",
+    "score": 2,
+    "matches": [
+      "kw:receptive field"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "receptive field"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Jahedi_2017_Distributed Intrinsic Functional Connectivity Patterns Predict Diagnostic.pdf",
+    "doi": "10.1162/jocn_a_01487",
+    "author": "jahedi",
+    "year": "2017",
+    "score": 2,
+    "matches": [
+      "kw:functional connectivity"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "functional connectivity"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Jiang_2014_Bayesian modeling of flexible cognitive control.pdf",
+    "doi": "10.1016/j.neubiorev.2014.06.001",
+    "author": "jiang",
+    "year": "2014",
+    "score": 2,
+    "matches": [
+      "kw:bayesian"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "bayesian"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Jin_2005_Tilt Aftereffect and Adaptation-Induced Changes in Orientation Tuning in Visual_f7b1cc.pdf",
+    "doi": "10.1152/jn.00571.2004",
+    "author": "jin",
+    "year": "2005",
+    "score": 2,
+    "matches": [
+      "kw:orientation tuning"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "orientation tuning"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Khan_2016_Effects of a pretarget distractor on saccade reaction times across space and.pdf",
+    "doi": "10.1167/16.7.5",
+    "author": "khan",
+    "year": "2016",
+    "score": 2,
+    "matches": [
+      "kw:saccade"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "saccade"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Kirchner_2006_Ultra-rapid object detection with saccadic eye movements Visual processing.pdf",
+    "doi": "10.1016/j.visres.2005.10.002",
+    "author": "kirchner",
+    "year": "2006",
+    "score": 2,
+    "matches": [
+      "kw:eye movement"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "eye movement"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Knops_2009_Recruitment of an Area Involved in Eye Movements During Mental Arithmetic.pdf",
+    "doi": "10.1126/science.1171599",
+    "author": "knops",
+    "year": "2009",
+    "score": 2,
+    "matches": [
+      "kw:eye movement"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "eye movement"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Koehler_2013_Increased Functional Connectivity between Prefrontal Cortex and Reward System.pdf",
+    "doi": "10.1371/journal.pone.0084565",
+    "author": "koehler",
+    "year": "2013",
+    "score": 2,
+    "matches": [
+      "kw:functional connectivity"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "functional connectivity"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Kornysheva_2019_Neural Competitive Queuing of Ordinal Structure Underlies Skilled Sequential.pdf",
+    "doi": "10.1016/j.neuron.2019.01.018",
+    "author": "kornysheva",
+    "year": "2019",
+    "score": 2,
+    "matches": [
+      "kw:sequential"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "sequential"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Kukkonen_2014_Bayesian Narrative Probability, Plot and the Shape of the Fictional World.pdf",
+    "doi": "10.1515/anglia-2014-0075",
+    "author": "kukkonen",
+    "year": "2014",
+    "score": 2,
+    "matches": [
+      "kw:bayesian"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "bayesian"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Kuss_2005_Bayesian inference for psychometric functions.pdf",
+    "doi": "10.1167/5.5.8",
+    "author": "kuss",
+    "year": "2005",
+    "score": 2,
+    "matches": [
+      "kw:bayesian"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "bayesian"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Lau_2008_HigherOrderBayesianDecisionTheoryConsciousness.pdf",
+    "doi": "10.1016/s0079-6123(07",
+    "author": "lau",
+    "year": "2008",
+    "score": 2,
+    "matches": [
+      "kw:bayesian"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "bayesian"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Law_2015_No Relationship Between Binocular Rivalry Rate and Eye-Movement Profiles in.pdf",
+    "doi": "10.1177/0301006615594267",
+    "author": "law",
+    "year": "2015",
+    "score": 2,
+    "matches": [
+      "kw:eye movement"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "eye movement"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Li_2013_Bayesian Network Analysis Reveals Alterations to Default Mode Network.pdf",
+    "doi": "10.1371/journal.pone.0082104.t001",
+    "author": "li",
+    "year": "2013",
+    "score": 2,
+    "matches": [
+      "kw:bayesian"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "bayesian"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Li_2019_Recurrent_Processing_of_Contour_Integration.pdf",
+    "doi": "10.1093/cercor/bhx296",
+    "author": "li",
+    "year": "2019",
+    "score": 2,
+    "matches": [
+      "kw:contour integration"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "contour integration"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Liu_2016_Spatial structure of neuronal receptive field in awake monkey secondary visual.pdf",
+    "doi": "10.1073/pnas.1525505113",
+    "author": "liu",
+    "year": "2016",
+    "score": 2,
+    "matches": [
+      "kw:receptive field"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "receptive field"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Lorenceau_2005_Dynamic competition between contour integration and contour segmentation probed.pdf",
+    "doi": "10.1016/j.visres.2004.07.033",
+    "author": "lorenceau",
+    "year": "2005",
+    "score": 2,
+    "matches": [
+      "kw:contour integration"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "contour integration"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Lundqvist_2013_Attractor Hypothesis of Associative Cortex Insights from a Biophysically.pdf",
+    "doi": "10.5772/56229",
+    "author": "lundqvist",
+    "year": "2013",
+    "score": 2,
+    "matches": [
+      "kw:attractor"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "attractor"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Meyberg_2017_Revising the link between microsaccades and the spatial cueing of voluntary.pdf",
+    "doi": "10.1016/j.visres.2017.01.001",
+    "author": "meyberg",
+    "year": "2017",
+    "score": 2,
+    "matches": [
+      "kw:saccade"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "saccade"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Meyniel_2015_Confidence as Bayesian Probability From Neural Origins to Behavior.pdf",
+    "doi": "10.1016/j.neuron.2015.09.039",
+    "author": "meyniel",
+    "year": "2015",
+    "score": 2,
+    "matches": [
+      "kw:bayesian"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "bayesian"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Moreno_2007_Noise_Induced_Alternations_in_an_Attractor_Network_Model_of_Perceptual_35e171.pdf",
+    "doi": "10.1152/jn.00116.2007",
+    "author": "moreno",
+    "year": "2007",
+    "score": 2,
+    "matches": [
+      "kw:attractor"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "attractor"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Murphy_2011_Pupillometry and P3 index the locus coeruleus–noradrenergic arousal function in.pdf",
+    "doi": "10.1111/j.1469-8986.2011.01226.x",
+    "author": "murphy",
+    "year": "2011",
+    "score": 2,
+    "matches": [
+      "kw:pupillometry"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "pupillometry"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Needham_2007_A Primer on Learning in Bayesian Networks for Computational Biology.pdf",
+    "doi": "10.1371/journal.pcbi.0030129.g002",
+    "author": "needham",
+    "year": "2007",
+    "score": 2,
+    "matches": [
+      "kw:bayesian"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "bayesian"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Nishimoto_2011_A Three-Dimensional Spatiotemporal Receptive Field Model Explains Responses of.pdf",
+    "doi": "10.1523/jneurosci.6801-10.2011",
+    "author": "nishimoto",
+    "year": "2011",
+    "score": 2,
+    "matches": [
+      "kw:receptive field"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "receptive field"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Norris_2008_Shortlist B A Bayesian model of continuous speech recognition.pdf",
+    "doi": "10.1037/0033-295x.115.2.357",
+    "author": "norris",
+    "year": "2008",
+    "score": 2,
+    "matches": [
+      "kw:bayesian"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "bayesian"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Nugent_2003_Contour integration in peripheral vision reduces gradually with eccentricity.pdf",
+    "doi": "10.1016/s0042-6989(03",
+    "author": "nugent",
+    "year": "2003",
+    "score": 2,
+    "matches": [
+      "kw:contour integration"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "contour integration"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Nyström_2016_Pupil_size_influences_the_eyetracker_signal_during_saccades.pdf",
+    "doi": "10.1016/j.visres.2016.01.009",
+    "author": null,
+    "year": null,
+    "score": 2,
+    "matches": [
+      "kw:saccade"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "saccade"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Of-bits-and-wows-A-Bayesian-theory-of-surprise-with-applications-to-attention_2010_Neural-Networks.pdf",
+    "doi": "10.1016/j.neunet.2009.12.007",
+    "author": "of-bits-and-wows-a-bayesian-theory-of-surprise-with-applications-to-attention",
+    "year": "2010",
+    "score": 2,
+    "matches": [
+      "kw:bayesian"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "bayesian"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Ohl_2016_Microsaccades Are Coupled to Heartbeat_ce99a3.pdf",
+    "doi": "10.1523/jneurosci.2211-15.2016",
+    "author": "ohl",
+    "year": "2016",
+    "score": 2,
+    "matches": [
+      "kw:saccade"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "saccade"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Parr_2018_Computational Neuropsychology and Bayesian Inference.pdf",
+    "doi": "10.3389/fnhum.2018.00061",
+    "author": "parr",
+    "year": "2018",
+    "score": 2,
+    "matches": [
+      "kw:bayesian"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "bayesian"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Pecka_2014_Experience-Dependent Specialization of Receptive Field Surround for Selective.pdf",
+    "doi": "10.1016/j.neuron.2014.09.010",
+    "author": "pecka",
+    "year": "2014",
+    "score": 2,
+    "matches": [
+      "kw:receptive field"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "receptive field"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Polanía_2019_Efficient_coding_of_subjective_value_34eb1c.pdf",
+    "doi": "10.1038/s41593-018-0292-0",
+    "author": null,
+    "year": null,
+    "score": 2,
+    "matches": [
+      "kw:efficient coding"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "efficient coding"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Poropudas_2011_Simulation metamodeling with dynamic Bayesian networks.pdf",
+    "doi": "10.1016/j.ejor.2011.05.007",
+    "author": "poropudas",
+    "year": "2011",
+    "score": 2,
+    "matches": [
+      "kw:bayesian"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "bayesian"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Prat_2026_Fast_efficient_coding_and_sensory.pdf",
+    "doi": "10.1101/2025.07.11.664261doi:",
+    "author": "prat",
+    "year": "2026",
+    "score": 2,
+    "matches": [
+      "kw:efficient coding"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "efficient coding"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Qi_2014_Default Mode Network Functional Connectivity.pdf",
+    "doi": "10.1002/hbm.20531",
+    "author": "qi",
+    "year": "2014",
+    "score": 2,
+    "matches": [
+      "kw:functional connectivity"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "functional connectivity"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Raz_2016_Functional connectivity dynamics during film viewing reveal common networks for_9f22b9.pdf",
+    "doi": "10.3758/s13415-016-0425-4)",
+    "author": "raz",
+    "year": "2016",
+    "score": 2,
+    "matches": [
+      "kw:functional connectivity"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "functional connectivity"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Rich_2015_Neural representation of probabilities for Bayesian inference.pdf",
+    "doi": "10.1007/s10827-014-0545-1",
+    "author": "rich",
+    "year": "2015",
+    "score": 2,
+    "matches": [
+      "kw:bayesian"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "bayesian"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Rigoux_2014_Bayesian_model_selection_for_group_studies_Revisited.pdf",
+    "doi": "10.1016/j.neuroimage.2013.08.065",
+    "author": "rigoux",
+    "year": "2014",
+    "score": 2,
+    "matches": [
+      "kw:bayesian"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "bayesian"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Rohe_2019_The neural dynamics of hierarchical Bayesian causal inference in multisensory.pdf",
+    "doi": "10.1038/s41467-019-09664-2",
+    "author": "rohe",
+    "year": "2019",
+    "score": 2,
+    "matches": [
+      "kw:bayesian"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "bayesian"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Rucci_2007_Miniature eye movements enhance fine spatial detail.pdf",
+    "doi": "10.1038/nature05866",
+    "author": "rucci",
+    "year": "2007",
+    "score": 2,
+    "matches": [
+      "kw:eye movement"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "eye movement"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Sanborn_2016_Bayesian Brains without Probabilities_b84d78.pdf",
+    "doi": "10.1016/j.tics.2016.10.003",
+    "author": "sanborn",
+    "year": "2016",
+    "score": 2,
+    "matches": [
+      "kw:bayesian"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "bayesian"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Santos_2012_JoV_smooth_eye_movements_with_RDK.pdf",
+    "doi": "10.1167/12.11.1",
+    "author": "santos",
+    "year": "2012",
+    "score": 2,
+    "matches": [
+      "kw:eye movement"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "eye movement"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Schmid_2014_Possible functions of contextual modulations and receptive field nonlinearities.pdf",
+    "doi": "10.1016/j.visres.2014.07.002",
+    "author": "schmid",
+    "year": "2014",
+    "score": 2,
+    "matches": [
+      "kw:receptive field"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "receptive field"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Schurgin_2020_Psychophysical scaling reveals a unified theory of visual memory strength.pdf",
+    "doi": "10.1038/s41562-020-00938-0",
+    "author": "schurgin",
+    "year": "2020",
+    "score": 2,
+    "matches": [
+      "kw:psychophysic"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "psychophysic"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Schwabe_2006_The Role of Feedback in Shaping the Extra-Classical Receptive Field of Cortical.pdf",
+    "doi": "10.1523/jneurosci.1253-06.2006",
+    "author": "schwabe",
+    "year": "2006",
+    "score": 2,
+    "matches": [
+      "kw:receptive field"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "receptive field"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Shi_2010_Exemplar models as a mechanism for performing Bayesian inference.pdf",
+    "doi": "10.3758/pbr.17.4.443",
+    "author": "shi",
+    "year": "2010",
+    "score": 2,
+    "matches": [
+      "kw:bayesian"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "bayesian"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Shi_2013_Bayesian optimization of time perception.pdf",
+    "doi": "10.1016/j.tics.2013.09.009",
+    "author": "shi",
+    "year": "2013",
+    "score": 2,
+    "matches": [
+      "kw:bayesian"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "bayesian"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Smidt_2015_A brief, but nuanced, review of emotional granularity and emotion.pdf",
+    "doi": "10.1016/j.copsyc.2015.02.007",
+    "author": "smidt",
+    "year": "2015",
+    "score": 2,
+    "matches": [
+      "kw:granularity"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "granularity"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Snyder_2015_Global network influences on local functional connectivity_c9be6c.pdf",
+    "doi": "10.1038/nn.3979",
+    "author": "snyder",
+    "year": "2015",
+    "score": 2,
+    "matches": [
+      "kw:functional connectivity"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "functional connectivity"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Song_2017_A Bayesian approach to the mixed-effects analysis of accuracy data in.pdf",
+    "doi": "10.1016/j.jml.2017.05.002",
+    "author": "song",
+    "year": "2017",
+    "score": 2,
+    "matches": [
+      "kw:bayesian"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "bayesian"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Sorochynskyi_2021_Predicting synchronous firing of large neural populations from sequential.pdf",
+    "doi": "10.1101/560656doi:",
+    "author": "sorochynskyi",
+    "year": "2021",
+    "score": 2,
+    "matches": [
+      "kw:sequential"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "sequential"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Subsoontorn_2012_Ensemble Bayesian Analysis of Bistability in a Synthetic Transcriptional Switch.pdf",
+    "doi": "10.1021/sb300018h",
+    "author": "subsoontorn",
+    "year": "2012",
+    "score": 2,
+    "matches": [
+      "kw:bayesian"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "bayesian"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Suchow_2017_Evolution in Mind Evolutionary Dynamics, Cognitive Processes, and Bayesian.pdf",
+    "doi": "10.1016/j.tics.2017.04.005",
+    "author": "suchow",
+    "year": "2017",
+    "score": 2,
+    "matches": [
+      "kw:bayesian"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "bayesian"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Tailby_2015_Resting state functional connectivity changes induced by prior brain state are.pdf",
+    "doi": "10.1016/j.neuroimage.2014.11.037",
+    "author": "tailby",
+    "year": "2015",
+    "score": 2,
+    "matches": [
+      "kw:functional connectivity"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "functional connectivity"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Takemura_2007_Deficits in Short-Latency Tracking Eye Movements after Chemical Lesions in.pdf",
+    "doi": "10.1523/jneurosci.3455-06.2007",
+    "author": "takemura",
+    "year": "2007",
+    "score": 2,
+    "matches": [
+      "kw:eye movement"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "eye movement"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Taubert_2016_Love at second sight Sequential dependence of facial attractiveness in an.pdf",
+    "doi": "10.1038/srep22740",
+    "author": "taubert",
+    "year": "2016",
+    "score": 2,
+    "matches": [
+      "kw:sequential"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "sequential"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Tenenbaum_2006_Theory-based Bayesian models of inductive learning and reasoning.pdf",
+    "doi": "10.1016/j.tics.2006.05.009",
+    "author": "tenenbaum",
+    "year": "2006",
+    "score": 2,
+    "matches": [
+      "kw:bayesian"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "bayesian"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Thielen_2019_Evidence for confounding eye movements under attempted fixation and active.pdf",
+    "doi": "10.1038/s41598-019-54018-z",
+    "author": "thielen",
+    "year": "2019",
+    "score": 2,
+    "matches": [
+      "kw:eye movement"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "eye movement"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Tipples_2018_Caution follows fear Evidence from hierarchical drift diffusion modelling.pdf",
+    "doi": "10.1037/emo0000342.supp",
+    "author": "tipples",
+    "year": "2018",
+    "score": 2,
+    "matches": [
+      "kw:drift_diffusion"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "drift_diffusion"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Todd_2012_Psychophysical and Neural Evidence for Emotion-Enhanced Perceptual Vividness.pdf",
+    "doi": "10.1523/jneurosci.0155-12.2012",
+    "author": "todd",
+    "year": "2012",
+    "score": 2,
+    "matches": [
+      "kw:psychophysic"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "psychophysic"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Tse_2010_Event-related functional MRI of cortical activity evoked by microsaccades,.pdf",
+    "doi": "10.1016/j.neuroimage.2009.07.052",
+    "author": "tse",
+    "year": "2010",
+    "score": 2,
+    "matches": [
+      "kw:saccade"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "saccade"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Turner_2015_Constraining Cognitive Abstractions Through Bayesian Modeling.pdf",
+    "doi": "10.1007/978-1-4939-2236-9_10",
+    "author": "turner",
+    "year": "2015",
+    "score": 2,
+    "matches": [
+      "kw:bayesian"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "bayesian"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Ukita_2019_Characterisation of nonlinear receptive fields of visual neurons by.pdf",
+    "doi": "10.1038/s41598-019-40535-4",
+    "author": "ukita",
+    "year": "2019",
+    "score": 2,
+    "matches": [
+      "kw:receptive field"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "receptive field"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Unknown_2019_Correction to Attention, Perception, &amp; Psychophysics, Volume 81, Number 1,.pdf",
+    "doi": "10.3758/s13414-018-1618-4",
+    "author": "unknown",
+    "year": "2019",
+    "score": 2,
+    "matches": [
+      "kw:psychophysic"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "psychophysic"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Vincent_2015_Bayesian accounts of covert selective attention A tutorial review.pdf",
+    "doi": "10.3758/s13414-014-0830-0)",
+    "author": "vincent",
+    "year": "2015",
+    "score": 2,
+    "matches": [
+      "kw:bayesian"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "bayesian"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Vuksanović_2014_Functional_connectivity_of_distant_cortical_regions_Role_of_remote.pdf",
+    "doi": "10.1016/j.neuroimage.2014.04.039",
+    "author": null,
+    "year": null,
+    "score": 2,
+    "matches": [
+      "kw:functional connectivity"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "functional connectivity"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Wager_2015_A Bayesian Model of Category-Specific Emotional Brain Responses.pdf",
+    "doi": "10.1371/journal.pcbi.1004066",
+    "author": "wager",
+    "year": "2015",
+    "score": 2,
+    "matches": [
+      "kw:bayesian"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "bayesian"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Warren_2019_Increased task-dependent functional connectivity by stimulation of the.pdf",
+    "doi": "10.1101/676643doi:",
+    "author": "warren",
+    "year": "2019",
+    "score": 2,
+    "matches": [
+      "kw:functional connectivity"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "functional connectivity"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Womelsdorf_2006_Dynamic shifts of visual receptive fields in cortical area MT by spatial.pdf",
+    "doi": "10.1038/nn1748",
+    "author": "womelsdorf",
+    "year": "2006",
+    "score": 2,
+    "matches": [
+      "kw:receptive field"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "receptive field"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Xu_2007_Sensitivity to sampling in Bayesian word learning.pdf",
+    "doi": "10.1111/j.1467-7687.2007.00590.x",
+    "author": "xu",
+    "year": "2007",
+    "score": 2,
+    "matches": [
+      "kw:bayesian"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "bayesian"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "Zhou_2020_The role of sensory uncertainty in simple contour integration.pdf",
+    "doi": "10.1101/350082doi:",
+    "author": "zhou",
+    "year": "2020",
+    "score": 2,
+    "matches": [
+      "kw:contour integration"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "contour integration"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "vanBeers_2007_The_Sources_of_Variability_in_Saccadic_Eye_Movements.pdf",
+    "doi": "10.1523/jneurosci.2311-07.2007",
+    "author": "vanbeers",
+    "year": "2007",
+    "score": 2,
+    "matches": [
+      "kw:eye movement"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "eye movement"
+    ],
+    "core_auth": []
+  },
+  {
+    "filename": "vanderMeer_2010_Resource_allocation_and_fluid_intelligence_Insights_from_pupillometry.pdf",
+    "doi": "10.1111/j.1469-8986.2009.00884.x",
+    "author": "vandermeer",
+    "year": "2010",
+    "score": 2,
+    "matches": [
+      "kw:pupillometry"
+    ],
+    "core_score": 3,
+    "core_kw": [
+      "pupillometry"
+    ],
+    "core_auth": []
+  }
+]
