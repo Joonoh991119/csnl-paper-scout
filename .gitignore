@@ -5,6 +5,9 @@ __pycache__/
 sync/.sync-state.json
 # runs/ kept in git for pipeline outputs (except large binaries)
 harness/results/
+harness/feedback-inbox.json
+harness/.feedback-state.json
+harness/feedback-daemon.log
 runs/pdfs/
 runs/figures/**/*.png
 data/member-profiles/
