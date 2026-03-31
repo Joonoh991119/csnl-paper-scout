@@ -1,0 +1,80 @@
+[
+  {
+    "name": "Costa_Collins_2026",
+    "doi": "10.64898/2026.01.22.700534",
+    "success": false,
+    "method": "failed"
+  },
+  {
+    "name": "Ozkirli_2025",
+    "doi": "10.1038/s41562-025-02362-8",
+    "success": true,
+    "method": "playwright",
+    "pages": 14,
+    "figures": 0,
+    "text_chars": 66372,
+    "sections": [
+      "abstract",
+      "methods",
+      "results",
+      "discussion",
+      "references"
+    ]
+  },
+  {
+    "name": "Kandemir_2026",
+    "doi": "10.3758/s13414-025-03208-1",
+    "success": true,
+    "method": "cached",
+    "pages": 18,
+    "figures": 9,
+    "text_chars": 85060,
+    "sections": [
+      "abstract",
+      "introduction",
+      "methods",
+      "results",
+      "discussion",
+      "references"
+    ]
+  },
+  {
+    "name": "Pinchuk_Yacobi_2026",
+    "doi": "10.1101/2025.02.06.636846",
+    "success": false,
+    "method": "failed"
+  },
+  {
+    "name": "Fischer_2025",
+    "doi": "10.7554/eLife.99478",
+    "success": true,
+    "method": "unpaywall",
+    "pages": 34,
+    "figures": 8,
+    "text_chars": 101716,
+    "sections": [
+      "abstract",
+      "introduction",
+      "methods",
+      "results",
+      "discussion",
+      "references"
+    ]
+  },
+  {
+    "name": "Andriushchenko_2025",
+    "doi": "10.21203/rs.3.rs-6511490",
+    "success": true,
+    "method": "playwright",
+    "pages": 39,
+    "figures": 11,
+    "text_chars": 74963,
+    "sections": [
+      "abstract",
+      "methods",
+      "results",
+      "discussion",
+      "references"
+    ]
+  }
+]
