@@ -30,13 +30,13 @@
     "year": 2025,
     "doi_url": "https://doi.org/10.1038/s41562-025-02362-8",
     "hook": "CSNL SD 프레임워크에 정면 도전 — serial dependence는 adaptive가 아니라 decision을 악화시킨다",
-    "summary": "역대 최대 규모 SD 데이터셋 메가분석. SD가 uncertainty를 줄여 decision을 개선한다는 \"superiority effect\" 가설을 정면 반박 — SD는 perceptual decision을 악화시킨다.",
+    "summary": "역대 최대 규모 SD 데이터셋 메가분석. 저자들은 SD가 decision을 개선한다는 \"superiority effect\" 가설을 반박하지만, precision이 낮을 때 과거 의존이 adaptive일 가능성(CSNL 프레임워크)은 별도 검토 필요. 이 논문의 분석이 precision 조건을 통제했는지가 핵심 쟁점.",
     "targeting_lines": [
       {
         "slack_id": "U06JGAX5HD5",
         "name": "JOP",
         "project": "RingRepSca",
-        "description": "SD를 adaptive Bayesian process로 보는 CSNL 프레임워크에 대한 직접 반박 — Lee et al. 2023 (J Neurosci) 가설 재검토 필요"
+        "description": "SD를 adaptive Bayesian process로 보는 CSNL 프레임워크와 이 논문의 '악화' 주장 간 tension — precision 조건별 분석이 되어 있는지 full-text에서 확인하고, CSNL의 'low-precision → adaptive' 가설이 여전히 성립하는지 검토"
       },
       {
         "slack_id": "U06JA7D5XC7",
