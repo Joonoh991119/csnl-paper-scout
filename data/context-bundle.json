@@ -57,7 +57,8 @@
           "SeqVWM": "Sequential VWM에서 low contrast → attraction, high contrast → repulsion. SOB 모델의 energy field (primacy gradient + response suppression). Kilpatrick (2018) attractor model. Serial position: preceding→attraction, succeeding→repulsion."
         },
         "SK": {
-          "WMRepresentation": "EVC가 sensory input과 WM content를 geometry-preserving하되 orthogonal population subspace에 re-embedding. dPCA로 sensory vs mnemonic code 분리. 50 subjects fMRI. Cross-generalization 실패 → different code. 중견 Grant의 feedforward vs feedback 신경적 분리."
+          "WMRepresentation": "KimEtal 2026 (under review). EVC가 sensation과 WM을 동시에 처리하는 메커니즘 규명. 핵심 발견: sensory와 mnemonic orientation signal이 EVC에서 ring-like manifold를 형성하되 nearly orthogonal population subspace에 re-embedding됨 (mean plane angle 71.26°±2.36°, BF₁₀>10³⁰⁰ for orthogonal). Geometry는 보존되면서 subspace만 분리 = 'geometry-preserving subspace rotation' = Re-embedded code (3가지 시나리오 중 하나: Common code / Distinct code / Re-embedded code). Cross-decoding 실패가 이를 확인. Retinotopic radial bias는 sensory epoch에서만 존재하고 mnemonic epoch에서 사라짐 → mnemonic manifold는 retinotopically decoupled yet feature-faithful. Trial-by-trial mnemonic subspace variability가 discrimination choices와 estimation errors를 예측. N=50 fMRI, 16.5s prolonged delay. dPCA + crossnobis RDM + IEM. 이 configuration이 concurrent low-interference readout를 가능하게 함.",
+          "중견Grant": "반발추정(feedforward→repulsion) vs 끌림추정(feedback→attraction)의 신경원천 규명. 7T fMRI layer-specific imaging, dPCA manifold separation, individual-tailored tES. Sensory manifold vs memory manifold 분리."
         }
       },
       "gist_relevance": "RNN models of WM biases, persistent vs transient coding, non-normal dynamics, drift-diffusion and attractor interaction, sequential WM interaction, contrast-dependent bias, energy landscape, sensory vs mnemonic code in EVC, orthogonal subspaces, dPCA methodology."

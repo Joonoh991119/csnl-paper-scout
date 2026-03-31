@@ -1,0 +1,22 @@
+{
+  "Serences": {
+    "path": "runs/figures/Serences/figure5_tight.png",
+    "note": "Fig5: distractor-induced bias × noise × attention"
+  },
+  "Ozkirli": {
+    "path": "runs/figures/Ozkirli/figure_tight.png",
+    "note": "Fig 2 tight crop: bias + error scatter across 49 datasets"
+  },
+  "Costa": {
+    "path": "runs/figures/Costa/figure_tight.png",
+    "note": "Fig 3 tight crop: 5 RSA similarity matrices"
+  },
+  "Pascucci": {
+    "path": "runs/figures/Pascucci/graphical_abstract.png",
+    "note": "AI-generated: drift-diffusion dynamics over time"
+  },
+  "Rademaker": {
+    "path": "runs/figures/Rademaker/figure2_tight.png",
+    "note": "Fig2: STSP vs Feedback model heatmaps"
+  }
+}

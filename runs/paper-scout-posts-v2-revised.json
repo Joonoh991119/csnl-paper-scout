@@ -1,0 +1,130 @@
+[
+  {
+    "name": "Serences",
+    "doi": "10.1101/2025.10.20.683560",
+    "title": "Memory recall errors reflect interacting sensory and mnemonic representations",
+    "authors": "Serences lab",
+    "journal": "bioRxiv",
+    "year": 2025,
+    "doi_url": "https://doi.org/10.1101/2025.10.20.683560",
+    "hook": ":fire: Attention이 memory bias를 극적으로 증폭시킨다 — sensory distractor에 주의를 기울일 때 recall error가 최대화",
+    "summary": "SK(KimEtal 2026)는 sensory/mnemonic code가 nearly orthogonal subspace(71°)에 분리되어 low-interference를 달성한다고 보임. 이 논문은 distractor가 attended되고 sensory noise가 높을 때 WM recall bias가 극적으로 증가함을 보임 — orthogonal 분리에도 불구하고 행동 수준에서 간섭이 발생.",
+    "targeting_lines": [
+      {
+        "slack_id": "SK",
+        "name": "SK",
+        "project": "WMRepresentation",
+        "description": "SK의 geometry-preserving subspace rotation(71°)이 low-interference를 보장하는데, Attend-High에서 bias가 증폭되는 메커니즘이 residual non-orthogonality인지 검토 필요"
+      }
+    ],
+    "dimension_tags": "D1 Direct 9 (SK)",
+    "anchor_paper": "Gu et al. 2025 (Neuron)",
+    "figure_guide": ":mag: Attend-High 조건에서 memory bias가 distractor 방향으로 가장 크게 끌리는 것에 주목 — attention과 noise의 상호작용으로 recall error가 극적으로 증폭됨을 확인할 수 있다"
+  },
+  {
+    "name": "Ozkirli",
+    "doi": "10.1038/s41562-025-02362-8",
+    "title": "Large-scale mega-analysis indicates that serial dependence deteriorates perceptual decision-making",
+    "authors": "Ozkirli A, Chetverikov A, Pascucci D",
+    "journal": "Nature Human Behaviour",
+    "year": 2025,
+    "doi_url": "https://doi.org/10.1038/s41562-025-02362-8",
+    "hook": "CSNL SD 프레임워크에 정면 도전 — serial dependence는 adaptive가 아니라 decision을 악화시킨다",
+    "summary": "역대 최대 규모 SD 데이터셋 메가분석. SD가 uncertainty를 줄여 decision을 개선한다는 \"superiority effect\" 가설을 정면 반박 — SD는 perceptual decision을 악화시킨다.",
+    "targeting_lines": [
+      {
+        "slack_id": "U06JGAX5HD5",
+        "name": "JOP",
+        "project": "RingRepSca",
+        "description": "SD를 adaptive Bayesian process로 보는 CSNL 프레임워크에 대한 직접 반박 — Lee et al. 2023 (J Neurosci) 가설 재검토 필요"
+      },
+      {
+        "slack_id": "U06JA7D5XC7",
+        "name": "MSY",
+        "project": "CatVsMag",
+        "description": "SD deterioration이 categorical vs magnitude task에서 differential하게 작동하는지 — MSY의 X-shape SD 해석에 영향"
+      }
+    ],
+    "dimension_tags": "D2 Tension 9 (JOP) · D4 Competitive 8",
+    "anchor_paper": "Lee, Lee, Choe & Lee 2023 (J Neurosci)",
+    "figure_guide": "Fig 2 왼쪽 Bias plot에서 대부분의 데이터셋(49개)이 attractive(양수) 방향으로 편향된 것에 주목 — 오른쪽 Error scatter에서 SD 조건의 error SD가 baseline 대비 일관되게 높아, SD가 decision을 개선하지 않고 악화시킴을 확인할 수 있다"
+  },
+  {
+    "name": "Costa",
+    "doi": "10.64898/2026.01.22.700534",
+    "title": "Serial Dependence operates on categorical rather than physical representations: evidence from behavior and EEG",
+    "authors": "Costa P, Collins T",
+    "journal": "bioRxiv",
+    "year": 2026,
+    "doi_url": "https://doi.org/10.64898/2026.01.22.700534",
+    "hook": "MSY CatVsMag 연구에 직접 경쟁 — SD는 physical이 아닌 categorical representation에서 작동한다",
+    "summary": "Face morphs(anger/fear/sadness)로 SD가 physical similarity가 아닌 perceptual distance에 tuning됨을 보임. EEG RSA로 categorical structure가 SD를 결정함을 확인. Categorical model이 behavioral SD pattern을 가장 잘 설명.",
+    "targeting_lines": [
+      {
+        "slack_id": "U06JA7D5XC7",
+        "name": "MSY",
+        "project": "CatVsMag",
+        "description": "MSY의 categorical vs magnitude SD 가설을 독립 확인하는 직접 경쟁 논문 — EEG RSA로 neural level 검증, MSY 데이터와 즉시 비교 가능"
+      },
+      {
+        "slack_id": "U09DQQFB4E4",
+        "name": "BHL",
+        "project": "SerialDep_Feature",
+        "description": "Memory-based vs sensory 표상의 괴리가 클수록 SD 강화 — secondary feature가 categorical level에서 binding되는지 검토"
+      }
+    ],
+    "dimension_tags": "D1 Direct 9 (MSY) · D4 Competitive 8",
+    "anchor_paper": "Lim & Lee 2023 (Sci Rep)",
+    "figure_guide": "Figure 3의 c) Categorical 패널에서 감정 카테고리 경계(fear/anger/sadness)에 뚜렷한 block structure가 나타나는 것에 주목 — a) Morph unit의 연속적 gradient와 비교하면 SD가 physical similarity가 아닌 categorical boundary에 tuning됨을 확인할 수 있다"
+  },
+  {
+    "name": "Pascucci",
+    "doi": "10.1016/j.neuron.2025.09.025",
+    "title": "An integrative approach to the study of drift-diffusion dynamics in working memory",
+    "authors": "Pascucci D",
+    "journal": "Neuron",
+    "year": 2025,
+    "doi_url": "https://doi.org/10.1016/j.neuron.2025.09.025",
+    "hook": ":fire: 작업기억에서 색상 정보가 시간이 지날수록 점점 부정확해지는 이유 — Pascucci의 Neuron Preview가 drift-diffusion 현상의 neural mechanism을 RNN 관점에서 해석",
+    "summary": "Pascucci가 Neuron Preview에서 작업기억의 drift-diffusion 모델을 분석하며 3가지 핵심 한계점을 지적: (1) 개별 뉴런 수준 메커니즘 부족, (2) non-linear network dynamics 미반영, (3) multi-item WM으로의 확장 필요. 색상 기억이 시간에 따라 systematic bias와 random noise로 인해 점진적으로 왜곡되는 현상을 RNN framework의 recurrent connectivity와 non-normal dynamics로 설명할 수 있음을 제안하며, 기존 phenomenological model을 mechanistic understanding으로 발전시킬 방향성 제시.",
+    "targeting_lines": [
+      {
+        "slack_id": "JYK",
+        "name": "JYK",
+        "project": "RNN",
+        "description": "Pascucci가 제시한 RNN mechanistic framework를 현재 모델에 적용: (1) drift rate를 recurrent weight matrix의 eigenvalue로 해석, (2) diffusion amplification 메커니즘 검증, (3) multi-item interference 모델링"
+      }
+    ],
+    "dimension_tags": "D1 Direct 9 (JYK) · D4 Endorsement 8",
+    "anchor_paper": "Gu et al. 2025 (Neuron)",
+    "figure_guide": ":mag: 시간에 따른 기억 오류 증가 패턴과 drift-diffusion 모델의 핵심 구성요소(systematic drift와 random diffusion)를 보여주는 개념도에 주목"
+  },
+  {
+    "name": "Rademaker",
+    "doi": "10.1101/2025.11.27.690959",
+    "title": "Top-down feedback can explain the existence of working memory traces in early visual cortex",
+    "authors": "Rademaker lab",
+    "journal": "bioRxiv",
+    "year": 2025,
+    "doi_url": "https://doi.org/10.1101/2025.11.27.690959",
+    "hook": "EVC working memory trace의 기원 밝혀짐 — top-down feedback이 synaptic plasticity보다 73% 더 많은 variance 설명하여 CSNL의 feedforward vs feedback 메커니즘 논쟁에 결정적 증거 제공",
+    "summary": "EVC working memory trace의 기원으로 top-down feedback vs short-term synaptic plasticity 두 메커니즘을 직접 비교하여, anterior cortical sites의 top-down feedback이 sensory cortex WM representation을 유지하는 주요 메커니즘임을 정량적으로 입증.",
+    "targeting_lines": [
+      {
+        "slack_id": "SK",
+        "name": "SK",
+        "project": "WMRepresentation의 dPCA sensory/mnemonic code 분리",
+        "description": "mnemonic code의 기원이 feedback signal인지 검증 가능 — orthogonal subspace re-embedding이 feedback에 의해 형성되는지"
+      },
+      {
+        "slack_id": "중견",
+        "name": "중견",
+        "project": "Grant의 feedforward(sensory) vs feedback(memory) 분리 프레임",
+        "description": "Rademaker의 feedback→EVC WM trace 경로와 SK의 geometry 기반 설명을 competing explanation으로 비교"
+      }
+    ],
+    "dimension_tags": "D1 Direct 8 (SK) · D2 Tension 7",
+    "anchor_paper": "Gu et al. 2025 (Neuron)",
+    "figure_guide": "Figure 2의 왼쪽(STSP) vs 오른쪽(Feedback) EVC heatmap 비교와 하단 variance explained 막대그래프에 주목 — STSP 모델에서는 target 후 EVC activity가 빠르게 사라지지만, Feedback 모델에서는 frontal→EVC 연결 덕분에 orientation-tuned activity가 delay 내내 유지되며 73% 더 높은 설명력을 보임"
+  }
+]

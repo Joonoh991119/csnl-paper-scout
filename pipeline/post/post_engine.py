@@ -249,15 +249,15 @@ class PostEngine:
         if eq_text:
             result["equation_included"] = True
 
-        # Build detail blocks (without image — image goes in the file message)
+        # Build detail blocks (thread reply — hook is in the figure caption)
         blocks, fallback = build_post_blocks(
-            hook=paper["hook"],
             title=paper["title"],
             authors=paper["authors"],
             journal=paper["journal"],
             year=str(paper["year"]),
             doi_url=paper["doi_url"],
-            figure_file_id=None,  # No image block — figure is in the file message
+            summary=paper.get("summary", ""),
+            figure_guide=paper.get("figure_guide", ""),
             equation_text=eq_text,
             equation_explanation=eq_expl,
             targeting_lines=paper["targeting_lines"],

@@ -1,37 +1,38 @@
-"""Slack Block Kit composer for Paper Scout posts."""
+"""Slack Block Kit composer for Paper Scout posts.
+
+v2: Thread reply no longer duplicates the hook (hook lives in the figure caption).
+    Score tables and evidence quotes removed — targeting lines carry all context.
+"""
 
 
 def build_post_blocks(
-    hook: str,
     title: str,
     authors: str,
     journal: str,
     year: str,
     doi_url: str,
-    figure_file_id: str = None,
-    figure_alt_text: str = "",
-    equation_text: str = None,
-    equation_explanation: str = None,
+    summary: str,
+    figure_guide: str = "",
     targeting_lines: list = None,
     dimension_tags: str = "",
     anchor_paper: str = "",
+    equation_text: str = None,
+    equation_explanation: str = None,
+    # Legacy params kept for compatibility but ignored
+    hook: str = "",
+    figure_file_id: str = None,
+    figure_alt_text: str = "",
 ) -> tuple:
     """
-    Build Slack Block Kit blocks + fallback mrkdwn text.
+    Build Slack Block Kit blocks for the THREAD REPLY (detail message).
+    The hook + figure go in the main message (file upload caption).
 
     Returns: (blocks: list[dict], fallback_text: str)
     """
     blocks = []
     fallback_parts = []
 
-    # 1. Hook
-    blocks.append({
-        "type": "section",
-        "text": {"type": "mrkdwn", "text": f":fire: {hook}"},
-    })
-    fallback_parts.append(f":fire: {hook}")
-
-    # 2. Paper metadata
+    # 1. Paper metadata
     meta = f"*{title}*\n_{authors} — {journal} ({year})_\n:link: <{doi_url}|DOI>"
     blocks.append({
         "type": "section",
@@ -39,16 +40,23 @@ def build_post_blocks(
     })
     fallback_parts.append(meta)
 
-    # 3. Figure (if uploaded)
-    if figure_file_id:
+    # 2. Figure guide (what to look at in the figure)
+    if figure_guide:
         blocks.append({
-            "type": "image",
-            "slack_file": {"id": figure_file_id},
-            "alt_text": figure_alt_text or f"{title} - Key Figure",
+            "type": "section",
+            "text": {"type": "mrkdwn", "text": f":mag: {figure_guide}"},
         })
-        fallback_parts.append(f"[Figure attached: {figure_alt_text}]")
+        fallback_parts.append(f":mag: {figure_guide}")
 
-    # 4. Equation (if present)
+    # 3. Summary (1-2 sentences, Korean)
+    if summary:
+        blocks.append({
+            "type": "section",
+            "text": {"type": "mrkdwn", "text": summary},
+        })
+        fallback_parts.append(summary)
+
+    # 3. Equation (if present)
     if equation_text:
         eq_block = f"> `{equation_text}`"
         if equation_explanation:
@@ -59,18 +67,12 @@ def build_post_blocks(
         })
         fallback_parts.append(eq_block)
 
-    # 5. Targeting lines
+    # 4. Targeting lines — each as its own section for readability
     if targeting_lines:
         target_texts = []
         for t in targeting_lines:
             line = f":dart: *<@{t['slack_id']}> {t['name']}의 {t['project']}*: {t['description']}"
             target_texts.append(line)
-
-        # Add quote if present
-        for t in targeting_lines:
-            if t.get("quote"):
-                target_texts.append(f"> \"{t['quote']}\"")
-                break  # One quote is enough
 
         blocks.append({
             "type": "section",
@@ -78,7 +80,7 @@ def build_post_blocks(
         })
         fallback_parts.append("\n".join(target_texts))
 
-    # 6. Dimension tags + anchor (context block)
+    # 5. Dimension tags + anchor (context block)
     tag_text = f":label: {dimension_tags}"
     if anchor_paper:
         tag_text += f" — anchor: {anchor_paper}"

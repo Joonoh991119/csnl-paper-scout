@@ -1,0 +1,125 @@
+[
+  {
+    "name": "Serences",
+    "doi": "10.1101/2025.10.20.683560",
+    "title": "Memory recall errors reflect interacting sensory and mnemonic representations",
+    "authors": "Serences lab",
+    "journal": "bioRxiv",
+    "year": 2025,
+    "doi_url": "https://doi.org/10.1101/2025.10.20.683560",
+    "hook": "SK 연구 직접 검증 — sensory-mnemonic code가 분리되지 않고 상호작용하며 recall error를 만든다",
+    "summary": "VWM 유지 중 새로운 감각 입력이 기억 표상과 상호작용하여 recall을 체계적으로 왜곡함을 보임. \"Abstract representation\" 가설(감각 간섭 없음)에 반대 — 초기 감각 영역이 WM에 관여하며 간섭 발생.",
+    "targeting_lines": [
+      {
+        "slack_id": "U06K5MX4GHE",
+        "name": "SK",
+        "project": "WMRepresentation",
+        "description": "dPCA sensory/mnemonic code 분리에서 두 코드가 orthogonal이 아닌 상호작용한다는 직접 증거 — cross-generalization 실패 해석에 새 근거"
+      }
+    ],
+    "dimension_tags": "D1 Direct 9 (SK)",
+    "anchor_paper": "Gu et al. 2025 (Neuron)"
+  },
+  {
+    "name": "Ozkirli",
+    "doi": "10.1038/s41562-025-02362-8",
+    "title": "Large-scale mega-analysis indicates that serial dependence deteriorates perceptual decision-making",
+    "authors": "Ozkirli A, Chetverikov A, Pascucci D",
+    "journal": "Nature Human Behaviour",
+    "year": 2025,
+    "doi_url": "https://doi.org/10.1038/s41562-025-02362-8",
+    "hook": "CSNL SD 프레임워크에 정면 도전 — serial dependence는 adaptive가 아니라 decision을 악화시킨다",
+    "summary": "역대 최대 규모 SD 데이터셋 메가분석. SD가 uncertainty를 줄여 decision을 개선한다는 \"superiority effect\" 가설을 정면 반박 — SD는 perceptual decision을 악화시킨다.",
+    "targeting_lines": [
+      {
+        "slack_id": "U06JGAX5HD5",
+        "name": "JOP",
+        "project": "RingRepSca",
+        "description": "SD를 adaptive Bayesian process로 보는 CSNL 프레임워크에 대한 직접 반박 — Lee et al. 2023 (J Neurosci) 가설 재검토 필요"
+      },
+      {
+        "slack_id": "U06JA7D5XC7",
+        "name": "MSY",
+        "project": "CatVsMag",
+        "description": "SD deterioration이 categorical vs magnitude task에서 differential하게 작동하는지 — MSY의 X-shape SD 해석에 영향"
+      }
+    ],
+    "dimension_tags": "D2 Tension 9 (JOP) · D4 Competitive 8",
+    "anchor_paper": "Lee, Lee, Choe & Lee 2023 (J Neurosci)"
+  },
+  {
+    "name": "Costa",
+    "doi": "10.64898/2026.01.22.700534",
+    "title": "Serial Dependence operates on categorical rather than physical representations: evidence from behavior and EEG",
+    "authors": "Costa P, Collins T",
+    "journal": "bioRxiv",
+    "year": 2026,
+    "doi_url": "https://doi.org/10.64898/2026.01.22.700534",
+    "hook": "MSY CatVsMag 연구에 직접 경쟁 — SD는 physical이 아닌 categorical representation에서 작동한다",
+    "summary": "Face morphs(anger/fear/sadness)로 SD가 physical similarity가 아닌 perceptual distance에 tuning됨을 보임. EEG RSA로 categorical structure가 SD를 결정함을 확인.",
+    "targeting_lines": [
+      {
+        "slack_id": "U06JA7D5XC7",
+        "name": "MSY",
+        "project": "CatVsMag",
+        "description": "MSY의 categorical vs magnitude SD 가설을 독립 확인하는 직접 경쟁 논문 — EEG RSA 방법론으로 neural level에서 검증, MSY 데이터와 즉시 비교 가능"
+      },
+      {
+        "slack_id": "U09DQQFB4E4",
+        "name": "BHL",
+        "project": "SerialDep_Feature",
+        "description": "Memory-based vs sensory 표상의 괴리가 클수록 SD 강화 — BHL의 secondary feature 역할 연구에 직접 연결"
+      }
+    ],
+    "dimension_tags": "D1 Direct 9 (MSY) · D4 Competitive 8",
+    "anchor_paper": "Lim & Lee 2023 (Sci Rep)"
+  },
+  {
+    "name": "Pascucci",
+    "doi": "10.1016/j.neuron.2025.09.025",
+    "title": "An integrative approach to the study of drift-diffusion dynamics in working memory",
+    "authors": "Pascucci D",
+    "journal": "Neuron",
+    "year": 2025,
+    "doi_url": "https://doi.org/10.1016/j.neuron.2025.09.025",
+    "hook": "JYK 멘토 Gu의 Neuron 논문을 Pascucci가 공식 endorsement — drift-diffusion WM 연구 방향 검증",
+    "summary": "Neuron Preview로 Gu et al.의 WM drift-diffusion dynamics를 소개. 행동, neuroimaging, RNN modeling의 convergent evidence가 drift와 diffusion이 memory states를 점진적으로 형성함을 보인다고 정리.",
+    "targeting_lines": [
+      {
+        "slack_id": "U081CN9JVK3",
+        "name": "JYK",
+        "project": "RNN",
+        "description": "멘토 Gu의 Neuron 논문에 대한 Pascucci(relevance-5 PI) Preview — JYK 프로젝트가 이 연구의 직접 확장이므로 field-level validation"
+      }
+    ],
+    "dimension_tags": "D1 Direct 9 (JYK) · D4 Endorsement 8",
+    "anchor_paper": "Gu et al. 2025 (Neuron)"
+  },
+  {
+    "name": "Rademaker",
+    "doi": "10.1101/2025.11.27.690959",
+    "title": "Top-down feedback can explain the existence of working memory traces in early visual cortex",
+    "authors": "Rademaker lab",
+    "journal": "bioRxiv",
+    "year": 2025,
+    "doi_url": "https://doi.org/10.1101/2025.11.27.690959",
+    "hook": "SK의 feedforward/feedback 분리 가설에 직접 증거 — top-down feedback이 EVC WM trace를 설명한다",
+    "summary": "EVC WM trace의 기원으로 top-down feedback vs short-term synaptic plasticity 두 메커니즘 중, anterior cortical sites의 top-down feedback이 sensory cortex WM representation을 유지함을 보임.",
+    "targeting_lines": [
+      {
+        "slack_id": "U06K5MX4GHE",
+        "name": "SK",
+        "project": "WMRepresentation",
+        "description": "dPCA sensory/mnemonic code 분리에서 mnemonic code의 기원이 feedback signal인지 검증 가능 — orthogonal subspace re-embedding이 feedback에 의해 형성되는지"
+      },
+      {
+        "slack_id": "U06K5MX4GHE",
+        "name": "SK",
+        "project": "중견 Grant",
+        "description": "feedforward(sensory) vs feedback(memory) 분리 프레임에서 Rademaker의 feedback→EVC WM trace 경로와 SK의 geometry 기반 설명을 competing explanation으로 비교"
+      }
+    ],
+    "dimension_tags": "D1 Direct 8 (SK) · D2 Tension 7",
+    "anchor_paper": "Gu et al. 2025 (Neuron)"
+  }
+]

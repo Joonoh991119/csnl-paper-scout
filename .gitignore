@@ -3,8 +3,10 @@ credentials.json
 __pycache__/
 *.pyc
 sync/.sync-state.json
-# runs/ kept in git for pipeline outputs
+# runs/ kept in git for pipeline outputs (except large binaries)
 harness/results/
+runs/pdfs/
+runs/figures/**/*.png
 data/member-profiles/
 *.egg-info/
 .DS_Store
