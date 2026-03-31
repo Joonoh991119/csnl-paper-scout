@@ -1,0 +1,36 @@
+[
+  {
+    "doi": "10.64898/2026.01.22.700534v1",
+    "pdf_path": null,
+    "method": "failed",
+    "success": false,
+    "name": "Costa_Collins_2026_categorical_SD"
+  },
+  {
+    "doi": "10.3758/s13414-025-03208-1",
+    "pdf_path": "/Users/joonoh/csnl-paper-scout/runs/pdfs/10.3758_s13414-025-03208-1.pdf",
+    "method": "playwright",
+    "success": true,
+    "extraction": {
+      "pages": 18,
+      "figures_count": 9,
+      "sections": [
+        "abstract",
+        "introduction",
+        "methods",
+        "results",
+        "discussion",
+        "references"
+      ],
+      "text_length": 85060
+    },
+    "name": "Kandemir_Olivers_2026_peripheral_SD"
+  },
+  {
+    "doi": "10.1101/2025.02.06.636846v2",
+    "pdf_path": null,
+    "method": "failed",
+    "success": false,
+    "name": "Pinchuk_Yacobi_2026_SD_learning"
+  }
+]

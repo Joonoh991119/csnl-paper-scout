@@ -1,0 +1,992 @@
+[
+  {
+    "pi": "Rosanne Rademaker",
+    "title": "EEG decoding reveals a link between visual working memory fidelity and the magnitude of similarity-induced memory bias",
+    "year": 2025,
+    "date": "2025-07-15",
+    "doi": "10.1167/jov.25.9.2706",
+    "venue": "Journal of Vision",
+    "group_scores": {
+      "group_A": 2,
+      "group_B": 2,
+      "group_C": 0
+    },
+    "best_group": "group_A",
+    "total_relevance": 4
+  },
+  {
+    "pi": "John Serences",
+    "title": "Memory recall errors reflect interacting sensory and mnemonic representations",
+    "year": 2025,
+    "date": "2025-10-21",
+    "doi": "10.1101/2025.10.20.683560",
+    "venue": "bioRxiv",
+    "group_scores": {
+      "group_A": 0,
+      "group_B": 3,
+      "group_C": 0
+    },
+    "best_group": "group_B",
+    "total_relevance": 3
+  },
+  {
+    "pi": "John Serences",
+    "title": "Feedback promotes efficient-coding while attenuating bias in recurrent neural networks",
+    "year": 2025,
+    "date": "2025-09-27",
+    "doi": "",
+    "venue": "",
+    "group_scores": {
+      "group_A": 1,
+      "group_B": 2,
+      "group_C": 0
+    },
+    "best_group": "group_B",
+    "total_relevance": 3
+  },
+  {
+    "pi": "David Pascucci",
+    "title": "An integrative approach to the study of drift-diffusion dynamics in working memory.",
+    "year": 2025,
+    "date": "2025-10-01",
+    "doi": "10.1016/j.neuron.2025.09.025",
+    "venue": "Neuron",
+    "group_scores": {
+      "group_A": 0,
+      "group_B": 3,
+      "group_C": 0
+    },
+    "best_group": "group_B",
+    "total_relevance": 3
+  },
+  {
+    "pi": "Thomas Sprague",
+    "title": "No spontaneous representations of spatial location in feature-selective retinotopic cortex during working memory for color and motion",
+    "year": 2025,
+    "date": "2025-07-15",
+    "doi": "10.1167/jov.25.9.2598",
+    "venue": "Journal of Vision",
+    "group_scores": {
+      "group_A": 0,
+      "group_B": 2,
+      "group_C": 1
+    },
+    "best_group": "group_B",
+    "total_relevance": 3
+  },
+  {
+    "pi": "Paul Bays",
+    "title": "A flexible Bayesian non-parametric mixture model reveals multiple dependencies of swap errors in visual working memory",
+    "year": 2025,
+    "date": "2025-05-02",
+    "doi": "10.48550/arXiv.2505.01178",
+    "venue": "arXiv.org",
+    "group_scores": {
+      "group_A": 1,
+      "group_B": 1,
+      "group_C": 0
+    },
+    "best_group": "group_A",
+    "total_relevance": 2
+  },
+  {
+    "pi": "John Serences",
+    "title": "Training Under Attentional Competition Produces Persistent Biases in Visual Appearance.",
+    "year": 2026,
+    "date": "2026-01-13",
+    "doi": "",
+    "venue": "arXiv.org",
+    "group_scores": {
+      "group_A": 1,
+      "group_B": 1,
+      "group_C": 0
+    },
+    "best_group": "group_A",
+    "total_relevance": 2
+  },
+  {
+    "pi": "John Serences",
+    "title": "Contribution of Eye Movement Patterns to Representational Drift",
+    "year": 2025,
+    "date": "2025-07-15",
+    "doi": "10.1167/jov.25.9.2910",
+    "venue": "Journal of Vision",
+    "group_scores": {
+      "group_A": 0,
+      "group_B": 2,
+      "group_C": 0
+    },
+    "best_group": "group_B",
+    "total_relevance": 2
+  },
+  {
+    "pi": "John Serences",
+    "title": "Dynamic categorization rules alter representations in human visual cortex",
+    "year": 2025,
+    "date": "2025-04-11",
+    "doi": "10.1038/s41467-025-58707-4",
+    "venue": "Nature Communications",
+    "group_scores": {
+      "group_A": 0,
+      "group_B": 1,
+      "group_C": 1
+    },
+    "best_group": "group_B",
+    "total_relevance": 2
+  },
+  {
+    "pi": "John Serences",
+    "title": "Distributed and drifting signals for working memory load in human cortex",
+    "year": 2025,
+    "date": "2025-09-16",
+    "doi": "10.1101/2025.09.15.676305",
+    "venue": "bioRxiv",
+    "group_scores": {
+      "group_A": 0,
+      "group_B": 2,
+      "group_C": 0
+    },
+    "best_group": "group_B",
+    "total_relevance": 2
+  },
+  {
+    "pi": "Serge Dumoulin",
+    "title": "A retinotopic reference frame for space throughout human visual cortex",
+    "year": 2025,
+    "date": "2025-11-24",
+    "doi": "10.1101/2024.02.05.578862",
+    "venue": "bioRxiv",
+    "group_scores": {
+      "group_A": 0,
+      "group_B": 0,
+      "group_C": 2
+    },
+    "best_group": "group_C",
+    "total_relevance": 2
+  },
+  {
+    "pi": "Rosanne Rademaker",
+    "title": "World-Centric Induced Cardinal Biases in 3D Object Orientation Perception",
+    "year": 2025,
+    "date": "2025-07-15",
+    "doi": "10.1167/jov.25.9.2932",
+    "venue": "Journal of Vision",
+    "group_scores": {
+      "group_A": 1,
+      "group_B": 0,
+      "group_C": 1
+    },
+    "best_group": "group_A",
+    "total_relevance": 2
+  },
+  {
+    "pi": "Rosanne Rademaker",
+    "title": "Early visual cortex is recruited to act as a comparison circuit between mental representations and visual inputs",
+    "year": 2025,
+    "date": "2025-07-15",
+    "doi": "10.1167/jov.25.9.2040",
+    "venue": "Journal of Vision",
+    "group_scores": {
+      "group_A": 0,
+      "group_B": 1,
+      "group_C": 1
+    },
+    "best_group": "group_B",
+    "total_relevance": 2
+  },
+  {
+    "pi": "Rosanne Rademaker",
+    "title": "Top-down feedback can explain the existence of working memory traces in early visual cortex",
+    "year": 2025,
+    "date": "2025-11-29",
+    "doi": "10.1101/2025.11.27.690959",
+    "venue": "bioRxiv",
+    "group_scores": {
+      "group_A": 0,
+      "group_B": 1,
+      "group_C": 1
+    },
+    "best_group": "group_B",
+    "total_relevance": 2
+  },
+  {
+    "pi": "Christoph Bledowski",
+    "title": "A direct neural signature of serial dependence in working memory",
+    "year": 2025,
+    "date": "2025-03-07",
+    "doi": "10.1101/2024.05.13.593912",
+    "venue": "bioRxiv",
+    "group_scores": {
+      "group_A": 1,
+      "group_B": 1,
+      "group_C": 0
+    },
+    "best_group": "group_A",
+    "total_relevance": 2
+  },
+  {
+    "pi": "Valerio Mante",
+    "title": "Prospective and retrospective representations of saccadic movements in primate prefrontal cortex.",
+    "year": 2025,
+    "date": "2025-02-01",
+    "doi": "10.1016/j.celrep.2025.115289",
+    "venue": "Cell Reports",
+    "group_scores": {
+      "group_A": 0,
+      "group_B": 1,
+      "group_C": 0
+    },
+    "best_group": "group_B",
+    "total_relevance": 1
+  },
+  {
+    "pi": "Michael Shadlen",
+    "title": "Behavioral Signatures of Post-Decisional Attention in Preferential Choice",
+    "year": 2026,
+    "date": "2026-01-12",
+    "doi": "10.64898/2026.01.10.698805",
+    "venue": "bioRxiv",
+    "group_scores": {
+      "group_A": 0,
+      "group_B": 1,
+      "group_C": 0
+    },
+    "best_group": "group_B",
+    "total_relevance": 1
+  },
+  {
+    "pi": "Michael Shadlen",
+    "title": "Sequential sampling from memory underlies perceptual decisions unyoked from actions",
+    "year": 2026,
+    "date": "2026-03-05",
+    "doi": "10.1101/2025.09.10.675475",
+    "venue": "bioRxiv",
+    "group_scores": {
+      "group_A": 0,
+      "group_B": 1,
+      "group_C": 0
+    },
+    "best_group": "group_B",
+    "total_relevance": 1
+  },
+  {
+    "pi": "Michael Shadlen",
+    "title": "ALM enables contextual decision-making via dynamic reconfiguration of local circuits",
+    "year": 2025,
+    "date": "2025-09-16",
+    "doi": "10.1101/2025.09.11.675319",
+    "venue": "bioRxiv",
+    "group_scores": {
+      "group_A": 0,
+      "group_B": 1,
+      "group_C": 0
+    },
+    "best_group": "group_B",
+    "total_relevance": 1
+  },
+  {
+    "pi": "Michael Shadlen",
+    "title": "Incorporation of a Cost of Deliberation Time in Perceptual Decision Making",
+    "year": 2025,
+    "date": "2025-07-07",
+    "doi": "10.1523/JNEUROSCI.2426-24.2025",
+    "venue": "Journal of Neuroscience",
+    "group_scores": {
+      "group_A": 0,
+      "group_B": 1,
+      "group_C": 0
+    },
+    "best_group": "group_B",
+    "total_relevance": 1
+  },
+  {
+    "pi": "John Serences",
+    "title": "Neural networks rely on top-down representations under conditions of uncertainty",
+    "year": 2025,
+    "date": "2025-07-15",
+    "doi": "10.1167/jov.25.9.2817",
+    "venue": "Journal of Vision",
+    "group_scores": {
+      "group_A": 0,
+      "group_B": 1,
+      "group_C": 0
+    },
+    "best_group": "group_B",
+    "total_relevance": 1
+  },
+  {
+    "pi": "John Serences",
+    "title": "Sensory reformatting for a working visual memory.",
+    "year": 2025,
+    "date": "2025-10-01",
+    "doi": "10.1016/j.tics.2025.09.006",
+    "venue": "Trends in Cognitive Sciences",
+    "group_scores": {
+      "group_A": 0,
+      "group_B": 1,
+      "group_C": 0
+    },
+    "best_group": "group_B",
+    "total_relevance": 1
+  },
+  {
+    "pi": "John Serences",
+    "title": "Near-random connections support top-down feature-based attentional modulations in early sensory cortex",
+    "year": 2025,
+    "date": "2025-08-01",
+    "doi": "10.1371/journal.pcbi.1013396",
+    "venue": "PLoS Comput. Biol.",
+    "group_scores": {
+      "group_A": 0,
+      "group_B": 1,
+      "group_C": 0
+    },
+    "best_group": "group_B",
+    "total_relevance": 1
+  },
+  {
+    "pi": "Serge Dumoulin",
+    "title": "The precision of attention controls attraction of population receptive fields",
+    "year": 2025,
+    "date": "2025-06-17",
+    "doi": "10.1167/jov.25.11.3",
+    "venue": "bioRxiv",
+    "group_scores": {
+      "group_A": 0,
+      "group_B": 0,
+      "group_C": 1
+    },
+    "best_group": "group_C",
+    "total_relevance": 1
+  },
+  {
+    "pi": "Serge Dumoulin",
+    "title": "Attraction of population receptive fields towards the attended locus is invariant to contrast",
+    "year": 2025,
+    "date": "2025-07-04",
+    "doi": "10.1101/2025.07.01.662547",
+    "venue": "bioRxiv",
+    "group_scores": {
+      "group_A": 0,
+      "group_B": 0,
+      "group_C": 1
+    },
+    "best_group": "group_C",
+    "total_relevance": 1
+  },
+  {
+    "pi": "Rosanne Rademaker",
+    "title": "Visual representations in the human brain rely on a reference frame that is in between allocentric and retinocentric coordinates",
+    "year": 2025,
+    "date": "2025-10-26",
+    "doi": "10.1101/2025.10.25.684527",
+    "venue": "bioRxiv",
+    "group_scores": {
+      "group_A": 0,
+      "group_B": 1,
+      "group_C": 0
+    },
+    "best_group": "group_B",
+    "total_relevance": 1
+  },
+  {
+    "pi": "Christoph Bledowski",
+    "title": "Early visual areas store information about feature bindings in working memory",
+    "year": 2025,
+    "date": "2025-07-15",
+    "doi": "10.1167/jov.25.9.2386",
+    "venue": "Journal of Vision",
+    "group_scores": {
+      "group_A": 0,
+      "group_B": 1,
+      "group_C": 0
+    },
+    "best_group": "group_B",
+    "total_relevance": 1
+  },
+  {
+    "pi": "Christoph Bledowski",
+    "title": "Modality-, feature-, and strategy-dependent organization of low-level working memory",
+    "year": 2025,
+    "date": "2025-01-01",
+    "doi": "10.1167/jov.25.1.16",
+    "venue": "Journal of Vision",
+    "group_scores": {
+      "group_A": 0,
+      "group_B": 1,
+      "group_C": 0
+    },
+    "best_group": "group_B",
+    "total_relevance": 1
+  },
+  {
+    "pi": "David Pascucci",
+    "title": "Directional Search for Persistent Gravitational Waves: Results from the First Part of LIGO-Virgo-KAGRA's Fourth Observing Run",
+    "year": 2025,
+    "date": "2025-10-20",
+    "doi": "",
+    "venue": "",
+    "group_scores": {
+      "group_A": 0,
+      "group_B": 1,
+      "group_C": 0
+    },
+    "best_group": "group_B",
+    "total_relevance": 1
+  },
+  {
+    "pi": "Athena Akrami",
+    "title": "Models of attractor dynamics in the brain",
+    "year": 2025,
+    "date": "2025-05-02",
+    "doi": "",
+    "venue": "",
+    "group_scores": {
+      "group_A": 0,
+      "group_B": 1,
+      "group_C": 0
+    },
+    "best_group": "group_B",
+    "total_relevance": 1
+  },
+  {
+    "pi": "Christopher Summerfield",
+    "title": "Reward Models Inherit Value Biases from Pretraining",
+    "year": 2026,
+    "date": "2026-01-28",
+    "doi": "10.48550/arXiv.2601.20838",
+    "venue": "arXiv.org",
+    "group_scores": {
+      "group_A": 1,
+      "group_B": 0,
+      "group_C": 0
+    },
+    "best_group": "group_A",
+    "total_relevance": 1
+  },
+  {
+    "pi": "Carlos Brody",
+    "title": "A multi-region recurrent circuit for evidence accumulation in rats.",
+    "year": 2026,
+    "date": "2026-01-01",
+    "doi": "10.1016/j.neuron.2025.12.029",
+    "venue": "Neuron",
+    "group_scores": {
+      "group_A": 0,
+      "group_B": 1,
+      "group_C": 0
+    },
+    "best_group": "group_B",
+    "total_relevance": 1
+  },
+  {
+    "pi": "Carlos Brody",
+    "title": "A Multi-Region Brain Model to Elucidate the Role of Hippocampus in Spatially Embedded Decision-Making",
+    "year": 2025,
+    "date": "2025-05-29",
+    "doi": "10.1101/2025.05.29.656671",
+    "venue": "bioRxiv",
+    "group_scores": {
+      "group_A": 0,
+      "group_B": 1,
+      "group_C": 0
+    },
+    "best_group": "group_B",
+    "total_relevance": 1
+  },
+  {
+    "pi": "Thomas Sprague",
+    "title": "A Dense Sampling Study on Visual Working Memory Across the Human Menstrual Cycle",
+    "year": 2025,
+    "date": "2025-07-15",
+    "doi": "10.1167/jov.25.9.2560",
+    "venue": "Journal of Vision",
+    "group_scores": {
+      "group_A": 0,
+      "group_B": 1,
+      "group_C": 0
+    },
+    "best_group": "group_B",
+    "total_relevance": 1
+  },
+  {
+    "pi": "Thomas Sprague",
+    "title": "Pinpointing the Sources of Top-Down Feedback in Visual Working Memory",
+    "year": 2025,
+    "date": "2025-07-15",
+    "doi": "10.1167/jov.25.9.2900",
+    "venue": "Journal of Vision",
+    "group_scores": {
+      "group_A": 0,
+      "group_B": 1,
+      "group_C": 0
+    },
+    "best_group": "group_B",
+    "total_relevance": 1
+  },
+  {
+    "pi": "Brian Wandell",
+    "title": "Population Receptive Field Modeling: Methods, Challenges, and Insights",
+    "year": 2025,
+    "date": "2025-07-15",
+    "doi": "10.1167/jov.25.9.1982",
+    "venue": "Journal of Vision",
+    "group_scores": {
+      "group_A": 0,
+      "group_B": 0,
+      "group_C": 1
+    },
+    "best_group": "group_C",
+    "total_relevance": 1
+  },
+  {
+    "pi": "Paul Bays",
+    "title": "Divisive attenuation based on noisy sensorimotor predictions accounts for excess variability in self-touch",
+    "year": 2025,
+    "date": "2025-05-08",
+    "doi": "10.1101/2024.06.20.599826",
+    "venue": "bioRxiv",
+    "group_scores": {
+      "group_A": 0,
+      "group_B": 0,
+      "group_C": 0
+    },
+    "best_group": "none",
+    "total_relevance": 0
+  },
+  {
+    "pi": "Janneke Jehee",
+    "title": "Emotional arousal modulates the gain of contrast responses in human LGN",
+    "year": 2025,
+    "date": "2025-07-15",
+    "doi": "10.1167/jov.25.9.2474",
+    "venue": "Journal of Vision",
+    "group_scores": {
+      "group_A": 0,
+      "group_B": 0,
+      "group_C": 0
+    },
+    "best_group": "none",
+    "total_relevance": 0
+  },
+  {
+    "pi": "Michael Shadlen",
+    "title": "Human exploration strategically balances approaching and avoiding uncertainty",
+    "year": 2026,
+    "date": "2026-03-27",
+    "doi": "10.7554/eLife.94231",
+    "venue": "eLife",
+    "group_scores": {
+      "group_A": 0,
+      "group_B": 0,
+      "group_C": 0
+    },
+    "best_group": "none",
+    "total_relevance": 0
+  },
+  {
+    "pi": "Michael Shadlen",
+    "title": "Motor cortex flexibly deploys a high-dimensional repertoire of subskills",
+    "year": 2025,
+    "date": "2025-09-08",
+    "doi": "10.1101/2025.09.07.674717",
+    "venue": "bioRxiv",
+    "group_scores": {
+      "group_A": 0,
+      "group_B": 0,
+      "group_C": 0
+    },
+    "best_group": "none",
+    "total_relevance": 0
+  },
+  {
+    "pi": "Michael Shadlen",
+    "title": "Large-scale high-density brain-wide neural recording in nonhuman primates",
+    "year": 2025,
+    "date": "2025-06-23",
+    "doi": "10.1038/s41593-025-01976-5",
+    "venue": "Nature Neuroscience",
+    "group_scores": {
+      "group_A": 0,
+      "group_B": 0,
+      "group_C": 0
+    },
+    "best_group": "none",
+    "total_relevance": 0
+  },
+  {
+    "pi": "Michael Shadlen",
+    "title": "Transfer of graded information through gated receptivity to widely broadcast signals",
+    "year": 2025,
+    "date": "2025-10-02",
+    "doi": "10.1101/2025.09.30.679638",
+    "venue": "bioRxiv",
+    "group_scores": {
+      "group_A": 0,
+      "group_B": 0,
+      "group_C": 0
+    },
+    "best_group": "none",
+    "total_relevance": 0
+  },
+  {
+    "pi": "John Serences",
+    "title": "A 2D Gabor-wavelet baseline model out-performs a 3D surface model in scene-responsive cortex",
+    "year": 2025,
+    "date": "2025-12-07",
+    "doi": "10.1101/2024.02.26.582184",
+    "venue": "bioRxiv",
+    "group_scores": {
+      "group_A": 0,
+      "group_B": 0,
+      "group_C": 0
+    },
+    "best_group": "none",
+    "total_relevance": 0
+  },
+  {
+    "pi": "Serge Dumoulin",
+    "title": "Psilocybin alters visual contextual computations",
+    "year": 2025,
+    "date": "2025-02-08",
+    "doi": "10.1038/s41467-025-65150-y",
+    "venue": "bioRxiv",
+    "group_scores": {
+      "group_A": 0,
+      "group_B": 0,
+      "group_C": 0
+    },
+    "best_group": "none",
+    "total_relevance": 0
+  },
+  {
+    "pi": "Rosanne Rademaker",
+    "title": "Converting color memory toward a spatial format to benefit behavior",
+    "year": 2026,
+    "date": "2026-02-27",
+    "doi": "10.64898/2026.02.27.708515",
+    "venue": "bioRxiv",
+    "group_scores": {
+      "group_A": 0,
+      "group_B": 0,
+      "group_C": 0
+    },
+    "best_group": "none",
+    "total_relevance": 0
+  },
+  {
+    "pi": "Rosanne Rademaker",
+    "title": "What makes a theory of consciousness unscientific?",
+    "year": 2025,
+    "date": "2025-03-10",
+    "doi": "10.1038/s41593-025-01881-x",
+    "venue": "Nature Neuroscience",
+    "group_scores": {
+      "group_A": 0,
+      "group_B": 0,
+      "group_C": 0
+    },
+    "best_group": "none",
+    "total_relevance": 0
+  },
+  {
+    "pi": "Sukbin Lim",
+    "title": "Adelia: A 4-nm LLM Processing Unit With Streamlined Dataflow and Dual-Mode Parallelism for Maximizing Hardware Efficiency",
+    "year": 2026,
+    "date": "2026-04-01",
+    "doi": "10.1109/JSSC.2026.3663603",
+    "venue": "IEEE Journal of Solid-State Circuits",
+    "group_scores": {
+      "group_A": 0,
+      "group_B": 0,
+      "group_C": 0
+    },
+    "best_group": "none",
+    "total_relevance": 0
+  },
+  {
+    "pi": "Sukbin Lim",
+    "title": "Hawkeye: A Point Cloud Neural Network Processor With Virtual Pillar and Quadtree-Based Workload Management for Real-Time Outdoor BEV Detection",
+    "year": 2025,
+    "date": "2025-03-01",
+    "doi": "10.1109/JSSC.2024.3508873",
+    "venue": "IEEE Journal of Solid-State Circuits",
+    "group_scores": {
+      "group_A": 0,
+      "group_B": 0,
+      "group_C": 0
+    },
+    "best_group": "none",
+    "total_relevance": 0
+  },
+  {
+    "pi": "Sukbin Lim",
+    "title": "Adelia: A 4nm LLM Accelerator with Streamlined Dataflow and Dual-Mode Parallelization for Efficient Generative AI Inference",
+    "year": 2025,
+    "date": "2025-06-08",
+    "doi": "10.23919/VLSITechnologyandCir65189.2025.11075108",
+    "venue": "2025 Symposium on VLSI Technology and Circuits (VLSI Technology and Circuits)",
+    "group_scores": {
+      "group_A": 0,
+      "group_B": 0,
+      "group_C": 0
+    },
+    "best_group": "none",
+    "total_relevance": 0
+  },
+  {
+    "pi": "Athena Akrami",
+    "title": "Reduced perceptual error monitoring is a biomarker of autism",
+    "year": 2026,
+    "date": "2026-02-24",
+    "doi": "10.1101/2024.07.23.604831",
+    "venue": "bioRxiv",
+    "group_scores": {
+      "group_A": 0,
+      "group_B": 0,
+      "group_C": 0
+    },
+    "best_group": "none",
+    "total_relevance": 0
+  },
+  {
+    "pi": "Athena Akrami",
+    "title": "Where learning paths meet: Convergence and divergence of statistical and reinforcement learning.",
+    "year": 2026,
+    "date": "2026-03-09",
+    "doi": "10.1016/j.conb.2026.103181",
+    "venue": "Current Opinion in Neurobiology",
+    "group_scores": {
+      "group_A": 0,
+      "group_B": 0,
+      "group_C": 0
+    },
+    "best_group": "none",
+    "total_relevance": 0
+  },
+  {
+    "pi": "Athena Akrami",
+    "title": "The hippocampus enables abstract structure learning without reward",
+    "year": 2026,
+    "date": "2026-02-15",
+    "doi": "10.64898/2026.02.14.705916",
+    "venue": "bioRxiv",
+    "group_scores": {
+      "group_A": 0,
+      "group_B": 0,
+      "group_C": 0
+    },
+    "best_group": "none",
+    "total_relevance": 0
+  },
+  {
+    "pi": "Athena Akrami",
+    "title": "Zapit: Open Source Random-Access Photostimulation For Neuroscience",
+    "year": 2026,
+    "date": "2026-03-13",
+    "doi": "10.1101/2024.02.12.579892",
+    "venue": "bioRxiv",
+    "group_scores": {
+      "group_A": 0,
+      "group_B": 0,
+      "group_C": 0
+    },
+    "best_group": "none",
+    "total_relevance": 0
+  },
+  {
+    "pi": "Athena Akrami",
+    "title": "Different learning algorithms achieve shared optimal outcomes in humans, rats, and mice",
+    "year": 2025,
+    "date": "2025-11-15",
+    "doi": "10.1101/2023.01.30.526119",
+    "venue": "bioRxiv",
+    "group_scores": {
+      "group_A": 0,
+      "group_B": 0,
+      "group_C": 0
+    },
+    "best_group": "none",
+    "total_relevance": 0
+  },
+  {
+    "pi": "Athena Akrami",
+    "title": "Acetylcholine reflects uncertainty during hidden state inference",
+    "year": 2025,
+    "date": "2025-11-12",
+    "doi": "10.1101/2025.11.12.688036",
+    "venue": "bioRxiv",
+    "group_scores": {
+      "group_A": 0,
+      "group_B": 0,
+      "group_C": 0
+    },
+    "best_group": "none",
+    "total_relevance": 0
+  },
+  {
+    "pi": "Athena Akrami",
+    "title": "Impact of COVID-19 vaccination on symptoms and immune phenotypes in vaccine-naïve individuals with Long COVID",
+    "year": 2025,
+    "date": "2025-05-09",
+    "doi": "10.1038/s43856-025-00829-3",
+    "venue": "Communications Medicine",
+    "group_scores": {
+      "group_A": 0,
+      "group_B": 0,
+      "group_C": 0
+    },
+    "best_group": "none",
+    "total_relevance": 0
+  },
+  {
+    "pi": "Athena Akrami",
+    "title": "Heron, a Knowledge Graph editor for intuitive implementation of Python-based experimental pipelines",
+    "year": 2025,
+    "date": "2025-07-16",
+    "doi": "10.7554/eLife.91915",
+    "venue": "eLife",
+    "group_scores": {
+      "group_A": 0,
+      "group_B": 0,
+      "group_C": 0
+    },
+    "best_group": "none",
+    "total_relevance": 0
+  },
+  {
+    "pi": "Christopher Summerfield",
+    "title": "Reward Model Interpretability via Optimal and Pessimal Tokens",
+    "year": 2025,
+    "date": "2025-06-08",
+    "doi": "10.1145/3715275.3732068",
+    "venue": "Conference on Fairness, Accountability and Transparency",
+    "group_scores": {
+      "group_A": 0,
+      "group_B": 0,
+      "group_C": 0
+    },
+    "best_group": "none",
+    "total_relevance": 0
+  },
+  {
+    "pi": "Christopher Summerfield",
+    "title": "Measuring what Matters: Construct Validity in Large Language Model Benchmarks",
+    "year": 2025,
+    "date": "2025-11-03",
+    "doi": "10.48550/arXiv.2511.04703",
+    "venue": "arXiv.org",
+    "group_scores": {
+      "group_A": 0,
+      "group_B": 0,
+      "group_C": 0
+    },
+    "best_group": "none",
+    "total_relevance": 0
+  },
+  {
+    "pi": "Christopher Summerfield",
+    "title": "Why human–AI relationships need socioaffective alignment",
+    "year": 2025,
+    "date": "2025-02-04",
+    "doi": "10.1057/s41599-025-04532-5",
+    "venue": "Humanities and Social Sciences Communications",
+    "group_scores": {
+      "group_A": 0,
+      "group_B": 0,
+      "group_C": 0
+    },
+    "best_group": "none",
+    "total_relevance": 0
+  },
+  {
+    "pi": "Christopher Summerfield",
+    "title": "The Memrise Prize, an international research competition: A pragmatic trial to compare methods for learning foreign language vocabulary.",
+    "year": 2025,
+    "date": "2025-09-15",
+    "doi": "10.1037/mac0000224",
+    "venue": "Journal of Applied Research in Memory and Cognition",
+    "group_scores": {
+      "group_A": 0,
+      "group_B": 0,
+      "group_C": 0
+    },
+    "best_group": "none",
+    "total_relevance": 0
+  },
+  {
+    "pi": "Carlos Brody",
+    "title": "Neural circuit models for evidence accumulation through choice-selective sequences.",
+    "year": 2026,
+    "date": "2026-03-17",
+    "doi": "10.1038/s41467-026-70267-9",
+    "venue": "Nature Communications",
+    "group_scores": {
+      "group_A": 0,
+      "group_B": 0,
+      "group_C": 0
+    },
+    "best_group": "none",
+    "total_relevance": 0
+  },
+  {
+    "pi": "Thomas Sprague",
+    "title": "Spatial attention to multiple stimuli does not reduce evoked SSVEP power relative to focal attention",
+    "year": 2025,
+    "date": "2025-07-15",
+    "doi": "10.1167/jov.25.9.2686",
+    "venue": "Journal of Vision",
+    "group_scores": {
+      "group_A": 0,
+      "group_B": 0,
+      "group_C": 0
+    },
+    "best_group": "none",
+    "total_relevance": 0
+  },
+  {
+    "pi": "Gi-Yeul Bae",
+    "title": "Scaling Up ROC‐Optimizing Support Vector Machines",
+    "year": 2025,
+    "date": "2025-11-07",
+    "doi": "10.1002/sta4.70129",
+    "venue": "Stat",
+    "group_scores": {
+      "group_A": 0,
+      "group_B": 0,
+      "group_C": 0
+    },
+    "best_group": "none",
+    "total_relevance": 0
+  },
+  {
+    "pi": "Brian Wandell",
+    "title": "Invited Session I: Focusing on the Human Fovea: Plasticity and stability in human foveal pathways.",
+    "year": 2025,
+    "date": "2025-04-01",
+    "doi": "10.1167/jov.25.5.1",
+    "venue": "Journal of Vision",
+    "group_scores": {
+      "group_A": 0,
+      "group_B": 0,
+      "group_C": 0
+    },
+    "best_group": "none",
+    "total_relevance": 0
+  },
+  {
+    "pi": "Xiao-Jing Wang",
+    "title": "Development of predictive models to identify the intracranial aneurysm responsible for subarachnoid hemorrhage in patients with multiple saccular aneurysms.",
+    "year": 2025,
+    "date": "2025-10-01",
+    "doi": "10.1016/j.ejrad.2025.112466",
+    "venue": "European Journal of Radiology",
+    "group_scores": {
+      "group_A": 0,
+      "group_B": 0,
+      "group_C": 0
+    },
+    "best_group": "none",
+    "total_relevance": 0
+  }
+]
