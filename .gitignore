@@ -13,3 +13,22 @@ runs/figures/**/*.png
 data/member-profiles/
 *.egg-info/
 .DS_Store
+
+# Blitz output/temp
+blitz/output/
+blitz/style_knowledge/tmp/
+blitz/style_knowledge/gan_reports/
+blitz/style_knowledge/validation_100/
+blitz/style_knowledge/assets/
+blitz/style_knowledge/extra_papers/
+blitz/style_knowledge/feedback/
+blitz/style_knowledge/template_test/
+blitz/__pycache__/
+blitz/skills/__pycache__/
+
+blitz/style_knowledge/analysis_log.jsonl
+blitz/style_knowledge/state.json
+blitz/style_knowledge/pattern_stats.json
+blitz/style_knowledge/run_log.txt
+blitz/style_knowledge/*.md
+blitz/tmp/
