@@ -39,7 +39,8 @@ NUM_JUDGES = 3
 LLM_DELAY = 1.0  # seconds between LLM calls
 
 # ── Thresholds ──
-OUTLIER_PERCENTILE = 15  # Task A: bottom N% by max anchor similarity
+OUTLIER_PERCENTILE = 10  # Task A: bottom N% by max anchor similarity
+OUTLIER_COSINE_MAX = 0.20  # Task A: absolute cosine threshold
 ABSTRACT_BATCH_SIZE = 30  # Task B: papers per LLM screening batch
 
 
@@ -216,10 +217,17 @@ def task_a_detect_outliers(embeddings, api_key):
     threshold_idx = int(len(sorted_papers) * OUTLIER_PERCENTILE / 100)
     threshold_val = sorted_papers[threshold_idx][1] if threshold_idx < len(sorted_papers) else 0.3
 
-    outliers = [(fname, sim) for fname, sim in sorted_papers if sim < threshold_val]
+    # Filter to _new_supplement only
+    nas_files = set(f.name for f in NAS_PDF_DIR.iterdir()
+                    if f.is_file() and f.name.endswith('.pdf')) if NAS_PDF_DIR.exists() else set()
+    sorted_papers = [(f, s) for f, s in sorted_papers if f in nas_files or not nas_files]
 
-    log(f"Task A: {len(outliers)} outlier candidates (threshold={threshold_val:.4f}, "
-        f"percentile={OUTLIER_PERCENTILE}%)")
+    # Use absolute threshold or percentile, whichever catches more
+    outliers = [(fname, sim) for fname, sim in sorted_papers
+                if sim < max(threshold_val, OUTLIER_COSINE_MAX)]
+
+    log(f"Task A: {len(outliers)} outlier candidates "
+        f"(cosine < {max(threshold_val, OUTLIER_COSINE_MAX):.4f})")
 
     return outliers, scores
 
@@ -265,7 +273,8 @@ def task_b_screen_abstracts(pdf_dir, already_flagged, api_key, batch_size=30):
             for j, p in enumerate(batch)
         )
 
-        prompt = f"""{CSNL_RESEARCH_SUMMARY}
+        prompt = f"""/no_think
+{CSNL_RESEARCH_SUMMARY}
 
 아래 논문 목록에서 CSNL 연구와 **무관한** 논문만 골라내세요.
 무관의 기준:
@@ -336,7 +345,8 @@ def judge_paper(paper_info, judge_id, api_key, pi_names):
 
     is_pi_name = author.lower() in pi_names
 
-    prompt = f"""당신은 CSNL 연구 관련성 판사 #{judge_id}입니다.
+    prompt = f"""/no_think
+당신은 CSNL 연구 관련성 판사 #{judge_id}입니다.
 
 {CSNL_RESEARCH_SUMMARY}
 
@@ -367,16 +377,23 @@ JSON으로만 응답하세요:
             'model': LLM_MODEL,
             'messages': [{'role': 'user', 'content': prompt}],
             'temperature': 0.2,
-            'max_tokens': 300,
-        }, timeout=60)
+            'max_tokens': 500,
+        }, timeout=120)
         resp.raise_for_status()
         content = resp.json()['choices'][0]['message']['content']
 
-        json_match = re.search(r'\{.*\}', content, re.DOTALL)
+        # Strip Qwen3 <think> tags if present
+        content = re.sub(r'<think>[\s\S]*?</think>', '', content).strip()
+        json_match = re.search(r'\{[^{}]*"verdict"[^{}]*\}', content, re.DOTALL)
         if json_match:
             return json.loads(json_match.group())
+        # Fallback: try to extract verdict from free text
+        if 'IRRELEVANT' in content.upper():
+            return {'verdict': 'IRRELEVANT', 'confidence': 'MEDIUM', 'reason': content[:200], 'actual_field': 'unknown'}
+        elif 'RELEVANT' in content.upper():
+            return {'verdict': 'RELEVANT', 'confidence': 'MEDIUM', 'reason': content[:200], 'actual_field': 'unknown'}
     except Exception as e:
-        return {'verdict': 'ERROR', 'confidence': 'LOW', 'reason': str(e), 'actual_field': 'unknown'}
+        return {'verdict': 'ERROR', 'confidence': 'LOW', 'reason': str(e)[:200], 'actual_field': 'unknown'}
 
     return {'verdict': 'ERROR', 'confidence': 'LOW', 'reason': 'parse failure', 'actual_field': 'unknown'}
 
