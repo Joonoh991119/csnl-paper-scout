@@ -1,83 +1,171 @@
-# NAS Supplement Pipeline — Session Handoff (2026-04-01 16:25 KST)
+# NAS Supplement Pipeline — Session Handoff (2026-04-02 20:10 KST)
 
 ## 파이프라인 현황
 
-| Metric | Value |
-|--------|-------|
-| Pass list | 1,201 papers (was 1,463 — 262 VSS abstracts excluded) |
-| NAS PDFs | 1,060 (≈4.8 GB) |
-| Embeddings | 5,937 vectors (0 unembedded) |
-| Failures | 156 remaining |
-| Coverage | 88.3% |
+| Metric | Value | 변화 |
+|--------|-------|------|
+| NAS PDFs | **911** | 1,060 → 932 (manual) → 913 (v1 audit) → 911 (v2 audit) |
+| Embeddings | **5,790** | 5,937 → 5,790 |
+| Trashbin | **149** | 128 (manual) + 14 (v1) + 5 (v2) + 2 (v2 verifier) |
+| Pass list | 1,201 | (262 VSS abstracts excluded from original 1,463) |
+| Fetch failures | 156 | paywall 117 + ScienceDirect 35 + Cell Press 4 |
 
-## Failure 분류 (156건)
+## Relevance Verification v2 — 최종 결과
 
-| Category | Count | Status | Action |
-|----------|-------|--------|--------|
-| Paywall papers | 117 | `failed_automated` | No OA/PMC source; need institutional browser |
-| ScienceDirect | 35 | `needs_browser_elsevier` | IP 147.47.66.137 blocked; VPN required |
-| Cell Press (Curr Biol) | 4 | `needs_browser_cell` | Browser relay — `open /tmp/cell_relay_helper.html` |
+### DB 신뢰도 (6-signal composite scoring)
 
-## 이번 세션 성과 (2026-04-01)
+| Tier | 건수 | 비율 | 의미 |
+|------|------|------|------|
+| **auto_keep** (≥45pt) | 179 | 19.6% | CSNL 프로젝트와 직접 연결 확인 |
+| **likely_keep** (25-44pt) | 546 | 59.8% | 높은 확률로 관련 (PI/keyword/embedding) |
+| **review** (15-24pt) | 186 | 20.4% | 신경과학이지만 CSNL 프로젝트 연결 미확인 |
+| confirmed_alien | 2 | 0.2% | 제거 완료 |
 
-### 209 PDFs rescued — strategies:
-- **Unpaywall OA**: 80건 (direct PDF links from OA repositories)
-- **Preprints**: 60건 (bioRxiv v1-v5, arXiv, PsyArXiv direct download)
-- **eLife web parse**: 59건 (★ new strategy — base64 encoded download URLs)
-- **PMC FTP tar.gz**: 10건 (Cell Press, ScienceDirect → PMC OA deposits)
+**확신 가능: 725건 (79%), 불확실: 186건 (20%)**
 
-### Key discoveries:
-1. **eLife base64 URL pattern**: `elifesciences.org/download/aHR0cHM6...` — parse article page for `elife-{id}-v{N}.pdf` encoded URL. Works for all eLife articles.
-2. **bioRxiv versioning**: Many preprints need v2-v5, not just v1.
-3. **VSS abstracts**: 262 JOV papers confirmed as conference abstracts (issue 9, 10, 14) — permanently excluded. 5 papers reclassified as real articles.
-4. **ScienceDirect**: Still blocked at SNU IP. No VPN available on this machine.
+### Calibration Harness — ALL PASS
 
-## 4 Cell Press 미수집 DOI
+| Metric | Value | Target | Status |
+|--------|-------|--------|--------|
+| H1 False Trash Rate | 0.22% | <1% | PASS |
+| H2 True Trash Rate | 96.6% | >80% | PASS |
+| H3 Tier Separation | 27pt | >20pt | PASS |
+| H5 Review Volume | 18.5% | <20% | PASS |
 
-All Current Biology — need Chrome relay:
-```
-10.1016/j.cub.2022.10.053  — Saccade vigor (PMC9795813, but not OA)
-10.1016/j.cub.2020.10.034  — V1 Projection Zone (cell.com 403)
-10.1016/j.cub.2021.09.036  — Inter-electrode EEG (PMC8612967, not OA)
-10.1016/j.cub.2023.09.062  — Complex spikes Purkinje (PMC10751015, not OA)
-```
+### Signal 기여도 (active vs trash 분리)
 
-Helper page: `open /tmp/cell_relay_helper.html`
+| Signal | Active mean | Trash mean | Separation |
+|--------|-------------|------------|------------|
+| S1 Embedding | 10.8 | 0.0 | **+10.7** (최대) |
+| S3 Keywords | 9.8 | 3.1 | **+6.8** |
+| S6 Journal | 6.9 | 2.1 | +4.8 |
+| S5 Read DB | 3.4 | 0.8 | +2.6 |
+| S2 PI Author | 1.8 | 1.0 | +0.8 |
+| S4 Project | 0.9 | 0.0 | +0.9 |
+
+## v1 → v2 진화 요약
+
+### v1 (2026-04-01, 폐기됨)
+- LLM judge 3명 독립 판정 → 2/3 다수결
+- **Task A precision 43%, Task B precision 1.6%**
+- 실패 원인: "IRRELEVANT 증명" 프레이밍, 도구/방법론 논문 과잉 제거, PI 동명이인 혼동
+
+### v2 (2026-04-02, 현재)
+- 6-signal rule-based scoring → LLM verifier (승격만 가능)
+- **Calibration: H1-H5 ALL PASS**
+- 핵심 혁신:
+  1. "RELEVANCE 증거 수집" 프레이밍 전환
+  2. Common surname discount (Wang, Li, Kim 등)
+  3. No-embedding penalty (NPZ에 없는 논문의 name-based signal 할인)
+  4. LLM은 승격만 가능, 강등 불가 → false positive 원천 차단
+  5. Ground truth calibration (913 active vs 147 trash)
+
+### Verifier 실행 결과 (2026-04-02)
+
+**Verifier C (Alien Field Confirmer)**: 45건 → 43 NEURO (review 승격) + 2 ALIEN (제거)
+**Verifier B (Project Mapper)**: 169건 → 26 CONNECT (likely_keep 승격) + 143 no connection
+
+연결된 프로젝트 분포:
+- JYK_RNN: 8건 (drift-diffusion, RNN, evidence accumulation)
+- BYL_BayesianObserver: 7건 (Bayesian stats, prior elicitation)
+- lab_methods: 3건 (psychophysics, pupillometry, fMRI)
+- MJC_SeqVWM: 2건 (WM dynamics, activity-silent)
+- BHL_WM_Binding: 2건 (object encoding, memory-driven capture)
+- JOP_GranRDT: 2건 (DV space, discrete choice)
+- JSL_SerialDep_Spatial: 1건 (spatial attention dissociation)
+- JHR_SpatialExtent: 1건 (visual bias individual differences)
 
 ## 파일 구조
 
 ```
 supplement/
-├── rescue_unified.py          ★ 통합 rescue fetcher
-├── rescue_browser.py          ★ Playwright browser fetcher (new)
-├── fetch-rescue-SKILL.md      Fetch rescue skill
-├── SESSION-HANDOFF.md         ★ 이 파일
-├── rescue_ftp.py              Elsevier PMC FTP rescue
-├── rescue_oa_ftp.py           전체 OA FTP rescue
-├── embedder.py                증분 임베더
-├── fetcher_batch.py           Playwright batch fetcher
-├── candidates/
-│   ├── failure_registry.json  ★ DOI별 실패 이력
-│   ├── elsevier_still_blocked.json  ScienceDirect 미수집
-│   ├── 02_resolved_pass.json  1,201건 pass list
-│   └── 03_fetch_log.json      fetch 기록
-└── logs/                      실행 로그
+├── relevance_audit/               ★ v2 relevance verification
+│   ├── SKILL.md                   파이프라인 스펙
+│   ├── relevance_scorer.py        6-signal scoring engine (핵심)
+│   ├── signal_configs.py          keyword lexicon, PI DB, thresholds
+│   ├── verifiers.py               3 LLM verifiers (promotion-only)
+│   ├── calibration.py             ground truth harness (H1-H5)
+│   ├── relevance_audit.py         v1 orchestrator (deprecated)
+│   ├── agents/
+│   │   ├── pi_homonym_verifier.md
+│   │   ├── project_mapper.md
+│   │   └── alien_confirmer.md
+│   ├── harness/rubrics.md
+│   └── results/v2/
+│       ├── relevance_scores_v2.json
+│       ├── verifier_b_results.json
+│       └── verifier_c_results.json
+├── rescue_unified.py              통합 rescue fetcher
+├── embedder.py                    증분 임베더
+├── fetcher_batch.py               Playwright batch fetcher
+├── SESSION-HANDOFF.md             ★ 이 파일
+└── candidates/                    failure registry, pass list, fetch log
 ```
+
+## 개선 필요 사항 (TODO)
+
+### 높은 우선순위
+
+1. **Review 186건 수동 검증 인터페이스**
+   - 현재 review tier는 "신경과학이지만 CSNL 프로젝트 직접 연결 미확인"
+   - Streamlit 또는 CLI로 논문별 keep/trash 마킹 UI 필요
+   - 마킹 결과 → calibration feedback loop
+
+2. **S4 (Project Match) 개선**
+   - 현재 기여도 0.9pt로 최저 — project gist embedding이 abstract와 잘 매칭 안 됨
+   - 원인: gist가 짧고 추상적 (1문장) → embedding 공간에서 abstract와 거리가 먼 영역
+   - 개선안: project별 seed paper DOI 목록 → seed paper embedding centroid 사용
+   - 또는 project description을 3-4문장으로 확장
+
+3. **S2 (PI Author) 정밀화**
+   - 현재 filename의 첫 번째 저자만 확인 → 공저자 PI 매칭 못 함
+   - 개선안: abstract에서 author list 파싱 → 전체 저자 대상 PI 매칭
+   - ORCID 또는 Semantic Scholar ID 기반 disambiguation
+
+### 중간 우선순위
+
+4. **rescue_unified.py에 eLife web strategy 통합**
+   - `elifesciences.org/download/` base64 패턴 (이번 세션에서 발견)
+   - 현재 standalone 코드로만 존재 → rescue cascade에 S7으로 추가
+
+5. **Cell Press 4건 + ScienceDirect 35건**
+   - Cell Press: Chrome relay 수동 처리 (helper page 준비됨)
+   - ScienceDirect: VPN 확보 후 재시도
+
+6. **Embedding model 업그레이드 검토**
+   - nemotron-embed-vl-1b (free tier)는 과학 논문 특화 아님
+   - SPECTER2 또는 SciBERT 기반 embedding으로 S1/S4 정확도 향상 가능
+   - 하지만 5,790개 re-embedding 비용 고려 필요
+
+### 낮은 우선순위
+
+7. **Duplicate detection**
+   - 같은 논문의 버전 차이 (v1/v2, preprint/published, correction/original)
+   - 현재 일부 중복 존재 (Bimbard ×2, Hadjiosif ×2, 등)
+   - DOI dedup + title similarity 기반 자동 탐지
+
+8. **자동 re-scoring 스케줄**
+   - 새 PDF fetch 시 자동으로 6-signal scoring → tier 배정
+   - embedder cron과 연동
+
+9. **v1 코드 정리**
+   - `relevance_audit.py` (v1)은 deprecated — 삭제 또는 archive
+   - v1 agents (`relevance_judge.md`, `consensus_arbiter.md`) 정리
+
+## Fetch 미완료 (이전 세션에서 이월)
+
+| Category | Count | Action |
+|----------|-------|--------|
+| Paywall papers | 117 | Institutional browser 필요 |
+| ScienceDirect | 35 | VPN 확보 후 재시도 |
+| Cell Press | 4 | Chrome relay (`/tmp/cell_relay_helper.html`) |
 
 ## 자동화
 
 | Task | Schedule | 역할 |
 |------|----------|------|
 | `paper-scout-embed-sync` | 매시간 | 새 PDF → embedding 자동 |
-| `paper-scout-rescue-retry` | 매일 06:00 | 실패 DOI 자동 retry (max 50/일) |
-
-## 다음 세션 우선순위
-
-1. **rescue_unified.py에 eLife web strategy 추가** — 이번 세션에서 발견한 base64 URL 패턴
-2. **Cell Press 4건 Chrome relay** — helper page 사용
-3. **VPN 확보 → ScienceDirect 35건** — IP 차단 해제 필요
-4. **failed_automated 117건 분석** — publisher별 browser-based strategy 또는 영구 제외 판단
-5. **Skill 패키징** — `rescue_unified.py`를 csnl-paper-scout repo에도 반영
+| `paper-scout-rescue-retry` | 매일 06:00 | 실패 DOI 자동 retry |
 
 ## Credentials
 - `credentials.json` (gitignored): `openrouter_api_key`
