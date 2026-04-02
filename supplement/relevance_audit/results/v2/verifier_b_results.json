@@ -1,0 +1,1549 @@
+[
+  {
+    "connected": false,
+    "reason": "논문은 인간 V4 영역의 곡률 도메인 매핑에 관한 fMRI 연구이며, CSNL 연구실의 프로젝트 주제나 방법론과 직접적인 관련이 없음.",
+    "filename": "Zamboni_2025_Mapping_curvature_domains_in_human_V4_using_CBV-sensitive_layer-fMRI_at_3T.pdf",
+    "author": "Zamboni",
+    "year": "2025",
+    "title": "Mapping curvature domains in human V4 using CBV-sensitive layer-fMRI at 3T",
+    "composite": 19
+  },
+  {
+    "connected": false,
+    "reason": "논문은 파킨슨병 환자의 운동 신경 피드백을 위한 기저핵 타겟팅에 관한 것이며, CSNL 연구실의 프로젝트 주제들과 이론적, 방법론적으로 관련이 없음.",
+    "filename": "Baqapuri_2025_Basal_ganglia_as_an_fMRI_motor_neurofeedback_target_in_Parkinson’s_disease.pdf",
+    "author": "Baqapuri",
+    "year": "2025",
+    "title": "Basal ganglia as an fMRI motor neurofeedback target in Parkinson’s disease",
+    "composite": 21
+  },
+  {
+    "connected": false,
+    "reason": "논문은 고해상도 fMRI 데이터셋의 5차 출시에 관한 것이며, CSNL 연구실의 특정 프로젝트나 주제와 직접적인 연결이 명확하지 않음.",
+    "filename": "Unknown_2026_Individual_Brain_Charting_fifth_release_of_high-resolution_fMRI_data_for_cogniti.pdf",
+    "author": "Unknown",
+    "year": "2026",
+    "title": "Individual Brain Charting fifth release of high-resolution fMRI data for cogniti",
+    "composite": 21
+  },
+  {
+    "connected": true,
+    "project": "JYK_RNN",
+    "connection": "논문에서 다루는 predictive coding networks는 JYK_RNN 프로젝트에서 다루는 RNN 기반의 working memory 모델과 이론적으로 관련이 있으며, 특히 decision-consistent bias와 같은 신경망 내부의 동역학적 과정을 설명하는 데 활용될 수 있다.",
+    "filename": "Millidge_2024_Predictive_coding_networks_for_temporal_prediction.pdf",
+    "author": "Millidge",
+    "year": "2024",
+    "title": "Predictive coding networks for temporal prediction",
+    "composite": 19
+  },
+  {
+    "connected": false,
+    "reason": "논문은 보상 기반 학습 메커니즘에 관한 것이며, CSNL 연구실의 프로젝트 주제인 시각 인지, 기억, 신경 해부학적 코드, 시리얼 의존성 등과 직접적인 관련이 없음.",
+    "filename": "Millidge_2024_Reward_Bases_A_simple_mechanism_for_adaptive_acquisition_of_multiple_reward_type.pdf",
+    "author": "Millidge",
+    "year": "2024",
+    "title": "Reward Bases A simple mechanism for adaptive acquisition of multiple reward type",
+    "composite": 21
+  },
+  {
+    "connected": false,
+    "reason": "논문은 active inference를 통한 decision-making의 구조를 다루고 있으나, CSNL 연구실의 프로젝트들과는 방법론, 이론, 또는 연구 주제 측면에서 직접적인 연결이 명확하지 않다.",
+    "filename": "Priorelli_2025_Embodied_decisions_as_active_inference.pdf",
+    "author": "Priorelli",
+    "year": "2025",
+    "title": "Embodied decisions as active inference",
+    "composite": 17
+  },
+  {
+    "connected": false,
+    "reason": "논문은 파킨슨병 환자의 ON/OFF 약물 상태에서의 beta burst 지속 시간 변화를 다루고 있으며, CSNL 연구실의 프로젝트 주제들과 관련이 없습니다.",
+    "filename": "Duchet_2021_Average_beta_burst_duration_profiles_provide_a_signature_of_dynamical_changes_be.pdf",
+    "author": "Duchet",
+    "year": "2021",
+    "title": "Average beta burst duration profiles provide a signature of dynamical changes be",
+    "composite": 20
+  },
+  {
+    "connected": true,
+    "project": "BYL_BayesianObserver",
+    "connection": "논문은 인간이 효용성과 계산 비용을 트레이드오프하며 작업을 분해하는 방식을 다루고 있어, 베이지안 관찰자 모델(Bayesian observer models)과 계산 효율성(contraction bias, efficient coding)을 다루는 BYL_BayesianObserver 프로젝트와 이론적 맥락에서 연결된다.",
+    "filename": "Correa_2023_Humans_decompose_tasks_by_trading_off_utility_and_computational_cost.pdf",
+    "author": "Correa",
+    "year": "2023",
+    "title": "Humans decompose tasks by trading off utility and computational cost",
+    "composite": 19
+  },
+  {
+    "connected": false,
+    "reason": "논문은 운동성 어지러움(motion sickness)과 믿음(beliefs), 인지(perception)의 관계를 다루며, CSNL 연구실의 주요 주제인 시각 인지, 기억, 신경 해码, 또는 관련 모델링 기법과 직접적인 연결이 없다.",
+    "filename": "Nooij_2021_Beyond_sensory_conflict_The_role_of_beliefs_and_perception_in_motion_sickness.pdf",
+    "author": "Nooij",
+    "year": "2021",
+    "title": "Beyond sensory conflict The role of beliefs and perception in motion sickness",
+    "composite": 21
+  },
+  {
+    "connected": false,
+    "reason": "논문은 인지 비용을 고려한 탐색 경로 결정에 관한 정보 이론적 분석을 다루고 있으나, CSNL 연구실의 프로젝트 주제와는 직접적인 연결이 없음.",
+    "filename": "Lancia_2023_Humans_account_for_cognitive_costs_when_finding_shortcuts_An_information-theoret.pdf",
+    "author": "Lancia",
+    "year": "2023",
+    "title": "Humans account for cognitive costs when finding shortcuts An information-theoret",
+    "composite": 20
+  },
+  {
+    "connected": false,
+    "reason": "논문은 듀얼 프로세스 인지와 최소 설명 길이 원칙을 다루며, CSNL 연구실의 프로젝트와 방법론, 이론, 현상 등에서 직접적인 연결이 없음.",
+    "filename": "Moskovitz_2024_Understanding_dual_process_cognition_via_the_minimum_description_length_principl.pdf",
+    "author": "Moskovitz",
+    "year": "2024",
+    "title": "Understanding dual process cognition via the minimum description length principl",
+    "composite": 22
+  },
+  {
+    "connected": false,
+    "reason": "논문은 인간의 시각 분할에서 불확실성을 측정하는 방법에 관한 것이며, CSNL 연구실의 프로젝트 주제나 방법론과 직접적인 관련이 없음.",
+    "filename": "Vacher_2023_Measuring_uncertainty_in_human_visual_segmentation.pdf",
+    "author": "Vacher",
+    "year": "2023",
+    "title": "Measuring uncertainty in human visual segmentation",
+    "composite": 24
+  },
+  {
+    "connected": false,
+    "reason": "논문은 역단자 모터 제어와 엔트로피에 관한 연구로, CSNL 연구실의 프로젝트 주제와 방법론적으로나 이론적으로 직접적인 관련이 없음.",
+    "filename": "Volpi_2023_Skilled_motor_control_of_an_inverted_pendulum_implies_low_entropy_of_states_but_.pdf",
+    "author": "Volpi",
+    "year": "2023",
+    "title": "Skilled motor control of an inverted pendulum implies low entropy of states but ",
+    "composite": 22
+  },
+  {
+    "connected": false,
+    "reason": "논문 초록이 불완전하며, CSNL 연구실의 프로젝트와 관련된 주제, 방법론, 또는 데이터에 대한 구체적인 언급이 없음.",
+    "filename": "Nili_2021_Correction_Inferring_exemplar_discriminability_in_brain_representations.pdf",
+    "author": "Nili",
+    "year": "2021",
+    "title": "Correction Inferring exemplar discriminability in brain representations",
+    "composite": 15
+  },
+  {
+    "connected": false,
+    "reason": "논문은 사전등록(preregistration)을 통한 연구 편향 감소와 투명성 증진에 관한 일반적인 논의를 다루고 있으며, CSNL 연구실의 프로젝트와 구체적인 방법론, 이론, 데이터, 현상 수준에서의 연결이 없다.",
+    "filename": "Hardwicke_2023_Reducing_bias,_increasing_transparency_and_calibrating_confidence_with_preregist.pdf",
+    "author": "Hardwicke",
+    "year": "2023",
+    "title": "Reducing bias, increasing transparency and calibrating confidence with preregist",
+    "composite": 17
+  },
+  {
+    "connected": false,
+    "reason": "논문 초록이 제공되지 않아 구체적인 내용을 판단할 수 없으며, 제목만으로는 CSNL 연구실의 프로젝트와 직접적인 연결이 불확실하다.",
+    "filename": "Allen_2024_Using_games_to_understand_the_mind.pdf",
+    "author": "Allen",
+    "year": "2024",
+    "title": "Using games to understand the mind",
+    "composite": 16
+  },
+  {
+    "connected": false,
+    "reason": "논문은 비침습적 뉴로모터 인터페이스에 관한 것으로, CSNL 연구실의 프로젝트들과 방법론, 이론, 데이터, 현상 등에서 직접적인 연결이 없다.",
+    "filename": "Kaifosh_2025_A_generic_non-invasive_neuromotor_interface_for_human-computer_interaction.pdf",
+    "author": "Kaifosh",
+    "year": "2025",
+    "title": "A generic non-invasive neuromotor interface for human-computer interaction",
+    "composite": 22
+  },
+  {
+    "connected": true,
+    "project": "JYK_RNN",
+    "connection": "논문은 재귀 신경망(RNN)을 사용한 타락회 모델을 통해 빠른 맥락 추론을 모델링하는 내용을 다루고 있어, JYK_RNN 프로젝트와 같이 RNN을 이용한 인지 편향 및 기억 모델링과 관련이 있다.",
+    "filename": "Zheng_2024_Rapid_context_inference_in_a_thalamocortical_model_using_recurrent_neural_networ.pdf",
+    "author": "Zheng",
+    "year": "2024",
+    "title": "Rapid context inference in a thalamocortical model using recurrent neural networ",
+    "composite": 24
+  },
+  {
+    "connected": false,
+    "reason": "CSNL 연구실의 프로젝트는 주로 인지 신경과학, 시각 작업기억, 시리얼 의존성, 신경망 모델링 등에 초점을 맞추고 있으나, 이 논문은 파킨슨병과 하이퍼디렉트 경로의 신경 활동에 관한 것이므로 직접적인 연결이 없다.",
+    "filename": "Oswal_2021_Neural_signatures_of_hyperdirect_pathway_activity_in_Parkinson’s_disease.pdf",
+    "author": "Oswal",
+    "year": "2021",
+    "title": "Neural signatures of hyperdirect pathway activity in Parkinson’s disease",
+    "composite": 20
+  },
+  {
+    "connected": false,
+    "reason": "논문은 운동 피질(motor cortex)에서 시퀀스 요소의 독립적 생성에 관한 것이며, CSNL 연구실의 주요 관심사인 시각 작업기억(VWM), 직관적 판단, 신경 해码 등과는 직접적인 연결이 없다.",
+    "filename": "Zimnik_2021_Independent_generation_of_sequence_elements_by_motor_cortex.pdf",
+    "author": "Zimnik",
+    "year": "2021",
+    "title": "Independent generation of sequence elements by motor cortex",
+    "composite": 22
+  },
+  {
+    "connected": false,
+    "reason": "논문은 추상적 표현이 다중 작업 학습을 통해 자연스럽게 나타나는 현상을 다루고 있으나, CSNL 연구실의 프로젝트 주제와는 명확한 연결이 없음.",
+    "filename": "Johnston_2023_Abstract_representations_emerge_naturally_in_neural_networks_trained_to_perform_.pdf",
+    "author": "Johnston",
+    "year": "2023",
+    "title": "Abstract representations emerge naturally in neural networks trained to perform ",
+    "composite": 16
+  },
+  {
+    "connected": false,
+    "reason": "논문은 직관적 물리학 학습에 관한 딥러닝 모델을 다루고 있으며, CSNL 연구실의 프로젝트 주제들과 방법론, 이론, 현상 등에서 직접적인 연결이 없다.",
+    "filename": "Piloto_2022_Intuitive_physics_learning_in_a_deep-learning_model_inspired_by_developmental_ps.pdf",
+    "author": "Piloto",
+    "year": "2022",
+    "title": "Intuitive physics learning in a deep-learning model inspired by developmental ps",
+    "composite": 19
+  },
+  {
+    "connected": false,
+    "reason": "논문은 청소년기 체질 억제가 전두엽 기능에 미치는 영향을 다루고 있으며, CSNL 연구실의 프로젝트 주제와 방법론적/이론적 측면에서 직접적인 관련성이 없음.",
+    "filename": "Benoit_2022_Adolescent_thalamic_inhibition_leads_to_long-lasting_impairments_in_prefrontal_c.pdf",
+    "author": "Benoit",
+    "year": "2022",
+    "title": "Adolescent thalamic inhibition leads to long-lasting impairments in prefrontal c",
+    "composite": 21
+  },
+  {
+    "connected": false,
+    "reason": "논문은 동물의 포즈 추정을 위한 기계 학습 방법론에 관한 것이며, CSNL 연구실의 프로젝트들이 다루는 인지 신경과학, 시각 작업기억, 직관적 추론 등과는 주제나 방법론적으로 직접적인 연결이 없다.",
+    "filename": "Biderman_2024_Lightning_Pose_improved_animal_pose_estimation_via_semi-supervised_learning,_Bay.pdf",
+    "author": "Biderman",
+    "year": "2024",
+    "title": "Lightning Pose improved animal pose estimation via semi-supervised learning, Bay",
+    "composite": 19
+  },
+  {
+    "connected": false,
+    "reason": "논문은 인간과 함께 학습하고 사고하는 기계에 대한 전반적인 관점 논문으로, CSNL 연구실의 구체적인 프로젝트나 연구 주제와 직접적인 연결이 없음.",
+    "filename": "Collins_2024_Building_machines_that_learn_and_think_with_people.pdf",
+    "author": "Collins",
+    "year": "2024",
+    "title": "Building machines that learn and think with people",
+    "composite": 18
+  },
+  {
+    "connected": true,
+    "project": "JOP_GranRDT",
+    "connection": "논문이 불확실한 환경에서의 학습 과정을 모델링하는 계산적 접근을 다루고 있어, JOP_GranRDT 프로젝트의 belief range narrowing 및 cost function과 이론적 맥락에서 연결될 수 있다.",
+    "filename": "Piray_2024_Computational_processes_of_simultaneous_learning_of_stochasticity_and_volatility.pdf",
+    "author": "Piray",
+    "year": "2024",
+    "title": "Computational processes of simultaneous learning of stochasticity and volatility",
+    "composite": 21
+  },
+  {
+    "connected": false,
+    "reason": "논문의 초록이 불완전하지만, 주제가 '온라인 메타인지적 의사결정 제어'에 초점이 맞춰져 있어 CSNL 연구실의 프로젝트와 직접적인 방법론적, 이론적, 데이터적 연결이 명확하지 않다.",
+    "filename": "Bénon_2024_The_online_metacognitive_control_of_decisions.pdf",
+    "author": "Bénon",
+    "year": "2024",
+    "title": "The online metacognitive control of decisions",
+    "composite": 24
+  },
+  {
+    "connected": true,
+    "project": "BYL_BayesianObserver",
+    "connection": "논문은 기억 기반 선호도의 생성 과정을 다루며, 이는 베이지안 관찰자 모델과 관련된 인지적 추론 및 효율적 인코딩 프레임워크와 이론적으로 연결될 수 있다.",
+    "filename": "Nicholas_2025_Proactive_and_reactive_construction_of_memory-based_preferences.pdf",
+    "author": "Nicholas",
+    "year": "2025",
+    "title": "Proactive and reactive construction of memory-based preferences",
+    "composite": 17
+  },
+  {
+    "connected": false,
+    "reason": "논문은 medial entorhinal cortex의 인지 지도 표현에 관한 것이며, CSNL 연구실의 프로젝트 주제와 방법론적으로나 이론적으로 직접적인 연결이 없다.",
+    "filename": "Piray_2025_Reconciling_flexibility_and_efficiency_medial_entorhinal_cortex_represents_a_com.pdf",
+    "author": "Piray",
+    "year": "2025",
+    "title": "Reconciling flexibility and efficiency medial entorhinal cortex represents a com",
+    "composite": 23
+  },
+  {
+    "connected": false,
+    "reason": "논문은 신경망에서 분류 작업 학습 시 발생하는 코딩 방식을 다루고 있으나, CSNL 연구실의 프로젝트들이 다루는 인지 신경과학적 현상, 모델링 접근법, 또는 실험적 방법론과 직접적인 연결이 없다.",
+    "filename": "Meegen_2025_Coding_schemes_in_neural_networks_learning_classification_tasks.pdf",
+    "author": "Meegen",
+    "year": "2025",
+    "title": "Coding schemes in neural networks learning classification tasks",
+    "composite": 24
+  },
+  {
+    "connected": false,
+    "reason": "논문 초록이 불완전하며, CSNL 연구실의 프로젝트와 관련된 구체적인 이론, 방법론, 데이터 또는 현상이 명시되어 있지 않다.",
+    "filename": "Roth_2025_Ten_principles_for_reliable,_efficient,_and_adaptable_coding_in_psychology_and_c.pdf",
+    "author": "Roth",
+    "year": "2025",
+    "title": "Ten principles for reliable, efficient, and adaptable coding in psychology and c",
+    "composite": 15
+  },
+  {
+    "connected": true,
+    "project": "JYK_RNN",
+    "connection": "논문은 의사결정 과정에서 노이즈의 영향을 다루며, 이는 JYK_RNN 프로젝트에서 다루는 RNN 기반의 의사결정 편향 형성 메커니즘과 이론적으로 관련된다.",
+    "filename": "Shen_2025_Early_versus_late_noise_differentially_enhances_or_degrades_context-dependent_ch.pdf",
+    "author": "Shen",
+    "year": "2025",
+    "title": "Early versus late noise differentially enhances or degrades context-dependent ch",
+    "composite": 18
+  },
+  {
+    "connected": true,
+    "project": "lab_methods",
+    "connection": "논문에서 사용된 psychophysics, fMRI, computational modeling은 CSNL 연구실의 lab_methods 프로젝트에서 다루는 주요 방법론과 일치한다.",
+    "filename": "Aqil_2025_Psilocybin_alters_visual_contextual_computations.pdf",
+    "author": "Aqil",
+    "year": "2025",
+    "title": "Psilocybin alters visual contextual computations",
+    "composite": 24
+  },
+  {
+    "connected": false,
+    "reason": "논문의 주제인 에피소드 기억과 유연한 의사결정은 CSNL 연구실의 프로젝트들이 다루는 시각 인지, 기억 표현, 신경 활동 분석 등과 직접적인 연결이 없다.",
+    "filename": "Nicholas_2026_Episodic_memory_facilitates_flexible_decision-making_via_access_to_detailed_even.pdf",
+    "author": "Nicholas",
+    "year": "2026",
+    "title": "Episodic memory facilitates flexible decision-making via access to detailed even",
+    "composite": 21
+  },
+  {
+    "connected": true,
+    "project": "JYK_RNN",
+    "connection": "논문은 비정상적 환경에서 내부 상태 전환을 다루며, 이는 JYK_RNN 프로젝트에서 다루는 RNN 기반의 기억 및 결정 편향 모델링과 이론적으로 관련된다.",
+    "filename": "Mohammadi_2025_Identifying_the_factors_governing_internal_state_switches_during_nonstationary_s.pdf",
+    "author": "Mohammadi",
+    "year": "2025",
+    "title": "Identifying the factors governing internal state switches during nonstationary s",
+    "composite": 20
+  },
+  {
+    "connected": false,
+    "reason": "논문은 사회 인지 기능과 기능적 연결성 간의 다변량 관계를 다루며, CSNL 연구실의 프로젝트 주제와는 관련이 없음.",
+    "filename": "Oliver_2026_Multivariate_relationships_between_social_cognitive_performance_and_functional_c.pdf",
+    "author": "Oliver",
+    "year": "2026",
+    "title": "Multivariate relationships between social cognitive performance and functional c",
+    "composite": 18
+  },
+  {
+    "connected": false,
+    "reason": "논문은 인간 그룹에서 협력을 촉진하기 위한 딥러닝 강화학습 접근법을 다루고 있으며, CSNL 연구실의 프로젝트 주제들과 이론적, 방법론적으로 직접적인 관련이 없다.",
+    "filename": "McKee_2023_Scaffolding_cooperation_in_human_groups_with_deep_reinforcement_learning.pdf",
+    "author": "McKee",
+    "year": "2023",
+    "title": "Scaffolding cooperation in human groups with deep reinforcement learning",
+    "composite": 23
+  },
+  {
+    "connected": false,
+    "reason": "논문은 인지 테스트의 신뢰도 문제와 측정 기준에 관한 것으로, CSNL 연구실의 프로젝트 주제나 방법론과 직접적인 관련이 없음.",
+    "filename": "Kucina_2023_Calibration_of_cognitive_tests_to_address_the_reliability_paradox_for_decision-c.pdf",
+    "author": "Kucina",
+    "year": "2023",
+    "title": "Calibration of cognitive tests to address the reliability paradox for decision-c",
+    "composite": 17
+  },
+  {
+    "connected": false,
+    "reason": "CSNL 연구실의 프로젝트는 주로 인지 신경과학, 시각 작업기억, 시리얼 의존성, 신경표현 등에 초점을 맞추고 있으며, 해당 논문은 칼슘 영상에서 가짜 전이 신호를 탐지하고 수정하는 방법에 관한 것으로 주제가 일치하지 않음.",
+    "filename": "Gauthier_2022_Detecting_and_correcting_false_transients_in_calcium_imaging.pdf",
+    "author": "Gauthier",
+    "year": "2022",
+    "title": "Detecting and correcting false transients in calcium imaging",
+    "composite": 24
+  },
+  {
+    "connected": false,
+    "reason": "논문은 인간 언어 이론과 베이지안 프로그램 유도에 관한 것으로, CSNL 연구실의 프로젝트 주제(시각 인지, 작업기억, 신경 활동 분석 등)와 직접적인 관련이 없음",
+    "filename": "Ellis_2022_Synthesizing_theories_of_human_language_with_Bayesian_program_induction.pdf",
+    "author": "Ellis",
+    "year": "2022",
+    "title": "Synthesizing theories of human language with Bayesian program induction",
+    "composite": 22
+  },
+  {
+    "connected": false,
+    "reason": "논문은 반응 억제 및 행동 재프로그래밍에 관한 실험 연구이며, CSNL 연구실의 주요 주제인 시각 인지, 기억, 신경 해부학적 코드, 또는 행동 편향과는 직접적인 연결이 없음.",
+    "filename": "Salomoni_2023_Proactive_cues_facilitate_faster_action_reprogramming,_but_not_stopping,_in_a_re.pdf",
+    "author": "Salomoni",
+    "year": "2023",
+    "title": "Proactive cues facilitate faster action reprogramming, but not stopping, in a re",
+    "composite": 16
+  },
+  {
+    "connected": false,
+    "reason": "논문은 쥐의 공간 이동 패턴 분석에 관한 것이며, CSNL 연구실의 프로젝트 주제들과 이론적, 방법론적으로 직접적인 관련이 없음.",
+    "filename": "Donnarumma_2021_A_framework_to_identify_structured_behavioral_patterns_within_rodent_spatial_tra.pdf",
+    "author": "Donnarumma",
+    "year": "2021",
+    "title": "A framework to identify structured behavioral patterns within rodent spatial tra",
+    "composite": 23
+  },
+  {
+    "connected": false,
+    "reason": "논문은 AI의 인간적 표현에 대한 인식에 초점을 맞추고 있으며, CSNL 연구실의 프로젝트들이 다루는 주제(예: 시각 작업기억, 직관적 추론, 신경 이미징 방법론 등)와 직접적인 관련이 없음",
+    "filename": "Bower_2021_Perceptions_of_AI_engaging_in_human_expression.pdf",
+    "author": "Bower",
+    "year": "2021",
+    "title": "Perceptions of AI engaging in human expression",
+    "composite": 19
+  },
+  {
+    "connected": false,
+    "reason": "논문은 7T MRI를 이용한 frontocortical myeloarchitecture 분석에 초점을 맞추고 있으며, CSNL 연구실의 프로젝트 주제들과 직접적인 관련이 없음.",
+    "filename": "Heij_2024_Quantitative_MRI_at_7-Tesla_reveals_novel_frontocortical_myeloarchitecture_anoma.pdf",
+    "author": "Heij",
+    "year": "2024",
+    "title": "Quantitative MRI at 7-Tesla reveals novel frontocortical myeloarchitecture anoma",
+    "composite": 16
+  },
+  {
+    "connected": true,
+    "project": "BYL_BayesianObserver",
+    "connection": "논문은 작업기억(WM)의 다감각적 저장에 대한 신경적 증거를 제시하며, 이는 Bayesian observer 모델링과 WM에서의 추상적 인코딩 및 효율적 코딩(contraction bias, efficient coding)과 이론적으로 연결될 수 있다.",
+    "filename": "Suplica_2025_Neural_evidence_for_modality-independent_storage_in_working_memory.pdf",
+    "author": "Suplica",
+    "year": "2025",
+    "title": "Neural evidence for modality-independent storage in working memory",
+    "composite": 22
+  },
+  {
+    "connected": false,
+    "reason": "논문은 시각 필드 위치에 따른 시각 성능의 극각 비대칭성에 초점을 맞추고 있으나, CSNL 연구실의 프로젝트 주제들과 직접적인 방법론적, 이론적, 데이터적 연결이 명확하지 않다.",
+    "filename": "Himmelberg_2023_Polar_angle_asymmetries_in_visual_perception_and_neural_architecture.pdf",
+    "author": "Himmelberg",
+    "year": "2023",
+    "title": "Polar angle asymmetries in visual perception and neural architecture",
+    "composite": 22
+  },
+  {
+    "connected": false,
+    "reason": "논문은 의식의 신경 이론에 대한 통합적 다규모 관점에 관한 것이며, CSNL 연구실의 프로젝트 주제와 직접적인 연결이 없음.",
+    "filename": "Storm_2024_An_integrative,_multiscale_view_on_neural_theories_of_consciousness.pdf",
+    "author": "Storm",
+    "year": "2024",
+    "title": "An integrative, multiscale view on neural theories of consciousness",
+    "composite": 23
+  },
+  {
+    "connected": true,
+    "project": "BHL_WM_Binding",
+    "connection": "논문은 시각 작업기억(VWM)에서 객체 기반 인코딩이 저장에 영향을 미친다는 점에서, BHL_WM_Binding 프로젝트와 같이 VWM에서 특성 결합(feature binding)과 다중 객체 문맥(multi-object context)을 다루는 주제와 이론적으로 연결된다.",
+    "filename": "Ngiam_2024_Object-based_encoding_constrains_storage_in_visual_working_memory..pdf",
+    "author": "Ngiam",
+    "year": "2024",
+    "title": "Object-based encoding constrains storage in visual working memory.",
+    "composite": 20
+  },
+  {
+    "connected": false,
+    "reason": "CSNL 연구실의 프로젝트는 주로 인지 신경과학, 시각 작업기억, 시리얼 의존성, 신경망 모델링 등에 초점을 맞추고 있으나, 해당 논문은 스파이킹 신경망의 인공 네트워크 훈련과 인구 수준 요인에 초점을 맞추고 있어 직접적인 연결이 없다.",
+    "filename": "DePasquale_2023_The_centrality_of_population-level_factors_to_network_computation_is_demonstrate.pdf",
+    "author": "DePasquale",
+    "year": "2023",
+    "title": "The centrality of population-level factors to network computation is demonstrate",
+    "composite": 15
+  },
+  {
+    "connected": true,
+    "project": "JYK_RNN",
+    "connection": "논문은 예측 코딩이 재귀 신경망에서 에너지 효율성 최적화의 결과로 나타난다는 점을 다루며, 이는 JYK_RNN 프로젝트에서 다루는 RNN 기반의 기억 모델과 이론적 맥락에서 연결된다.",
+    "filename": "Ali_2022_Predictive_coding_is_a_consequence_of_energy_efficiency_in_recurrent_neural_netw.pdf",
+    "author": "Ali",
+    "year": "2022",
+    "title": "Predictive coding is a consequence of energy efficiency in recurrent neural netw",
+    "composite": 21
+  },
+  {
+    "connected": true,
+    "project": "MJC_SeqVWM",
+    "connection": "논문은 prefrontal sequence memory를 설명하는 activity slots에 대한 알고리즘적 메커니즘을 다루며, 이는 MJC_SeqVWM 프로젝트에서 다루는 순차적 VWM, attraction/repulsion, SOB energy field와 이론적 맥락에서 연결된다.",
+    "filename": "Whittington_2025_A_tale_of_two_algorithms_Structured_slots_explain_prefrontal_sequence_memory_and.pdf",
+    "author": "Whittington",
+    "year": "2025",
+    "title": "A tale of two algorithms Structured slots explain prefrontal sequence memory and",
+    "composite": 24
+  },
+  {
+    "connected": false,
+    "reason": "논문은 해마 재생(hippocampal replay)과 계획(planning), 지도 구축(map building)에 관한 것이며, CSNL 연구실의 프로젝트 주제들과 직접적인 연결이 없다.",
+    "filename": "Sagiv_2025_Between_planning_and_map_building_Prioritizing_replay_when_future_goals_are_unce.pdf",
+    "author": "Sagiv",
+    "year": "2025",
+    "title": "Between planning and map building Prioritizing replay when future goals are unce",
+    "composite": 15
+  },
+  {
+    "connected": false,
+    "reason": "HTTPSConnectionPool(host='openrouter.ai', port=443): Read timed out. (read timeo",
+    "filename": "Roy_2021_Extracting_the_dynamics_of_behavior_in_sensory_decision-making_experiments.pdf",
+    "author": "Roy",
+    "year": "2021",
+    "title": "Extracting the dynamics of behavior in sensory decision-making experiments",
+    "composite": 15
+  },
+  {
+    "connected": false,
+    "reason": "논문은 인간 행동의 계산적 에티올로지(computational ethology)에 대한 전망과 도전 과제를 다루고 있으나, CSNL 연구실의 구체적 프로젝트나 주제와 직접적인 연결이 명확하지 않다.",
+    "filename": "Mobbs_2021_Promises_and_challenges_of_human_computational_ethology.pdf",
+    "author": "Mobbs",
+    "year": "2021",
+    "title": "Promises and challenges of human computational ethology",
+    "composite": 21
+  },
+  {
+    "connected": false,
+    "reason": "논문은 전두엽에서 예측적 시간 처리에 대한 메커니즘을 다루고 있으나, CSNL 연구실의 프로젝트 주제와는 직접적인 방법론적, 이론적, 데이터적 연결이 없음",
+    "filename": "Meirhaeghe_2021_A_precise_and_adaptive_neural_mechanism_for_predictive_temporal_processing_in_th.pdf",
+    "author": "Meirhaeghe",
+    "year": "2021",
+    "title": "A precise and adaptive neural mechanism for predictive temporal processing in th",
+    "composite": 23
+  },
+  {
+    "connected": false,
+    "reason": "논문은 신경망의 저차원 매니폴드를 통한 유연한 타이밍 제어에 관한 것이며, CSNL 연구실의 프로젝트 주제들과 직접적인 연결이 없다.",
+    "filename": "Beiran_2023_Parametric_control_of_flexible_timing_through_low-dimensional_neural_manifolds.pdf",
+    "author": "Beiran",
+    "year": "2023",
+    "title": "Parametric control of flexible timing through low-dimensional neural manifolds",
+    "composite": 18
+  },
+  {
+    "connected": false,
+    "reason": "CSNL 프로젝트의 주요 주제는 주로 인지 신경 과학, 시각 작업기억, 판단 및 편향, 공간 인지 등이며, 이 논문은 도파민 신호와 복잡한 공간 환경에서의 학습 메커니즘에 초점이 맞춰져 있어 직접적인 연결이 없다.",
+    "filename": "Krausz_2023_Dual_credit_assignment_processes_underlie_dopamine_signals_in_a_complex_spatial_.pdf",
+    "author": "Krausz",
+    "year": "2023",
+    "title": "Dual credit assignment processes underlie dopamine signals in a complex spatial ",
+    "composite": 18
+  },
+  {
+    "connected": false,
+    "reason": "논문은 색상 편향 영역과 음식 선택성에 대한 연구로, CSNL 연구실의 프로젝트 주제나 방법론과 직접적인 관련이 없음.",
+    "filename": "Pennock_2023_Color-biased_regions_in_the_ventral_visual_pathway_are_food_selective.pdf",
+    "author": "Pennock",
+    "year": "2023",
+    "title": "Color-biased regions in the ventral visual pathway are food selective",
+    "composite": 23
+  },
+  {
+    "connected": true,
+    "project": "JOP_GranRDT",
+    "connection": "논문은 결정 변수 공간(decision variable space)과 관련된 이론적 틀을 다루고 있으며, 이는 JOP_GranRDT 프로젝트에서 다루는 granularity effect와 belief range narrowing과 이론적으로 연결될 수 있다.",
+    "filename": "Rasanan_2024_Beyond_discrete-choice_options.pdf",
+    "author": "Rasanan",
+    "year": "2024",
+    "title": "Beyond discrete-choice options",
+    "composite": 16
+  },
+  {
+    "connected": false,
+    "reason": "논문은 시각적 메타인지 실패와 관련된 임상적 현상을 다루고 있으나, CSNL 연구실의 프로젝트 주제들과 직접적인 방법론적, 이론적, 데이터적 연결이 명확하지 않다.",
+    "filename": "Michel_2024_When_visual_metacognition_fails_widespread_anosognosia_for_visual_deficits.pdf",
+    "author": "Michel",
+    "year": "2024",
+    "title": "When visual metacognition fails widespread anosognosia for visual deficits",
+    "composite": 24
+  },
+  {
+    "connected": false,
+    "reason": "논문은 AI 시스템에서 의식의 지표를 식별하는 문제를 다루고 있으나, CSNL 연구실의 프로젝트는 주로 인지 과정, 시각 작업기억, 판단 및 편향 모델 등을 다루므로 주제적으로 직접적인 연결이 없다.",
+    "filename": "Butlin_2025_Identifying_indicators_of_consciousness_in_AI_systems_ddf448.pdf",
+    "author": "Butlin",
+    "year": "2025",
+    "title": "Identifying indicators of consciousness in AI systems",
+    "composite": 21
+  },
+  {
+    "connected": false,
+    "reason": "논문은 전두엽에서 경제적 변수의 표현에 대한 연구로, CSNL 연구실의 주요 주제인 인지 및 시각적 작업기억, 신경표현, 시리얼 의존성 등과 직접적인 관련이 없음.",
+    "filename": "Majumdar_2025_Distinct_representations_of_economic_variables_across_regions_and_projections_of_b6d460.pdf",
+    "author": "Majumdar",
+    "year": "2025",
+    "title": "Distinct representations of economic variables across regions and projections of",
+    "composite": 23
+  },
+  {
+    "connected": false,
+    "reason": "논문 주제는 'things vs stuff' 인지 표현에 관한 것이며, CSNL 프로젝트의 주요 주제인 시공간적 인지, 기억 바이어스, 신경 해码 등과 직접적인 관련이 없음.",
+    "filename": "Paulun_2025_Dissociable_cortical_regions_represent_things_and_stuff_in_the_human_brain_ecfeef.pdf",
+    "author": "Paulun",
+    "year": "2025",
+    "title": "Dissociable cortical regions represent things and stuff in the human brain",
+    "composite": 24
+  },
+  {
+    "connected": false,
+    "reason": "논문 제목과 초록 일부만 제공되었으나, CSNL 연구실의 프로젝트와 관련된 주제, 방법론, 또는 현상이 명확히 언급되어 있지 않음.",
+    "filename": "Kuperwajs_2026_Looking_deeper_into_the_algorithms_underlying_human_planning_278e58.pdf",
+    "author": "Kuperwajs",
+    "year": "2026",
+    "title": "Looking deeper into the algorithms underlying human planning",
+    "composite": 18
+  },
+  {
+    "connected": false,
+    "reason": "논문의 주제인 환경 구조화가 계층적 경로 계획에 미치는 영향은 CSNL 연구실의 프로젝트들과 방법론, 이론, 현상적으로 직접적인 연결이 없음.",
+    "filename": "Simonelli_2025_Structuring_the_environment_nudges_participants_toward_hierarchical_over_shortes_1889d3.pdf",
+    "author": "Simonelli",
+    "year": "2025",
+    "title": "Structuring the environment nudges participants toward hierarchical over shortes",
+    "composite": 21
+  },
+  {
+    "connected": true,
+    "project": "lab_methods",
+    "connection": "논문은 동공지름 변화를 통해 은유적 학습을 측정하는 방법을 제시하며, CSNL 연구실의 lab_methods 프로젝트에서 다루는 pupillometry 방법론과 직접적으로 연결된다.",
+    "filename": "Binda_2025_Pupillometric_signature_of_implicit_learning_of_statistical_regularities_829661.pdf",
+    "author": "Binda",
+    "year": "2025",
+    "title": "Pupillometric signature of implicit learning of statistical regularities",
+    "composite": 22
+  },
+  {
+    "connected": false,
+    "reason": "논문은 팀 과학(Team Science)에 관한 경험과 교훈을 다루고 있으며, CSNL 연구실의 프로젝트 주제와는 관련이 없습니다.",
+    "filename": "Bayer_2026_20_lessons_in_team_science_Learning_from_the_experience_of_the_International_Bra_83dbde.pdf",
+    "author": "Bayer",
+    "year": "2026",
+    "title": "20 lessons in team science Learning from the experience of the International Bra",
+    "composite": 16
+  },
+  {
+    "connected": false,
+    "reason": "논문의 초록이 불완전하며, 주제(occlusion 아래에서의 객체 표현)가 CSNL 연구실의 프로젝트들과 명확한 방법론적, 이론적, 데이터적 연결을 보이지 않음.",
+    "filename": "Sertakan_2026_Human_vision_maintains_a_rich_representation_of_objects_moving_behind_an_occlude_856da4.pdf",
+    "author": "Sertakan",
+    "year": "2026",
+    "title": "Human vision maintains a rich representation of objects moving behind an occlude",
+    "composite": 24
+  },
+  {
+    "connected": false,
+    "reason": "논문은 청각 구성과 관련된 뇌 피질 진동에 초점을 맞추고 있으며, CSNL 연구실의 프로젝트 주제(시각 인지, 기억, 신경 해码 등)와 직접적인 관련이 없음.",
+    "filename": "Alsabbagh_2025_Cortical_oscillations_predict_auditory_grouping_in_listeners_with_various_hearin_7c9f7e.pdf",
+    "author": "Alsabbagh",
+    "year": "2025",
+    "title": "Cortical oscillations predict auditory grouping in listeners with various hearin",
+    "composite": 21
+  },
+  {
+    "connected": false,
+    "reason": "HTTPSConnectionPool(host='openrouter.ai', port=443): Read timed out. (read timeo",
+    "filename": "Elga_2025_People_make_suboptimal_decisions_about_existential_risks_e87a9e.pdf",
+    "author": "Elga",
+    "year": "2025",
+    "title": "People make suboptimal decisions about existential risks",
+    "composite": 23
+  },
+  {
+    "connected": false,
+    "reason": "논문은 시각 주의와 사회적 매력 판단 간의 연관성을 다루고 있으며, CSNL 연구실의 프로젝트 주제나 방법론과 직접적인 연결이 없다.",
+    "filename": "Luther_2025_Aberrant_visual_attention_is_associated_with_social_judgements_of_attractiveness_443fe3.pdf",
+    "author": "Luther",
+    "year": "2025",
+    "title": "Aberrant visual attention is associated with social judgements of attractiveness",
+    "composite": 21
+  },
+  {
+    "connected": false,
+    "reason": "논문은 신경과학 데이터 분석을 위한 클라우드 플랫폼에 관한 것으로, CSNL 연구실의 프로젝트들과 방법론, 이론, 데이터, 현상 등에서 직접적인 연결이 없다.",
+    "filename": "Abe_2022_Neuroscience_Cloud_Analysis_As_a_Service_An_open-source_platform_for_scalable,_r_ed2707.pdf",
+    "author": "Abe",
+    "year": "2022",
+    "title": "Neuroscience Cloud Analysis As a Service An open-source platform for scalable, r",
+    "composite": 24
+  },
+  {
+    "connected": true,
+    "project": "BYL_BayesianObserver",
+    "connection": "논문은 베이지안 학습 프레임워크를 사회 학습 맥락에서 적용한 것으로, BYL_BayesianObserver 프로젝트에서 다루는 베이지안 관찰자 모델과 이론적 맥락에서 연결된다.",
+    "filename": "Krafft_2021_Bayesian_collective_learning_emerges_from_heuristic_social_learning_08f624.pdf",
+    "author": "Krafft",
+    "year": "2021",
+    "title": "Bayesian collective learning emerges from heuristic social learning",
+    "composite": 17
+  },
+  {
+    "connected": false,
+    "reason": "CSNL 프로젝트는 주로 인지 신경 과학적 메커니즘, 특히 시각 작업기억, 판단, 편향, 공간 인지 등을 다루는 반면, 해당 논문은 이론 기반 강화 학습의 뉴로날 아키텍처에 초점을 맞추고 있어 직접적인 연결이 없다.",
+    "filename": "Tomov_2023_The_neural_architecture_of_theory-based_reinforcement_learning_df8fa5.pdf",
+    "author": "Tomov",
+    "year": "2023",
+    "title": "The neural architecture of theory-based reinforcement learning",
+    "composite": 22
+  },
+  {
+    "connected": true,
+    "project": "JHR_SpatialExtent",
+    "connection": "Wexler (2022) 논문은 시각 편향의 구조를 개인 차이를 통해 탐구하며, 이는 EVC의 공간적 특성과 개인 차이를 다루는 JHR_SpatialExtent 프로젝트와 이론적 및 방법론적으로 관련된다.",
+    "filename": "Wexler_2022_Structure_of_visual_biases_revealed_by_individual_differences_687b77.pdf",
+    "author": "Wexler",
+    "year": "2022",
+    "title": "Structure of visual biases revealed by individual differences",
+    "composite": 20
+  },
+  {
+    "connected": false,
+    "reason": "논문은 도파민 신경세포의 시각 반응과 학습 경로와 관련된 내용을 다루고 있어 CSNL 연구실의 프로젝트 주제와 직접적인 연결이 없다.",
+    "filename": "PanVazquez_2024_Pre-existing_visual_responses_in_a_projection-defined_dopamine_population_explai_135a38.pdf",
+    "author": "PanVazquez",
+    "year": "2024",
+    "title": "Pre-existing visual responses in a projection-defined dopamine population explai",
+    "composite": 19
+  },
+  {
+    "connected": false,
+    "reason": "논문은 인간의 자유 선택 행동에서 엔트로피 최대화를 다루며, CSNL 연구실의 프로젝트 주제와 방법론적/이론적 연결이 명확하지 않다.",
+    "filename": "Rens_2023_Evidence_for_entropy_maximisation_in_human_free_choice_behaviour_944a44.pdf",
+    "author": "Rens",
+    "year": "2023",
+    "title": "Evidence for entropy maximisation in human free choice behaviour",
+    "composite": 24
+  },
+  {
+    "connected": false,
+    "reason": "논문은 복잡한 시냅스를 이용한 얼굴 익숙도 감지에 관한 것이며, CSNL 연구실의 프로젝트 주제들과 직접적인 방법론적, 이론적, 데이터적 연결이 없다.",
+    "filename": "JiAn_2023_Face_familiarity_detection_with_complex_synapses_b79c0d.pdf",
+    "author": "JiAn",
+    "year": "2023",
+    "title": "Face familiarity detection with complex synapses",
+    "composite": 22
+  },
+  {
+    "connected": false,
+    "reason": "논문은 기하학적 형태의 정신적 표현에 대한 언어적 사고 모델을 다루고 있으며, CSNL 연구실의 프로젝트 주제와 방법론적/이론적 맥락에서 직접적인 연결이 없다.",
+    "filename": "SabléMeyer_2022_A_language_of_thought_for_the_mental_representation_of_geometric_shapes_a3c49d.pdf",
+    "author": "SabléMeyer",
+    "year": "2022",
+    "title": "A language of thought for the mental representation of geometric shapes",
+    "composite": 22
+  },
+  {
+    "connected": false,
+    "reason": "논문은 인간 선택 행동의 비합리성에 대한 일반적인 논의에 중점을 두고 있으며, CSNL 연구실의 구체적인 프로젝트나 방법론, 이론, 데이터와 직접적인 연결이 없다.",
+    "filename": "Unknown_2022_Efficiently_irrational_deciphering_the_riddle_of_human_choice._485ea2.pdf",
+    "author": "Unknown",
+    "year": "2022",
+    "title": "Efficiently irrational deciphering the riddle of human choice.",
+    "composite": 17
+  },
+  {
+    "connected": false,
+    "reason": "논문은 수량성(numerosity) 인지에 대한 선택적 샘플링 모델을 다루며, CSNL 연구실의 프로젝트 주제와 방법론적/이론적 맥락에서 직접적인 관련성이 없다.",
+    "filename": "Vanunu_2025_A_selective_sampling_account_of_forming_numerosity_representations._f300e2.pdf",
+    "author": "Vanunu",
+    "year": "2025",
+    "title": "A selective sampling account of forming numerosity representations.",
+    "composite": 23
+  },
+  {
+    "connected": false,
+    "reason": "논문은 신생아의 습관화를 이성적인 정보 수집 관점에서 설명하는 데 초점을 맞추고 있으며, CSNL 연구실의 프로젝트들과는 방법론, 이론, 또는 주제적으로 직접적인 연결이 없다.",
+    "filename": "Karni_2025_A_rational_information_gathering_account_of_infant_habituation._31739e.pdf",
+    "author": "Karni",
+    "year": "2025",
+    "title": "A rational information gathering account of infant habituation.",
+    "composite": 18
+  },
+  {
+    "connected": false,
+    "reason": "논문의 주제인 'discrete and continuous responding'의 통합 이론은 CSNL 연구실의 프로젝트 주제와 직접적인 연결이 없음.",
+    "filename": "Kvam_2023_A_unified_theory_of_discrete_and_continuous_responding._72946a.pdf",
+    "author": "Kvam",
+    "year": "2023",
+    "title": "A unified theory of discrete and continuous responding.",
+    "composite": 21
+  },
+  {
+    "connected": false,
+    "reason": "논문은 심리측정 네트워크에서 조건부 독립성을 테스트하는 베이지안 방법론에 관한 것이며, CSNL 연구실의 프로젝트 주제와 직접적인 연결이 없음.",
+    "filename": "Sekulovski_2024_Testing_Conditional_Independence_in_Psychometric_Networks_An_Analysis_of Three_B_786ceb.pdf",
+    "author": "Sekulovski",
+    "year": "2024",
+    "title": "Testing Conditional Independence in Psychometric Networks An Analysis of Three B",
+    "composite": 15
+  },
+  {
+    "connected": false,
+    "reason": "논문은 시각 마스킹 신호가 순차적 시각 사건 인지에 미치는 영향을 다루고 있으나, CSNL 연구실의 프로젝트 주제나 방법론과 직접적인 관련이 없음.",
+    "filename": "Buonocore_2026_Contributions_of_temporal_and_spatial_masking_signals_in_the_perception_of_seque_945bcf.pdf",
+    "author": "Buonocore",
+    "year": "2026",
+    "title": "Contributions of temporal and spatial masking signals in the perception of seque",
+    "composite": 19
+  },
+  {
+    "connected": false,
+    "reason": "CSNL 연구실의 프로젝트와 방법론, 이론, 데이터, 현상 등에서 구체적인 연결이 없다.",
+    "filename": "Rigoli_2021_The_Half-EmptyFull_Glass_in_Mental_Health_A_Reference-Dependent_Computational_Mo_fa33e1.pdf",
+    "author": "Rigoli",
+    "year": "2021",
+    "title": "The Half-EmptyFull Glass in Mental Health A Reference-Dependent Computational Mo",
+    "composite": 23
+  },
+  {
+    "connected": true,
+    "project": "JYK_RNN",
+    "connection": "논문은 evidence-accumulation 모델링에 대한 실험 설계 가이드를 다루며, 이는 JYK_RNN 프로젝트에서 사용되는 드리프트-디퓨전 모델과 RNN 기반의 결정 편향 연구와 이론적, 방법론적으로 직접적으로 연결된다.",
+    "filename": "Boag_2025_An_Expert_Guide_to_Planning_Experimental_Tasks_For_Evidence-Accumulation_Modelin_4d4480.pdf",
+    "author": "Boag",
+    "year": "2025",
+    "title": "An Expert Guide to Planning Experimental Tasks For Evidence-Accumulation Modelin",
+    "composite": 16
+  },
+  {
+    "connected": false,
+    "reason": "논문은 공동 행동에서의 모터 조정과 전략적 협력에 관한 것이며, CSNL 연구실의 프로젝트들이 다루는 주제인 인지, 기억, 시각 처리, 신경 기계 모델 등과 직접적인 관련이 없다.",
+    "filename": "Bars_2022_Motor_Coordination_and_Strategic_Cooperation_in_Joint_Action_b8fdf7.pdf",
+    "author": "Bars",
+    "year": "2022",
+    "title": "Motor Coordination and Strategic Cooperation in Joint Action",
+    "composite": 23
+  },
+  {
+    "connected": false,
+    "reason": "논문은 자동화와 인지 제어에 관한 심리학적 연구로, CSNL 연구실의 프로젝트 주제와 방법론적/이론적 연결이 명확하지 않다.",
+    "filename": "Strickland_2021_Inhibitory_Cognitive_Control_Allows_Automated_Advice_to_Improve_Accuracy_While_M_f1b37a.pdf",
+    "author": "Strickland",
+    "year": "2021",
+    "title": "Inhibitory Cognitive Control Allows Automated Advice to Improve Accuracy While M",
+    "composite": 23
+  },
+  {
+    "connected": false,
+    "reason": "해당 논문은 주의, 지루감, 피드백 모델에 관한 심리학적 연구로, CSNL 연구실의 프로젝트 주제(시공간 인지, 기억, 신경기계학적 모델 등)와 직접적인 연결이 없다.",
+    "filename": "Unknown_2021_Attention_Drifting_In_and_Out_The_Boredom_Feedback_Model_e3a785.pdf",
+    "author": "Unknown",
+    "year": "2021",
+    "title": "Attention Drifting In and Out The Boredom Feedback Model",
+    "composite": 21
+  },
+  {
+    "connected": false,
+    "reason": "논문 초록이 불완전하며, CSNL 연구실의 프로젝트와 관련된 방법론, 이론, 데이터 또는 현상이 명확히 드러나지 않는다.",
+    "filename": "Verstraten_2025_Are_you_a_perception_scientist_9dc297.pdf",
+    "author": "Verstraten",
+    "year": "2025",
+    "title": "Are you a perception scientist",
+    "composite": 18
+  },
+  {
+    "connected": false,
+    "reason": "논문은 순차적 결정 과제에서 갈등 감지와 관련된 신경 활동을 다루고 있으나, CSNL 연구실의 프로젝트 주제와는 방법론적, 이론적으로 직접적인 연결이 없다.",
+    "filename": "Patai_2022_Conflict_Detection_in_a_Sequential_Decision_Task_Is_Associated_with_Increased_Co_b3af79.pdf",
+    "author": "Patai",
+    "year": "2022",
+    "title": "Conflict Detection in a Sequential Decision Task Is Associated with Increased Co",
+    "composite": 23
+  },
+  {
+    "connected": false,
+    "reason": "논문 주제인 'Resource-Rational Virtual Bargaining for Moral Judgment'은 CSNL 연구실의 프로젝트 주제들과 방법론, 이론, 현상 등에서 직접적인 관련성이 없음.",
+    "filename": "Trujillo_2025_Resource‐Rational_Virtual_Bargaining_for_Moral_Judgment_Toward_a_Probabilistic_C_83d231.pdf",
+    "author": "Trujillo",
+    "year": "2025",
+    "title": "Resource‐Rational Virtual Bargaining for Moral Judgment Toward a Probabilistic C",
+    "composite": 24
+  },
+  {
+    "connected": false,
+    "reason": "논문은 다중 에이전트 협업을 위한 베이지안 추론에 관한 것으로, CSNL 연구실의 프로젝트 주제와 직접적인 연결이 없음.",
+    "filename": "Wu_2021_Too_Many_Cooks_Bayesian_Inference_for_Coordinating_Multi‐Agent_Collaboration_f99f5b.pdf",
+    "author": "Wu",
+    "year": "2021",
+    "title": "Too Many Cooks Bayesian Inference for Coordinating Multi‐Agent Collaboration",
+    "composite": 23
+  },
+  {
+    "connected": false,
+    "reason": "논문 주제는 신체 조립 과정에서 인지 비용을 균형 있게 고려한 하위 목표 선택에 관한 것으로, CSNL 연구실의 프로젝트들과 방법론, 이론, 현상 등에서 직접적인 연결이 없다.",
+    "filename": "Binder_2025_Humans_Select_Subgoals_That_Balance_Immediate_and_Future_Cognitive_Costs_During__8e8723.pdf",
+    "author": "Binder",
+    "year": "2025",
+    "title": "Humans Select Subgoals That Balance Immediate and Future Cognitive Costs During",
+    "composite": 24
+  },
+  {
+    "connected": false,
+    "reason": "논문은 온라인 체스에서의 사고 시간과 계산 가치에 관한 연구로, CSNL 연구실의 프로젝트 주제나 방법론과 직접적인 관련이 없음.",
+    "filename": "Russek_2025_Time_Spent_Thinking_in_Online_Chess_Reflects_the_Value_of_Computation_8743e7.pdf",
+    "author": "Russek",
+    "year": "2025",
+    "title": "Time Spent Thinking in Online Chess Reflects the Value of Computation",
+    "composite": 21
+  },
+  {
+    "connected": false,
+    "reason": "논문은 실리로지즘 추론에서의 논리, 확률, 실용주의에 관한 것이며, CSNL 연구실의 프로젝트 주제들과 직접적인 관련이 없음.",
+    "filename": "Tessler_2022_Logic,_Probability,_and_Pragmatics_in_Syllogistic_Reasoning_17e787.pdf",
+    "author": "Tessler",
+    "year": "2022",
+    "title": "Logic, Probability, and Pragmatics in Syllogistic Reasoning",
+    "composite": 20
+  },
+  {
+    "connected": false,
+    "reason": "논문은 타인의 지능에 대한 인과적 속성에 관한 심리학적 연구로, CSNL 연구실의 프로젝트 주제(시공간 인지, 기억, 신경기전 등)와 직접적인 관련이 없음.",
+    "filename": "Kryven_2021_Plans_or_Outcomes_How_Do_We_Attribute_Intelligence_to_Others_a6605e.pdf",
+    "author": "Kryven",
+    "year": "2021",
+    "title": "Plans or Outcomes How Do We Attribute Intelligence to Others",
+    "composite": 19
+  },
+  {
+    "connected": false,
+    "reason": "CSNL 연구실의 프로젝트 주제와 방법론은 주로 인지 및 신경 과학적 메커니즘, 특히 시각 작업기억, 직렬 의존성, 신경 해부학적 코드 등에 초점이 맞춰져 있으며, 해당 논문은 이야기 전달과 역역 계획 이론에 초점을 맞추고 있어 직접적인 연결이 없다.",
+    "filename": "Chandra_2023_Storytelling_as_iInversei_Inverse_Planning_e45df9.pdf",
+    "author": "Chandra",
+    "year": "2023",
+    "title": "Storytelling as iInversei Inverse Planning",
+    "composite": 21
+  },
+  {
+    "connected": false,
+    "reason": "논문 주제가 협업 행동에서의 전략적 업무 분해에 관한 것으로, CSNL 연구실의 프로젝트 주제들과 방법론, 이론, 데이터, 현상 등에서 직접적인 연결이 없음.",
+    "filename": "Gordon_2023_Strategic_Task_Decomposition_in_Joint_Action_efb691.pdf",
+    "author": "Gordon",
+    "year": "2023",
+    "title": "Strategic Task Decomposition in Joint Action",
+    "composite": 21
+  },
+  {
+    "connected": false,
+    "reason": "논문 주제는 자기 평가(self-evaluation)와 운동 제어(sensorimotor timing)에 초점이 맞춰져 있으며, CSNL 연구실의 프로젝트 주제들과 직접적인 연결이 없다.",
+    "filename": "Jovanovic_2021_Contrasting_contributions_of_movement_onset_and_duration_to_self‐evaluation_of_s_c03186.pdf",
+    "author": "Jovanovic",
+    "year": "2021",
+    "title": "Contrasting contributions of movement onset and duration to self‐evaluation of s",
+    "composite": 21
+  },
+  {
+    "connected": false,
+    "reason": "논문은 색상 정보의 EEG 디코딩에 초점을 맞추고 있으며, CSNL 연구실의 프로젝트 주제들과 직접적인 방법론적, 이론적, 데이터적 연결이 없다.",
+    "filename": "Sutterer_2021_Decoding_chromaticity_and_luminance_from_patterns_of_EEG_activity_3165cb.pdf",
+    "author": "Sutterer",
+    "year": "2021",
+    "title": "Decoding chromaticity and luminance from patterns of EEG activity",
+    "composite": 18
+  },
+  {
+    "connected": false,
+    "reason": "논문은 시각 예리도 평가와 관련된 임상적 연구이며, CSNL 연구실의 프로젝트 주제들과 방법론, 이론, 데이터, 현상 등에서 직접적인 연결이 없다.",
+    "filename": "Hussaindeen_2023_Discrimination_of_paediatric_acuity_test_optotypes_by_6‐year‐old_children_3a7271.pdf",
+    "author": "Hussaindeen",
+    "year": "2023",
+    "title": "Discrimination of paediatric acuity test optotypes by 6‐year‐old children",
+    "composite": 20
+  },
+  {
+    "connected": false,
+    "reason": "HTTPSConnectionPool(host='openrouter.ai', port=443): Read timed out. (read timeo",
+    "filename": "Rączy_2025_Visual_and_Auditory_Object_Representations_in_Ventral_Visual_Cortex_After_Restor_715b66.pdf",
+    "author": "Rączy",
+    "year": "2025",
+    "title": "Visual and Auditory Object Representations in Ventral Visual Cortex After Restor",
+    "composite": 18
+  },
+  {
+    "connected": true,
+    "project": "BYL_BayesianObserver",
+    "connection": "논문은 베이지안 계산의 생물학적 구현에 관한 이론적 접근을 다루고 있어, BYL_BayesianObserver 프로젝트에서 다루는 베이지안 관찰자 모델과 이론적 맥락에서 연결된다.",
+    "filename": "Czégel_2022_Bayes_and_Darwin_How_replicator_populations_implement_Bayesian_computations_3e3cf0.pdf",
+    "author": "Czégel",
+    "year": "2022",
+    "title": "Bayes and Darwin How replicator populations implement Bayesian computations",
+    "composite": 18
+  },
+  {
+    "connected": false,
+    "reason": "논문은 베이지안 통계 검정 방법의 차이에 관한 이론적 논의이며, CSNL 연구실의 프로젝트와 직접적인 방법론적, 이론적, 데이터적 연결이 없다.",
+    "filename": "Dablander_2021_A_puzzle_of_proportions_Two_popular_Bayesian_tests_can_yield_dramatically_differ_ad274d.pdf",
+    "author": "Dablander",
+    "year": "2021",
+    "title": "A puzzle of proportions Two popular Bayesian tests can yield dramatically differ",
+    "composite": 24
+  },
+  {
+    "connected": false,
+    "reason": "논문의 제목과 초록에서 CSNL 연구실의 프로젝트와 관련된 방법론, 이론, 데이터, 또는 현상이 명확히 드러나지 않습니다.",
+    "filename": "Nakuci_2023_Quantifying_the_contribution_of_subject_and_group_factors_in_brain_activation_97b937.pdf",
+    "author": "Nakuci",
+    "year": "2023",
+    "title": "Quantifying the contribution of subject and group factors in brain activation",
+    "composite": 22
+  },
+  {
+    "connected": false,
+    "reason": "논문은 완전히 이식된 뇌-기저핵 신경 인터페이스를 사용한 움직임 상태 분류에 관한 것이며, CSNL 연구실의 프로젝트 주제와 방법론적/이론적 연결이 없다.",
+    "filename": "Ramesh_2026_At-home_movement_state_classification_using_totally_implantable_cortical-basal_g_6133b4.pdf",
+    "author": "Ramesh",
+    "year": "2026",
+    "title": "At-home movement state classification using totally implantable cortical-basal g",
+    "composite": 24
+  },
+  {
+    "connected": true,
+    "project": "BHL_WM_Binding",
+    "connection": "논문은 working memory의 내용이 attention capture에 영향을 미친다는 점에서, BHL_WM_Binding 프로젝트와 같이 VWM에서의 feature binding 및 sensory decoding과 관련된 연구 주제와 이론적 맥락에서 연결된다.",
+    "filename": "Sasin_2022_Training_modulates_memory-driven_capture_ba812d.pdf",
+    "author": "Sasin",
+    "year": "2022",
+    "title": "Training modulates memory-driven capture",
+    "composite": 21
+  },
+  {
+    "connected": false,
+    "reason": "논문은 인간의 포식 전략과 자원 분포, 시간 제약에 관한 연구로, CSNL 연구실의 프로젝트 주제들과 직접적인 방법론적, 이론적, 데이터적 연결이 없다.",
+    "filename": "Simonelli_2025_Human_foraging_strategies_flexibly_adapt_to_resource_distribution_and_time_const_f3e820.pdf",
+    "author": "Simonelli",
+    "year": "2025",
+    "title": "Human foraging strategies flexibly adapt to resource distribution and time const",
+    "composite": 22
+  },
+  {
+    "connected": false,
+    "reason": "CSNL 연구실의 프로젝트는 주로 인지 신경 과학적 메커니즘, 특히 시각 작업기억, 판단 편향, 공간 인지, 신경 해부학적 코드 등에 초점을 맞추고 있으나, 이 논문은 배고픔 상태가 강화 학습 기반 행동과 계획적 행동에 미치는 영향을 다루며, CSNL의 주요 연구 주제와 직접적인 관련이 없다.",
+    "filename": "Swieten_2021_Hunger_improves_reinforcement-driven_but_not_planned_action_2bea7e.pdf",
+    "author": "Swieten",
+    "year": "2021",
+    "title": "Hunger improves reinforcement-driven but not planned action",
+    "composite": 17
+  },
+  {
+    "connected": false,
+    "reason": "CSNL 연구실의 프로젝트는 주로 인지, 신경과학, 시각 인지, 기억, 뇌 활동 분석 등에 초점을 맞추고 있으며, 해당 논문은 공포-회피 모델과 위협 예측에 관한 이론적 검토로, 연구실의 주요 관심사와 직접적인 연결이 없다.",
+    "filename": "VarangotReille_2024_The_fear-avoidance_model_as_an_embodied_prediction_of_threat_755339.pdf",
+    "author": "VarangotReille",
+    "year": "2024",
+    "title": "The fear-avoidance model as an embodied prediction of threat",
+    "composite": 19
+  },
+  {
+    "connected": false,
+    "reason": "논문은 주의 분산 패러다임에서의 반응 누락에 대한 인지 모델을 다루고 있으나, CSNL 연구실의 프로젝트 주제나 방법론과 직접적인 관련이 없음.",
+    "filename": "Damaso_2021_A_cognitive_model_of_response_omissions_in_distraction_paradigms_fb024a.pdf",
+    "author": "Damaso",
+    "year": "2021",
+    "title": "A cognitive model of response omissions in distraction paradigms",
+    "composite": 18
+  },
+  {
+    "connected": true,
+    "project": "BYL_BayesianObserver",
+    "connection": "논문은 베이지안 추론에서 사전 분포의 영향을 다루며, BYL_BayesianObserver 프로젝트가 다루는 베이지안 관찰자 모델과 이론적 맥락에서 연결된다.",
+    "filename": "Stefan_2022_Expert_agreement_in_prior_elicitation_and_its_effects_on_Bayesian_inference_49d39f.pdf",
+    "author": "Stefan",
+    "year": "2022",
+    "title": "Expert agreement in prior elicitation and its effects on Bayesian inference",
+    "composite": 19
+  },
+  {
+    "connected": true,
+    "project": "JYK_RNN",
+    "connection": "논문은 결정 모델에서의 파라미터 식별 가능성에 초점을 맞추어 드리프트-디퓨전 모델과 같은 결정 과정을 다루고 있으며, JYK_RNN 프로젝트가 다루는 RNN 기반의 WM 모델에서의 결정 일관성(bias)과 연결될 수 있다.",
+    "filename": "Lüken_2025_Parameter_identifiability_in_evidence-accumulation_models_The_effect_of_error_ra_e0517b.pdf",
+    "author": "Lüken",
+    "year": "2025",
+    "title": "Parameter identifiability in evidence-accumulation models The effect of error ra",
+    "composite": 15
+  },
+  {
+    "connected": false,
+    "reason": "논문은 갈등 작업에서 다양한 측정 모델의 개인 차이 신뢰도를 비교하는 데 초점을 맞추고 있으며, CSNL 연구실의 프로젝트 주제와 직접적인 연결이 없다.",
+    "filename": "Donzallaz_2026_Comparing_the_reliability_of_individual_differences_for_various_measurement_mode_c0811c.pdf",
+    "author": "Donzallaz",
+    "year": "2026",
+    "title": "Comparing the reliability of individual differences for various measurement mode",
+    "composite": 15
+  },
+  {
+    "connected": true,
+    "project": "BYL_BayesianObserver",
+    "connection": "논문은 베이지안 통계 방법론에 초점을 맞추고 있으며, CSNL 프로젝트 'BYL_BayesianObserver'에서 사용되는 베이지안 관찰자 모델링과 밀접한 관련이 있다.",
+    "filename": "Maier_2024_Model-averaged_Bayesian_t tests_057e3b.pdf",
+    "author": "Maier",
+    "year": "2024",
+    "title": "Model-averaged Bayesian t tests",
+    "composite": 18
+  },
+  {
+    "connected": true,
+    "project": "JYK_RNN",
+    "connection": "논문에서 사용된 diffusion model은 JYK_RNN 프로젝트에서 다루는 drift-diffusion 메커니즘과 관련이 있으며, 이는 의사결정 과정에서의 바이어스와 동적 모델링을 이해하는 데 공통된 이론적 틀을 제공한다.",
+    "filename": "Vanunu_2022_The_effect_of_speed-stress_on_driving_behavior_A_diffusion_model_analysis_1579f0.pdf",
+    "author": "Vanunu",
+    "year": "2022",
+    "title": "The effect of speed-stress on driving behavior A diffusion model analysis",
+    "composite": 22
+  },
+  {
+    "connected": false,
+    "reason": "논문은 인지 훈련 데이터에서 학습과 재학습 모델 비교에 관한 것이며, CSNL 연구실의 프로젝트 주제들과 직접적인 방법론적, 이론적, 데이터적 연결이 없다.",
+    "filename": "Kumar_2022_Comparing_models_of_learning_and_relearning_in_large-scale_cognitive_training_da_443955.pdf",
+    "author": "Kumar",
+    "year": "2022",
+    "title": "Comparing models of learning and relearning in large-scale cognitive training da",
+    "composite": 18
+  },
+  {
+    "connected": false,
+    "reason": "논문은 직관적 파워 분석에 대한 연구로, CSNL 연구실의 프로젝트들과 방법론, 이론, 데이터, 현상 등에서 직접적인 연결이 없다.",
+    "filename": "Pelz_2022_Foundations_of_intuitive_power_analyses_in_children_and_adults_b6df17.pdf",
+    "author": "Pelz",
+    "year": "2022",
+    "title": "Foundations of intuitive power analyses in children and adults",
+    "composite": 21
+  },
+  {
+    "connected": false,
+    "reason": "논문은 신경세포 활동을 시각화하기 위한 칼슘 센서의 개선에 관한 것이며, CSNL 연구실의 프로젝트 주제들과 방법론, 이론, 데이터, 현상 등에서 직접적인 연결이 없다.",
+    "filename": "Ryan_2023_Fastest-ever_calcium_sensors_broaden_the_potential_of_neuronal_imaging_2344a1.pdf",
+    "author": "Ryan",
+    "year": "2023",
+    "title": "Fastest-ever calcium sensors broaden the potential of neuronal imaging",
+    "composite": 20
+  },
+  {
+    "connected": false,
+    "reason": "논문의 주제인 정신분열증 스펙트럼 장애와 시각적 신뢰도 판단의 보존 현상은 CSNL 연구실의 프로젝트 주제와 방법론적/이론적 연결이 명확하지 않다.",
+    "filename": "Rouy_2023_Confidence_in_visual_detection,_familiarity_and_recollection_judgments_is_preser_5027cf.pdf",
+    "author": "Rouy",
+    "year": "2023",
+    "title": "Confidence in visual detection, familiarity and recollection judgments is preser",
+    "composite": 23
+  },
+  {
+    "connected": true,
+    "project": "JSL_SerialDep_Spatial",
+    "connection": "논문은 공간주의와 작업기억 저장의 관계를 탐구하며, 이는 JSL_SerialDep_Spatial 프로젝트에서 다루는 객체 중심 공간에서의 serial dependence와 주의 게이팅(attention gating)과 이론적으로 관련된다.",
+    "filename": "Koevoet_2026_Dissociating_Spatial_Attention_and_Working_Memory_Storage_with_Pupillometry_116955.pdf",
+    "author": "Koevoet",
+    "year": "2026",
+    "title": "Dissociating Spatial Attention and Working Memory Storage with Pupillometry",
+    "composite": 20
+  },
+  {
+    "connected": true,
+    "project": "MJC_SeqVWM",
+    "connection": "논문은 working memory에서 일시적인 신경 활동 중단에도 정보 유지가 가능하다는 점을 다루며, 이는 MJC_SeqVWM 프로젝트에서 다루는 VWM 내 정보 유지 및 상호작용 메커니즘과 이론적으로 관련된다.",
+    "filename": "Oberauer_2022_Is_There_an_Activity-silent_Working_Memory_9ee5b3.pdf",
+    "author": "Oberauer",
+    "year": "2022",
+    "title": "Is There an Activity-silent Working Memory",
+    "composite": 23
+  },
+  {
+    "connected": false,
+    "reason": "논문은 디지털 뇌 연구의 미래 비전에 대한 개괄적인 리뷰이며, CSNL 연구실의 구체적인 프로젝트나 주제와 직접적인 연결이 없다.",
+    "filename": "Amunts_2024_The_coming_decade_of_digital_brain_research_A_vision_for_neuroscience_at_the_int_6f776c.pdf",
+    "author": "Amunts",
+    "year": "2024",
+    "title": "The coming decade of digital brain research A vision for neuroscience at the int",
+    "composite": 24
+  },
+  {
+    "connected": false,
+    "reason": "논문은 예측 처리(Predictive Processing)와 인지 로봇 공학에 초점을 맞추고 있으며, CSNL 연구실의 프로젝트와 방법론, 이론, 데이터, 현상 등에서 구체적인 연결이 없다.",
+    "filename": "Ciria_2021_Predictive_Processing_in_Cognitive_Robotics_A_Review_36d21b.pdf",
+    "author": "Ciria",
+    "year": "2021",
+    "title": "Predictive Processing in Cognitive Robotics A Review",
+    "composite": 23
+  },
+  {
+    "connected": false,
+    "reason": "논문 초록이 제공되지 않아 구체적인 내용을 판단할 수 없으며, 제목만으로는 CSNL 연구실의 프로젝트와 직접적인 연결 관계를 확인할 수 없다.",
+    "filename": "Nakuci_2024_Behavior_can_be_decoded_across_the_cortex_when_individual_differences_are_consid_951913.pdf",
+    "author": "Nakuci",
+    "year": "2024",
+    "title": "Behavior can be decoded across the cortex when individual differences are consid",
+    "composite": 21
+  },
+  {
+    "connected": false,
+    "reason": "논문은 스포츠 등반에서의 전신 동작 조절과 전문성에 관한 것이며, CSNL 연구실의 프로젝트 주제(인지, 시각, 기억, 뇌 기계학 등)와 관련이 없음",
+    "filename": "Maselli_2025_Whole_body_coarticulation_reflects_expertise_in_sport_climbing_e55a7b.pdf",
+    "author": "Maselli",
+    "year": "2025",
+    "title": "Whole body coarticulation reflects expertise in sport climbing",
+    "composite": 19
+  },
+  {
+    "connected": false,
+    "reason": "논문은 눈과 손의 공아티큘레이션과 계획의 계층적 조직에 관한 것이며, CSNL 연구실의 프로젝트 주제와 방법론적/이론적 연결이 명확하지 않다.",
+    "filename": "Eluchans_2025_Eye_and_hand_coarticulation_during_problem-solving_reveals_hierarchically_organi_b20785.pdf",
+    "author": "Eluchans",
+    "year": "2025",
+    "title": "Eye and hand coarticulation during problem-solving reveals hierarchically organi",
+    "composite": 20
+  },
+  {
+    "connected": false,
+    "reason": "논문은 전문가 신뢰의 강화 학습 모델을 다루고 있으며, CSNL 연구실의 프로젝트 주제와 방법론적으로나 이론적으로 직접적인 관련이 없음.",
+    "filename": "Douven_2025_The_Emergent_Basis_of_Expert_Trust_987089.pdf",
+    "author": "Douven",
+    "year": "2025",
+    "title": "The Emergent Basis of Expert Trust",
+    "composite": 16
+  },
+  {
+    "connected": false,
+    "reason": "논문은 중풍 회복 기간 동안 상지 운동 성과에 인지 부담이 미치는 영향을 다루며, CSNL 연구실의 프로젝트 주제와 관련성이 없음.",
+    "filename": "Lin_2021_Cognitive_Demands_Influence_Upper_Extremity_Motor_Performance_During_Recovery_Fr_337bc9.pdf",
+    "author": "Lin",
+    "year": "2021",
+    "title": "Cognitive Demands Influence Upper Extremity Motor Performance During Recovery Fr",
+    "composite": 16
+  },
+  {
+    "connected": false,
+    "reason": "논문의 제목과 초록 일부만 제공되었으며, CSNL 연구실의 프로젝트와 관련된 이론, 방법론, 또는 현상과 직접적인 연결이 명확하지 않음.",
+    "filename": "Pezzulo_2026_Why_we_value_things_more_as_we_are_about_to_lose_them_A_referencebased_theory_abb92c.pdf",
+    "author": "Pezzulo",
+    "year": "2026",
+    "title": "Why we value things more as we are about to lose them A referencebased theory",
+    "composite": 24
+  },
+  {
+    "connected": false,
+    "reason": "논문은 신호 탐지 이론에서 불균등 분산을 보정하는 방법을 다루고 있으나, CSNL 연구실의 프로젝트 주제들과 직접적인 방법론적, 이론적, 데이터적 연결이 명확하지 않다.",
+    "filename": "Miyoshi_2026_Correcting_for_unequal_variance_in_signal_detection_models_using_response_time_574a9c.pdf",
+    "author": "Miyoshi",
+    "year": "2026",
+    "title": "Correcting for unequal variance in signal detection models using response time",
+    "composite": 22
+  },
+  {
+    "connected": false,
+    "reason": "논문은 목표 지향적 탐색에서 인지적 및 운동 기능의 노화 관련 감소를 다루고 있으나, CSNL 연구실의 프로젝트 주제와 방법론적/이론적 연결이 명확하지 않다.",
+    "filename": "Lancia_2025_Separable_cognitive_and_motor_decline_tracked_across_adult_lifespan_for_goaldi_327f09.pdf",
+    "author": "Lancia",
+    "year": "2025",
+    "title": "Separable cognitive and motor decline tracked across adult lifespan for goaldi",
+    "composite": 24
+  },
+  {
+    "connected": false,
+    "reason": "논문의 초록이 제공된 정보만으로는 CSNL 연구실의 프로젝트와 명확한 연결이 보이지 않는다.",
+    "filename": "Parr_2026_The_active_construction_of_past_episodes_29a78d.pdf",
+    "author": "Parr",
+    "year": "2026",
+    "title": "The active construction of past episodes",
+    "composite": 23
+  },
+  {
+    "connected": false,
+    "reason": "논문은 신경 표현 기하학과 퓨샷 개념 학습에 초점을 맞추고 있으며, CSNL 연구실의 프로젝트 주제들과 직접적인 연결이 없다.",
+    "filename": "Sorscher_2022_Neural_representational_geometry_underlies_fewshot_concept_learning_cd1780.pdf",
+    "author": "Sorscher",
+    "year": "2022",
+    "title": "Neural representational geometry underlies fewshot concept learning",
+    "composite": 18
+  },
+  {
+    "connected": false,
+    "reason": "논문은 주로 비지도 학습 신경망 모델을 이용한 뇌의 복부 시각 경로 모델링에 초점을 맞추고 있으며, CSNL 연구실의 프로젝트들과 공유되는 이론적/방법론적 초점이 명확하지 않다.",
+    "filename": "Zhuang_2021_Unsupervised_neural_network_models_of_the_ventral_visual_stream_111d20.pdf",
+    "author": "Zhuang",
+    "year": "2021",
+    "title": "Unsupervised neural network models of the ventral visual stream",
+    "composite": 15
+  },
+  {
+    "connected": false,
+    "reason": "논문은 부분적으로 가려진 객체의 인지 완성과 관련된 신뢰도에 초점을 맞추고 있으며, CSNL 연구실의 프로젝트 주제나 방법론과 직접적인 연결이 보이지 않는다.",
+    "filename": "Baykan_2026_Low_confidence_for_perceptual_completion_of_partially_occluded_objects_049116.pdf",
+    "author": "Baykan",
+    "year": "2026",
+    "title": "Low confidence for perceptual completion of partially occluded objects",
+    "composite": 21
+  },
+  {
+    "connected": false,
+    "reason": "논문은 감정 예측과 generative theory of mind에 관한 것이며, CSNL 연구실의 프로젝트 주제와 방법론적/이론적 연결이 명확하지 않다.",
+    "filename": "Houlihan_2023_Emotion_prediction_as_computation_over_a_generative_theory_of_mind_0bd85e.pdf",
+    "author": "Houlihan",
+    "year": "2023",
+    "title": "Emotion prediction as computation over a generative theory of mind",
+    "composite": 16
+  },
+  {
+    "connected": false,
+    "reason": "논문의 주제인 설명과 활성 추론(Active Inference)은 CSNL 연구실의 프로젝트와 방법론, 이론, 데이터, 현상 등에서 직접적인 연결이 없다.",
+    "filename": "Parr_2021_Understanding_Explanation_and_Active_Inference_8d495d.pdf",
+    "author": "Parr",
+    "year": "2021",
+    "title": "Understanding Explanation and Active Inference",
+    "composite": 17
+  },
+  {
+    "connected": false,
+    "reason": "논문은 대규모 다모달 모델과 인간의 인지 판단을 비교하는 연구로, CSNL 연구실의 프로젝트들과 방법론, 이론, 데이터, 현상 등에서 직접적인 연결이 없다.",
+    "filename": "Dickson_2025_Comparing_perceptual_judgments_in_large_multimodal_models_and_humans_38c6df.pdf",
+    "author": "Dickson",
+    "year": "2025",
+    "title": "Comparing perceptual judgments in large multimodal models and humans",
+    "composite": 21
+  },
+  {
+    "connected": false,
+    "reason": "논문은 시선 인지(gaze perception)의 신경생물학적 상관관계를 다루고 있으나, CSNL 연구실의 프로젝트 주제나 방법론과 직접적인 연결이 명확하지 않다.",
+    "filename": "Battaglia_2022_The_Neurobiological_Correlates_of_Gaze_Perception_in_Healthy_Individuals_and_Neu_04ca50.pdf",
+    "author": "Battaglia",
+    "year": "2022",
+    "title": "The Neurobiological Correlates of Gaze Perception in Healthy Individuals and Neu",
+    "composite": 16
+  },
+  {
+    "connected": false,
+    "reason": "논문은 인간과 AI의 보완성을 다루는 베이지안 모델링에 관한 것이며, CSNL 연구실의 프로젝트 주제와 직접적인 연결이 없음.",
+    "filename": "Steyvers_2022_Bayesian_modeling_of_humanAI_complementarity_2301ad.pdf",
+    "author": "Steyvers",
+    "year": "2022",
+    "title": "Bayesian modeling of humanAI complementarity",
+    "composite": 24
+  },
+  {
+    "connected": false,
+    "reason": "논문의 주제인 '주의의 역할'과 '감정적 예측 전위'는 CSNL 연구실의 프로젝트들이 다루는 시각 인지, 기억, 신경 해码 등과 직접적인 연결이 없다.",
+    "filename": "Benzaquén_2026_The_role_of_attention_in_the_generation_of_anticipatory_potentials_to_affective_474503.pdf",
+    "author": "Benzaquén",
+    "year": "2026",
+    "title": "The role of attention in the generation of anticipatory potentials to affective",
+    "composite": 24
+  },
+  {
+    "connected": false,
+    "reason": "논문 제목과 초록 정보만으로는 CSNL 연구실의 프로젝트와 구체적인 연결이 확인되지 않음.",
+    "filename": "Tran_2021_Systematic_Parameter_Reviews_in_Cognitive_Modeling_Towards_a_Robust_and_Cumulat_e781cb.pdf",
+    "author": "Tran",
+    "year": "2021",
+    "title": "Systematic Parameter Reviews in Cognitive Modeling Towards a Robust and Cumulat",
+    "composite": 19
+  },
+  {
+    "connected": false,
+    "reason": "논문은 청각-시각 운동 추적에 관한 것이며, CSNL 연구실의 프로젝트 주제나 방법론과 직접적인 관련이 없음.",
+    "filename": "Tonelli_2025_Continuous_tracking_of_audiovisual_motion_bcf681.pdf",
+    "author": "Tonelli",
+    "year": "2025",
+    "title": "Continuous tracking of audiovisual motion",
+    "composite": 24
+  },
+  {
+    "connected": false,
+    "reason": "논문은 사회 및 경제 정책을 위한 딥러닝 기반 메커니즘 설계에 관한 것으로, CSNL 연구실의 프로젝트 주제와 방법론적으로나 이론적으로 직접적인 관련이 없다.",
+    "filename": "Tacchetti_2025_Deep_mechanism_design_Learning_social_and_economic_policies_for_human_benefit_7245ea.pdf",
+    "author": "Tacchetti",
+    "year": "2025",
+    "title": "Deep mechanism design Learning social and economic policies for human benefit",
+    "composite": 20
+  },
+  {
+    "connected": false,
+    "reason": "논문은 생쥐에서 in vivo 전기생리학적 측정의 재현성을 다루고 있으며, CSNL 연구실의 프로젝트 주제와 관련이 없습니다.",
+    "filename": "Banga_2025_Reproducibility_of_in_vivo_electrophysiological_measurements_in_mice_7ae773.pdf",
+    "author": "Banga",
+    "year": "2025",
+    "title": "Reproducibility of in vivo electrophysiological measurements in mice",
+    "composite": 20
+  },
+  {
+    "connected": false,
+    "reason": "논문은 생쥐에서 in vivo 전기생리학적 측정의 재현성을 다루고 있으며, CSNL 연구실의 프로젝트 주제와는 관련이 없습니다.",
+    "filename": "Banga_2025_Reproducibility_of_in_vivo_electrophysiological_measurements_in_mice_f9a639.pdf",
+    "author": "Banga",
+    "year": "2025",
+    "title": "Reproducibility of in vivo electrophysiological measurements in mice",
+    "composite": 20
+  },
+  {
+    "connected": false,
+    "reason": "논문은 행동 학습 과제에서 의사결정 처리 모델에 관한 것이며, CSNL 연구실의 프로젝트 주제들과 직접적인 방법론적, 이론적, 데이터적 연결이 명확하지 않다.",
+    "filename": "Miletić_2021_A_new_model_of_decision_processing_in_instrumental_learning_tasks_021d45.pdf",
+    "author": "Miletić",
+    "year": "2021",
+    "title": "A new model of decision processing in instrumental learning tasks",
+    "composite": 24
+  },
+  {
+    "connected": false,
+    "reason": "논문은 척수 자극이 뇌졸중 후 상지 마비에 미치는 영향을 다루고 있어 CSNL 연구실의 프로젝트와 관련이 없음",
+    "filename": "Unknown_2022_Epidural_stimulation_of_the_cervical_spinal_cord_improves_voluntary_motor_contro_77d30d.pdf",
+    "author": "Unknown",
+    "year": "2022",
+    "title": "Epidural stimulation of the cervical spinal cord improves voluntary motor contro",
+    "composite": 23
+  },
+  {
+    "connected": false,
+    "reason": "논문은 심리측정 데이터의 순위 응답과 반응 시간을 설명하기 위한 모델링 프레임워크를 다루고 있으나, CSNL 연구실의 프로젝트와는 방법론적, 이론적, 데이터적 측면에서 직접적인 연결이 없다.",
+    "filename": "Kang_2023_A_Modeling_Framework_to_Examine_Psychological_Processes_Underlying_Ordinal_Respo_79d612.pdf",
+    "author": "Kang",
+    "year": "2023",
+    "title": "A Modeling Framework to Examine Psychological Processes Underlying Ordinal Respo",
+    "composite": 21
+  },
+  {
+    "connected": false,
+    "reason": "논문은 심리측정 데이터의 순위 응답과 반응 시간을 다루는 모델링 프레임워크에 관한 오류 수정이며, CSNL 연구실의 프로젝트 주제와 관련성이 없음.",
+    "filename": "Kang_2023_Erratum_to_A_Modeling_Framework_to_Examine_Psychological_Processes_Underlying_Or_e8b37c.pdf",
+    "author": "Kang",
+    "year": "2023",
+    "title": "Erratum to A Modeling Framework to Examine Psychological Processes Underlying Or",
+    "composite": 21
+  },
+  {
+    "connected": false,
+    "reason": "논문은 영장류 entorhinal cortex에서의 정신적 탐색(mental navigation)에 관한 것이며, CSNL 연구실의 프로젝트 주제들과 직접적인 방법론적, 이론적, 데이터적 연결이 없다.",
+    "filename": "Neupane_2024_Publisher_Correction_Mental_navigation_in_the_primate_entorhinal_cortex_2798f3.pdf",
+    "author": "Neupane",
+    "year": "2024",
+    "title": "Publisher Correction Mental navigation in the primate entorhinal cortex",
+    "composite": 20
+  },
+  {
+    "connected": false,
+    "reason": "논문 주제는 모터 코르티كس의 시퀀스 생성에 관한 것이며, CSNL 연구실의 프로젝트 주제들과 관련이 없습니다.",
+    "filename": "Zimnik_2022_Publisher_Correction_Independent_generation_of_sequence_elements_by_motor_cortex_2d7898.pdf",
+    "author": "Zimnik",
+    "year": "2022",
+    "title": "Publisher Correction Independent generation of sequence elements by motor cortex",
+    "composite": 19
+  },
+  {
+    "connected": false,
+    "reason": "논문은 다중 감각 통합(multisensory integration)과 주관적 자신감(subjective confidence)에 관한 것이며, CSNL 연구실의 프로젝트 주제와 직접적인 연결이 없음.",
+    "filename": "Gao_2025_Publisher_Correction_Automatic_multisensory_integration_follows_subjective_confi_3bd796.pdf",
+    "author": "Gao",
+    "year": "2025",
+    "title": "Publisher Correction Automatic multisensory integration follows subjective confi",
+    "composite": 21
+  },
+  {
+    "connected": false,
+    "reason": "논문은 신체 움직임의 제어와 관련된 딥러닝 기반 운동학적 추론에 초점을 맞추고 있어 CSNL 연구실의 프로젝트 주제와 직접적인 연결이 없다.",
+    "filename": "Priorelli_2023_Deep_kinematic_inference_affords_efficient_and_scalable_control_of_bodily_moveme_51753e.pdf",
+    "author": "Priorelli",
+    "year": "2023",
+    "title": "Deep kinematic inference affords efficient and scalable control of bodily moveme",
+    "composite": 23
+  },
+  {
+    "connected": false,
+    "reason": "CSNL 연구실의 프로젝트는 주로 인지 신경과학, 시각 인지, 기억, 뇌 활동 해석 등과 관련된 주제를 다루고 있으나, 해당 논문은 SGD(확률적 경사 하강법)의 동역학, 손실 함수, 위상 공간 진동, 이상 확산과 같은 머신 러닝 및 수치 최적화 이론에 초점을 맞추고 있어 직접적인 연결이 없다.",
+    "filename": "Kunin_2023_The_Limiting_Dynamics_of_SGD_Modified_Loss,_Phase-Space_Oscillations,_and_Anomal_7c8fa8.pdf",
+    "author": "Kunin",
+    "year": "2023",
+    "title": "The Limiting Dynamics of SGD Modified Loss, Phase-Space Oscillations, and Anomal",
+    "composite": 18
+  },
+  {
+    "connected": false,
+    "reason": "논문은 시각 사건의 시간적 인코딩과 traveling waves에 관한 것이며, CSNL 연구실의 프로젝트 주제들과 직접적인 방법론적, 이론적, 데이터적 연결이 명확하지 않다.",
+    "filename": "King_2021_The_Human_Brain_Encodes_a_Chronicle_of_Visual_Events_at_Each_Instant_of_Time_Thr_6c36cf.pdf",
+    "author": "King",
+    "year": "2021",
+    "title": "The Human Brain Encodes a Chronicle of Visual Events at Each Instant of Time Thr",
+    "composite": 21
+  },
+  {
+    "connected": true,
+    "project": "BYL_BayesianObserver",
+    "connection": "논문은 베이지안 추론 방법을 A/B 테스트에 적용한 것으로, BYL_BayesianObserver 프로젝트에서 사용하는 베이지안 관찰자 모델과 관련된 방법론적 기반을 제공한다.",
+    "filename": "Gronau_2021_Informed_Bayesian_Inference_for_the_AB_Test_b5945a.pdf",
+    "author": "Gronau",
+    "year": "2021",
+    "title": "Informed Bayesian Inference for the AB Test",
+    "composite": 18
+  },
+  {
+    "connected": false,
+    "reason": "논문 주제는 다감각 상호작용과 수직 인지에 관한 것으로, CSNL 연구실의 프로젝트 주제와 방법론적/이론적 연결이 명확하지 않다.",
+    "filename": "Winkel_2021_Multisensory_Interactions_in_Head_and_Body_Centered_Perception_of_Verticality_18bdbc.pdf",
+    "author": "Winkel",
+    "year": "2021",
+    "title": "Multisensory Interactions in Head and Body Centered Perception of Verticality",
+    "composite": 16
+  },
+  {
+    "connected": false,
+    "reason": "논문은 편집부 글로, 특정 연구 주제나 방법론에 대한 구체적인 내용이 없어 CSNL 연구실의 프로젝트와 연결되지 않음.",
+    "filename": "Unknown_2023_Editorial_Chasing_brain_dynamics_at_their_speed_what_can_time-varying_functional_e3c9a3.pdf",
+    "author": "Unknown",
+    "year": "2023",
+    "title": "Editorial Chasing brain dynamics at their speed what can time-varying functional",
+    "composite": 18
+  },
+  {
+    "connected": false,
+    "reason": "논문은 신경공학적 장치 개발에 관한 것이며, CSNL 연구실의 프로젝트 주제들과 방법론, 이론, 데이터, 현상 등에서 직접적인 연결이 없다.",
+    "filename": "Bimbard_2025_An_adaptable,_reusable,_and_light_implant_for_chronic_Neuropixels_probes_958b56.pdf",
+    "author": "Bimbard",
+    "year": "2025",
+    "title": "An adaptable, reusable, and light implant for chronic Neuropixels probes",
+    "composite": 23
+  },
+  {
+    "connected": false,
+    "reason": "논문은 신경공학적 장치인 Neuropixels probe의 재사용 가능한 이식체에 관한 기술 개발을 다루며, CSNL 연구실의 프로젝트 주제들과 직접적인 관련이 없음.",
+    "filename": "Bimbard_2025_An_adaptable,_reusable,_and_light_implant_for_chronic_Neuropixels_probes_96265a.pdf",
+    "author": "Bimbard",
+    "year": "2025",
+    "title": "An adaptable, reusable, and light implant for chronic Neuropixels probes",
+    "composite": 23
+  },
+  {
+    "connected": false,
+    "reason": "논문은 글루타메이트 지표의 감도와 비활성화 속도에 관한 생물학적 신호 측정 기술에 초점을 맞추고 있어 CSNL 연구실의 프로젝트와 관련성이 없음",
+    "filename": "Aggarwal_2025_Glutamate_indicators_with_increased_sensitivity_and_tailored_deactivation_rates.pdf",
+    "author": "Aggarwal",
+    "year": "2025",
+    "title": "Glutamate indicators with increased sensitivity and tailored deactivation rates",
+    "composite": 22
+  },
+  {
+    "connected": false,
+    "reason": "논문은 쥐의 머리 고정 및 유동식품 제어와 관련된 실험 기법에 관한 것으로, CSNL 연구실의 프로젝트 주제들과 관련이 없습니다.",
+    "filename": "Barkus_2022_Refinements_to_rodent_head_fixation_and_fluidfood_control_for_neuroscience_f8be8e.pdf",
+    "author": "Barkus",
+    "year": "2022",
+    "title": "Refinements to rodent head fixation and fluidfood control for neuroscience",
+    "composite": 15
+  },
+  {
+    "connected": false,
+    "reason": "논문은 인간의 계획 계층 구조를 프로그램 생성을 통해 탐구하는 내용으로, CSNL 연구실의 프로젝트들과 방법론, 이론, 데이터, 현상 등에서 직접적인 연결이 없다.",
+    "filename": "Correa_2025_Exploring_the_hierarchical_structure_of_human_plans_via_program_generation_34b4fe.pdf",
+    "author": "Correa",
+    "year": "2025",
+    "title": "Exploring the hierarchical structure of human plans via program generation",
+    "composite": 16
+  },
+  {
+    "connected": false,
+    "reason": "논문은 정신건강 개입을 위한 인터로셉티브 기술에 관한 것이며, CSNL 연구실의 프로젝트 주제와 방법론적/이론적 연결이 없다.",
+    "filename": "Schoeller_2024_Interoceptive_technologies_for_psychiatric_interventions_From_diagnosis_to_clini.pdf",
+    "author": "Schoeller",
+    "year": "2024",
+    "title": "Interoceptive technologies for psychiatric interventions From diagnosis to clini",
+    "composite": 15
+  },
+  {
+    "connected": false,
+    "reason": "논문은 뇌 신경 세포의 전사체 수준에서의 상태 변화를 다루고 있으며, CSNL 연구실의 프로젝트 주제들과 관련이 없습니다.",
+    "filename": "Bugeon_2022_Publisher_Correction_A_transcriptomic_axis_predicts_state_modulation_of_cortical_c0e706.pdf",
+    "author": "Bugeon",
+    "year": "2022",
+    "title": "Publisher Correction A transcriptomic axis predicts state modulation of cortical",
+    "composite": 15
+  }
+]
