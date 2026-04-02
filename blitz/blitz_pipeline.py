@@ -191,7 +191,13 @@ if __name__ == "__main__":
     ))
     parser.add_argument("--max-iter", type=int, default=3, help="Max write-review iterations")
     parser.add_argument("--name", default=None, help="Output run name")
+    parser.add_argument("--fast", action="store_true",
+                        help="Use faster paid model (google/gemini-2.5-flash) instead of free Qwen")
     args = parser.parse_args()
+
+    if args.fast:
+        os.environ["BLITZ_MODEL"] = "google/gemini-2.5-flash"
+        print("[PIPELINE] Fast mode: using google/gemini-2.5-flash")
 
     researcher_context = {
         "name": args.researcher,

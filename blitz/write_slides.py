@@ -14,8 +14,8 @@ import requests
 REPO_DIR = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(REPO_DIR))
 
-WRITER_MODEL = "qwen/qwen3.6-plus-preview:free"
-PARSER_MODEL = "qwen/qwen3.6-plus-preview:free"
+WRITER_MODEL = os.environ.get("BLITZ_MODEL", "qwen/qwen3.6-plus-preview:free")
+PARSER_MODEL = os.environ.get("BLITZ_MODEL", "qwen/qwen3.6-plus-preview:free")
 MAX_TOKENS = 8000
 TEMPERATURE = 0.3
 
@@ -69,18 +69,88 @@ def extract_json(text: str) -> dict:
     raise ValueError(f"No JSON found in response:\n{text[:500]}")
 
 
+# ── Param Injection (fallback if LLM omits paradigm/model params) ──
+
+# Default color palette for auto-generated epochs (alternating light grays/blues)
+_EPOCH_COLORS = ["#F0F0F0", "#E8E8E8", "#E0E8F0", "#D0E0F0", "#B8D4F0", "#A0C8F0"]
+_STAGE_COLORS = ["#E8F0F8", "#D0E0F0", "#B8D4F0", "#A0C8F0", "#88BCF0"]
+
+# Keyword → icon mapping for auto-detection
+_ICON_KEYWORDS = {
+    "fixation": "cross", "fix": "cross",
+    "stimulus": "grating", "stim": "grating", "visual": "grating", "display": "screen",
+    "delay": "circle", "isi": "circle", "blank": "circle",
+    "response": "arrow_keys", "choice": "arrow_keys", "decision": "question",
+    "feedback": "checkmark", "reward": "checkmark",
+    "cue": "dot", "target": "dot", "probe": "dot",
+}
+
+
+def _guess_icon(label: str) -> str:
+    """Guess epoch icon from label text."""
+    lower = label.lower()
+    for keyword, icon in _ICON_KEYWORDS.items():
+        if keyword in lower:
+            return icon
+    return "circle"
+
+
+def _inject_params_from_analysis(plan: dict, analysis: dict) -> dict:
+    """If methods/model slides lack paradigm_params/model_params, build from analysis."""
+    methods = analysis.get("structured_content", {}).get("methods", {})
+    trial_epochs = methods.get("trial_epochs", [])
+    model_stages = methods.get("model_stages", [])
+
+    for slide in plan.get("slides", []):
+        # Inject paradigm_params for methods slides
+        if slide.get("slide_type") == "methods" and not slide.get("paradigm_params"):
+            if trial_epochs:
+                epochs = []
+                for i, ep in enumerate(trial_epochs):
+                    label = ep.get("label", f"Epoch {i+1}")
+                    epochs.append({
+                        "label": label,
+                        "duration": ep.get("duration", ""),
+                        "color": _EPOCH_COLORS[i % len(_EPOCH_COLORS)],
+                        "icon": _guess_icon(label),
+                    })
+                slide["paradigm_params"] = {"epochs": epochs}
+                print(f"  [AUTO] Injected paradigm_params ({len(epochs)} epochs) into slide {slide.get('slide_num')}")
+
+        # Inject model_params for model slides
+        if slide.get("slide_type") == "model" and not slide.get("model_params"):
+            if model_stages:
+                stages = []
+                for i, st in enumerate(model_stages):
+                    stages.append({
+                        "label": st.get("label", f"Stage {i+1}"),
+                        "sublabel": st.get("sublabel", ""),
+                        "color": _STAGE_COLORS[i % len(_STAGE_COLORS)],
+                    })
+                slide["model_params"] = {"stages": stages}
+                print(f"  [AUTO] Injected model_params ({len(stages)} stages) into slide {slide.get('slide_num')}")
+
+    return plan
+
+
 # ── Step 1: Structured Paper Analysis ───────────────────────────
 
 def analyze_paper(full_text: str, figures: list, api_key: str) -> dict:
     """Use LLM to extract structured content from paper text."""
     parser_prompt = load_agent_prompt("parser")
 
-    # Build figure inventory for the LLM
-    fig_inventory = "\n".join(
-        f"- {f['figure_id']} (page {f['page']}, type: {f['type']})"
-        for f in figures
-        if f["type"] in ("embedded_image", "page_render")
-    )
+    # Build figure inventory for the LLM — prefer tight crops over full pages
+    priority_types = ("figure_region", "embedded_image")
+    priority_figs = [f for f in figures if f["type"] in priority_types]
+    fallback_figs = [f for f in figures if f["type"] == "full_page"]
+
+    fig_lines = []
+    for f in priority_figs:
+        extra = f" — \"{f['caption'][:60]}\"" if f.get("caption") else ""
+        fig_lines.append(f"- {f['figure_id']} (page {f['page']}, type: {f['type']}{extra}) ★ PREFERRED")
+    for f in fallback_figs[:3]:  # limit fallbacks shown
+        fig_lines.append(f"- {f['figure_id']} (page {f['page']}, type: full_page) — fallback only")
+    fig_inventory = "\n".join(fig_lines) if fig_lines else "No figures extracted"
 
     messages = [
         {"role": "system", "content": parser_prompt},
@@ -178,6 +248,9 @@ def write_slides(parsed: dict, researcher_context: dict,
         api_key,
         revision_feedback=revision_feedback,
     )
+
+    # Auto-inject paradigm_params / model_params from analysis if writer missed them
+    plan = _inject_params_from_analysis(plan, analysis)
 
     # Save plan
     with open(out_dir / "slide_plan.json", "w") as f:

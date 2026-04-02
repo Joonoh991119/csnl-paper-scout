@@ -13,6 +13,10 @@ A Paper Blitz introduces one paper to lab members concisely and precisely.
 6. **Experimental paradigm / model diagrams: include detailed figure, not text description.**
 7. **Total narration must be under 5 minutes (~750 words across all slides).**
 8. **3 to 7 slides total.**
+9. **ACTION TITLES REQUIRED.** title_text must be a FINDING, not a topic label.
+   - BAD: "Background & Hypothesis", "Results", "Methods"
+   - GOOD: "Bimodal prior learned implicitly over 3 days", "Swing errors shift toward prior peaks under high uncertainty"
+   - The ghost-deck test: reading ONLY titles in sequence must tell the paper's story.
 
 ## SLIDE STRUCTURE
 
@@ -37,12 +41,32 @@ Choose from these types as needed (typically 3-5 slides):
 **Methods / Paradigm slide:**
 - Figure: experimental setup diagram (MUST crop from paper)
 - Labels: IV, DV, conditions as short annotations
-- If computational model: show the model equation or diagram from paper
+- **paradigm_params**: REQUIRED for methods slides. Generate from the paper's trial structure:
+  ```json
+  "paradigm_params": {
+    "epochs": [
+      {"label": "Fixation", "duration": "500 ms", "color": "#F0F0F0", "icon": "cross"},
+      {"label": "Stimulus", "duration": "200 ms", "color": "#D0E0F0", "icon": "grating"}
+    ]
+  }
+  ```
+  Icons: "cross" (fixation), "grating" (visual), "dot" (probe), "arrow_keys" (response),
+         "checkmark" (feedback), "question" (decision), "screen" (display), "circle" (target)
+  Colors: light grays for passive (#F0F0F0, #E8E8E8), light blues for active (#D0E0F0, #B8D4F0)
 - Narration explains the RATIONALE (why this design tests the hypothesis)
 
 **Model slide (if applicable):**
 - Figure: model diagram or equation from paper
 - Key parameters as labels
+- **model_params**: REQUIRED for model slides. Generate from the paper's model:
+  ```json
+  "model_params": {
+    "stages": [
+      {"label": "Sensory Input", "sublabel": "x ~ N(s, σ²)", "color": "#E8F0F8"},
+      {"label": "Bayesian Inference", "sublabel": "p(s|x) ∝ p(x|s)p(s)", "color": "#D0E0F0"}
+    ]
+  }
+  ```
 - Narration explains what the model predicts and why
 
 **Results slide:**
@@ -74,6 +98,8 @@ Return JSON:
       "slide_num": 1,
       "slide_type": "title|background|methods|model|results|takeaway",
       "title_text": "short title for slide header",
+      "paradigm_params": {"epochs": [{"label": "...", "duration": "...", "color": "#...", "icon": "..."}]},
+      "model_params": {"stages": [{"label": "...", "sublabel": "...", "color": "#..."}]},
       "elements": [
         {
           "type": "figure",

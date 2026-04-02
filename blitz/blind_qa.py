@@ -25,7 +25,7 @@ REPO_DIR = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(REPO_DIR))
 
 # Use a DIFFERENT model than the writer to avoid systematic blind spots
-QA_MODEL = "qwen/qwen3.6-plus-preview:free"
+QA_MODEL = os.environ.get("BLITZ_QA_MODEL", os.environ.get("BLITZ_MODEL", "qwen/qwen3.6-plus-preview:free"))
 MAX_TOKENS = 6000
 TEMPERATURE = 0.2  # Low temperature for strict evaluation
 

@@ -32,7 +32,20 @@ Return a JSON object with this exact schema:
       "quantification": "the metric, model, or analysis used to test the hypothesis",
       "model_details": "if a computational model: name, parameters, predictions",
       "key_parameters": ["specific numbers: N, trials, durations, thresholds"],
-      "control_conditions": ["what controls were used and why"]
+      "control_conditions": ["what controls were used and why"],
+      "trial_epochs": [
+        {
+          "label": "short name (e.g., 'Fixation', 'Stimulus', 'Delay', 'Response')",
+          "duration": "duration string (e.g., '500 ms', '1-2 s', 'until response')",
+          "description": "what happens in this epoch"
+        }
+      ],
+      "model_stages": [
+        {
+          "label": "stage name (e.g., 'Sensory Input', 'Bayesian Update', 'Decision')",
+          "sublabel": "brief math or description (e.g., 'p(s|x) ∝ p(x|s)p(s)')"
+        }
+      ]
     },
     "results": {
       "main_findings": [

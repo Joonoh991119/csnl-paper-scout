@@ -129,23 +129,92 @@ def _add_figure_crop(slide, path: str, left, top, max_w, max_h, name="figure"):
 
 
 def _resolve_figure(figure_id: str, figures: list, base_dir: Path) -> str | None:
-    """Find figure file path by ID. Returns absolute path."""
+    """Find figure file path by ID. Returns absolute path.
+
+    Handles mismatches between LLM-assigned IDs (e.g., 'Fig. 3') and
+    extracted IDs (e.g., 'p4_img0') by:
+    1. Exact match on figure_id
+    2. Fuzzy match: 'Fig. N' → find embedded_image on page N or near it
+    3. Fallback: largest embedded_image
+    """
+    def _try_path(p: str) -> str | None:
+        if not p:
+            return None
+        for candidate in [
+            Path(p).resolve(),
+            (base_dir / "figures" / os.path.basename(p)).resolve(),
+            (Path.cwd() / p).resolve(),
+        ]:
+            if candidate.exists():
+                return str(candidate)
+        return None
+
+    # 1. Exact match
     for fig in figures:
         if fig.get("figure_id") == figure_id:
-            p = fig.get("path", "")
-            if p:
-                # Try as-is
-                abs_p = Path(p).resolve()
-                if abs_p.exists():
-                    return str(abs_p)
-                # Try relative to base_dir
-                rel = (base_dir / "figures" / os.path.basename(p)).resolve()
-                if rel.exists():
-                    return str(rel)
-                # Try relative to CWD
-                cwd_p = (Path.cwd() / p).resolve()
-                if cwd_p.exists():
-                    return str(cwd_p)
+            result = _try_path(fig.get("path", ""))
+            if result:
+                return result
+
+    # 2. Fuzzy: extract number from "Fig. N" / "Figure N" and find best match
+    import re
+    m = re.search(r'(?:Fig\.?|Figure)\s*(\d+)', figure_id, re.IGNORECASE)
+    if m:
+        fig_num = int(m.group(1))
+
+        # 2a. Best: figure_region with matching figure_number
+        regions = [f for f in figures if f.get("type") == "figure_region"
+                   and f.get("figure_number") == fig_num]
+        if regions:
+            result = _try_path(regions[0].get("path", ""))
+            if result:
+                return result
+
+        # 2b. Any figure_region by index
+        all_regions = sorted(
+            [f for f in figures if f.get("type") == "figure_region"],
+            key=lambda f: f.get("figure_number", 999))
+        if fig_num - 1 < len(all_regions):
+            result = _try_path(all_regions[fig_num - 1].get("path", ""))
+            if result:
+                return result
+
+        # 2c. Embedded images
+        embedded = [f for f in figures if f.get("type") == "embedded_image"]
+        if embedded:
+            embedded.sort(key=lambda f: abs(f.get("page", 0) - (fig_num + 1)))
+            if fig_num - 1 < len(embedded):
+                result = _try_path(embedded[fig_num - 1].get("path", ""))
+                if result:
+                    return result
+            result = _try_path(embedded[0].get("path", ""))
+            if result:
+                return result
+
+    # 3. Fallback: largest figure_region or embedded_image
+    candidates = [f for f in figures if f.get("type") in ("figure_region", "embedded_image")]
+    if candidates:
+        candidates.sort(key=lambda f: f.get("area", 0), reverse=True)
+        result = _try_path(candidates[0].get("path", ""))
+        if result:
+            return result
+
+    # 4. page_full matching page number from figure_id (e.g., "p4_full")
+    m2 = re.search(r'p(\d+)_full', figure_id)
+    if m2:
+        for fig in figures:
+            if fig.get("figure_id") == figure_id:
+                result = _try_path(fig.get("path", ""))
+                if result:
+                    return result
+
+    # 5. Last resort: any full-page render (not page 1)
+    for fig in figures:
+        if fig.get("type") == "full_page" and fig.get("page", 0) > 1:
+            result = _try_path(fig.get("path", ""))
+            if result:
+                return result
+
     return None
 
 
@@ -265,10 +334,23 @@ def build_methods(prs, data: dict, figures: list, base_dir: Path):
 
 def build_results(prs, data: dict, figures: list, base_dir: Path):
     """Results slide — paper figure crop LEFT, interpretive text RIGHT.
-    (academic-pptx-skill §5: figure left ~5.5", text right ~3.5")"""
+    (academic-pptx-skill §5: figure left ~5.5", text right ~3.5")
+    Also renders model_params if present (model specs on left, figure right)."""
     slide = prs.slides.add_slide(prs.slide_layouts[6])
     _white_bg(slide)
     _action_title(slide, data.get("title_text", ""))
+
+    # If this slide has model_params, render model schematic on left
+    model_params = data.get("model_params")
+    if model_params:
+        stages = model_params.get("stages", [])
+        if stages:
+            specs = spec_model_stages(stages, ZONES["model_left"])
+            issues = validate_specs(specs)
+            if issues:
+                for issue in issues:
+                    print(f"    [SPEC WARN] {issue}")
+            render_specs(slide, specs)
 
     fig_elements = [e for e in data.get("elements", []) if e.get("type") == "figure"]
     text_elements = [e for e in data.get("elements", []) if e.get("type") == "text_block"]
@@ -277,43 +359,59 @@ def build_results(prs, data: dict, figures: list, base_dir: Path):
         fig_path = _resolve_figure(fig_elements[0].get("figure_id", ""), figures, base_dir)
 
         if fig_path and text_elements:
-            # Figure LEFT (~7.5"), text RIGHT (~4")
+            # Adjust layout when model schematic is on the left
+            if model_params and model_params.get("stages"):
+                fig_left = Inches(5.5)
+                fig_max_w = Inches(7)
+            else:
+                fig_left = MARGIN
+                fig_max_w = Inches(7.5)
             _add_figure_crop(slide, fig_path,
-                             MARGIN, Inches(1.2), Inches(7.5), Inches(5.5),
+                             fig_left, Inches(1.2), fig_max_w, Inches(5.5),
                              name="results_figure")
 
             # Key finding annotation ON the figure (callout box)
             # Academic-pptx-skill: "annotate the key finding directly on the chart"
             key_finding = text_elements[0].get("content", "") if text_elements else ""
-            if key_finding:
-                callout = slide.shapes.add_shape(
-                    MSO_SHAPE.ROUNDED_RECTANGLE,
-                    Inches(0.8), Inches(1.4), Inches(3.0), Inches(0.5))
-                callout.fill.solid()
-                callout.fill.fore_color.rgb = _rgb(COLORS["highlight"])
-                callout.line.color.rgb = _rgb("E6C800")
-                callout.line.width = Pt(1)
-                callout.name = "key_finding_callout"
-                _add_textbox(slide, Inches(0.85), Inches(1.42), Inches(2.9), Inches(0.46),
-                             key_finding[:60], font_size=14, bold=True,
-                             color=_rgb("7A5200"),
-                             align=PP_ALIGN.CENTER, name="key_finding_text",
-                             font_name=FONTS["face"])
 
-            # Section header on right
-            _add_textbox(slide, Inches(8.5), Inches(1.2), Inches(4), Inches(0.4),
-                         "What to take away", font_size=FONTS["section_header"], bold=True,
-                         color=_rgb(COLORS["accent"]),
-                         name="results_header", font_name=FONTS["face"])
+            if model_params and model_params.get("stages"):
+                # Model schematic left + figure right: put key finding below figure
+                if key_finding:
+                    _add_textbox(slide, Inches(5.5), Inches(6.8), Inches(7), Inches(0.4),
+                                 key_finding[:80], font_size=FONTS["cite"],
+                                 color=_rgb(COLORS["muted"]),
+                                 name="key_finding_text", font_name=FONTS["face"])
+            else:
+                # Standard layout: callout on figure + annotations right
+                if key_finding:
+                    callout = slide.shapes.add_shape(
+                        MSO_SHAPE.ROUNDED_RECTANGLE,
+                        Inches(0.8), Inches(1.4), Inches(3.0), Inches(0.5))
+                    callout.fill.solid()
+                    callout.fill.fore_color.rgb = _rgb(COLORS["highlight"])
+                    callout.line.color.rgb = _rgb("E6C800")
+                    callout.line.width = Pt(1)
+                    callout.name = "key_finding_callout"
+                    _add_textbox(slide, Inches(0.85), Inches(1.42), Inches(2.9), Inches(0.46),
+                                 key_finding[:60], font_size=14, bold=True,
+                                 color=_rgb("7A5200"),
+                                 align=PP_ALIGN.CENTER, name="key_finding_text",
+                                 font_name=FONTS["face"])
 
-            y = Inches(1.7)
-            for i, el in enumerate(text_elements[:3]):
-                _add_textbox(slide, Inches(8.5), y, Inches(4), Inches(0.8),
-                             f"• {el.get('content', '')}", font_size=FONTS["body"] - 1,
-                             color=_rgb(COLORS["body"]),
-                             name=f"results_annotation_{i}",
-                             font_name=FONTS["face"])
-                y += Inches(1.0)
+                # Section header on right
+                _add_textbox(slide, Inches(8.5), Inches(1.2), Inches(4), Inches(0.4),
+                             "What to take away", font_size=FONTS["section_header"], bold=True,
+                             color=_rgb(COLORS["accent"]),
+                             name="results_header", font_name=FONTS["face"])
+
+                y = Inches(1.7)
+                for i, el in enumerate(text_elements[:3]):
+                    _add_textbox(slide, Inches(8.5), y, Inches(4), Inches(0.8),
+                                 f"• {el.get('content', '')}", font_size=FONTS["body"] - 1,
+                                 color=_rgb(COLORS["body"]),
+                                 name=f"results_annotation_{i}",
+                                 font_name=FONTS["face"])
+                    y += Inches(1.0)
 
         elif fig_path:
             # Full-width figure (no text annotations)
