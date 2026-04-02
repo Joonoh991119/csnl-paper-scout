@@ -276,22 +276,30 @@ def task_b_screen_abstracts(pdf_dir, already_flagged, api_key, batch_size=30):
         prompt = f"""/no_think
 {CSNL_RESEARCH_SUMMARY}
 
-아래 논문 목록에서 CSNL 연구와 **무관한** 논문만 골라내세요.
-무관의 기준:
-- 인지신경과학, 계산신경과학, 시각/청각 인지, 의사결정, 작업기억과 관련 없는 분야
-- 재료공학, 농업, 환경공학, 임상의학(비신경), 사회과학, 경영학 등
-- PI 동명이인 (예: Ganguli가 지질학자인 경우)
-- 전혀 다른 분야의 ML/AI 응용 (의료영상 진단, 산업공정 등)
+아래 논문 목록에서 CSNL 연구와 **완전히 무관한** 논문만 골라내세요.
+의심스러우면 포함하지 마세요 (보수적으로).
 
-관련 있는 논문은 출력하지 마세요. 무관한 논문만 번호와 이유를 출력하세요.
+IRRELEVANT 기준 (이것만 해당):
+- 완전히 다른 분야: 재료공학, 화학합성, 농업, 지질학, 환경공학, 토목
+- 비신경 의학: 암, 신장, 심장, 정형외과, 피부과, 산부인과
+- 사회과학/경영: 경제학, 법학, 교육행정, 경영학, HR, 마케팅
+- PI 동명이인: 같은 성이지만 다른 분야 (Ganguli 지질학, Burr 화성지질학)
+
+RELEVANT (출력하지 말 것):
+- 신경과학/인지과학/심리학/계산신경과학의 모든 하위분야
+- 신경과학 도구: Neuropixels, silicon probes, calcium imaging, head fixation
+- 시각과학 기초: cone fundamentals, retinotopy, optics
+- 임상 신경과학: ADHD, 자폐, 파킨슨, 조현병의 인지적 측면
+- 인지 관련 AI/ML: DNN 비교, 인지 모델링, 강화학습
+- correction/erratum (원본이 신경과학이면)
 
 논문 목록:
 {paper_list}
 
-출력 형식 (JSON array):
+출력 형식 (JSON array만, 설명 없이):
 [{{"idx": 1, "reason": "재료공학 - 합금 연구", "field": "materials science"}}]
 
-무관한 논문이 없으면 빈 배열 []을 출력하세요."""
+무관한 논문이 없으면 []을 출력하세요."""
 
         try:
             resp = requests.post(LLM_ENDPOINT, headers={
@@ -346,28 +354,37 @@ def judge_paper(paper_info, judge_id, api_key, pi_names):
     is_pi_name = author.lower() in pi_names
 
     prompt = f"""/no_think
-당신은 CSNL 연구 관련성 판사 #{judge_id}입니다.
+당신은 CSNL 연구 관련성 판사 #{judge_id}입니다. 의심스러우면 RELEVANT로 판단하세요 (보수적).
 
 {CSNL_RESEARCH_SUMMARY}
 
-PI Network: 182명의 인지/계산 신경과학 연구자 (Shadlen, Churchland, Ratcliff, Ganguli(신경과학), Brody, Jazayeri(신경과학), Urai(신경과학), Burr(시각인지), Heathcote(심리통계), Sims(효율코딩), Mur(신경과학) 등)
+PI Network 핵심 연구자: Shadlen, Churchland, Ratcliff, Ganguli(Surya, 신경과학), Brody, Jazayeri(Mehrdad, MIT 신경과학), Urai(Anne, 신경과학), Burr(David, 시각인지), Heathcote(Andrew, 심리통계), Sims(Chris, 효율코딩), Mur(Marieke, 신경과학), Wandell(Brian, 시각과학), Bimbard(Célian, IBL 신경과학), Sussillo(David, 계산신경과학), Steinmetz(Nick, Neuropixels), Summerfield(Chris, 인지신경과학)
 
-평가 대상 논문:
+=== 반드시 RELEVANT로 판단해야 하는 것들 ===
+- 신경과학 실험 도구/방법: Neuropixels, silicon probes, calcium indicators, head fixation, 실험 장비 개선
+- 신경과학 데이터 분석: fMRI preprocessing, spike sorting, neural data infrastructure
+- 인지과학 방법론: psychophysics, Bayesian statistics, meta-analysis, experimental design
+- 시각과학 기초: cone fundamentals, retinotopy, color science, visual optics
+- 인지/의사결정/학습/기억 관련: 주제가 약간 다르더라도 인지과학 범주면 RELEVANT
+- 위 PI들의 실제 신경과학/인지과학 논문 (동명이인 아닌 경우)
+- correction/erratum: 원본이 신경과학이면 RELEVANT
+- 임상 신경과학 (ADHD, 자폐, 파킨슨의 인지적 측면): RELEVANT
+
+=== IRRELEVANT 판단 기준 (이것만 IRRELEVANT) ===
+- 완전히 다른 분야: 재료공학, 화학합성, 농업, 지질학, 토목공학, 환경공학
+- 비신경 의학: 암, 신장, 심장, 정형외과, 치과, 산부인과
+- 사회과학/경영: 경제학, 법학, 교육행정, 마케팅, HR
+- PI 동명이인 (다른 분야): Ganguli(지질/경제), Burr(화성), Jazayeri(교육), Heathcote(철학)
+
+평가 대상:
 - 저자: {author} ({year})
 - 제목: {title}
 - 초록/내용: {abstract[:600]}
 - 플래그 사유: {flag_reason}
-- PI 이름 매칭: {'YES — 동명이인 가능성 확인 필요' if is_pi_name else 'NO'}
+- PI 이름 매칭: {'YES' if is_pi_name else 'NO'}
 
-판단 지침:
-1. 논문의 실제 연구 분야가 인지과학/신경과학/계산신경과학인가?
-2. PI 이름이 매칭되더라도 다른 분야 연구자일 수 있음 (예: Ganguli 지질학, Burr 화성지질학, Jazayeri 교육심리)
-3. 방법론만 유사하고 적용 분야가 완전히 다른 경우 (예: ML로 지진 예측) → IRRELEVANT
-4. 신경과학/인지과학 분야의 리뷰, 메타분석, 방법론 논문 → RELEVANT
-5. correction/erratum은 원본이 관련 있으면 RELEVANT
-
-JSON으로만 응답하세요:
-{{"verdict": "RELEVANT|IRRELEVANT|BORDERLINE", "confidence": "HIGH|MEDIUM|LOW", "reason": "1-2문장", "actual_field": "논문의 실제 분야"}}"""
+JSON으로만 응답:
+{{"verdict": "RELEVANT|IRRELEVANT|BORDERLINE", "confidence": "HIGH|MEDIUM|LOW", "reason": "1-2문장", "actual_field": "분야"}}"""
 
     try:
         resp = requests.post(LLM_ENDPOINT, headers={
