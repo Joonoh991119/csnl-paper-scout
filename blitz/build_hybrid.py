@@ -25,6 +25,7 @@ Design standards (from academic-pptx-skill):
 
 import json
 import os
+import re
 import sys
 from pathlib import Path
 
@@ -111,19 +112,33 @@ def _citation(slide, text: str, y: float = 5.1):
                  font_name=FONTS["face"])
 
 
-def _add_figure_crop(slide, path: str, left, top, max_w, max_h, name="figure"):
-    """Add paper-cropped figure preserving aspect ratio."""
+def _add_figure_crop(slide, path: str, left, top, max_w, max_h, name="figure",
+                     v_center: bool = True):
+    """Add paper-cropped figure FILLING available space.
+
+    Scales figure to fill the zone as much as possible while respecting
+    aspect ratio. Vertically centers within the zone by default.
+    """
     if not path or not os.path.exists(path):
         return None
     from PIL import Image
     im = Image.open(path)
     ar = im.width / im.height
+
+    # Scale to fill: try width first, then constrain by height
     w = max_w
     h = int(w / ar)
     if h > max_h:
         h = max_h
         w = int(h * ar)
-    shape = slide.shapes.add_picture(path, left, top, w, h)
+
+    # Vertically center within the zone
+    actual_top = top
+    if v_center and h < max_h:
+        offset = (max_h - h) // 2
+        actual_top = top + offset
+
+    shape = slide.shapes.add_picture(path, left, actual_top, w, h)
     shape.name = name
     return shape
 
@@ -333,93 +348,67 @@ def build_methods(prs, data: dict, figures: list, base_dir: Path):
 
 
 def build_results(prs, data: dict, figures: list, base_dir: Path):
-    """Results slide — paper figure crop LEFT, interpretive text RIGHT.
-    (academic-pptx-skill §5: figure left ~5.5", text right ~3.5")
-    Also renders model_params if present (model specs on left, figure right)."""
+    """Results slide — figure-dominant layout.
+
+    Layout: figure fills ~70% of slide width, compact bullets on right.
+    With model_params: model schematic left + figure right (no text panel).
+    """
     slide = prs.slides.add_slide(prs.slide_layouts[6])
     _white_bg(slide)
     _action_title(slide, data.get("title_text", ""))
 
-    # If this slide has model_params, render model schematic on left
     model_params = data.get("model_params")
-    if model_params:
-        stages = model_params.get("stages", [])
-        if stages:
-            specs = spec_model_stages(stages, ZONES["model_left"])
-            issues = validate_specs(specs)
-            if issues:
-                for issue in issues:
-                    print(f"    [SPEC WARN] {issue}")
-            render_specs(slide, specs)
-
     fig_elements = [e for e in data.get("elements", []) if e.get("type") == "figure"]
     text_elements = [e for e in data.get("elements", []) if e.get("type") == "text_block"]
 
+    # Model schematic on left if present
+    if model_params and model_params.get("stages"):
+        stages = model_params["stages"]
+        specs = spec_model_stages(stages, ZONES["model_left"])
+        issues = validate_specs(specs)
+        for issue in issues:
+            print(f"    [SPEC WARN] {issue}")
+        render_specs(slide, specs)
+
+    fig_path = None
     if fig_elements:
         fig_path = _resolve_figure(fig_elements[0].get("figure_id", ""), figures, base_dir)
 
-        if fig_path and text_elements:
-            # Adjust layout when model schematic is on the left
-            if model_params and model_params.get("stages"):
-                fig_left = Inches(5.5)
-                fig_max_w = Inches(7)
-            else:
-                fig_left = MARGIN
-                fig_max_w = Inches(7.5)
+    if fig_path:
+        if model_params and model_params.get("stages"):
+            # Model left (0.5-5.0") + figure right (5.3-12.8")
             _add_figure_crop(slide, fig_path,
-                             fig_left, Inches(1.2), fig_max_w, Inches(5.5),
+                             Inches(5.3), Inches(1.15),
+                             Inches(7.5), Inches(6.0),
+                             name="results_figure")
+        elif text_elements:
+            # Figure left (0.3-8.8") + compact bullets right (9.0-12.8")
+            _add_figure_crop(slide, fig_path,
+                             Inches(0.3), Inches(1.15),
+                             Inches(8.5), Inches(6.0),
                              name="results_figure")
 
-            # Key finding annotation ON the figure (callout box)
-            # Academic-pptx-skill: "annotate the key finding directly on the chart"
-            key_finding = text_elements[0].get("content", "") if text_elements else ""
-
-            if model_params and model_params.get("stages"):
-                # Model schematic left + figure right: put key finding below figure
-                if key_finding:
-                    _add_textbox(slide, Inches(5.5), Inches(6.8), Inches(7), Inches(0.4),
-                                 key_finding[:80], font_size=FONTS["cite"],
-                                 color=_rgb(COLORS["muted"]),
-                                 name="key_finding_text", font_name=FONTS["face"])
-            else:
-                # Standard layout: callout on figure + annotations right
-                if key_finding:
-                    callout = slide.shapes.add_shape(
-                        MSO_SHAPE.ROUNDED_RECTANGLE,
-                        Inches(0.8), Inches(1.4), Inches(3.0), Inches(0.5))
-                    callout.fill.solid()
-                    callout.fill.fore_color.rgb = _rgb(COLORS["highlight"])
-                    callout.line.color.rgb = _rgb("E6C800")
-                    callout.line.width = Pt(1)
-                    callout.name = "key_finding_callout"
-                    _add_textbox(slide, Inches(0.85), Inches(1.42), Inches(2.9), Inches(0.46),
-                                 key_finding[:60], font_size=14, bold=True,
-                                 color=_rgb("7A5200"),
-                                 align=PP_ALIGN.CENTER, name="key_finding_text",
-                                 font_name=FONTS["face"])
-
-                # Section header on right
-                _add_textbox(slide, Inches(8.5), Inches(1.2), Inches(4), Inches(0.4),
-                             "What to take away", font_size=FONTS["section_header"], bold=True,
-                             color=_rgb(COLORS["accent"]),
-                             name="results_header", font_name=FONTS["face"])
-
-                y = Inches(1.7)
-                for i, el in enumerate(text_elements[:3]):
-                    _add_textbox(slide, Inches(8.5), y, Inches(4), Inches(0.8),
-                                 f"• {el.get('content', '')}", font_size=FONTS["body"] - 1,
-                                 color=_rgb(COLORS["body"]),
-                                 name=f"results_annotation_{i}",
-                                 font_name=FONTS["face"])
-                    y += Inches(1.0)
-
-        elif fig_path:
-            # Full-width figure (no text annotations)
+            # Compact bullet annotations on right
+            y = Inches(1.3)
+            for i, el in enumerate(text_elements[:4]):
+                content = el.get("content", "")
+                # Truncate to ~50 chars to prevent overflow
+                if len(content) > 55:
+                    content = content[:52] + "..."
+                _add_textbox(slide, Inches(9.0), y, Inches(3.8), Inches(0.55),
+                             f"• {content}", font_size=14,
+                             color=_rgb(COLORS["body"]),
+                             name=f"results_bullet_{i}",
+                             font_name=FONTS["face"])
+                y += Inches(0.58)
+        else:
+            # Full-width figure only
             _add_figure_crop(slide, fig_path,
-                             MARGIN, Inches(1.2), Inches(12), Inches(5.8),
+                             Inches(0.3), Inches(1.15),
+                             Inches(12.5), Inches(6.0),
                              name="results_figure")
 
-    # Citation
+    # Citation at bottom
     cap = fig_elements[0].get("caption_label", "") if fig_elements else ""
     if cap:
         _citation(slide, cap)
@@ -427,7 +416,9 @@ def build_results(prs, data: dict, figures: list, base_dir: Path):
 
 def build_model(prs, data: dict, figures: list, base_dir: Path):
     """Model slide — native schematic LEFT + paper figure crop RIGHT.
-    (Paper Blitz pattern: editable model architecture)"""
+
+    Model schematic fills left 35%, figure fills right 60%.
+    """
     slide = prs.slides.add_slide(prs.slide_layouts[6])
     _white_bg(slide)
     _action_title(slide, data.get("title_text", ""))
@@ -439,20 +430,25 @@ def build_model(prs, data: dict, figures: list, base_dir: Path):
         stages = model_params.get("stages", [])
         specs = spec_model_stages(stages, ZONES["model_left"])
         issues = validate_specs(specs)
-        if issues:
-            for issue in issues:
-                print(f"    [SPEC WARN] {issue}")
+        for issue in issues:
+            print(f"    [SPEC WARN] {issue}")
         render_specs(slide, specs)
 
-    # Model predictions/comparison figure (paper crop on right)
     if fig_elements:
         fig_path = _resolve_figure(fig_elements[0].get("figure_id", ""), figures, base_dir)
         if fig_path:
-            left = Inches(5.5) if model_params else MARGIN
-            width = Inches(7) if model_params else Inches(12)
-            _add_figure_crop(slide, fig_path,
-                             left, Inches(1.3), width, Inches(5.5),
-                             name="model_figure")
+            if model_params:
+                # Right side: fill generously
+                _add_figure_crop(slide, fig_path,
+                                 Inches(5.3), Inches(1.15),
+                                 Inches(7.5), Inches(6.0),
+                                 name="model_figure")
+            else:
+                # No model params: full-width figure
+                _add_figure_crop(slide, fig_path,
+                                 Inches(0.3), Inches(1.15),
+                                 Inches(12.5), Inches(6.0),
+                                 name="model_figure")
 
 
 def build_takeaway(prs, data: dict, figures: list, base_dir: Path):
@@ -474,17 +470,30 @@ def build_takeaway(prs, data: dict, figures: list, base_dir: Path):
     rule.fill.fore_color.rgb = _rgb(COLORS["accent"])
     rule.line.fill.background()
 
-    # Numbered takeaways
+    # Numbered takeaways — handle both multi-element and single-element cases
     text_elements = [e for e in data.get("elements", []) if e.get("type") == "text_block"]
-    y = Inches(0.9)
-    for i, el in enumerate(text_elements[:4]):
+
+    # If writer put all takeaways in one element (separated by · or \n), split them
+    all_points = []
+    for el in text_elements:
         content = el.get("content", "")
-        # Numbered format: "1. Bold key phrase: supporting detail"
-        _add_textbox(slide, MARGIN, y, Inches(12), Inches(1.0),
-                     f"{i+1}. {content}", font_size=FONTS["body"] + 1,
+        # Split on common delimiters
+        parts = [p.strip() for p in re.split(r'\s*[·•\n]\s*', content) if p.strip()]
+        if len(parts) > 1:
+            all_points.extend(parts)
+        elif content.strip():
+            all_points.append(content.strip())
+
+    y = Inches(0.9)
+    for i, point in enumerate(all_points[:5]):
+        # Truncate long points
+        if len(point) > 70:
+            point = point[:67] + "..."
+        _add_textbox(slide, MARGIN, y, Inches(12), Inches(0.8),
+                     f"{i+1}. {point}", font_size=FONTS["body"],
                      color=RGBColor(0xFF, 0xFF, 0xFF),
                      name=f"takeaway_{i}", font_name=FONTS["face"])
-        y += Inches(1.1)
+        y += Inches(0.9)
 
     # Contact (Paper Blitz: researcher info)
     _add_textbox(slide, MARGIN, Inches(5.0), Inches(10), Inches(0.4),
