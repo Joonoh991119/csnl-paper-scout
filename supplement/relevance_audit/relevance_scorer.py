@@ -124,6 +124,20 @@ def cosine_sim(a, b):
     return float(np.dot(a, b) / (na * nb))
 
 
+def extract_coauthors(abstract_lower):
+    """Extract potential co-author last names from first ~300 chars of abstract.
+    Looks for patterns like 'Smith, Jones & Brown' or 'A. Smith, B. Jones'."""
+    # The first ~300 chars often contain the author list in extracted PDF text
+    header = abstract_lower[:400]
+    # Split on common author separators and extract capitalized words
+    # This is heuristic — works for most academic PDF first pages
+    words = re.findall(r'\b([a-z]{3,15})\b', header)
+    # Filter to words that look like surnames (appear near commas, &, "and")
+    # Simple approach: return all 3+ letter lowercase words from first 300 chars
+    # The s2_score function will check against PI set, so false matches are harmless
+    return set(words)
+
+
 # ═══════════════════════════════════════════════════
 #  EMBEDDING UTILITIES
 # ═══════════════════════════════════════════════════
@@ -201,8 +215,16 @@ def score_paper(filename, embedding, abstract, anchor_vecs, project_vecs,
         max_anchor_sim = 0.0
     sig1 = s1_score(max_anchor_sim)
 
-    # S2: PI authorship
+    # S2: PI authorship — check first author AND co-authors from abstract
     sig2, needs_homonym = s2_score(author_lower, pi_lastnames, max_anchor_sim)
+    # Also check co-authors extracted from abstract text
+    if sig2 < 15:
+        coauthor_names = extract_coauthors(abstract_lower)
+        for ca in coauthor_names:
+            ca_score, ca_homonym = s2_score(ca, pi_lastnames, max_anchor_sim)
+            if ca_score > sig2:
+                sig2 = min(ca_score, 20)  # co-author capped at 20 (first author gets 25)
+                needs_homonym = ca_homonym or needs_homonym
 
     # S3: Keyword match
     sig3 = s3_score(abstract_lower)

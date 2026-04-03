@@ -156,36 +156,101 @@ def s3_score(abstract_lower):
 #  S4: PROJECT MATCH — gist embeddings (precomputed)
 # ═══════════════════════════════════════════════════
 
-# Project gist strings for embedding (from context-bundle member_groups)
+# Project descriptions: expanded per-member with seed paper context.
+# Each entry is long enough to produce a meaningful embedding centroid.
 PROJECT_GISTS = {
-    'group_A': (
-        "Serial dependence reference frame relative absolute object-centered, "
-        "estimation-only history effect, Bayesian estimation, categorical vs continuous decision, "
-        "gambler's fallacy, CDF normalization, granularity effect, DV space belief dynamics, "
-        "BMBU boundary updating, drift-diffusion model, MCMC fitting, StyleGAN face morphing"
+    'JOP_RingRepSca': (
+        "Serial dependence history effect in orientation estimation task. "
+        "Relative vs absolute coordinate system independence. Object-centered representation. "
+        "Feedforward repulsion vs feedback attraction dissociation. "
+        "Estimation-only paradigm without decision commitment. BMBU boundary updating model."
     ),
-    'group_B': (
-        "RNN models of WM biases, persistent vs transient coding, non-normal dynamics, "
-        "drift-diffusion and attractor interaction, sequential WM, contrast-dependent bias, "
-        "energy landscape, sensory vs mnemonic code EVC, orthogonal subspaces, "
-        "dPCA crossnobis RDM IEM, geometry-preserving subspace rotation, ring-like manifold"
+    'JOP_GranRDT': (
+        "Granularity effect in decision variable space. Decision commitment narrows belief range. "
+        "Higher granularity attracts future choices more strongly. "
+        "Six cost functions compared with hierarchical MCMC. Feedback-as-evidence model."
     ),
-    'group_C': (
-        "pRF anisotropy across visual hierarchy, resting-state orientation-specific FC, "
-        "radial co-axial bias transformation, natural image statistics cortical organization, "
-        "contour integration, co-circularity, eye movement optimization, "
-        "V1-to-percept transformation, saliency models, CNN retina model"
+    'JOP_Time': (
+        "Duration estimation with BMBU structure matching orientation domain. "
+        "History effects in temporal perception. MCMC fitting of Bayesian models."
     ),
-    'independent': (
-        "Serial dependence reference frames object-centered retinotopic world-centered, "
-        "attention gating of SD, comparative judgment asymmetry, decision target vs reference, "
-        "passive navigation cortico-hippocampal, ISC methodology, feature binding VWM, "
-        "sensory decoding multi-object context"
+    'MSY_CatVsMag': (
+        "Categorical vs magnitude task on face gender spectrum produces different serial dependence. "
+        "X-shape SD pattern in categorical task. Choice repetition and gambler's fallacy. "
+        "StyleGAN2 face morphing stimuli. Hierarchical Bayesian generative model."
+    ),
+    'BYL_BayesianObserver': (
+        "Bayesian observer models for visual working memory inference. "
+        "Contraction bias and systematic estimation bias in VWM. "
+        "Efficient coding framework explaining resource allocation and bias. "
+        "Prior distributions and likelihood functions in psychophysics. "
+        "Reference: Adler & Ma, Zamboni et al., Wei & Stocker efficient coding."
+    ),
+    'JYK_RNN': (
+        "Recurrent neural network models of working memory bias. "
+        "Stimulus-specific bias and decision-consistent bias from drift-diffusion dynamics. "
+        "Extending Gu et al. 2025 Neuron. Persistent vs sequential coding spectrum. "
+        "Non-normal recurrent connectivity. PCA state space analysis. "
+        "Attractor dynamics and ring attractor networks in prefrontal cortex."
+    ),
+    'MJC_SeqVWM': (
+        "Sequential visual working memory. Low contrast stimulus produces attraction bias, "
+        "high contrast produces repulsion. SOB model energy field with primacy gradient "
+        "and response suppression. Kilpatrick attractor model for sequential encoding. "
+        "Serial position effects in working memory."
+    ),
+    'SK_WMRepresentation': (
+        "Sensory and mnemonic orientation signals in early visual cortex EVC form ring-like manifold "
+        "but re-embedded in nearly orthogonal population subspace. Geometry-preserving subspace rotation. "
+        "7T fMRI with 16.5s prolonged delay. dPCA, crossnobis RDM, inverted encoding model IEM. "
+        "Retinotopically decoupled mnemonic manifold. N=50 participants. "
+        "Reference: Kim et al. 2026 under review."
+    ),
+    'SK_Grant': (
+        "Layer-specific 7T fMRI dissecting feedforward repulsion vs feedback attraction. "
+        "dPCA manifold separation between sensory and memory codes. "
+        "Individual-tailored tES transcranial electrical stimulation."
+    ),
+    'JHR_SpatialExtent': (
+        "Population receptive field pRF anisotropy across visual hierarchy V1-V4. "
+        "EVC radiality dominant, perception co-axiality dominant. "
+        "Individual differences shared across measures. Oriented grating pRF. "
+        "Reference: Ryu & Lee 2024 Communications Biology."
+    ),
+    'JHR_FC': (
+        "Tuning similarity overrides spatial distance in functional connectivity V1-V4. "
+        "Feature-specific resting-state FC. Radial to co-axial hierarchical transformation. "
+        "CNN retina model interpretation. Reference: Ryu & Lee 2018 Cerebral Cortex."
+    ),
+    'SMJ_Concentricity': (
+        "Co-circularity as higher-order natural image statistic. "
+        "Saccadic eye movements targeting concentric structure. "
+        "Image memory task with eye-tracking. Saliency-based segmentation."
+    ),
+    'JSL_SerialDep_Spatial': (
+        "Serial dependence in relative object-centered coordinates, not absolute space. "
+        "Same-relative-location attraction 4.14° vs different 2.66°. "
+        "Identity-based view of history effects. Higher associative cortex parietal LOT. "
+        "Reference: Lim & Lee 2023 Scientific Reports."
+    ),
+    'JSL_Attraction': (
+        "Comparative judgment asymmetry: decision target shows attraction, reference does not. "
+        "Task-relevant item selection determines history effect direction."
+    ),
+    'BHL_WM_Binding': (
+        "Feature binding in visual working memory. Joint representation of features. "
+        "Multi-object context information supporting serial dependence. "
+        "Sensory decoding mechanisms for bound features. "
+        "Reference: Li et al. 2021 Neuron, Fischer et al. 2020."
     ),
     'lab_methods': (
-        "model-based fMRI, task-optimized RNN, psychophysics orientation estimation, "
-        "pupillometry, tDCS tES, 7T fMRI layer-specific, dPCA, IEM inverted encoding model, "
-        "RSA representational similarity, crossnobis distance, population receptive field"
+        "Model-based fMRI analysis. Task-optimized recurrent neural networks. "
+        "Psychophysics orientation estimation delayed reproduction. "
+        "Pupillometry pupil dilation arousal. tDCS tES transcranial stimulation. "
+        "7T fMRI layer-specific laminar imaging. dPCA demixed PCA. "
+        "IEM inverted encoding model. RSA representational similarity analysis. "
+        "Crossnobis distance RDM. Population receptive field mapping. "
+        "Bayesian hierarchical modeling MCMC Stan. Meta-analysis methods."
     ),
 }
 
