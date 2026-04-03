@@ -1,0 +1,60 @@
+{
+  "n_active": 725,
+  "n_trash": 335,
+  "active_stats": {
+    "mean": 47.9,
+    "median": 47.0,
+    "std": 13.6,
+    "p5": 27.0,
+    "p25": 38.0,
+    "p75": 58.0,
+    "p95": 71.8
+  },
+  "trash_stats": {
+    "mean": 9.3,
+    "median": 9.0,
+    "std": 4.3,
+    "p5": 3.0,
+    "p25": 6.0,
+    "p75": 12.0,
+    "p95": 16.0
+  },
+  "active_tiers": {
+    "likely_keep": 292,
+    "auto_keep": 425,
+    "review": 8
+  },
+  "trash_tiers": {
+    "likely_trash": 211,
+    "auto_trash": 90,
+    "review": 33,
+    "likely_keep": 1
+  },
+  "H1_false_trash_rate": 0.0,
+  "H1_pass": true,
+  "H2_true_trash_rate": 0.8985,
+  "H2_pass": true,
+  "H3_tier_separation": 38.0,
+  "H3_pass": true,
+  "H5_review_volume": 0.011,
+  "H5_pass": true,
+  "all_pass": true,
+  "signal_s1_embedding_active_mean": 11.9,
+  "signal_s1_embedding_trash_mean": 0.0,
+  "signal_s1_embedding_separation": 11.9,
+  "signal_s2_pi_author_active_mean": 11.4,
+  "signal_s2_pi_author_trash_mean": 2.2,
+  "signal_s2_pi_author_separation": 9.2,
+  "signal_s3_keywords_active_mean": 10.8,
+  "signal_s3_keywords_trash_mean": 4.7,
+  "signal_s3_keywords_separation": 6.1,
+  "signal_s4_project_active_mean": 2.1,
+  "signal_s4_project_trash_mean": 0.0,
+  "signal_s4_project_separation": 2.1,
+  "signal_s5_read_db_active_mean": 4.1,
+  "signal_s5_read_db_trash_mean": 0.5,
+  "signal_s5_read_db_separation": 3.6,
+  "signal_s6_journal_active_mean": 7.5,
+  "signal_s6_journal_trash_mean": 1.8,
+  "signal_s6_journal_separation": 5.7
+}
